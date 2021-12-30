@@ -1,0 +1,1940 @@
+{
+  "QRHardwareInvalidTransactionTitle": 
+     "非法交易"
+  ,
+  "QRHardwareMismatchedSignId": 
+     "扫描的签名二维码不属于当前交易，请检查交易详情后重试。"
+  ,
+  "QRHardwarePubkeyAccountOutOfRange": 
+     "暂无更多账户，若想切换到其他账户，请在硬件钱包中选择想要的账户重新同步。"
+  ,
+  "QRHardwareScanInstructions": 
+     "为了保护您的隐私，屏幕是模糊的，但不影响对二维码的读取。"
+  ,
+  "QRHardwareSignRequestCancel": 
+     "拒绝该交易"
+  ,
+  "QRHardwareSignRequestDescription": 
+     "硬件钱包扫描上方二维码完成签名后，点击“获取签名”按钮扫描已签名的二维码"
+  ,
+  "QRHardwareSignRequestGetSignature": 
+     "获取签名"
+  ,
+  "QRHardwareSignRequestSubtitle": 
+     "用硬件钱包扫描二维码"
+  ,
+  "QRHardwareSignRequestTitle": 
+     "获取签名"
+  ,
+  "QRHardwareUnknownQRCodeTitle": 
+     "非法二维码"
+  ,
+  "QRHardwareUnknownWalletQRCode": 
+     "请扫描硬件钱包的同步二维码。"
+  ,
+  "QRHardwareWalletImporterTitle": 
+     "扫描二维码"
+  ,
+  "QRHardwareWalletSteps1Description": 
+     "该类硬件钱包通过二维码实现通讯交互，做到完全脱网。官方支持的钱包有："
+  ,
+  "QRHardwareWalletSteps2Description": 
+     "AirGap Vault & Ngrave (即将上线)"
+  ,
+  "introduction": 
+    "这是一个加密钱包"
+  ,
+  "about": 
+     "关于"
+  ,
+  "aboutSettingsDescription": 
+     "版本、支持中心和联系方式。"
+  ,
+  "acceleratingATransaction": 
+     "* 设定更高燃料价格，可以加快交易完成进度，提高网络快速处理机率，但无法保证每次均能够实现提速。"
+  ,
+  "acceptTermsOfUse": 
+     "我已阅读并同意 $1"
+    
+  ,
+  "accessAndSpendNotice": 
+     "$1 可以访问并使用此最大数额"
+    
+  ,
+  "accessingYourCamera": 
+     "正在获取您的相机……"
+  ,
+  "account": 
+     "账户"
+  ,
+  "accountDetails": 
+     "账户详情"
+  ,
+  "accountName": 
+     "账户名称"
+  ,
+  "accountOptions": 
+     "账户选项"
+  ,
+  "accountSelectionRequired": 
+     "您需要选择一个账户 ！"
+  ,
+  "active": 
+     "当前"
+  ,
+  "activity": 
+     "活动"
+  ,
+  "activityLog": 
+     "活动日志"
+  ,
+  "addAcquiredTokens": 
+     "在 Wallet 上添加获得的代币"
+  ,
+  "addAlias": 
+     "添加别名"
+  ,
+  "addNetwork": 
+     "添加网络"
+  ,
+  "addSuggestedTokens": 
+     "添加推荐代币"
+  ,
+  "addToAddressBook": 
+     "添加地址簿"
+  ,
+  "addToAddressBookModalPlaceholder": 
+     "如：John D."
+  ,
+  "addToken": 
+     "添加代币"
+  ,
+  "advanced": 
+     "高级"
+  ,
+  "advancedOptions": 
+     "高级选项"
+  ,
+  "advancedSettingsDescription": 
+     "访问开发者功能，下载状态日志，重置账户，设置测试网和自定义 RPC。"
+  ,
+  "affirmAgree": 
+     "我同意"
+  ,
+  "aggregatorFeeCost": 
+     "聚集器网络手续费"
+  ,
+  "alertDisableTooltip": 
+     "这个可以在“设置 > 提醒”中进行更改"
+  ,
+  "alertSettingsUnconnectedAccount": 
+     "选择了未连接的账户时浏览网站"
+  ,
+  "alertSettingsUnconnectedAccountDescription": 
+     "当您在浏览已连接的 Web3 网站，但当前选择的账户没有连接时，该提醒会在弹出的窗口中显示。"
+  ,
+  "alertSettingsWeb3ShimUsage": 
+     "当网站尝试使用已经删除的 window.web3 API"
+  ,
+  "alertSettingsWeb3ShimUsageDescription": 
+     "当您在浏览的网站尝试使用已经删除的 window.web3 API 时，该提醒会在弹出的窗口中显示。"
+  ,
+  "alerts": 
+     "提醒"
+  ,
+  "alertsSettingsDescription": 
+     "启用或禁用每个提醒"
+  ,
+  "allowExternalExtensionTo": 
+     "允许这个外部扩展到："
+  ,
+  "allowThisSiteTo": 
+     "允许本网站："
+  ,
+  "allowWithdrawAndSpend": 
+     "允许 $1 提取和最多消费以下数额："
+    
+  ,
+  "amount": 
+     "数额"
+  ,
+  "appDescription": 
+     "以太坊浏览器插件"
+    
+  ,
+  "appName": 
+     "Wallet"
+    
+  ,
+  "appNameBeta": 
+     "Wallet Beta"
+    
+  ,
+  "appNameFlask": 
+     "Wallet Flask"
+    
+  ,
+  "approvalAndAggregatorTxFeeCost": 
+     "批准聚合商网络手续费"
+  ,
+  "approvalTxGasCost": 
+     "批准交易燃料成本"
+  ,
+  "approve": 
+     "批准消费限额"
+  ,
+  "approveSpendLimit": 
+     "批准 $1 消费限额"
+    
+  ,
+  "approved": 
+     "已批准"
+  ,
+  "asset": 
+     "资产"
+  ,
+  "assets": 
+     "资产"
+  ,
+  "attemptToCancel": 
+     "想要取消吗？"
+  ,
+  "attemptToCancelDescription": 
+     "确认提交该操作无法保证能够成功取消您的原始交易。如取消成功，您将被收取上述交易费。"
+  ,
+  "attemptingConnect": 
+     "正在尝试连接到区块链。"
+  ,
+  "attributions": 
+     "来源"
+  ,
+  "authorizedPermissions": 
+     "您已授权以下权限"
+  ,
+  "autoLockTimeLimit": 
+     "自动锁定定时（分钟）"
+  ,
+  "autoLockTimeLimitDescription": 
+     "请设置 Wallet 自动锁定前的空闲时间（单位：分钟）"
+  ,
+  "average": 
+     "平均值"
+  ,
+  "back": 
+     "返回"
+  ,
+  "backToAll": 
+     "返回全部"
+  ,
+  "backupApprovalInfo": 
+     "如果不慎丢失个人设备，忘记密码，或者需要重新安装 Wallet，亦或是需在另一台设备上打开钱包，请使用该保密码恢复个人钱包数据。"
+  ,
+  "backupApprovalNotice": 
+     "请备份您的账户助记词，保证您的钱包和资金安全。"
+  ,
+  "backupNow": 
+     "立即备份"
+  ,
+  "balance": 
+     "余额 "
+  ,
+  "balanceOutdated": 
+     "余额可能已过期"
+  ,
+  "basic": 
+     "基本"
+  ,
+  "blockExplorerUrl": 
+     "区块浏览器"
+  ,
+  "blockExplorerView": 
+     "通过 $1 查看账户"
+    
+  ,
+  "blockiesIdenticon": 
+     "使用 Blockies Identicon 图标头像"
+  ,
+  "browserNotSupported": 
+     "您的浏览器不支持该功能……"
+  ,
+  "buy": 
+     "购买"
+  ,
+  "buyWithWyre": 
+     "使用 Wyre 购买 ETH"
+  ,
+  "buyWithWyreDescription": 
+     "您可以通过 Wyre 使用信用卡将 ETH 存入您的 Wallet 账户。"
+  ,
+  "bytes": 
+     "字节"
+  ,
+  "canToggleInSettings": 
+     "您可以在 设置 -> 提醒 中重新启用该提醒通知。"
+  ,
+  "cancel": 
+     "取消"
+  ,
+  "cancellationGasFee": 
+     "取消交易燃料费用"
+  ,
+  "cancelled": 
+     "已取消"
+  ,
+  "chainId": 
+     "链 ID"
+  ,
+  "chromeRequiredForHardwareWallets": 
+     "您需要在谷歌浏览器（Google Chrome）上使用 Wallet 才能连接到您的硬件钱包。"
+  ,
+  "clickToRevealSeed": 
+     "点击此处显示密语"
+  ,
+  "close": 
+     "关闭"
+  ,
+  "confirm": 
+     "确认"
+  ,
+  "confirmPassword": 
+     "确认密码"
+  ,
+  "confirmSecretBackupPhrase": 
+     "请确认您的账户助记词"
+  ,
+  "confirmed": 
+     "确认"
+  ,
+  "congratulations": 
+     "恭喜"
+  ,
+  "connect": 
+     "连接"
+  ,
+  "connectAccountOrCreate": 
+     "连接账户或创建新账户"
+  ,
+  "connectHardwareWallet": 
+     "连接硬件钱包"
+  ,
+  "connectManually": 
+     "手动连接到当前站点"
+  ,
+  "connectTo": 
+     "连接到 $1"
+    
+  ,
+  "connectToAll": 
+     "连接到您的全部$1"
+    
+  ,
+  "connectToAllAccounts": 
+     "账户"
+    
+  ,
+  "connectToMultiple": 
+     "连接到  $1"
+    
+  ,
+  "connectToMultipleNumberOfAccounts": 
+     "$1 个账户"
+    
+  ,
+  "connectWithWallet": 
+     "使用 Wallet 连接"
+  ,
+  "connectedAccountsDescriptionPlural": 
+     "您有 $1 个账户连接到了该网站。"
+    
+  ,
+  "connectedAccountsDescriptionSingular": 
+     "您有 1 个账户连接到了该网站。"
+  ,
+  "connectedAccountsEmptyDescription": 
+     "Wallet 没有连接这个网站。要连接到 web3 网站，请在他们的网站上找到连接按钮。"
+  ,
+  "connectedSites": 
+     "已连接的网站"
+  ,
+  "connectedSitesDescription": 
+     "$1 已连接到这些网站。他们可以查看您的账户地址。"
+    
+  ,
+  "connectedSitesEmptyDescription": 
+     "$1 还没连接任何网站。"
+    
+  ,
+  "connecting": 
+     "连接中……"
+  ,
+  "connectingTo": 
+     "正在连接 $1"
+  ,
+  "connectingToGoerli": 
+     "正在连接 Goerli 测试网络"
+  ,
+  "connectingToKovan": 
+     "正在连接到 Kovan 测试网络"
+  ,
+  "connectingToMainnet": 
+     "正在连接到以太坊 Ethereum 主网"
+  ,
+  "connectingToRinkeby": 
+     "正在连接到 Rinkeby 测试网络"
+  ,
+  "connectingToRopsten": 
+     "正在连接到 Ropsten 测试网络"
+  ,
+  "contactUs": 
+     "联系我们"
+  ,
+  "contacts": 
+     "联系人"
+  ,
+  "contactsSettingsDescription": 
+     "添加、编辑、删除和管理您的联系人。"
+  ,
+  "continueToWyre": 
+     "继续前往 Wyre"
+  ,
+  "contractDeployment": 
+     "合约部署"
+  ,
+  "contractInteraction": 
+     "合约交互"
+  ,
+  "copiedExclamation": 
+     "已复制"
+  ,
+  "copyAddress": 
+     "复制地址到剪贴板"
+  ,
+  "copyPrivateKey": 
+     "这是您的私钥（点击复制）"
+  ,
+  "copyToClipboard": 
+     "复制到剪贴板"
+  ,
+  "copyTransactionId": 
+     "复制交易 ID"
+  ,
+  "create": 
+     "创建"
+  ,
+  "createAWallet": 
+     "创建钱包"
+  ,
+  "createAccount": 
+     "创建账户"
+  ,
+  "createPassword": 
+     "创建密码"
+  ,
+  "currencyConversion": 
+     "货币转换"
+  ,
+  "currentAccountNotConnected": 
+     "您的当前账户没有连接"
+  ,
+  "currentExtension": 
+     "当前扩展页"
+  ,
+  "currentLanguage": 
+     "当前语言"
+  ,
+  "customGas": 
+     "自定义燃料"
+  ,
+  "customGasSubTitle": 
+     "提升费用可能会缩短处理时间，但不保证绝对有效。"
+  ,
+  "customSpendLimit": 
+     "自定义消费限额"
+  ,
+  "customToken": 
+     "自定义代币"
+  ,
+  "dataBackupFoundInfo": 
+     "您的部分账户数据已在之前安装的 Wallet 时备份。其中可能包括您的设置、联系人和代币。您现在想恢复这些数据吗？"
+  ,
+  "decimal": 
+     "小数精度"
+  ,
+  "decimalsMustZerotoTen": 
+     "小数位最小为0并且不超过36位."
+  ,
+  "decrypt": 
+     "解密"
+  ,
+  "decryptCopy": 
+     "复制加密信息"
+  ,
+  "decryptInlineError": 
+     "无法解密此消息，错误：$1"
+    
+  ,
+  "decryptMessageNotice": 
+     "$1 希望阅读此信息来完成您的操作。"
+    
+  ,
+  "decryptWallet": 
+     "解密信息"
+  ,
+  "decryptRequest": 
+     "解密请求"
+  ,
+  "delete": 
+     "删除"
+  ,
+  "deleteAccount": 
+     "删除账户"
+  ,
+  "deleteNetwork": 
+     "删除网络？"
+  ,
+  "deleteNetworkDescription": 
+     "是否确认要删除该网络？"
+  ,
+  "depositEther": 
+     "存入 Ether"
+  ,
+  "details": 
+     "详情"
+  ,
+  "directDepositEther": 
+     "直接存入 Ether"
+  ,
+  "directDepositEtherExplainer": 
+     "如果您已经有了一些 Ether，最快捷的方法就是直接向新钱包存入 Ether。"
+  ,
+  "disconnect": 
+     "断开"
+  ,
+  "disconnectAllAccounts": 
+     "断开所有账户"
+  ,
+  "disconnectAllAccountsConfirmationDescription": 
+     "您确定要断开连接吗？您可能会失去网站功能。"
+  ,
+  "disconnectPrompt": 
+     "断开 $1"
+  ,
+  "disconnectThisAccount": 
+     "断开此账户的连接"
+  ,
+  "dismiss": 
+     "关闭"
+  ,
+  "done": 
+     "完成"
+  ,
+  "dontShowThisAgain": 
+     "不再显示"
+  ,
+  "downloadGoogleChrome": 
+     "下载 Google Chrome 浏览器"
+  ,
+  "downloadSecretBackup": 
+     "下载账户助记词，并将其安全保存在外部加密硬盘或存储介质上。"
+  ,
+  "downloadStateLogs": 
+     "下载状态日志"
+  ,
+  "dropped": 
+     "丢弃"
+  ,
+  "edit": 
+     "编辑"
+  ,
+  "editContact": 
+     "编辑联系人"
+  ,
+  "editPermission": 
+     "编辑权限"
+  ,
+  "encryptionPublicKeyNotice": 
+     "$1 希望得到您的加密公钥。同意后该网站将可以向您发送加密信息。"
+    
+  ,
+  "encryptionPublicKeyRequest": 
+     "申请加密公钥"
+  ,
+  "endOfFlowMessage1": 
+     "您通过了测试—— 保管好您的账户助记词，这是您的责任!"
+  ,
+  "endOfFlowMessage10": 
+     "全部完成"
+  ,
+  "endOfFlowMessage2": 
+     "安全保存技巧"
+  ,
+  "endOfFlowMessage3": 
+     "在多处保存备份数据。"
+  ,
+  "endOfFlowMessage4": 
+     "不向任何任何人分享该账户助记词。"
+  ,
+  "endOfFlowMessage5": 
+     "谨防网络钓鱼！Wallet 绝不会主动要求您提供个人账户助记词。"
+  ,
+  "endOfFlowMessage6": 
+     "如果您需要再次备份账户助记词，请通过设置 -> 安全选项完成该操作。"
+  ,
+  "endOfFlowMessage8": 
+     "Wallet 无法恢复您的账户助记词。"
+  ,
+  "endOfFlowMessage9": 
+     "了解详情。"
+  ,
+  "endpointReturnedDifferentChainId": 
+     "RPC 端点使用链不同的链 ID: $1"
+    
+  ,
+  "ensNotFoundOnCurrentNetwork": 
+     "未在当前网络找到 ENS 名称。请尝试切换至主以太坊网络。"
+  ,
+  "ensRegistrationError": 
+     "ENS 名称登记错误"
+  ,
+  "enterAnAlias": 
+     "输入别名"
+  ,
+  "enterMaxSpendLimit": 
+     "输入最高消费额度"
+  ,
+  "enterPassword": 
+     "输入密码"
+  ,
+  "enterPasswordContinue": 
+     "输入密码以继续"
+  ,
+  "errorCode": 
+     "代码：$1"
+    
+  ,
+  "errorDetails": 
+     "错误详情"
+    
+  ,
+  "errorMessage": 
+     "信息：$1"
+    
+  ,
+  "errorName": 
+     "代码：$1"
+    
+  ,
+  "errorPageTitle": 
+     "Wallet 遇到了一个错误"
+    
+  ,
+  "errorStack": 
+     "栈："
+    
+  ,
+  "estimatedProcessingTimes": 
+     "预计处理时间"
+  ,
+  "eth_accounts": 
+     "查看您允许的账户的地址（必填）"
+    
+  ,
+  "ethereumPublicAddress": 
+     "以太坊 Ethereum 公开地址"
+  ,
+  "etherscan": 
+     "Etherscan（以太坊浏览器）"
+  ,
+  "etherscanView": 
+     "在 Etherscan（以太坊浏览器）上查看账户"
+  ,
+  "expandView": 
+     "展开视图"
+  ,
+  "exportPrivateKey": 
+     "导出私钥"
+  ,
+  "externalExtension": 
+     "外部扩展"
+  ,
+  "extraApprovalGas": 
+     "+$1 批准燃料"
+    
+  ,
+  "failed": 
+     "失败"
+  ,
+  "failedToFetchChainId": 
+     "无法获取链 IC，您的 RPC URL 地址是正确的么？"
+  ,
+  "failureMessage": 
+     "出了点问题，我们无法完成这个操作。"
+  ,
+  "fast": 
+     "快"
+  ,
+  "fastest": 
+     "最快"
+  ,
+  "feeAssociatedRequest": 
+     "此请求需要支付一定的费用。"
+  ,
+  "fiat": 
+     "FIAT"
+    
+  ,
+  "fileImportFail": 
+     "文件导入失败？ 点击这里！"
+    
+  ,
+  "forbiddenIpfsGateway": 
+     "禁用的 IPFS 网关：请指定一个 CID 网关"
+  ,
+  "forgetDevice": 
+     "忘记此设备"
+  ,
+  "from": 
+     "从"
+  ,
+  "fromAddress": 
+     "从：$1"
+    
+  ,
+  "functionApprove": 
+     "功能：同意"
+  ,
+  "functionType": 
+     "功能类型"
+  ,
+  "gasLimit": 
+     "燃料限制"
+  ,
+  "gasLimitInfoTooltipContent": 
+     "燃料限制是指您愿意花费的最燃料量单位。"
+  ,
+  "gasLimitTooLow": 
+     "燃料限制至少要 21000"
+  ,
+  "gasLimitTooLowWithDynamicFee": 
+     "燃料限制至少要 $1"
+    
+  ,
+  "gasPrice": 
+     "燃料价格（GWEI）"
+  ,
+  "gasPriceExtremelyLow": 
+     "燃料价格极低"
+  ,
+  "gasPriceInfoTooltipContent": 
+     "燃料价格规定了您愿意为每单位燃料支付的 Ether 数量。"
+  ,
+  "gasUsed": 
+     "燃料使用"
+  ,
+  "gdprMessage": 
+     "这些数据是汇总的，因此，根据《GDPR 通用数据保护条例》(EU)2016/679，这些数据是匿名的。有关我们隐私惯例的更多信息，请参见我们的 $1。"
+    
+  ,
+  "gdprMessagePrivacyPolicy": 
+     "隐私政策"
+    
+  ,
+  "general": 
+     "通用"
+  ,
+  "generalSettingsDescription": 
+     "货币转换、主要价格单位、语言和 Blockies Identicon 图标头像"
+  ,
+  "getEther": 
+     "获取 Ether"
+  ,
+  "getEtherFromFaucet": 
+     "从水管获取 $1 网络的 Ether"
+    
+  ,
+  "getStarted": 
+     "开始使用"
+  ,
+  "goerli": 
+     "Goerli 测试网络"
+  ,
+  "happyToSeeYou": 
+     "我们很高兴见到您。"
+  ,
+  "hardware": 
+     "硬件"
+  ,
+  "hardwareWalletConnected": 
+     "已连接的硬件钱包"
+  ,
+  "hardwareWallets": 
+     "连接硬件钱包"
+  ,
+  "hardwareWalletsMsg": 
+     "选择希望用于 Wallet 的硬件钱包"
+  ,
+  "here": 
+     "这里"
+    
+  ,
+  "hexData": 
+     "十六进制数据"
+  ,
+  "hide": 
+     "隐藏"
+  ,
+  "hideTokenPrompt": 
+     "隐藏代币？"
+  ,
+  "hideTokenSymbol": 
+     "隐藏 $1"
+    
+  ,
+  "history": 
+     "历史记录"
+  ,
+  "import": 
+     "导入"
+    
+  ,
+  "importAccount": 
+     "导入账户"
+  ,
+  "importAccountMsg": 
+     "导入的账户将不会与最初创建的 Wallet 账户助记词相关联。了解更多有关导入账户的信息 。"
+  ,
+  "importAccountSeedPhrase": 
+     "使用账户助记词导入账户"
+  ,
+  "importWallet": 
+     "导入钱包"
+  ,
+  "imported": 
+     "已导入"
+    
+  ,
+  "initialTransactionConfirmed": 
+     "您的初始交易已通过网络确认。请点击“确定”返回。"
+  ,
+  "insufficientBalance": 
+     "余额不足。"
+  ,
+  "insufficientFunds": 
+     "余额不足。"
+  ,
+  "insufficientTokens": 
+     "代币余额不足。"
+  ,
+  "invalidAddress": 
+     "无效地址"
+  ,
+  "invalidAddressRecipient": 
+     "接收方地址无效"
+  ,
+  "invalidAddressRecipientNotEthNetwork": 
+     "非 ETH 网络，请使用小写"
+  ,
+  "invalidBlockExplorerURL": 
+     "无效的区块浏览器 URL"
+  ,
+  "invalidChainIdTooBig": 
+     "无效的链 ID，该链 ID 数字过大。"
+  ,
+  "invalidCustomNetworkAlertContent1": 
+     "需要重新输入自定义网络'$1'的链 ID。"
+    
+  ,
+  "invalidCustomNetworkAlertContent2": 
+     "为了保护您免受恶意或有问题的网络提供商的侵害，现在所有的自定义网络都需要提供链 ID。"
+  ,
+  "invalidCustomNetworkAlertContent3": 
+     "进入设置 > 网络并输入链 ID。您可以通过 $1 查找常用的链 ID。"
+    
+  ,
+  "invalidCustomNetworkAlertTitle": 
+     "无效的自定义网络"
+  ,
+  "invalidHexNumber": 
+     "无效的十六进制数。"
+  ,
+  "invalidHexNumberLeadingZeros": 
+     "无效的十六进制数。去除任何开头的零。"
+  ,
+  "invalidIpfsGateway": 
+     "无效的 IPFS 网关。该值必须是一个有效的 URL"
+  ,
+  "invalidNumber": 
+     "无效的数字。输入一个数字或‘0x’开头的十六进制数。"
+  ,
+  "invalidNumberLeadingZeros": 
+     "无效的数字。去除任何开头的零。"
+  ,
+  "invalidRPC": 
+     "无效 RPC URL"
+  ,
+  "invalidSeedPhrase": 
+     "无效的账户助记词"
+  ,
+  "ipfsGateway": 
+     "IPFS 网关"
+  ,
+  "ipfsGatewayDescription": 
+     "输入用于 ENS 内容解析的 IPFS CID 网关的 URL。"
+  ,
+  "jsonFile": 
+     "JSON 文件"
+    
+  ,
+  "keystone": 
+     "铠石钱包"
+  ,
+  "keystoneTutorial": 
+     " （使用教程）"
+  ,
+  "knownAddressRecipient": 
+     "已知接收方地址。"
+  ,
+  "knownTokenWarning": 
+     "此操作将编辑已经在您的钱包中列出的代币，有肯能被用来欺骗您。只有确定要更改这些代币的内容时，才通过此操作。"
+  ,
+  "kovan": 
+     "Kovan 测试网络"
+  ,
+  "lastConnected": 
+     "最后连接"
+  ,
+  "learnMore": 
+     "查看更多"
+  ,
+  "ledgerAccountRestriction": 
+     "在添加新的账户之前，需要使用您的最后一个账户。"
+  ,
+  "letsGoSetUp": 
+     "第一次，立即开始设置！"
+  ,
+  "likeToImportTokens": 
+     "您想添加这些代币吗？"
+  ,
+  "links": 
+     "链接"
+  ,
+  "loadMore": 
+     "加载更多"
+  ,
+  "loading": 
+     "加载中……"
+  ,
+  "loadingTokens": 
+     "加载代币中……"
+  ,
+  "localhost": 
+     "Localhost 8545"
+  ,
+  "lock": 
+     "锁定"
+  ,
+  "lockTimeTooGreat": 
+     "锁定时间过长"
+  ,
+  "mainnet": 
+     "以太坊 Ethereum 主网络"
+  ,
+  "max": 
+     "最大"
+  ,
+  "memo": 
+     "备忘"
+  ,
+  "memorizePhrase": 
+     "记住该账户助记词。"
+  ,
+  "WalletConnectStatusParagraphOne": 
+     "现在您可在 Wallet 中对账户连接进行更多的控制。"
+  ,
+  "WalletConnectStatusParagraphThree": 
+     "点击管理连接的账户。"
+  ,
+  "WalletConnectStatusParagraphTwo": 
+     "连接状态按钮显示所访问的网站是否与您当前选择的账户连接。"
+  ,
+  "WalletDescription": 
+     "将您与 Ethereum 和去中心化网络连接起来。"
+  ,
+  "WalletSwapsOfflineDescription": 
+     "Wallet Swaps 正在进行维护。请稍后访问。"
+  ,
+  "WalletVersion": 
+     "Wallet 版本"
+  ,
+  "metametricsCommitmentsAllowOptOut": 
+     "始终允许您通过设置选择退出"
+  ,
+  "metametricsCommitmentsBoldNever": 
+     "从不"
+    
+  ,
+  "metametricsCommitmentsIntro": 
+     "Wallet……"
+  ,
+  "metametricsCommitmentsNeverCollectIP": 
+     "$1收集您的完整IP地址"
+    
+  ,
+  "metametricsCommitmentsNeverCollectKeysEtc": 
+     "$1收集密钥、地址、交易记录、余额、哈希或任何个人信息"
+    
+  ,
+  "metametricsCommitmentsNeverSellDataForProfit": 
+     "$1为利益而出售您的数据，永远不会！"
+    
+  ,
+  "metametricsCommitmentsSendAnonymizedEvents": 
+     "发送匿名的点击和页面浏览事件信息"
+  ,
+  "metametricsHelpImproveWallet": 
+     "帮助我们让 Wallet 变得更好"
+  ,
+  "metametricsOptInDescription": 
+     "Wallet 希望收集使用数据，以更好地了解我们的用户如何与扩展进行互动。这些数据将被用于持续改进我们产品和 Ethereum 生态系统的可用性和用户体验。"
+  ,
+  "mustSelectOne": 
+     "至少选择 1 种代币。"
+  ,
+  "myAccounts": 
+     "我的账户"
+  ,
+  "needEtherInWallet": 
+     "使用 Wallet 与分布式应用交互，需要您的钱包里需要有 Ether。"
+  ,
+  "needImportFile": 
+     "必须选择一个文件来导入。"
+    
+  ,
+  "negativeETH": 
+     "不能发负值的 ETH。"
+  ,
+  "networkName": 
+     "网络名称"
+  ,
+  "networkSettingsChainIdDescription": 
+     "链 ID 用于签署交易。它必须与网络返回的链 ID 相匹配。您可以输入十进制或'0x'前缀的十六进制数字，但我们将以十进制显示。"
+  ,
+  "networkSettingsDescription": 
+     "添加和编辑自定义 RPC 网络"
+  ,
+  "networks": 
+     "网络"
+  ,
+  "nevermind": 
+     "无所谓"
+  ,
+  "newAccount": 
+     "新账户"
+  ,
+  "newAccountDetectedDialogMessage": 
+     "检测到新地址！点击添加至地址簿。"
+  ,
+  "newAccountNumberName": 
+     "账户 $1"
+    
+  ,
+  "newContact": 
+     "新联系人"
+  ,
+  "newContract": 
+     "新合约"
+  ,
+  "newPassword": 
+     "新密码（至少 8 个字符）"
+  ,
+  "newToWallet": 
+     "第一次使用 Wallet？"
+  ,
+  "newTotal": 
+     "新总额"
+  ,
+  "newTransactionFee": 
+     "新交易费用"
+  ,
+  "next": 
+     "下一步"
+  ,
+  "nextNonceWarning": 
+     "Nonce 高于建议的 nouce 值 $1"
+    
+  ,
+  "noAccountsFound": 
+     "没找到查询的账户"
+  ,
+  "noAddressForName": 
+     "这个名字还没有设置地址。"
+  ,
+  "noAlreadyHaveSeed": 
+     "不，我已经有一个账户助记词了。"
+  ,
+  "noConversionRateAvailable": 
+     "无可用转换率"
+  ,
+  "noThanks": 
+     "不，谢谢"
+  ,
+  "noTransactions": 
+     "没有交易"
+  ,
+  "noWebcamFound": 
+     "未找到您的电脑摄像头。请重试。"
+  ,
+  "noWebcamFoundTitle": 
+     "未找到摄像头"
+  ,
+  "nonceField": 
+     "自定义交易 nonce"
+  ,
+  "nonceFieldDescription": 
+     "开启此功能可以改变确认屏幕上的 nonce（交易号）。此为高级功能，请谨慎使用。"
+  ,
+  "nonceFieldHeading": 
+     "自定义 Nonce"
+  ,
+  "notCurrentAccount": 
+     "这是正确的账户吗？这与您钱包中当前选择的账户不同。"
+  ,
+  "notEnoughGas": 
+     "燃料不足"
+  ,
+  "ofTextNofM": 
+     "/"
+  ,
+  "off": 
+     "关"
+  ,
+  "offlineForMaintenance": 
+     "脱机维护"
+  ,
+  "ok": 
+     "确定"
+  ,
+  "on": 
+     "启用"
+  ,
+  "onboardingReturnNotice": 
+     "“$1”会关闭此标签，直接回到 $2"
+    
+  ,
+  "onlyConnectTrust": 
+     "只连接您信任的网站。"
+  ,
+  "origin": 
+     "来源"
+  ,
+  "parameters": 
+     "参数"
+  ,
+  "participateInMetaMetrics": 
+     "加入 MetaMetrics"
+  ,
+  "participateInMetaMetricsDescription": 
+     "加入 MetaMetrics ，帮助我们改善 Wallet 服务"
+  ,
+  "password": 
+     "密码"
+  ,
+  "passwordNotLongEnough": 
+     "密码长度不足"
+  ,
+  "passwordsDontMatch": 
+     "密码不匹配"
+  ,
+  "pastePrivateKey": 
+     "请粘贴您的私钥:"
+    
+  ,
+  "pending": 
+     "待处理"
+  ,
+  "permissions": 
+     "权限"
+  ,
+  "personalAddressDetected": 
+     "检测到个人地址。请输入代币合约地址。"
+  ,
+  "plusXMore": 
+     "+ $1"
+    
+  ,
+  "prev": 
+     "上一个"
+  ,
+  "primaryCurrencySetting": 
+     "主要货币"
+  ,
+  "primaryCurrencySettingDescription": 
+     "请选择“本地”，优先显示当地货币链价值（如 ETH ）。选择“货币”则优先以所选货币作为价值显示单位。"
+  ,
+  "privacyMsg": 
+     "隐私政策"
+  ,
+  "privateKey": 
+     "私钥"
+    
+  ,
+  "privateKeyWarning": 
+     "注意：永远不要公开这个私钥。任何拥有您的私钥的人都可以窃取您帐户中的任何资产。"
+  ,
+  "privateNetwork": 
+     "私有网络"
+  ,
+  "proposedApprovalLimit": 
+     "拟议的审批上限"
+  ,
+  "provide": 
+     "提供"
+  ,
+  "queue": 
+     "队列"
+  ,
+  "queued": 
+     "队列中"
+  ,
+  "readdToken": 
+     "之后您还可以通过帐户选项菜单中的“添加代币”来添加此代币。"
+  ,
+  "receive": 
+     "接收"
+  ,
+  "recents": 
+     "最近记录"
+  ,
+  "recipientAddressPlaceholder": 
+     "查找、公用地址 (0x) 或 ENS"
+  ,
+  "reject": 
+     "拒绝"
+  ,
+  "rejectAll": 
+     "拒绝全部"
+  ,
+  "rejectTxsDescription": 
+     "您将批量拒绝 $1 笔交易。"
+  ,
+  "rejectTxsN": 
+     "拒绝 $1 笔交易"
+  ,
+  "rejected": 
+     "拒绝"
+  ,
+  "remindMeLater": 
+     "稍后提醒"
+  ,
+  "remove": 
+     "删除"
+  ,
+  "removeAccount": 
+     "删除账户"
+  ,
+  "removeAccountDescription": 
+     "该账户已从您的钱包中删除。请在继续后续操作前，确认您是否已拥有该导入账户的原始账户助记词或账户密钥。您可以通过账户下拉菜单再次导入或创建账户。"
+  ,
+  "requestsAwaitingAcknowledgement": 
+     "待确认的请求"
+  ,
+  "required": 
+     "必填"
+  ,
+  "reset": 
+     "重置"
+  ,
+  "resetAccount": 
+     "重设账户"
+  ,
+  "resetAccountDescription": 
+     "重置账户将清除您的交易历史记录。这不会改变您账户中的余额，也不会要求您重新输入账户助记词。"
+  ,
+  "restore": 
+     "恢复"
+  ,
+  "restoreAccountWithSeed": 
+     "使用账户助记词恢复您的账户"
+  ,
+  "restoreWalletPreferences": 
+     "已找到于 $1 的数据备份。您想恢复您的钱包设置吗？"
+    
+  ,
+  "retryTransaction": 
+     "重试交易"
+  ,
+  "reusedTokenNameWarning": 
+     "此处的一个代币使用了与您关注的另一个代币的相同符号，这可能会让人感到困惑或欺骗。"
+  ,
+  "revealSeedWords": 
+     "显示账户助记词"
+  ,
+  "revealSeedWordsDescription": 
+     "如果您更换浏览器或计算机，则需要使用此账户助记词访问您的帐户。请将它们保存在安全秘密的地方。"
+  ,
+  "revealSeedWordsWarning": 
+     "该账户助记词可以用来窃取您的所有帐户"
+  ,
+  "revealSeedWordsWarningTitle": 
+     "不要对任何人展示此账户助记词！"
+  ,
+  "rinkeby": 
+     "Rinkeby 测试网络"
+  ,
+  "ropsten": 
+     "Ropsten 测试网络"
+  ,
+  "rpcUrl": 
+     "新增 RPC URL"
+  ,
+  "save": 
+     "保存"
+  ,
+  "saveAsCsvFile": 
+     "保存为 CSV 文件"
+  ,
+  "scanInstructions": 
+     "将二维码放在相机前"
+  ,
+  "scanQrCode": 
+     "扫描二维码"
+  ,
+  "scrollDown": 
+     "向下滚动"
+  ,
+  "search": 
+     "搜索"
+  ,
+  "searchAccounts": 
+     "搜索账户"
+  ,
+  "searchResults": 
+     "搜索结果"
+  ,
+  "searchTokens": 
+     "搜索代币"
+  ,
+  "secretBackupPhraseDescription": 
+     "您的账户助记词可以帮助您轻松备份和恢复个人账户。"
+  ,
+  "secretBackupPhraseWarning": 
+     "警告：切勿向他人透露您的账户助记词。任何人一旦持有该账户助记词，即可控制您的 Ether。"
+  ,
+  "securityAndPrivacy": 
+     "安全与隐私"
+  ,
+  "securitySettingsDescription": 
+     "隐私设置和账户助记词"
+  ,
+  "seedPhrasePlaceholder": 
+     "用空格分隔每个单词"
+  ,
+  "seedPhrasePlaceholderPaste": 
+     "从剪贴板粘贴账户助记词"
+  ,
+  "seedPhraseReq": 
+     "账户助记词由 12、15、18、21 或 24 个单词组成"
+  ,
+  "selectAHigherGasFee": 
+     "选择更高的燃料费用，提高交易处理速度。*"
+  ,
+  "selectAccounts": 
+     "选择账户"
+  ,
+  "selectAll": 
+     "全部选择"
+  ,
+  "selectAnAccount": 
+     "选择一个账户"
+  ,
+  "selectEachPhrase": 
+     "请选择每个单词，以确保其正确性。"
+  ,
+  "selectHdPath": 
+     "选择 HD 路径"
+  ,
+  "selectPathHelp": 
+     "如果下列账户中没有您当前所持有的 Ledger 账户，请将路径切换至“Legacy (MEW / MyCrypto)”"
+  ,
+  "selectType": 
+     "选择类型"
+  ,
+  "selectingAllWillAllow": 
+     "选择全部将允许本网站查看您当前的所有账户。确保您信任这个网站。"
+  ,
+  "send": 
+     "发送"
+  ,
+  "sendAmount": 
+     "发送数额"
+  ,
+  "sendSpecifiedTokens": 
+     "发送 $1"
+    
+  ,
+  "sendTokens": 
+     "发送代币"
+  ,
+  "separateEachWord": 
+     "用空格分隔每个单词"
+  ,
+  "settings": 
+     "设置"
+  ,
+  "showAdvancedGasInline": 
+     "高级燃料控制"
+  ,
+  "showAdvancedGasInlineDescription": 
+     "在发送和确认界面显示燃料价格和燃料限制设置选项。"
+  ,
+  "showFiatConversionInTestnets": 
+     "在 Testnets 上显示兑换率"
+  ,
+  "showFiatConversionInTestnetsDescription": 
+     "请选择该选项，在 Testnets 上显示法定兑换率"
+  ,
+  "showHexData": 
+     "显示十六进制数据"
+  ,
+  "showHexDataDescription": 
+     "请选择该选项，在发送页面显示十六进制数据字域"
+  ,
+  "showIncomingTransactions": 
+     "显示收到的交易"
+  ,
+  "showIncomingTransactionsDescription": 
+     "选择该选项可使用 Etherscan（以太坊浏览器）（以太坊浏览器）在交易列表中显示收到的交易。"
+  ,
+  "showPermissions": 
+     "显示权限"
+  ,
+  "showPrivateKeys": 
+     "显示私钥"
+  ,
+  "showSeedPhrase": 
+     "显示账户助记词"
+  ,
+  "sigRequest": 
+     "请求签名"
+  ,
+  "sign": 
+     "签名"
+  ,
+  "signNotice": 
+     "签署此消息可能会产生危险的副作用。 \n只从您完全信任的网站上签名。 未来的版本将移除这种危险的方法。"
+  ,
+  "signatureRequest": 
+     "请求签名"
+  ,
+  "signatureRequest1": 
+     "信息"
+  ,
+  "signed": 
+     "已签名"
+  ,
+  "slow": 
+     "慢"
+  ,
+  "somethingWentWrong": 
+     "糟糕！出问题了。"
+  ,
+  "speedUp": 
+     "加速"
+  ,
+  "speedUpCancellation": 
+     "加速该取消操作"
+  ,
+  "speedUpTransaction": 
+     "加速该交易操作"
+  ,
+  "spendLimitAmount": 
+     "消费限额数量"
+  ,
+  "spendLimitInsufficient": 
+     "消费限额不足"
+  ,
+  "spendLimitInvalid": 
+     "消费限制无效，必须是正数。"
+  ,
+  "spendLimitPermission": 
+     "消费限制权限"
+  ,
+  "spendLimitRequestedBy": 
+     "消费限制申请来自 $1"
+    
+  ,
+  "spendLimitTooLarge": 
+     "消费限制过大"
+  ,
+  "stateLogError": 
+     "检索状态日志时出错。"
+  ,
+  "stateLogFileName": 
+     "Wallet 状态日志"
+  ,
+  "stateLogs": 
+     "状态日志"
+  ,
+  "stateLogsDescription": 
+     "状态日志包含您的账户地址和已发送的交易。"
+  ,
+  "statusConnected": 
+     "已连接"
+  ,
+  "statusNotConnected": 
+     "未连接"
+  ,
+  "storePhrase": 
+     "通过如 1Password 等密码管理工具保存该账户助记词。"
+  ,
+  "submit": 
+     "提交"
+  ,
+  "submitted": 
+     "已提交"
+  ,
+  "supportCenter": 
+     "访问我们的支持中心"
+  ,
+  "swap": 
+     "兑换 Swap"
+  ,
+  "swapAdvancedSlippageInfo": 
+     "如果价格在您下单和确认之间发生变化，这就叫做“滑点”。如果滑点超过您的“最大滑点”设置，您的的兑换将自动取消。"
+  ,
+  "swapAggregator": 
+     "聚合商"
+  ,
+  "swapAmountReceived": 
+     "保证数额"
+  ,
+  "swapAmountReceivedInfo": 
+     "这是您将收到的最低数额。根据滑点值， 您可能会收到更多。"
+  ,
+  "swapApproval": 
+     "批准 $1 的兑换 "
+    
+  ,
+  "swapApproveNeedMoreTokens": 
+     "您还需 $1 $2 来完成这笔兑换"
+    
+  ,
+  "swapBuildQuotePlaceHolderText": 
+     "没有匹配的代币符合 $1"
+    
+  ,
+  "swapCustom": 
+     "自定义"
+  ,
+  "swapDecentralizedExchange": 
+     "去中心化交易所"
+  ,
+  "swapEditLimit": 
+     "修改限制"
+  ,
+  "swapEnableDescription": 
+     "这是必须的，并且允许 Wallet 兑换您的 $1。"
+    
+  ,
+  "swapEstimatedNetworkFees": 
+     "预计网络手续费"
+  ,
+  "swapEstimatedNetworkFeesInfo": 
+     "这是预估的用于完成您的兑换所使用的网络手续费。实际数额可能会根据网络条件而变化。"
+  ,
+  "swapFailedErrorTitle": 
+     "兑换失败"
+  ,
+  "swapFetchingQuotesErrorDescription": 
+     "呃……出错了。再试一次，如果错误仍存在，请联系客户支持。"
+  ,
+  "swapFetchingQuotesErrorTitle": 
+     "获取报价出错"
+  ,
+  "swapFetchingTokens": 
+     "获取代币中……"
+  ,
+  "swapLowSlippageError": 
+     "交易可能失败，最大滑点过低。"
+  ,
+  "swapMaxSlippage": 
+     "最大滑点"
+  ,
+  "swapWalletFee": 
+     "Wallet 手续费"
+  ,
+  "swapWalletFeeDescription": 
+     "我们每次都能从顶级流动性资源中找到最好的价格。每次报价都会自动收取1%的手续费用，以支持 Wallet 的持续发展，使其更加完善。"
+    
+  ,
+  "swapNewQuoteIn": 
+     "$1 后更新报价"
+    
+  ,
+  "swapOnceTransactionHasProcess": 
+     "一旦交易完成，您的 $1 将被添加到您的账户中。"
+    
+  ,
+  "swapPriceDifference": 
+     "您将兑换 $1 $2（~$3）为 $4 $5（~$6）。"
+    
+  ,
+  "swapPriceDifferenceTitle": 
+     "价格差异 ~$1%"
+    
+  ,
+  "swapProcessing": 
+     "处理中"
+  ,
+  "swapQuoteDetails": 
+     "报价详情"
+  ,
+  "swapQuoteDetailsSlippageInfo": 
+     "如果在您下订单和确认订单之间的价格发生了变化，这就叫做\"滑点\"。如果滑点超过您的\"最大滑点\"设置，您的兑换将自动取消。"
+  ,
+  "swapQuoteNofN": 
+     "报价 $1 / $2"
+    
+  ,
+  "swapQuoteSource": 
+     "报价来源"
+  ,
+  "swapQuotesExpiredErrorDescription": 
+     "请请求新的报价，以获得最新的价格。"
+  ,
+  "swapQuotesExpiredErrorTitle": 
+     "报价超时"
+  ,
+  "swapQuotesNotAvailableErrorDescription": 
+     "尝试调整滑点数量设置，并再试一次。"
+  ,
+  "swapQuotesNotAvailableErrorTitle": 
+     "无可用报价"
+  ,
+  "swapRate": 
+     "费率"
+  ,
+  "swapReceiving": 
+     "接收"
+  ,
+  "swapReceivingInfoTooltip": 
+     "这是一个预估数额。确切的数额取决于滑点。"
+  ,
+  "swapRequestForQuotation": 
+     "请求报价"
+  ,
+  "swapSearchForAToken": 
+     "搜索代币"
+  ,
+  "swapSelect": 
+     "选择"
+  ,
+  "swapSelectAQuote": 
+     "选择一个报价"
+  ,
+  "swapSelectAToken": 
+     "选择一个代币"
+  ,
+  "swapSelectQuotePopoverDescription": 
+     "以下是从多个流动资金来源收集到的所有报价。"
+  ,
+  "swapSource": 
+     "流动资金来源"
+  ,
+  "swapSourceInfo": 
+     "我们搜索多个流动性来源（交易所、聚合商和专业做市商），以找到最好的利率和最低的网络手续费。"
+  ,
+  "swapSwapFrom": 
+     "兑换自"
+  ,
+  "swapSwapSwitch": 
+     "切换兑换代币方向"
+  ,
+  "swapSwapTo": 
+     "兑换到"
+  ,
+  "swapTokenAvailable": 
+     "您的 $1 已添加到您的账户。"
+    
+  ,
+  "swapTokenToToken": 
+     "兑换 $1 到 $2"
+    
+  ,
+  "swapTransactionComplete": 
+     "交易完成"
+  ,
+  "swapUnknown": 
+     "未知的"
+  ,
+  "swapVerifyTokenExplanation": 
+     "多个代币可以使用相同的名称和符号。检查 $1（以太坊浏览器）以确认这是您正在寻找的代币。"
+    
+  ,
+  "swapYourTokenBalance": 
+     "$1 $2 可用"
+    
+  ,
+  "swapZeroSlippage": 
+     "0% 滑点"
+  ,
+  "swapsAdvancedOptions": 
+     "高级选项"
+  ,
+  "swapsExcessiveSlippageWarning": 
+     "滑点数额太高，会导致不良率。请将滑点设置降低到 15% 以下。"
+  ,
+  "swapsMaxSlippage": 
+     "最大滑点"
+  ,
+  "swapsNotEnoughForTx": 
+     "没有足够的 $1 来完成此交易"
+    
+  ,
+  "swapsViewInActivity": 
+     "在活动中查看"
+  ,
+  "switchNetworks": 
+     "切换网络"
+  ,
+  "switchToThisAccount": 
+     "切换到该账户"
+  ,
+  "symbol": 
+     "符号"
+  ,
+  "symbolBetweenZeroTwelve": 
+     "符号不得超过 11 个字符。"
+  ,
+  "syncWithMobile": 
+     "使用移动设备同步"
+  ,
+  "syncWithMobileBeCareful": 
+     "扫描这个代码时，请确保附近没有其他人在看您的屏幕。"
+  ,
+  "syncWithMobileComplete": 
+     "您的数据已同步成功。尽情体验 Wallet 应用程序！"
+  ,
+  "syncWithMobileDesc": 
+     "您可以使用个人移动设备同步个人账户与信息。打开 Wallet 移动应用程序，进入“设置”选项，点击“通过浏览器扩展程序同步”"
+  ,
+  "syncWithMobileDescNewUsers": 
+     "如果您是首次启用 Wallet 移动应用程序，请通过个人手机完成如下操作。"
+  ,
+  "syncWithMobileScanThisCode": 
+     "使用 Wallet 应用程序扫描代码"
+  ,
+  "syncWithMobileTitle": 
+     "使用移动设备进行同步"
+  ,
+  "syncWithThreeBox": 
+     "使用 3Box 同步数据（实验功能）"
+  ,
+  "syncWithThreeBoxDescription": 
+     "开启后可以用 3Box 备份您的设置。此功能目前是实验功能，使用时风险自负。"
+  ,
+  "syncWithThreeBoxDisabled": 
+     "由于初始同步过程中出现错误，3Box 已被禁用。"
+  ,
+  "terms": 
+     "使用条款"
+  ,
+  "termsOfService": 
+     "服务条款"
+  ,
+  "testFaucet": 
+     "测试水管"
+  ,
+  "thisWillCreate": 
+     "将为您创建新的钱包账户和账户助记词"
+  ,
+  "tips": 
+     "小贴士"
+  ,
+  "to": 
+     "至"
+  ,
+  "toAddress": 
+     "至：$1"
+    
+  ,
+  "token": 
+     "代币"
+  ,
+  "tokenAlreadyAdded": 
+     "代币已添加。"
+  ,
+  "tokenContractAddress": 
+     "代币合约地址"
+  ,
+  "tokenSymbol": 
+     "代币符号"
+  ,
+  "total": 
+     "总额"
+  ,
+  "transaction": 
+     "交易"
+  ,
+  "transactionCancelAttempted": 
+     "尝试取消交易 $2，燃料费用：$1。"
+  ,
+  "transactionCancelSuccess": 
+     "取消交易成功 $2。"
+  ,
+  "transactionConfirmed": 
+     "交易已确认 $2。"
+  ,
+  "transactionCreated": 
+     "交易已创建 $2，交易数额：$1。"
+  ,
+  "transactionDropped": 
+     "交易终止 $2。"
+  ,
+  "transactionError": 
+     "交易出错。合约代码执行异常。"
+  ,
+  "transactionErrorNoContract": 
+     "试图在一个非合约地址上调用一个函数。"
+  ,
+  "transactionErrored": 
+     "交易出现错误。"
+  ,
+  "transactionFee": 
+     "交易费"
+  ,
+  "transactionResubmitted": 
+     "重新提交交易 $2，交易费升至：$1。"
+  ,
+  "transactionSubmitted": 
+     "交易已提交 $2，交易费：$1。"
+  ,
+  "transactionUpdated": 
+     "交易更新时间 $2。"
+  ,
+  "transfer": 
+     "转账"
+  ,
+  "transferBetweenAccounts": 
+     "在我的账户间转账"
+  ,
+  "transferFrom": 
+     "转自"
+  ,
+  "troubleConnectingToWallet": 
+     "我们在连接您的  $1 遇到问题，尝试检查 $2 并重试。"
+    
+  ,
+  "troubleTokenBalances": 
+     "我们无法加载您的代币余额。您可以查看它们"
+    
+  ,
+  "tryAgain": 
+     "重试"
+  ,
+  "typePassword": 
+     "输入您的 Wallet 密码"
+  ,
+  "unapproved": 
+     "未批准"
+  ,
+  "units": 
+     "数量"
+  ,
+  "unknown": 
+     "未知"
+  ,
+  "unknownCameraError": 
+     "尝试获取相机使用权限时报错。请重试……"
+  ,
+  "unknownCameraErrorTitle": 
+     "哎呀！出问题了……"
+  ,
+  "unknownNetwork": 
+     "未知的私有网络"
+  ,
+  "unknownQrCode": 
+     "错误：无法识别该二维码"
+  ,
+  "unlimited": 
+     "无限制"
+  ,
+  "unlock": 
+     "解锁"
+  ,
+  "unlockMessage": 
+     "即将进入去中心化网络"
+  ,
+  "updatedWithDate": 
+     "已更新 $1"
+  ,
+  "urlErrorMsg": 
+     "URL 需要相应的 HTTP/HTTPS 前缀。"
+  ,
+  "urlExistsErrorMsg": 
+     "URL 已经存在于现有的网络列表中"
+  ,
+  "usePhishingDetection": 
+     "使用网络钓鱼检测"
+  ,
+  "usePhishingDetectionDescription": 
+     "显示针对 Ethereum 用户钓鱼域名的警告。"
+  ,
+  "usedByClients": 
+     "可用于各种不同的客户端"
+  ,
+  "userName": 
+     "名称"
+  ,
+  "verifyThisTokenOn": 
+     "在 $1 上验证此代币"
+    
+  ,
+  "viewAccount": 
+     "查看账户"
+  ,
+  "viewContact": 
+     "查看联系人"
+  ,
+  "visitWebSite": 
+     "访问我们的网站"
+  ,
+  "walletConnectionGuide": 
+     "我们的硬件钱包连接指南"
+  ,
+  "web3ShimUsageNotification": 
+     "我们发现当前的网站尝试使用已经删除的 window.web3 API。如果这个网站网站已经无法正常使用，请点击 $1 获取更多信息。"
+    
+  ,
+  "welcome": 
+     "欢迎使用 Wallet"
+  ,
+  "welcomeBack": 
+     "欢迎回来！"
+  ,
+  "whatsThis": 
+     "这是什么？"
+  ,
+  "writePhrase": 
+     "请将该账户助记词记录在纸上，并保存在安全的地方。如果希望提升信息安全性，请将信息记录在多张纸上，并分别保存在 2 - 3 个不同的地方。"
+  ,
+  "xOfY": 
+     "$1 / $2"
+    
+  ,
+  "yesLetsTry": 
+     "是的，尝试下"
+  ,
+  "youNeedToAllowCameraAccess": 
+     "需要开启相机访问权限，才能使用该功能。"
+  ,
+  "youSign": 
+     "正在签名"
+  ,
+  "yourPrivateSeedPhrase": 
+     "您的账户助记词"
+  ,
+  "zeroGasPriceOnSpeedUpError": 
+     "加速时无燃料价格"
+}
+
