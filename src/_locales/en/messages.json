@@ -1,3540 +1,1285 @@
 {
-  "QRHardwareInvalidTransactionTitle": 
-     "Error"
-  ,
-  "QRHardwareMismatchedSignId": 
-     "Incongruent transaction data. Please check the transaction details."
-  ,
-  "QRHardwarePubkeyAccountOutOfRange": 
-     "No more accounts. If you would like to access another account unlisted below, please reconnect your hardware wallet and select it."
-  ,
-  "QRHardwareScanInstructions": 
-     "Place the QR code in front of your camera. The screen is blurred, but it will not affect the reading."
-  ,
-  "QRHardwareSignRequestCancel": 
-     "Reject"
-  ,
-  "QRHardwareSignRequestDescription": 
-     "After you’ve signed with your wallet, click on 'Get Signature' to receive the signature"
-  ,
-  "QRHardwareSignRequestGetSignature": 
-     "Get Signature"
-  ,
-  "QRHardwareSignRequestSubtitle": 
-     "Scan the QR code with your wallet"
-  ,
-  "QRHardwareSignRequestTitle": 
-     "Request Signature"
-  ,
-  "QRHardwareUnknownQRCodeTitle": 
-     "Error"
-  ,
-  "QRHardwareUnknownWalletQRCode": 
-     "Invalid QR code. Please scan the sync QR code of the hardware wallet."
-  ,
-  "QRHardwareWalletImporterTitle": 
-     "Scan QR Code"
-  ,
-  "QRHardwareWalletSteps1Description": 
-     "Connect an airgapped hardware wallet that communicates through QR-codes. Officially supported airgapped hardware wallets include:"
-  ,
-  "QRHardwareWalletSteps1Title": 
-     "QR-based HW Wallet"
-  ,
-  "QRHardwareWalletSteps2Description": 
-     "AirGap Vault & Ngrave (Coming Soon)"
-  ,
-  "introduction": 
-      "This is a Crypto Wallet!"
-  ,
-  "about": 
-     "About"
-  ,
-  "aboutSettingsDescription": 
-     "Version, support center, and contact info"
-  ,
-  "acceleratingATransaction": 
-     "* Accelerating a transaction by using a higher gas price increases its chances of getting processed by the network faster, but it is not always guaranteed."
-  ,
-  "acceptTermsOfUse": 
-     "I have read and agree to the $1"
-    
-  ,
-  "accessAndSpendNotice": 
-     "$1 may access and spend up to this max amount"
-    
-  ,
-  "accessingYourCamera": 
-     "Accessing your camera..."
-  ,
-  "account": 
-     "Account"
-  ,
-  "accountDetails": 
-     "Account details"
-  ,
-  "accountName": 
-     "Account Name"
-  ,
-  "accountNameDuplicate": 
-     "This account name already exists"
-    
-  ,
-  "accountOptions": 
-     "Account Options"
-  ,
-  "accountSelectionRequired": 
-     "You need to select an account!"
-  ,
-  "active": 
-     "Active"
-  ,
-  "activity": 
-     "Activity"
-  ,
-  "activityLog": 
-     "Activity log"
-  ,
-  "add": 
-     "Add"
-  ,
-  "addANetwork": 
-     "Add a network"
-  ,
-  "addANickname": 
-     "Add a nickname"
-  ,
-  "addAcquiredTokens": 
-     "Add the tokens you've acquired using Wallet"
-  ,
-  "addAlias": 
-     "Add alias"
-  ,
-  "addContact": 
-     "Add contact"
-  ,
-  "addCustomToken": 
-     "Add Custom Token"
-  ,
-  "addCustomTokenByContractAddress": 
-     "Can’t find a token? You can manually add any token by pasting its address. Token contract addresses can be found on $1."
-    
-  ,
-  "addEthereumChainConfirmationDescription": 
-     "This will allow this network to be used within Wallet."
-  ,
-  "addEthereumChainConfirmationRisks": 
-     "Wallet does not verify custom networks."
-  ,
-  "addEthereumChainConfirmationRisksLearnMore": 
-     "Learn about $1."
-    
-  ,
-  "addEthereumChainConfirmationRisksLearnMoreLink": 
-     "scams and network security risks"
-    
-  ,
-  "addEthereumChainConfirmationTitle": 
-     "Allow this site to add a network?"
-  ,
-  "addFriendsAndAddresses": 
-     "Add friends and addresses you trust"
-  ,
-  "addMemo": 
-     "Add memo"
-  ,
-  "addNFT": 
-     "Add NFT"
-  ,
-  "addNetwork": 
-     "Add Network"
-  ,
-  "addSuggestedTokens": 
-     "Add Suggested Tokens"
-  ,
-  "addToAddressBook": 
-     "Add to address book"
-  ,
-  "addToAddressBookModalPlaceholder": 
-     "e.g. John D."
-  ,
-  "addToken": 
-     "Add Token"
-  ,
-  "address": 
-     "Address"
-  ,
-  "addressBookIcon": 
-     "Address book icon"
-  ,
-  "advanced": 
-     "Advanced"
-  ,
-  "advancedBaseGasFeeToolTip": 
-     "When your transaction gets included in the block, any difference between your max base fee and the actual base fee will be refunded. Total amount is calculated as max base fee (in GWEI) * gas limit."
-  ,
-  "advancedGasFeeDefaultOptIn": 
-     "Save these $1 as my default for \"Advanced\""
-  ,
-  "advancedGasFeeDefaultOptOut": 
-     "Always use these values and advanced setting as default."
-  ,
-  "advancedGasFeeModalTitle": 
-     "Advanced gas fee"
-  ,
-  "advancedGasPriceTitle": 
-     "Gas price"
-  ,
-  "advancedOptions": 
-     "Advanced Options"
-  ,
-  "advancedPriorityFeeToolTip": 
-     "Priority fee (aka “miner tip”) goes directly to miners and incentivizes them to prioritize your transaction."
-  ,
-  "advancedSettingsDescription": 
-     "Access developer features, download State Logs, Reset Account, setup test networks and custom RPC"
-  ,
-  "affirmAgree": 
-     "I Agree"
-  ,
-  "aggregatorFeeCost": 
-     "Aggregator network fee"
-  ,
-  "alertDisableTooltip": 
-     "This can be changed in \"Settings > Alerts\""
-  ,
-  "alertSettingsUnconnectedAccount": 
-     "Browsing a website with an unconnected account selected"
-  ,
-  "alertSettingsUnconnectedAccountDescription": 
-     "This alert is shown in the popup when you are browsing a connected web3 site, but the currently selected account is not connected."
-  ,
-  "alertSettingsWeb3ShimUsage": 
-     "When a website tries to use the removed window.web3 API"
-  ,
-  "alertSettingsWeb3ShimUsageDescription": 
-     "This alert is shown in the popup when you are browsing a site that tries to use the removed window.web3 API, and may be broken as a result."
-  ,
-  "alerts": 
-     "Alerts"
-  ,
-  "alertsSettingsDescription": 
-     "Enable or disable each alert"
-  ,
-  "allowExternalExtensionTo": 
-     "Allow this external extension to:"
-  ,
-  "allowSpendToken": 
-     "Give permission to access your $1?"
-    
-  ,
-  "allowThisSiteTo": 
-     "Allow this site to:"
-  ,
-  "allowWithdrawAndSpend": 
-     "Allow $1 to withdraw and spend up to the following amount:"
-    
-  ,
-  "amount": 
-     "Amount"
-  ,
-  "appDescription": 
-     "An Ethereum Wallet in your Browser"
-    
-  ,
-  "appName": 
-     "Wallet"
-    
-  ,
-  "appNameBeta": 
-     "Wallet Beta"
-    
-  ,
-  "appNameFlask": 
-     "Wallet Flask"
-    
-  ,
-  "approvalAndAggregatorTxFeeCost": 
-     "Approval and aggregator network fee"
-  ,
-  "approvalTxGasCost": 
-     "Approval Tx Gas Cost"
-  ,
-  "approve": 
-     "Approve spend limit"
-  ,
-  "approveButtonText": 
-     "Approve"
-  ,
-  "approveSpendLimit": 
-     "Approve $1 spend limit"
-    
-  ,
-  "approved": 
-     "Approved"
-  ,
-  "approvedAmountWithColon": 
-     "Approved amount:"
-  ,
-  "asset": 
-     "Asset"
-  ,
-  "assetOptions": 
-     "Asset options"
-  ,
-  "assets": 
-     "Assets"
-  ,
-  "attemptToCancel": 
-     "Attempt to Cancel?"
-  ,
-  "attemptToCancelDescription": 
-     "Submitting this attempt does not guarantee your original transaction will be cancelled. If the cancellation attempt is successful, you will be charged the transaction fee above."
-  ,
-  "attemptingConnect": 
-     "Attempting to connect to blockchain."
-  ,
-  "attributions": 
-     "Attributions"
-  ,
-  "authorizedPermissions": 
-     "You have authorized the following permissions"
-  ,
-  "autoLockTimeLimit": 
-     "Auto-Lock Timer (minutes)"
-  ,
-  "autoLockTimeLimitDescription": 
-     "Set the idle time in minutes before Wallet will become locked."
-  ,
-  "average": 
-     "Average"
-  ,
-  "back": 
-     "Back"
-  ,
-  "backToAll": 
-     "Back to All"
-  ,
-  "backupApprovalInfo": 
-     "This secret code is required to recover your wallet in case you lose your device, forget your password, have to re-install Wallet, or want to access your wallet on another device."
-  ,
-  "backupApprovalNotice": 
-     "Backup your Secret Recovery Phrase to keep your wallet and funds secure."
-  ,
-  "backupNow": 
-     "Backup now"
-  ,
-  "balance": 
-     "Balance"
-  ,
-  "balanceOutdated": 
-     "Balance may be outdated"
-  ,
-  "baseFee": 
-     "Base fee"
-  ,
-  "basic": 
-     "Basic"
-  ,
-  "betaWalletDescription": 
-     "Trusted by millions, Wallet is a secure wallet making the world of web3 accessible to all."
-  ,
-  "betaWalletDescriptionExplanation": 
-     "Use this version to test upcoming features before they’re released. Your use and feedback helps us build the best version of Wallet possible. Your use of Wallet Beta is subject to our standard $1 as well as our $2. As a Beta, there may be an increased risk of bugs. By proceeding, you accept and acknowledge these risks, as well as those risks found in our Terms and Beta Terms."
-    
-  ,
-  "betaWalletDescriptionExplanationBetaTermsLinkText": 
-     "Supplemental Beta Terms"
-  ,
-  "betaWalletDescriptionExplanationTermsLinkText": 
-     "Terms"
-  ,
-  "betaWalletVersion": 
-     "Wallet Beta Version"
-  ,
-  "betaWelcome": 
-     "Welcome to Wallet Beta"
-  ,
-  "blockExplorerAccountAction": 
-     "Account"
-    
-  ,
-  "blockExplorerAssetAction": 
-     "Asset"
-    
-  ,
-  "blockExplorerSwapAction": 
-     "Swap"
-    
-  ,
-  "blockExplorerUrl": 
-     "Block Explorer URL"
-  ,
-  "blockExplorerUrlDefinition": 
-     "The URL used as the block explorer for this network."
-  ,
-  "blockExplorerView": 
-     "View account at $1"
-    
-  ,
-  "blockiesIdenticon": 
-     "Use Blockies Identicon"
-  ,
-  "browserNotSupported": 
-     "Your Browser is not supported..."
-  ,
-  "buildContactList": 
-     "Build your contact list"
-  ,
-  "builtAroundTheWorld": 
-     "Wallet is designed and built around the world."
-  ,
-  "busy": 
-     "Busy"
-  ,
-  "buy": 
-     "Buy"
-  ,
-  "buyWithTransak": 
-     "Buy ETH with Transak"
-  ,
-  "buyWithTransakDescription": 
-     "Transak supports debit card and bank transfers (depending on location) in 59+ countries. ETH deposits into your Wallet account."
-  ,
-  "buyWithWyre": 
-     "Buy ETH with Wyre"
-  ,
-  "buyWithWyreDescription": 
-     "Wyre lets you use a debit card to deposit ETH right in to your Wallet account."
-  ,
-  "bytes": 
-     "Bytes"
-  ,
-  "canToggleInSettings": 
-     "You can re-enable this notification in Settings -> Alerts."
-  ,
-  "cancel": 
-     "Cancel"
-  ,
-  "cancelEdit": 
-     "Cancel Edit"
-  ,
-  "cancelPopoverTitle": 
-     "Cancel transaction"
-  ,
-  "cancelSpeedUp": 
-     "cancel or speed up a tranaction."
-  ,
-  "cancellationGasFee": 
-     "Cancellation Gas Fee"
-  ,
-  "cancelled": 
-     "Cancelled"
-  ,
-  "chainId": 
-     "Chain ID"
-  ,
-  "chainIdDefinition": 
-     "The chain ID used to sign transactions for this network."
-  ,
-  "chainIdExistsErrorMsg": 
-     "This Chain ID is currently used by the $1 network."
-  ,
-  "chromeRequiredForHardwareWallets": 
-     "You need to use Wallet on Google Chrome in order to connect to your Hardware Wallet."
-  ,
-  "clickToConnectLedgerViaWebHID": 
-     "Click here to connect your Ledger via WebHID"
-    
-  ,
-  "clickToRevealSeed": 
-     "Click here to reveal secret words"
-  ,
-  "close": 
-     "Close"
-  ,
-  "confirm": 
-     "Confirm"
-  ,
-  "confirmPassword": 
-     "Confirm password"
-  ,
-  "confirmRecoveryPhrase": 
-     "Confirm Secret Recovery Phrase"
-  ,
-  "confirmSecretBackupPhrase": 
-     "Confirm your Secret Recovery Phrase"
-  ,
-  "confirmed": 
-     "Confirmed"
-  ,
-  "confusableUnicode": 
-     "'$1' is similar to '$2'."
-  ,
-  "confusableZeroWidthUnicode": 
-     "Zero-width character found."
-  ,
-  "confusingEnsDomain": 
-     "We have detected a confusable character in the ENS name. Check the ENS name to avoid a potential scam."
-  ,
-  "congratulations": 
-     "Congratulations"
-  ,
-  "connect": 
-     "Connect"
-  ,
-  "connectAccountOrCreate": 
-     "Connect account or create new"
-  ,
-  "connectHardwareWallet": 
-     "Connect Hardware Wallet"
-  ,
-  "connectManually": 
-     "Manually connect to current site"
-  ,
-  "connectTo": 
-     "Connect to $1"
-    
-  ,
-  "connectToAll": 
-     "Connect to all your $1"
-    
-  ,
-  "connectToAllAccounts": 
-     "accounts"
-    
-  ,
-  "connectToMultiple": 
-     "Connect to $1"
-    
-  ,
-  "connectToMultipleNumberOfAccounts": 
-     "$1 accounts"
-    
-  ,
-  "connectWithWallet": 
-     "Connect With Wallet"
-  ,
-  "connectedAccountsDescriptionPlural": 
-     "You have $1 accounts connected to this site."
-    
-  ,
-  "connectedAccountsDescriptionSingular": 
-     "You have 1 account connected to this site."
-  ,
-  "connectedAccountsEmptyDescription": 
-     "Wallet is not connected to this site. To connect to a web3 site, find and click the connect button."
-  ,
-  "connectedSites": 
-     "Connected sites"
-  ,
-  "connectedSitesDescription": 
-     "$1 is connected to these sites. They can view your account address."
-    
-  ,
-  "connectedSitesEmptyDescription": 
-     "$1 is not connected to any sites."
-    
-  ,
-  "connecting": 
-     "Connecting..."
-  ,
-  "connectingTo": 
-     "Connecting to $1"
-  ,
-  "connectingToGoerli": 
-     "Connecting to Goerli Test Network"
-  ,
-  "connectingToKovan": 
-     "Connecting to Kovan Test Network"
-  ,
-  "connectingToMainnet": 
-     "Connecting to Ethereum Mainnet"
-  ,
-  "connectingToRinkeby": 
-     "Connecting to Rinkeby Test Network"
-  ,
-  "connectingToRopsten": 
-     "Connecting to Ropsten Test Network"
-  ,
-  "contactUs": 
-     "Contact us"
-  ,
-  "contacts": 
-     "Contacts"
-  ,
-  "contactsSettingsDescription": 
-     "Add, edit, remove, and manage your contacts"
-  ,
-  "continue": 
-     "Continue"
-  ,
-  "continueToTransak": 
-     "Continue to Transak"
-  ,
-  "continueToWyre": 
-     "Continue to Wyre"
-  ,
-  "contract": 
-     "Contract"
-  ,
-  "contractAddress": 
-     "Contract address"
-  ,
-  "contractAddressError": 
-     "You are sending tokens to the token's contract address. This may result in the loss of these tokens."
-  ,
-  "contractDeployment": 
-     "Contract Deployment"
-  ,
-  "contractInteraction": 
-     "Contract Interaction"
-  ,
-  "copiedExclamation": 
-     "Copied!"
-  ,
-  "copyAddress": 
-     "Copy address to clipboard"
-  ,
-  "copyPrivateKey": 
-     "This is your private key (click to copy)"
-  ,
-  "copyRawTransactionData": 
-     "Copy raw transaction data"
-  ,
-  "copyToClipboard": 
-     "Copy to clipboard"
-  ,
-  "copyTransactionId": 
-     "Copy Transaction ID"
-  ,
-  "create": 
-     "Create"
-  ,
-  "createAWallet": 
-     "Create a Wallet"
-  ,
-  "createAccount": 
-     "Create Account"
-  ,
-  "createNewWallet": 
-     "Create a new wallet"
-  ,
-  "createPassword": 
-     "Create Password"
-  ,
-  "currencyConversion": 
-     "Currency Conversion"
-  ,
-  "currencySymbol": 
-     "Currency Symbol"
-  ,
-  "currencySymbolDefinition": 
-     "The ticker symbol displayed for this network’s currency."
-  ,
-  "currentAccountNotConnected": 
-     "Your current account is not connected"
-  ,
-  "currentExtension": 
-     "Current extension page"
-  ,
-  "currentLanguage": 
-     "Current Language"
-  ,
-  "currentTitle": 
-     "Current:"
-  ,
-  "currentlyUnavailable": 
-     "Unavailable on this network"
-  ,
-  "custom": 
-     "Advanced"
-  ,
-  "customGas": 
-     "Customize Gas"
-  ,
-  "customGasSettingToolTipMessage": 
-     "Use $1 to customise the gas price. This can be confusing if you aren’t familiar. Interact at your own risk."
-    
-  ,
-  "customGasSubTitle": 
-     "Increasing fee may decrease processing times, but it is not guaranteed."
-  ,
-  "customSpendLimit": 
-     "Custom Spend Limit"
-  ,
-  "customToken": 
-     "Custom Token"
-  ,
-  "dappSuggested": 
-     "Site suggested"
-  ,
-  "dappSuggestedGasSettingToolTipMessage": 
-     "$1 has suggested this price."
-    
-  ,
-  "dappSuggestedShortLabel": 
-     "Site"
-  ,
-  "dappSuggestedTooltip": 
-     "$1 has recommended this price."
-    
-  ,
-  "data": 
-     "Data"
-  ,
-  "dataBackupFoundInfo": 
-     "Some of your account data was backed up during a previous installation of Wallet. This could include your settings, contacts, and tokens. Would you like to restore this data now?"
-  ,
-  "dataHex": 
-     "Hex"
-  ,
-  "decimal": 
-     "Token Decimal"
-  ,
-  "decimalsMustZerotoTen": 
-     "Decimals must be at least 0, and not over 36."
-  ,
-  "decrypt": 
-     "Decrypt"
-  ,
-  "decryptCopy": 
-     "Copy encrypted message"
-  ,
-  "decryptInlineError": 
-     "This message cannot be decrypted due to error: $1"
-    
-  ,
-  "decryptMessageNotice": 
-     "$1 would like to read this message to complete your action"
-    
-  ,
-  "decryptWallet": 
-     "Decrypt message"
-  ,
-  "decryptRequest": 
-     "Decrypt request"
-  ,
-  "delete": 
-     "Delete"
-  ,
-  "deleteAccount": 
-     "Delete Account"
-  ,
-  "deleteNetwork": 
-     "Delete Network?"
-  ,
-  "deleteNetworkDescription": 
-     "Are you sure you want to delete this network?"
-  ,
-  "depositEther": 
-     "Deposit Ether"
-  ,
-  "description": 
-     "Description"
-  ,
-  "details": 
-     "Details"
-  ,
-  "directDepositEther": 
-     "Directly Deposit Ether"
-  ,
-  "directDepositEtherExplainer": 
-     "If you already have some Ether, the quickest way to get Ether in your new wallet by direct deposit."
-  ,
-  "disconnect": 
-     "Disconnect"
-  ,
-  "disconnectAllAccounts": 
-     "Disconnect all accounts"
-  ,
-  "disconnectAllAccountsConfirmationDescription": 
-     "Are you sure you want to disconnect? You may lose site functionality."
-  ,
-  "disconnectPrompt": 
-     "Disconnect $1"
-  ,
-  "disconnectThisAccount": 
-     "Disconnect this account"
-  ,
-  "dismiss": 
-     "Dismiss"
-  ,
-  "dismissReminderDescriptionField": 
-     "Turn this on to dismiss the Secret Recovery Phrase backup reminder message. We highly recommend that you back up your Secret Recovery Phrase to avoid loss of funds"
-  ,
-  "dismissReminderField": 
-     "Dismiss Secret Recovery Phrase backup reminder"
-  ,
-  "domain": 
-     "Domain"
-  ,
-  "done": 
-     "Done"
-  ,
-  "dontShowThisAgain": 
-     "Don't show this again"
-  ,
-  "downloadGoogleChrome": 
-     "Download Google Chrome"
-  ,
-  "downloadSecretBackup": 
-     "Download this Secret Recovery Phrase and keep it stored safely on an external encrypted hard drive or storage medium."
-  ,
-  "downloadStateLogs": 
-     "Download State Logs"
-  ,
-  "dropped": 
-     "Dropped"
-  ,
-  "edit": 
-     "Edit"
-  ,
-  "editANickname": 
-     "Edit nickname"
-  ,
-  "editAddressNickname": 
-     "Edit address nickname"
-  ,
-  "editContact": 
-     "Edit Contact"
-  ,
-  "editGasEducationButtonText": 
-     "How should I choose?"
-  ,
-  "editGasEducationHighExplanation": 
-     "This is best for time sensitive transactions (like Swaps) as it increases the likelihood of a successful transaction. If a Swap takes too long to process it may fail and result in losing some of your gas fee."
-  ,
-  "editGasEducationLowExplanation": 
-     "A lower gas fee should only be used when processing time is less important. Lower fees make it hard predict when (or if) your transaction will be successful."
-  ,
-  "editGasEducationMediumExplanation": 
-     "A medium gas fee is good for sending, withdrawing or other non-time sensitive transactions. This setting will most often result in a successful transaction."
-  ,
-  "editGasEducationModalIntro": 
-     "Selecting the right gas fee depends on the type of transaction and how important it is to you."
-  ,
-  "editGasEducationModalTitle": 
-     "How to choose?"
-  ,
-  "editGasFeeModalTitle": 
-     "Edit gas fee"
-  ,
-  "editGasHigh": 
-     "High"
-  ,
-  "editGasLimitOutOfBounds": 
-     "Gas limit must be at least $1"
-  ,
-  "editGasLimitOutOfBoundsV2": 
-     "Gas limit must be greater than $1 and less than $2"
-    
-  ,
-  "editGasLimitTooltip": 
-     "Gas limit is the maximum units of gas you are willing to use. Units of gas are a multiplier to “Max priority fee” and “Max fee”."
-  ,
-  "editGasLow": 
-     "Low"
-  ,
-  "editGasMaxBaseFeeGWEIImbalance": 
-     "Max base fee cannot be lower than priority fee"
-  ,
-  "editGasMaxBaseFeeHigh": 
-     "Max base fee is higher than necessary"
-  ,
-  "editGasMaxBaseFeeLow": 
-     "Max base fee is low for current network conditions"
-  ,
-  "editGasMaxBaseFeeMultiplierImbalance": 
-     "Multiplier is low relative to Priority fee"
-  ,
-  "editGasMaxFeeHigh": 
-     "Max fee is higher than necessary"
-  ,
-  "editGasMaxFeeLow": 
-     "Max fee too low for network conditions"
-  ,
-  "editGasMaxFeePriorityImbalance": 
-     "Max fee cannot be lower than max priority fee"
-  ,
-  "editGasMaxFeeTooltip": 
-     "The max fee is the most you’ll pay (base fee + priority fee)."
-  ,
-  "editGasMaxPriorityFeeBelowMinimum": 
-     "Max priority fee must be greater than 0 GWEI"
-  ,
-  "editGasMaxPriorityFeeBelowMinimumV2": 
-     "Priority fee must be greater than 0."
-  ,
-  "editGasMaxPriorityFeeHigh": 
-     "Max priority fee is higher than necessary. You may pay more than needed."
-  ,
-  "editGasMaxPriorityFeeHighV2": 
-     "Priority fee is higher than necessary. You may pay more than needed"
-  ,
-  "editGasMaxPriorityFeeLow": 
-     "Max priority fee is low for current network conditions"
-  ,
-  "editGasMaxPriorityFeeLowV2": 
-     "Priority fee is low for current network conditions"
-  ,
-  "editGasMaxPriorityFeeTooltip": 
-     "Max priority fee (aka “miner tip”) goes directly to miners and incentivizes them to prioritize your transaction. You’ll most often pay your max setting"
-  ,
-  "editGasMedium": 
-     "Medium"
-  ,
-  "editGasPriceTooLow": 
-     "Gas price must be greater than 0"
-  ,
-  "editGasPriceTooltip": 
-     "This network requires a “Gas price” field when submitting a transaction. Gas price is the amount you will pay pay per unit of gas."
-  ,
-  "editGasSubTextAmountLabel": 
-     "Max amount:"
-    
-  ,
-  "editGasSubTextFeeLabel": 
-     "Max fee:"
-  ,
-  "editGasTitle": 
-     "Edit priority"
-  ,
-  "editGasTooLow": 
-     "Unknown processing time"
-  ,
-  "editGasTooLowTooltip": 
-     "Your max fee or max priority fee may be low for current market conditions. We don't know when (or if) your transaction will be processed. "
-  ,
-  "editGasTooLowWarningTooltip": 
-     "This lowers your maximum fee but if network traffic increases your transaction may be delayed or fail."
-  ,
-  "editInGwei": 
-     "Edit in GWEI"
-  ,
-  "editInMultiplier": 
-     "Edit in multiplier"
-  ,
-  "editNonceField": 
-     "Edit Nonce"
-  ,
-  "editNonceMessage": 
-     "This is an advanced feature, use cautiously."
-  ,
-  "editPermission": 
-     "Edit Permission"
-  ,
-  "enableAutoDetect": 
-     " Enable Autodetect"
-  ,
-  "enableFromSettings": 
-     " Enable it from Settings."
-  ,
-  "enableOpenSeaAPI": 
-     "Enable OpenSea API"
-  ,
-  "enableOpenSeaAPIDescription": 
-     "Use OpenSea's API to fetch NFT data. NFT auto-detection relies on OpenSea's API, and will not be available when this is turned off."
-  ,
-  "enableToken": 
-     "enable $1"
-    
-  ,
-  "encryptionPublicKeyNotice": 
-     "$1 would like your public encryption key. By consenting, this site will be able to compose encrypted messages to you."
-    
-  ,
-  "encryptionPublicKeyRequest": 
-     "Request encryption public key"
-  ,
-  "endOfFlowMessage1": 
-     "You passed the test - keep your Secret Recovery Phrase safe, it's your responsibility!"
-  ,
-  "endOfFlowMessage10": 
-     "All Done"
-  ,
-  "endOfFlowMessage2": 
-     "Tips on storing it safely"
-  ,
-  "endOfFlowMessage3": 
-     "Save a backup in multiple places."
-  ,
-  "endOfFlowMessage4": 
-     "Never share the phrase with anyone."
-  ,
-  "endOfFlowMessage5": 
-     "Be careful of phishing! Wallet will never spontaneously ask for your Secret Recovery Phrase."
-  ,
-  "endOfFlowMessage6": 
-     "If you need to back up your Secret Recovery Phrase again, you can find it in Settings -> Security."
-  ,
-  "endOfFlowMessage7": 
-     "If you ever have questions or see something fishy, contact our support $1."
-    
-  ,
-  "endOfFlowMessage8": 
-     "Wallet cannot recover your Secret Recovery Phrase."
-  ,
-  "endOfFlowMessage9": 
-     "Learn more."
-  ,
-  "endpointReturnedDifferentChainId": 
-     "The endpoint returned a different chain ID: $1"
-    
-  ,
-  "ensIllegalCharacter": 
-     "Illegal Character for ENS."
-  ,
-  "ensNotFoundOnCurrentNetwork": 
-     "ENS name not found on the current network. Try switching to Ethereum Mainnet."
-  ,
-  "ensNotSupportedOnNetwork": 
-     "Network does not support ENS"
-  ,
-  "ensRegistrationError": 
-     "Error in ENS name registration"
-  ,
-  "ensUnknownError": 
-     "ENS Lookup failed."
-  ,
-  "enterAnAlias": 
-     "Enter an alias"
-  ,
-  "enterMaxSpendLimit": 
-     "Enter Max Spend Limit"
-  ,
-  "enterPassword": 
-     "Enter password"
-  ,
-  "enterPasswordContinue": 
-     "Enter password to continue"
-  ,
-  "errorCode": 
-     "Code: $1"
-    
-  ,
-  "errorDetails": 
-     "Error Details"
-    
-  ,
-  "errorMessage": 
-     "Message: $1"
-    
-  ,
-  "errorName": 
-     "Code: $1"
-    
-  ,
-  "errorPageMessage": 
-     "Try again by reloading the page, or contact support $1."
-    
-  ,
-  "errorPagePopupMessage": 
-     "Try again by closing and reopening the popup, or contact support $1."
-    
-  ,
-  "errorPageTitle": 
-     "Wallet encountered an error"
-    
-  ,
-  "errorStack": 
-     "Stack:"
-    
-  ,
-  "estimatedProcessingTimes": 
-     "Estimated Processing Times"
-  ,
-  "ethGasPriceFetchWarning": 
-     "Backup gas price is provided as the main gas estimation service is unavailable right now."
-  ,
-  "eth_accounts": 
-     "See address, account balance, activity and initiate transactions"
-    
-  ,
-  "ethereumPublicAddress": 
-     "Ethereum Public Address"
-  ,
-  "etherscan": 
-     "Etherscan"
-  ,
-  "etherscanView": 
-     "View account on Etherscan"
-  ,
-  "etherscanViewOn": 
-     "View on Etherscan"
-  ,
-  "expandView": 
-     "Expand view"
-  ,
-  "experimental": 
-     "Experimental"
-  ,
-  "experimentalSettingsDescription": 
-     "Token detection & more"
-  ,
-  "exportPrivateKey": 
-     "Export Private Key"
-  ,
-  "externalExtension": 
-     "External Extension"
-  ,
-  "extraApprovalGas": 
-     "+$1 approval gas"
-    
-  ,
-  "failed": 
-     "Failed"
-  ,
-  "failedToFetchChainId": 
-     "Could not fetch chain ID. Is your RPC URL correct?"
-  ,
-  "failureMessage": 
-     "Something went wrong, and we were unable to complete the action"
-  ,
-  "fakeTokenWarning": 
-     "Anyone can create a token, including creating fake versions of existing tokens. Learn more about $1"
-  ,
-  "fast": 
-     "Fast"
-  ,
-  "fastest": 
-     "Fastest"
-  ,
-  "feeAssociatedRequest": 
-     "A fee is associated with this request."
-  ,
-  "fiat": 
-     "Fiat"
-    
-  ,
-  "fileImportFail": 
-     "File import not working? Click here!"
-    
-  ,
-  "flaskExperimentalText1": 
-     "Using Flask can greatly increase your risk of fund loss:"
-  ,
-  "flaskExperimentalText2": 
-     "if you use it to install non-trustworthy Snaps"
-  ,
-  "flaskExperimentalText3": 
-     "if you do not review confirmations before approving changes"
-  ,
-  "flaskExperimentalText4": 
-     "if you interact with unfamiliar smart contracts"
-  ,
-  "flaskExperimentalText5": 
-     "Using Flask gives you much greater discretion in using the power of Wallet, and that discretion is yours. Do you accept these risks as well as extra responsibility for your wallet's safety?"
-  ,
-  "flaskSnapSettingsCardButtonCta": 
-     "See details"
-    
-  ,
-  "flaskSnapSettingsCardDateAddedOn": 
-     "Added on"
-    
-  ,
-  "flaskSnapSettingsCardFrom": 
-     "from"
-    
-  ,
-  "followUsOnTwitter": 
-     "Follow us on Twitter"
-  ,
-  "forbiddenIpfsGateway": 
-     "Forbidden IPFS Gateway: Please specify a CID gateway"
-  ,
-  "forgetDevice": 
-     "Forget this device"
-  ,
-  "from": 
-     "From"
-  ,
-  "fromAddress": 
-     "From: $1"
-    
-  ,
-  "functionApprove": 
-     "Function: Approve"
-  ,
-  "functionType": 
-     "Function Type"
-  ,
-  "gasDisplayAcknowledgeDappButtonText": 
-     "Edit suggested gas fee"
-  ,
-  "gasDisplayDappWarning": 
-     "This gas fee has been suggested by $1. Overriding this may cause a problem with your transaction. Please reach out to $1 if you have questions."
-    
-  ,
-  "gasEstimatesUnavailableWarning": 
-     "Our low, medium and high estimates are not available."
-  ,
-  "gasLimit": 
-     "Gas Limit"
-  ,
-  "gasLimitInfoTooltipContent": 
-     "Gas limit is the maximum amount of units of gas you are willing to spend."
-  ,
-  "gasLimitTooLow": 
-     "Gas limit must be at least 21000"
-  ,
-  "gasLimitTooLowWithDynamicFee": 
-     "Gas limit must be at least $1"
-    
-  ,
-  "gasLimitV2": 
-     "Gas limit"
-  ,
-  "gasOption": 
-     "Gas option"
-  ,
-  "gasPrice": 
-     "Gas Price (GWEI)"
-  ,
-  "gasPriceExcessive": 
-     "Your gas fee is set unnecessarily high. Consider lowering the amount."
-  ,
-  "gasPriceExcessiveInput": 
-     "Gas Price Is Excessive"
-  ,
-  "gasPriceExtremelyLow": 
-     "Gas Price Extremely Low"
-  ,
-  "gasPriceFetchFailed": 
-     "Gas price estimation failed due to network error."
-  ,
-  "gasPriceInfoTooltipContent": 
-     "Gas price specifies the amount of Ether you are willing to pay for each unit of gas."
-  ,
-  "gasTimingHoursShort": 
-     "$1 hrs"
-    
-  ,
-  "gasTimingMinutes": 
-     "$1 minutes"
-    
-  ,
-  "gasTimingMinutesShort": 
-     "$1 min"
-    
-  ,
-  "gasTimingNegative": 
-     "Maybe in $1"
-    
-  ,
-  "gasTimingPositive": 
-     "Likely in < $1"
-    
-  ,
-  "gasTimingSeconds": 
-     "$1 seconds"
-    
-  ,
-  "gasTimingSecondsShort": 
-     "$1 sec"
-    
-  ,
-  "gasTimingVeryPositive": 
-     "Very likely in < $1"
-    
-  ,
-  "gasUsed": 
-     "Gas Used"
-  ,
-  "gdprMessage": 
-     "This data is aggregated and is therefore anonymous for the purposes of General Data Protection Regulation (EU) 2016/679. For more information in relation to our privacy practices, please see our $1."
-    
-  ,
-  "gdprMessagePrivacyPolicy": 
-     "Privacy Policy here"
-    
-  ,
-  "general": 
-     "General"
-  ,
-  "generalSettingsDescription": 
-     "Currency conversion, primary currency, language, blockies identicon"
-  ,
-  "getEther": 
-     "Get Ether"
-  ,
-  "getEtherFromFaucet": 
-     "Get Ether from a faucet for the $1"
-    
-  ,
-  "getStarted": 
-     "Get Started"
-  ,
-  "goBack": 
-     "Go Back"
-  ,
-  "goerli": 
-     "Goerli Test Network"
-  ,
-  "grantedToWithColon": 
-     "Granted to:"
-  ,
-  "happyToSeeYou": 
-     "We’re happy to see you."
-  ,
-  "hardware": 
-     "Hardware"
-  ,
-  "hardwareWalletConnected": 
-     "Hardware wallet connected"
-  ,
-  "hardwareWalletLegacyDescription": 
-     "(legacy)"
-    
-  ,
-  "hardwareWalletSupportLinkConversion": 
-     "click here"
-  ,
-  "hardwareWallets": 
-     "Connect a hardware wallet"
-  ,
-  "hardwareWalletsMsg": 
-     "Select a hardware wallet you'd like to use with Wallet."
-  ,
-  "here": 
-     "here"
-    
-  ,
-  "hexData": 
-     "Hex Data"
-  ,
-  "hide": 
-     "Hide"
-  ,
-  "hideTokenPrompt": 
-     "Hide Token?"
-  ,
-  "hideTokenSymbol": 
-     "Hide $1"
-    
-  ,
-  "hideZeroBalanceTokens": 
-     "Hide Tokens Without Balance"
-  ,
-  "high": 
-     "Aggressive"
-  ,
-  "highGasSettingToolTipDialog": 
-     "High probability, even in volatile markets"
-  ,
-  "highGasSettingToolTipMessage": 
-     "Use $1 to cover surges in network traffic due to things like popular NFT drops."
-    
-  ,
-  "highLowercase": 
-     "high"
-  ,
-  "history": 
-     "History"
-  ,
-  "id": 
-     "ID"
-  ,
-  "import": 
-     "Import"
-    
-  ,
-  "importAccount": 
-     "Import Account"
-  ,
-  "importAccountError": 
-     "Error importing account."
-  ,
-  "importAccountLinkText": 
-     "import using Secret Recovery Phrase"
-  ,
-  "importAccountMsg": 
-     "Imported accounts will not be associated with your originally created Wallet account Secret Recovery Phrase. Learn more about imported accounts"
-  ,
-  "importAccountSeedPhrase": 
-     "Import a wallet with Secret Recovery Phrase"
-  ,
-  "importAccountText": 
-     "or $1"
-    
-  ,
-  "importExistingWalletDescription": 
-     "Enter your Secret Recovery Phrase (aka Seed Phrase) that you were given when you created your wallet. $1"
-    
-  ,
-  "importExistingWalletTitle": 
-     "Import existing wallet with Secret Recovery Phrase"
-  ,
-  "importMyWallet": 
-     "Import My Wallet"
-  ,
-  "importNFTs": 
-     "Import NFTs"
-  ,
-  "importTokenQuestion": 
-     "Import token?"
-  ,
-  "importTokenWarning": 
-     "Anyone can create a token with any name, including fake versions of existing tokens. Add and trade at your own risk!"
-  ,
-  "importTokens": 
-     "import tokens"
-  ,
-  "importTokensCamelCase": 
-     "Import Tokens"
-  ,
-  "importWallet": 
-     "Import wallet"
-  ,
-  "importYourExisting": 
-     "Import your existing wallet using a Secret Recovery Phrase"
-  ,
-  "imported": 
-     "Imported"
-    
-  ,
-  "infuraBlockedNotification": 
-     "Wallet is unable to connect to the blockchain host. Review possible reasons $1."
-    
-  ,
-  "initialTransactionConfirmed": 
-     "Your initial transaction was confirmed by the network. Click OK to go back."
-  ,
-  "insufficientBalance": 
-     "Insufficient balance."
-  ,
-  "insufficientFunds": 
-     "Insufficient funds."
-  ,
-  "insufficientFundsForGas": 
-     "Insufficient funds for gas"
-  ,
-  "insufficientTokens": 
-     "Insufficient tokens."
-  ,
-  "invalidAddress": 
-     "Invalid address"
-  ,
-  "invalidAddressRecipient": 
-     "Recipient address is invalid"
-  ,
-  "invalidAddressRecipientNotEthNetwork": 
-     "Not ETH network, set to lowercase"
-  ,
-  "invalidBlockExplorerURL": 
-     "Invalid Block Explorer URL"
-  ,
-  "invalidChainIdTooBig": 
-     "Invalid chain ID. The chain ID is too big."
-  ,
-  "invalidCustomNetworkAlertContent1": 
-     "The chain ID for custom network '$1' has to be re-entered."
-    
-  ,
-  "invalidCustomNetworkAlertContent2": 
-     "To protect you from malicious or faulty network providers, chain IDs are now required for all custom networks."
-  ,
-  "invalidCustomNetworkAlertContent3": 
-     "Go to Settings > Network and enter the chain ID. You can find the chain IDs of most popular networks on $1."
-    
-  ,
-  "invalidCustomNetworkAlertTitle": 
-     "Invalid Custom Network"
-  ,
-  "invalidHexNumber": 
-     "Invalid hexadecimal number."
-  ,
-  "invalidHexNumberLeadingZeros": 
-     "Invalid hexadecimal number. Remove any leading zeros."
-  ,
-  "invalidIpfsGateway": 
-     "Invalid IPFS Gateway: The value must be a valid URL"
-  ,
-  "invalidNumber": 
-     "Invalid number. Enter a decimal or '0x'-prefixed hexadecimal number."
-  ,
-  "invalidNumberLeadingZeros": 
-     "Invalid number. Remove any leading zeros."
-  ,
-  "invalidRPC": 
-     "Invalid RPC URL"
-  ,
-  "invalidSeedPhrase": 
-     "Invalid Secret Recovery Phrase"
-  ,
-  "ipfsGateway": 
-     "IPFS Gateway"
-  ,
-  "ipfsGatewayDescription": 
-     "Enter the URL of the IPFS CID gateway to use for ENS content resolution."
-  ,
-  "jsDeliver": 
-     "jsDeliver"
-  ,
-  "jsonFile": 
-     "JSON File"
-    
-  ,
-  "keystone": 
-     "Keystone"
-  ,
-  "keystoneTutorial": 
-     " (Tutorials)"
-  ,
-  "knownAddressRecipient": 
-     "Known contract address."
-  ,
-  "knownTokenWarning": 
-     "This action will edit tokens that are already listed in your wallet, which can be used to phish you. Only approve if you are certain that you mean to change what these tokens represent."
-  ,
-  "kovan": 
-     "Kovan Test Network"
-  ,
-  "lastConnected": 
-     "Last Connected"
-  ,
-  "layer1Fees": 
-     "Layer 1 fees"
-  ,
-  "learmMoreAboutGas": 
-     "Want to $1 about gas?"
-  ,
-  "learnCancelSpeeedup": 
-     "Learn how to $1"
-    
-  ,
-  "learnMore": 
-     "learn more"
-  ,
-  "learnMoreUpperCase": 
-     "Learn more"
-  ,
-  "learnScamRisk": 
-     "scams and security risks."
-  ,
-  "ledgerAccountRestriction": 
-     "You need to make use your last account before you can add a new one."
-  ,
-  "ledgerConnectionInstructionCloseOtherApps": 
-     "Close any other software connected to your device and then click here to refresh."
-  ,
-  "ledgerConnectionInstructionHeader": 
-     "Prior to clicking confirm:"
-  ,
-  "ledgerConnectionInstructionStepFour": 
-     "Enable \"smart contract data\" or \"blind signing\" on your Ledger device"
-  ,
-  "ledgerConnectionInstructionStepOne": 
-     "Enable Use Ledger Live under Settings > Advanced"
-  ,
-  "ledgerConnectionInstructionStepThree": 
-     "Plug in your Ledger device and select the Ethereum app"
-  ,
-  "ledgerConnectionInstructionStepTwo": 
-     "Open and unlock Ledger Live App"
-  ,
-  "ledgerConnectionPreferenceDescription": 
-     "Customize how you connect your Ledger to Wallet. $1 is recommended, but other options are available. Read more here: $2"
-    
-  ,
-  "ledgerDeviceOpenFailureMessage": 
-     "The Ledger device failed to open. Your Ledger might be connected to other software. Please close Ledger Live or other applications connected to your Ledger device, and try to connect again."
-  ,
-  "ledgerLive": 
-     "Ledger Live"
-    
-  ,
-  "ledgerLiveApp": 
-     "Ledger Live App"
-  ,
-  "ledgerLocked": 
-     "Cannot connect to Ledger device. Please make sure your device is unlocked and Ethereum app is opened."
-  ,
-  "ledgerTimeout": 
-     "Ledger Live is taking too long to respond or connection timeout. Make sure Ledger Live app is opened and your device is unlocked."
-  ,
-  "ledgerTransportChangeWarning": 
-     "If your Ledger Live app is open, please disconnect any open Ledger Live connection and close the Ledger Live app."
-  ,
-  "ledgerWebHIDNotConnectedErrorMessage": 
-     "The ledger device was not connected. If you wish to connect your Ledger, please click 'Continue' again and approve HID connection"
-    
-  ,
-  "letsGoSetUp": 
-     "Yes, let’s get set up!"
-  ,
-  "likeToImportTokens": 
-     "Would you like to import these tokens?"
-  ,
-  "link": 
-     "Link"
-  ,
-  "links": 
-     "Links"
-  ,
-  "loadMore": 
-     "Load More"
-  ,
-  "loading": 
-     "Loading..."
-  ,
-  "loadingTokens": 
-     "Loading Tokens..."
-  ,
-  "localhost": 
-     "Localhost 8545"
-  ,
-  "lock": 
-     "Lock"
-  ,
-  "lockTimeTooGreat": 
-     "Lock time is too great"
-  ,
-  "low": 
-     "Low"
-  ,
-  "lowGasSettingToolTipMessage": 
-     "Use $1 to wait for a cheaper price. Time estimates are much less accurate as prices are somewhat unpredicible."
-    
-  ,
-  "lowLowercase": 
-     "low"
-  ,
-  "lowPriorityMessage": 
-     "Future transactions will queue after this one. This price was last seen was some time ago."
-  ,
-  "mainnet": 
-     "Ethereum Mainnet"
-  ,
-  "makeAnotherSwap": 
-     "Create a new swap"
-  ,
-  "makeSureNoOneWatching": 
-     "Make sure no one is watching your screen"
-    
-  ,
-  "max": 
-     "Max"
-  ,
-  "maxBaseFee": 
-     "Max base fee"
-  ,
-  "maxFee": 
-     "Max fee"
-  ,
-  "maxPriorityFee": 
-     "Max priority fee"
-  ,
-  "medium": 
-     "Market"
-  ,
-  "mediumGasSettingToolTipMessage": 
-     "Use $1 for fast processing at current market price."
-    
-  ,
-  "memo": 
-     "memo"
-  ,
-  "memorizePhrase": 
-     "Memorize this phrase."
-  ,
-  "WalletConnectStatusParagraphOne": 
-     "You now have more control over your account connections in Wallet."
-  ,
-  "WalletConnectStatusParagraphThree": 
-     "Click it to manage your connected accounts."
-  ,
-  "WalletConnectStatusParagraphTwo": 
-     "The connection status button shows if the website you’re visiting is connected to your currently selected account."
-  ,
-  "WalletDescription": 
-     "Connecting you to Ethereum and the Decentralized Web."
-  ,
-  "WalletSwapsOfflineDescription": 
-     "Wallet Swaps is undergoing maintenance. Please check back later."
-  ,
-  "WalletVersion": 
-     "Wallet Version"
-  ,
-  "metametricsCommitmentsAllowOptOut": 
-     "Always allow you to opt-out via Settings"
-  ,
-  "metametricsCommitmentsAllowOptOut2": 
-     "Always be able to opt-out via Settings"
-  ,
-  "metametricsCommitmentsBoldNever": 
-     "Never"
-    
-  ,
-  "metametricsCommitmentsIntro": 
-     "Wallet will.."
-  ,
-  "metametricsCommitmentsNeverCollect": 
-     "Never collect keys, addresses, transactions, balances, hashes, or any personal information"
-  ,
-  "metametricsCommitmentsNeverCollectIP": 
-     "$1 collect your full IP address"
-    
-  ,
-  "metametricsCommitmentsNeverCollectKeysEtc": 
-     "$1 collect keys, addresses, transactions, balances, hashes, or any personal information"
-    
-  ,
-  "metametricsCommitmentsNeverIP": 
-     "Never collect your full IP address"
-  ,
-  "metametricsCommitmentsNeverSell": 
-     "Never sell data for profit. Ever!"
-  ,
-  "metametricsCommitmentsNeverSellDataForProfit": 
-     "$1 sell data for profit. Ever!"
-    
-  ,
-  "metametricsCommitmentsSendAnonymizedEvents": 
-     "Send anonymized click & pageview events"
-  ,
-  "metametricsHelpImproveWallet": 
-     "Help us improve Wallet"
-  ,
-  "metametricsOptInDescription": 
-     "Wallet would like to gather usage data to better understand how our users interact with the extension. This data will be used to continually improve the usability and user experience of our product and the Ethereum ecosystem."
-  ,
-  "metametricsOptInDescription2": 
-     "We would like to gather basic usage data to improve the usability of our product.  These metrics will..."
-  ,
-  "metametricsTitle": 
-     "Join 6M+ users to improve Wallet"
-  ,
-  "mismatchedChain": 
-     "The network details for this chain ID do not match our records. We recommend that you $1 before proceeding."
-    
-  ,
-  "mismatchedChainLinkText": 
-     "verify the network details"
-    
-  ,
-  "missingNFT": 
-     "Don't see your NFT?"
-  ,
-  "missingToken": 
-     "Don't see your token?"
-  ,
-  "mobileSyncWarning": 
-     "The 'Sync with extension' feature is temporarily disabled. If you want to use your extension wallet on Wallet mobile, then on your mobile app: go back to the wallet setup options and select the 'Import with Secret Recovery Phrase' option. Use your extension wallet's secret phrase to then import your wallet into mobile."
-  ,
-  "multiplier": 
-     "multiplier"
-  ,
-  "mustSelectOne": 
-     "Must select at least 1 token."
-  ,
-  "myAccounts": 
-     "My Accounts"
-  ,
-  "name": 
-     "Name"
-  ,
-  "needEtherInWallet": 
-     "To interact with decentralized applications using Wallet, you’ll need Ether in your wallet."
-  ,
-  "needHelp": 
-     "Need help? Contact $1"
-    
-  ,
-  "needHelpFeedback": 
-     "Share your Feedback"
-  ,
-  "needHelpLinkText": 
-     "Wallet Support"
-  ,
-  "needHelpSubmitTicket": 
-     "Submit a Ticket"
-  ,
-  "needImportFile": 
-     "You must select a file to import."
-    
-  ,
-  "negativeETH": 
-     "Can not send negative amounts of ETH."
-  ,
-  "networkDetails": 
-     "Network Details"
-  ,
-  "networkName": 
-     "Network Name"
-  ,
-  "networkNameBSC": 
-     "BSC"
-  ,
-  "networkNameDefinition": 
-     "The name associated with this network."
-  ,
-  "networkNameEthereum": 
-     "Ethereum"
-  ,
-  "networkNamePolygon": 
-     "Polygon"
-  ,
-  "networkNameRinkeby": 
-     "Rinkeby"
-  ,
-  "networkNameTestnet": 
-     "Testnet"
-  ,
-  "networkSettingsChainIdDescription": 
-     "The chain ID is used for signing transactions. It must match the chain ID returned by the network. You can enter a decimal or '0x'-prefixed hexadecimal number, but we will display the number in decimal."
-  ,
-  "networkSettingsDescription": 
-     "Add and edit custom RPC networks"
-  ,
-  "networkStatus": 
-     "Network status"
-  ,
-  "networkStatusBaseFeeTooltip": 
-     "The base fee is set by the network and changes every 13-14 seconds. Our $1 and $2 options account for sudden increases."
-    
-  ,
-  "networkStatusPriorityFeeTooltip": 
-     "Range of priority fees (aka “miner tip”). This goes to miners and incentivizes them to prioritize your transaction."
-  ,
-  "networkStatusStabilityFeeTooltip": 
-     "Gas fees are $1 relative to the past 72 hours."
-    
-  ,
-  "networkURL": 
-     "Network URL"
-  ,
-  "networkURLDefinition": 
-     "The URL used to access this network."
-  ,
-  "networks": 
-     "Networks"
-  ,
-  "nevermind": 
-     "Nevermind"
-  ,
-  "newAccount": 
-     "New Account"
-  ,
-  "newAccountDetectedDialogMessage": 
-     "New address detected! Click here to add to your address book."
-  ,
-  "newAccountNumberName": 
-     "Account $1"
-    
-  ,
-  "newCollectibleAddFailed": 
-     "Collectible was not added because: $1"
-  ,
-  "newCollectibleAddedMessage": 
-     "Collectible was successfully added!"
-  ,
-  "newContact": 
-     "New Contact"
-  ,
-  "newContract": 
-     "New Contract"
-  ,
-  "newNFTsDetected": 
-     "New! NFT detection"
-  ,
-  "newNFTsDetectedInfo": 
-     "Allow Wallet to automatically detect NFTs from Opensea and display in your Wallet wallet."
-  ,
-  "newNetworkAdded": 
-     "“$1” was successfully added!"
-  ,
-  "newPassword": 
-     "New password (min 8 chars)"
-  ,
-  "newToWallet": 
-     "New to Wallet?"
-  ,
-  "newTotal": 
-     "New Total"
-  ,
-  "newTransactionFee": 
-     "New Transaction Fee"
-  ,
-  "newValues": 
-     "new values"
-  ,
-  "next": 
-     "Next"
-  ,
-  "nextNonceWarning": 
-     "Nonce is higher than suggested nonce of $1"
-    
-  ,
-  "nftTokenIdPlaceholder": 
-     "Enter the collectible ID"
-  ,
-  "nfts": 
-     "NFTs"
-  ,
-  "nickname": 
-     "Nickname"
-  ,
-  "noAccountsFound": 
-     "No accounts found for the given search query"
-  ,
-  "noAddressForName": 
-     "No address has been set for this name."
-  ,
-  "noAlreadyHaveSeed": 
-     "No, I already have a Secret Recovery Phrase"
-  ,
-  "noConversionDateAvailable": 
-     "No Currency Conversion Date Available"
-  ,
-  "noConversionRateAvailable": 
-     "No Conversion Rate Available"
-  ,
-  "noNFTs": 
-     "No NFTs yet"
-  ,
-  "noThanks": 
-     "No Thanks"
-  ,
-  "noTransactions": 
-     "You have no transactions"
-  ,
-  "noWebcamFound": 
-     "Your computer's webcam was not found. Please try again."
-  ,
-  "noWebcamFoundTitle": 
-     "Webcam not found"
-  ,
-  "nonce": 
-     "Nonce"
-  ,
-  "nonceField": 
-     "Customize transaction nonce"
-  ,
-  "nonceFieldDescription": 
-     "Turn this on to change the nonce (transaction number) on confirmation screens. This is an advanced feature, use cautiously."
-  ,
-  "nonceFieldHeading": 
-     "Custom Nonce"
-  ,
-  "notBusy": 
-     "Not busy"
-  ,
-  "notCurrentAccount": 
-     "Is this the correct account? It's different from the currently selected account in your wallet"
-  ,
-  "notEnoughGas": 
-     "Not Enough Gas"
-  ,
-  "notifications1Description": 
-     "Wallet Mobile users can now swap tokens inside their mobile wallet. Scan the QR code to get the mobile app and start swapping."
-    
-  ,
-  "notifications1Title": 
-     "Swapping on mobile is here!"
-    
-  ,
-  "notifications3ActionText": 
-     "Read more"
-    
-  ,
-  "notifications3Description": 
-     "Stay up to date on Wallet security best practices and get the latest security tips from official Wallet support."
-    
-  ,
-  "notifications3Title": 
-     "Stay secure"
-    
-  ,
-  "notifications4ActionText": 
-     "Start swapping"
-    
-  ,
-  "notifications4Description": 
-     "Get the best prices on token swaps right inside your wallet. Wallet now connects you to multiple decentralized exchange aggregators and professional market makers on Binance Smart Chain."
-    
-  ,
-  "notifications4Title": 
-     "Swap on Binance Smart Chain"
-    
-  ,
-  "notifications5Description": 
-     "Your \"Seed Phrase\" is now called your \"Secret Recovery Phrase.\""
-    
-  ,
-  "notifications6DescriptionOne": 
-     "As of Chrome version 91, the API that enabled our Ledger support (U2F) no longer supports hardware wallets. Wallet has implemented a new Ledger Live support that allows you to continue to connect to your Ledger device via the Ledger Live desktop app."
-    
-  ,
-  "notifications6DescriptionThree": 
-     "When interacting with your Ledger account in Wallet, a new tab will open and you will be asked to open the Ledger Live app.  Once the app opens, you'll be asked to allow a WebSocket connection to your Wallet account.  That's all!"
-    
-  ,
-  "notifications6DescriptionTwo": 
-     "You can enable Ledger Live support by clicking Settings > Advanced > Use Ledger Live."
-    
-  ,
-  "notifications6Title": 
-     "Ledger Support Update for Chrome Users"
-    
-  ,
-  "notifications7DescriptionOne": 
-     "Wallet v10.1.0 included new support for EIP-1559 transactions when using Ledger devices."
-    
-  ,
-  "notifications7DescriptionTwo": 
-     "To complete transactions on Ethereum Mainnet, make sure your Ledger device has the latest firmware."
-    
-  ,
-  "notifications7Title": 
-     "Ledger firmware update"
-    
-  ,
-  "notifications8ActionText": 
-     "Go to Advanced Settings"
-    
-  ,
-  "notifications8DescriptionOne": 
-     "As of Wallet v10.4.0, you no longer need Ledger Live to connect your Ledger device to Wallet."
-    
-  ,
-  "notifications8DescriptionTwo": 
-     "For an easier and more stable ledger experience, go to the Advanced tab of settings and switch the 'Preferred Ledger Connection Type' to 'WebHID'."
-    
-  ,
-  "notifications8Title": 
-     "Ledger connection improvement"
-    
-  ,
-  "notifications9DescriptionOne": 
-     "We now provide you with more insights on the 'Data' tab when confirming smart contract transactions."
-  ,
-  "notifications9DescriptionTwo": 
-     "You can now get a better understanding of your transaction’s details before confirming, and more easily add transaction addresses to your address book, helping you make safe and informed decisions."
-  ,
-  "notifications9Title": 
-     "👓 We are making transactions easier to read."
-  ,
-  "ofTextNofM": 
-     "of"
-  ,
-  "off": 
-     "Off"
-  ,
-  "offlineForMaintenance": 
-     "Offline for maintenance"
-  ,
-  "ok": 
-     "Ok"
-  ,
-  "on": 
-     "On"
-  ,
-  "onboardingCreateWallet": 
-     "Create a new wallet"
-  ,
-  "onboardingImportWallet": 
-     "Import an existing wallet"
-  ,
-  "onboardingPinExtensionBillboardAccess": 
-     "Full Access"
-  ,
-  "onboardingPinExtensionBillboardDescription": 
-     "These extensions can see and change information"
-  ,
-  "onboardingPinExtensionBillboardDescription2": 
-     "on this site."
-  ,
-  "onboardingPinExtensionBillboardTitle": 
-     "Extensions"
-  ,
-  "onboardingPinExtensionChrome": 
-     "Click the browser extension icon"
-  ,
-  "onboardingPinExtensionDescription": 
-     "Pin Wallet on your browser so it's accessible and easy to view transaction confirmations."
-  ,
-  "onboardingPinExtensionDescription2": 
-     "You can open Wallet by clicking on the extension and access your wallet with 1 click."
-  ,
-  "onboardingPinExtensionDescription3": 
-     "Click browser extension icon to access it instantly"
-  ,
-  "onboardingPinExtensionLabel": 
-     "Pin Wallet"
-  ,
-  "onboardingPinExtensionStep1": 
-     "1"
-  ,
-  "onboardingPinExtensionStep2": 
-     "2"
-  ,
-  "onboardingPinExtensionTitle": 
-     "Your Wallet install is complete!"
-  ,
-  "onboardingReturnNotice": 
-     "\"$1\" will close this tab and direct back to $2"
-    
-  ,
-  "onboardingShowIncomingTransactionsDescription": 
-     "Showing incoming transactions in your wallet relies on communication with $1. Etherscan will have access to your Ethereum address and your IP address. View $2."
-    
-  ,
-  "onboardingUsePhishingDetectionDescription": 
-     "Phishing detection alerts rely on communication with $1. jsDeliver will have access to your IP address. View $2."
-    
-  ,
-  "onlyAddTrustedNetworks": 
-     "A malicious network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust."
-  ,
-  "onlyConnectTrust": 
-     "Only connect with sites you trust."
-  ,
-  "openFullScreenForLedgerWebHid": 
-     "Open Wallet in full screen to connect your ledger via WebHID."
-    
-  ,
-  "optional": 
-     "Optional"
-  ,
-  "optionalWithParanthesis": 
-     "(Optional)"
-  ,
-  "or": 
-     "or"
-  ,
-  "origin": 
-     "Origin"
-  ,
-  "parameters": 
-     "Parameters"
-  ,
-  "participateInMetaMetrics": 
-     "Participate in MetaMetrics"
-  ,
-  "participateInMetaMetricsDescription": 
-     "Participate in MetaMetrics to help us make Wallet better"
-  ,
-  "password": 
-     "Password"
-  ,
-  "passwordNotLongEnough": 
-     "Password not long enough"
-  ,
-  "passwordSetupDetails": 
-     "This password will unlock your Wallet wallet only on this device. Wallet can not recover this password."
-  ,
-  "passwordTermsWarning": 
-     "I understand that Wallet cannot recover this password for me. $1"
-  ,
-  "passwordsDontMatch": 
-     "Passwords Don't Match"
-  ,
-  "pastePrivateKey": 
-     "Paste your private key string here:"
-    
-  ,
-  "pending": 
-     "Pending"
-  ,
-  "pendingTransactionInfo": 
-     "This transaction will not process until that one is complete."
-  ,
-  "pendingTransactionMultiple": 
-     "You have ($1) pending transactions."
-  ,
-  "pendingTransactionSingle": 
-     "You have (1) pending transaction."
-    
-  ,
-  "permissionRequest": 
-     "Permission request"
-  ,
-  "permissions": 
-     "Permissions"
-  ,
-  "personalAddressDetected": 
-     "Personal address detected. Input the token contract address."
-  ,
-  "plusXMore": 
-     "+ $1 more"
-    
-  ,
-  "preferredLedgerConnectionType": 
-     "Preferred Ledger Connection Type"
-    
-  ,
-  "prev": 
-     "Prev"
-  ,
-  "primaryCurrencySetting": 
-     "Primary Currency"
-  ,
-  "primaryCurrencySettingDescription": 
-     "Select native to prioritize displaying values in the native currency of the chain (e.g. ETH). Select Fiat to prioritize displaying values in your selected fiat currency."
-  ,
-  "priorityFee": 
-     "Priority fee"
-  ,
-  "priorityFeeProperCase": 
-     "Priority Fee"
-  ,
-  "privacyMsg": 
-     "Privacy Policy"
-  ,
-  "privateKey": 
-     "Private Key"
-    
-  ,
-  "privateKeyWarning": 
-     "Warning: Never disclose this key. Anyone with your private keys can steal any assets held in your account."
-  ,
-  "privateNetwork": 
-     "Private Network"
-  ,
-  "proceedWithTransaction": 
-     "I want to proceed anyway"
-  ,
-  "proposedApprovalLimit": 
-     "Proposed Approval Limit"
-  ,
-  "provide": 
-     "Provide"
-  ,
-  "publicAddress": 
-     "Public Address"
-  ,
-  "queue": 
-     "Queue"
-  ,
-  "queued": 
-     "Queued"
-  ,
-  "readdToken": 
-     "You can add this token back in the future by going to “Import token” in your accounts options menu."
-  ,
-  "receive": 
-     "Receive"
-  ,
-  "recents": 
-     "Recents"
-  ,
-  "recipientAddressPlaceholder": 
-     "Search, public address (0x), or ENS"
-  ,
-  "recommendedGasLabel": 
-     "Recommended"
-  ,
-  "recoveryPhraseReminderBackupStart": 
-     "Start here"
-  ,
-  "recoveryPhraseReminderConfirm": 
-     "Got it"
-  ,
-  "recoveryPhraseReminderHasBackedUp": 
-     "Always keep your Secret Recovery Phrase in a secure and secret place"
-  ,
-  "recoveryPhraseReminderHasNotBackedUp": 
-     "Need to backup your Secret Recovery Phrase again?"
-  ,
-  "recoveryPhraseReminderItemOne": 
-     "Never share your Secret Recovery Phrase with anyone"
-  ,
-  "recoveryPhraseReminderItemTwo": 
-     "The Wallet team will never ask for your Secret Recovery Phrase"
-  ,
-  "recoveryPhraseReminderSubText": 
-     "Your Secret Recovery Phrase controls all of your accounts."
-  ,
-  "recoveryPhraseReminderTitle": 
-     "Protect your funds"
-  ,
-  "refreshList": 
-     "Refresh list"
-  ,
-  "reject": 
-     "Reject"
-  ,
-  "rejectAll": 
-     "Reject All"
-  ,
-  "rejectTxsDescription": 
-     "You are about to batch reject $1 transactions."
-  ,
-  "rejectTxsN": 
-     "Reject $1 transactions"
-  ,
-  "rejected": 
-     "Rejected"
-  ,
-  "remember": 
-     "Remember:"
-  ,
-  "remindMeLater": 
-     "Remind me later"
-  ,
-  "remove": 
-     "Remove"
-  ,
-  "removeAccount": 
-     "Remove account"
-  ,
-  "removeAccountDescription": 
-     "This account will be removed from your wallet. Please make sure you have the original Secret Recovery Phrase or private key for this imported account before continuing. You can import or create accounts again from the account drop-down. "
-  ,
-  "removeNFT": 
-     "Remove NFT"
-  ,
-  "requestsAwaitingAcknowledgement": 
-     "requests waiting to be acknowledged"
-  ,
-  "required": 
-     "Required"
-  ,
-  "reset": 
-     "Reset"
-  ,
-  "resetAccount": 
-     "Reset Account"
-  ,
-  "resetAccountDescription": 
-     "Resetting your account will clear your transaction history. This will not change the balances in your accounts or require you to re-enter your Secret Recovery Phrase."
-  ,
-  "restore": 
-     "Restore"
-  ,
-  "restoreAccountWithSeed": 
-     "Restore your Account with Secret Recovery Phrase"
-  ,
-  "restoreWalletPreferences": 
-     "A backup of your data from $1 has been found. Would you like to restore your wallet preferences?"
-    
-  ,
-  "retryTransaction": 
-     "Retry Transaction"
-  ,
-  "reusedTokenNameWarning": 
-     "A token here reuses a symbol from another token you watch, this can be confusing or deceptive."
-  ,
-  "revealSeedWords": 
-     "Reveal Secret Recovery Phrase"
-  ,
-  "revealSeedWordsDescription": 
-     "If you ever change browsers or move computers, you will need this Secret Recovery Phrase to access your accounts. Save them somewhere safe and secret."
-  ,
-  "revealSeedWordsWarning": 
-     "These words can be used to steal all your accounts."
-  ,
-  "revealSeedWordsWarningTitle": 
-     "DO NOT share this phrase with anyone!"
-  ,
-  "rinkeby": 
-     "Rinkeby Test Network"
-  ,
-  "ropsten": 
-     "Ropsten Test Network"
-  ,
-  "rpcUrl": 
-     "New RPC URL"
-  ,
-  "save": 
-     "Save"
-  ,
-  "saveAsCsvFile": 
-     "Save as CSV File"
-  ,
-  "scanInstructions": 
-     "Place the QR code in front of your camera"
-  ,
-  "scanQrCode": 
-     "Scan QR Code"
-  ,
-  "scrollDown": 
-     "Scroll down"
-  ,
-  "search": 
-     "Search"
-  ,
-  "searchAccounts": 
-     "Search Accounts"
-  ,
-  "searchResults": 
-     "Search Results"
-  ,
-  "searchTokens": 
-     "Search Tokens"
-  ,
-  "secretBackupPhraseDescription": 
-     "Your Secret Recovery Phrase makes it easy to back up and restore your account."
-  ,
-  "secretBackupPhraseWarning": 
-     "WARNING: Never disclose your Secret Recovery Phrase. Anyone with this phrase can take your Ether forever."
-  ,
-  "secretPhrase": 
-     "Only the first account on this wallet will auto load. After completing this process, to add additional accounts, click the drop down menu, then select Create Account."
-  ,
-  "secretPhraseWarning": 
-     "If you restore using another Secret Recovery Phrase, your current wallet, accounts and assets will be removed from this app permanently. This action cannot be undone."
-  ,
-  "secretRecoveryPhrase": 
-     "Secret Recovery Phrase"
-  ,
-  "secureWallet": 
-     "Secure Wallet"
-  ,
-  "securityAndPrivacy": 
-     "Security & Privacy"
-  ,
-  "securitySettingsDescription": 
-     "Privacy settings and wallet Secret Recovery Phrase"
-  ,
-  "seedPhraseConfirm": 
-     "Confirm Secret Recovery Phrase"
-  ,
-  "seedPhraseEnterMissingWords": 
-     "Confirm Secret Recovery Phrase"
-  ,
-  "seedPhraseIntroNotRecommendedButtonCopy": 
-     "Remind me later (not recommended)"
-  ,
-  "seedPhraseIntroRecommendedButtonCopy": 
-     "Secure my wallet (recommended)"
-  ,
-  "seedPhraseIntroSidebarBulletFour": 
-     "Write down and store in multiple secret places."
-  ,
-  "seedPhraseIntroSidebarBulletOne": 
-     "Save in a password manager"
-  ,
-  "seedPhraseIntroSidebarBulletThree": 
-     "Store in a safe-deposit box."
-  ,
-  "seedPhraseIntroSidebarBulletTwo": 
-     "Store in a bank vault."
-  ,
-  "seedPhraseIntroSidebarCopyOne": 
-     "Your Secret Recovery Phrase is a 12-word phrase that is the “master key” to your wallet and your funds"
-  ,
-  "seedPhraseIntroSidebarCopyThree": 
-     "If someone asks for your recovery phrase they are likely trying to scam you and steal your wallet funds"
-  ,
-  "seedPhraseIntroSidebarCopyTwo": 
-     "Never, ever share your Secret Recovery Phrase, not even with Wallet!"
-  ,
-  "seedPhraseIntroSidebarTitleOne": 
-     "What is a Secret Recovery Phrase?"
-  ,
-  "seedPhraseIntroSidebarTitleThree": 
-     "Should I share my Secret Recovery Phrase?"
-  ,
-  "seedPhraseIntroSidebarTitleTwo": 
-     "How do I save my Secret Recovery Phrase?"
-  ,
-  "seedPhraseIntroTitle": 
-     "Secure your wallet"
-  ,
-  "seedPhraseIntroTitleCopy": 
-     "Before getting started, watch this short video to learn about your Secret Recovery Phrase and how to keep your wallet safe."
-  ,
-  "seedPhrasePlaceholder": 
-     "Separate each word with a single space"
-  ,
-  "seedPhrasePlaceholderPaste": 
-     "Paste Secret Recovery Phrase from clipboard"
-  ,
-  "seedPhraseReq": 
-     "Secret Recovery Phrases contain 12, 15, 18, 21, or 24 words"
-  ,
-  "seedPhraseWriteDownDetails": 
-     "Write down this 12-word Secret Recovery Phrase and save it in a place that you trust and only you can access."
-  ,
-  "seedPhraseWriteDownHeader": 
-     "Write down your Secret Recovery Phrase"
-  ,
-  "selectAHigherGasFee": 
-     "Select a higher gas fee to accelerate the processing of your transaction.*"
-  ,
-  "selectAccounts": 
-     "Select the account(s) to use on this site"
-  ,
-  "selectAll": 
-     "Select all"
-  ,
-  "selectAnAccount": 
-     "Select an Account"
-  ,
-  "selectAnAccountAlreadyConnected": 
-     "This account has already been connected to Wallet"
-  ,
-  "selectEachPhrase": 
-     "Please select each phrase in order to make sure it is correct."
-  ,
-  "selectHdPath": 
-     "Select HD Path"
-  ,
-  "selectNFTPrivacyPreference": 
-     "Turn on NFT detection in Settings"
-  ,
-  "selectPathHelp": 
-     "If you don't see the accounts you expect, try switching the HD path."
-  ,
-  "selectType": 
-     "Select Type"
-  ,
-  "selectingAllWillAllow": 
-     "Selecting all will allow this site to view all of your current accounts. Make sure you trust this site."
-  ,
-  "send": 
-     "Send"
-  ,
-  "sendAmount": 
-     "Send Amount"
-  ,
-  "sendSpecifiedTokens": 
-     "Send $1"
-    
-  ,
-  "sendTo": 
-     "Send to"
-  ,
-  "sendTokens": 
-     "Send Tokens"
-  ,
-  "sendingNativeAsset": 
-     "Sending $1"
-    
-  ,
-  "separateEachWord": 
-     "Separate each word with a single space"
-  ,
-  "setAdvancedPrivacySettings": 
-     "Set advanced privacy settings"
-  ,
-  "setAdvancedPrivacySettingsDetails": 
-     "Wallet uses these trusted third-party services to enhance product usability and safety."
-  ,
-  "settings": 
-     "Settings"
-  ,
-  "show": 
-     "Show"
-  ,
-  "showAdvancedGasInline": 
-     "Advanced gas controls"
-  ,
-  "showAdvancedGasInlineDescription": 
-     "Select this to show gas price and limit controls directly on the send and confirm screens."
-  ,
-  "showFiatConversionInTestnets": 
-     "Show Conversion on test networks"
-  ,
-  "showFiatConversionInTestnetsDescription": 
-     "Select this to show fiat conversion on test networks"
-  ,
-  "showHexData": 
-     "Show Hex Data"
-  ,
-  "showHexDataDescription": 
-     "Select this to show the hex data field on the send screen"
-  ,
-  "showHide": 
-     "Show/hide"
-  ,
-  "showIncomingTransactions": 
-     "Show Incoming Transactions"
-  ,
-  "showIncomingTransactionsDescription": 
-     "Select this to use Etherscan to show incoming transactions in the transactions list"
-  ,
-  "showPermissions": 
-     "Show permissions"
-  ,
-  "showPrivateKeys": 
-     "Show Private Keys"
-  ,
-  "showRecommendations": 
-     "Show Recommendations"
-  ,
-  "showSeedPhrase": 
-     "Show Secret Recovery Phrase"
-  ,
-  "showTestnetNetworks": 
-     "Show test networks"
-  ,
-  "showTestnetNetworksDescription": 
-     "Select this to show test networks in network list"
-  ,
-  "sigRequest": 
-     "Signature Request"
-  ,
-  "sign": 
-     "Sign"
-  ,
-  "signNotice": 
-     "Signing this message can be dangerous. This signature could potentially perform any operation on your account's behalf, including granting complete control of your account and all of its assets to the requesting site. Only sign this message if you know what you're doing or completely trust the requesting site."
-  ,
-  "signatureRequest": 
-     "Signature Request"
-  ,
-  "signatureRequest1": 
-     "Message"
-  ,
-  "signed": 
-     "Signed"
-  ,
-  "simulationErrorMessage": 
-     "This transaction is expected to fail. Trying to execute it is expected to be expensive but fail, and is not recommended."
-  ,
-  "simulationErrorMessageV2": 
-     "We were not able to estimate gas. There might be an error in the contract and this transaction may fail."
-  ,
-  "skip": 
-     "Skip"
-  ,
-  "skipAccountSecurity": 
-     "Skip Account Security?"
-  ,
-  "skipAccountSecurityDetails": 
-     "I understand that until I back up my Secret Recovery Phrase, I may lose my accounts and all of their assets."
-  ,
-  "slow": 
-     "Slow"
-  ,
-  "somethingWentWrong": 
-     "Oops! Something went wrong."
-  ,
-  "source": 
-     "Source"
-  ,
-  "speedUp": 
-     "Speed Up"
-  ,
-  "speedUpCancellation": 
-     "Speed up this cancellation"
-  ,
-  "speedUpExplanation": 
-     "We’ve updated the gas fee based on current network conditions and have increased it by at least 10% (required by the network)."
-  ,
-  "speedUpPopoverTitle": 
-     "Speed up transaction"
-  ,
-  "speedUpTooltipText": 
-     "New gas fee"
-  ,
-  "speedUpTransaction": 
-     "Speed up this transaction"
-  ,
-  "spendLimitAmount": 
-     "Spend limit amount"
-  ,
-  "spendLimitInsufficient": 
-     "Spend limit insufficient"
-  ,
-  "spendLimitInvalid": 
-     "Spend limit invalid; must be a positive number"
-  ,
-  "spendLimitPermission": 
-     "Spend limit permission"
-  ,
-  "spendLimitRequestedBy": 
-     "Spend limit requested by $1"
-    
-  ,
-  "spendLimitTooLarge": 
-     "Spend limit too large"
-  ,
-  "stable": 
-     "Stable"
-  ,
-  "stableLowercase": 
-     "stable"
-  ,
-  "stateLogError": 
-     "Error in retrieving state logs."
-  ,
-  "stateLogFileName": 
-     "Wallet State Logs"
-  ,
-  "stateLogs": 
-     "State Logs"
-  ,
-  "stateLogsDescription": 
-     "State logs contain your public account addresses and sent transactions."
-  ,
-  "statusConnected": 
-     "Connected"
-  ,
-  "statusNotConnected": 
-     "Not connected"
-  ,
-  "step1LatticeWallet": 
-     "Make sure your Lattice1 is ready to connect"
-  ,
-  "step1LatticeWalletMsg": 
-     "You can connect Wallet to your Lattice1 device once it is set up and online. Unlock your device and have your Device ID ready. For more on using hardware wallets, $1"
-    
-  ,
-  "step1LedgerWallet": 
-     "Download Ledger app"
-  ,
-  "step1LedgerWalletMsg": 
-     "Download, set up, and enter your password to unlock $1."
-    
-  ,
-  "step1TrezorWallet": 
-     "Plug in Trezor wallet"
-  ,
-  "step1TrezorWalletMsg": 
-     "Connect your wallet directly to your computer. For more on using your hardware wallet device, $1"
-    
-  ,
-  "step2LedgerWallet": 
-     "Plug in Ledger wallet"
-  ,
-  "step2LedgerWalletMsg": 
-     "Connect your wallet directly to your computer.  Unlock your Ledger and open the Ethereum app. For more on using your hardware wallet device, $1."
-    
-  ,
-  "storePhrase": 
-     "Store this phrase in a password manager like 1Password."
-  ,
-  "submit": 
-     "Submit"
-  ,
-  "submitted": 
-     "Submitted"
-  ,
-  "support": 
-     "Support"
-  ,
-  "supportCenter": 
-     "Visit our Support Center"
-  ,
-  "swap": 
-     "Swap"
-  ,
-  "swapAdvancedSlippageInfo": 
-     "If the price changes between the time your order is placed and confirmed it’s called “slippage”. Your swap will automatically cancel if slippage exceeds your “max slippage” setting."
-  ,
-  "swapAggregator": 
-     "Aggregator"
-  ,
-  "swapAllowSwappingOf": 
-     "Allow swapping of $1"
-    
-  ,
-  "swapAmountReceived": 
-     "Guaranteed amount"
-  ,
-  "swapAmountReceivedInfo": 
-     "This is the minimum amount you will receive. You may receive more depending on slippage."
-  ,
-  "swapApproval": 
-     "Approve $1 for swaps"
-    
-  ,
-  "swapApproveNeedMoreTokens": 
-     "You need $1 more $2 to complete this swap"
-    
-  ,
-  "swapBestOfNQuotes": 
-     "Best of $1 quotes."
-    
-  ,
-  "swapBuildQuotePlaceHolderText": 
-     "No tokens available matching $1"
-    
-  ,
-  "swapConfirmWithHwWallet": 
-     "Confirm with your hardware wallet"
-  ,
-  "swapContractDataDisabledErrorDescription": 
-     "In the Ethereum app on your Ledger, go to \"Settings\" and allow contract data. Then, try your swap again."
-  ,
-  "swapContractDataDisabledErrorTitle": 
-     "Contract data is not enabled on your Ledger"
-  ,
-  "swapCustom": 
-     "custom"
-  ,
-  "swapDecentralizedExchange": 
-     "Decentralized exchange"
-  ,
-  "swapDirectContract": 
-     "Direct contract"
-  ,
-  "swapEditLimit": 
-     "Edit limit"
-  ,
-  "swapEnableDescription": 
-     "This is required and gives Wallet permission to swap your $1."
-    
-  ,
-  "swapEnableTokenForSwapping": 
-     "This will $1 for swapping"
-    
-  ,
-  "swapEstimatedNetworkFees": 
-     "Estimated network fees"
-  ,
-  "swapEstimatedNetworkFeesInfo": 
-     "This is an estimate of the network fee that will be used to complete your swap. The actual amount may change according to network conditions."
-  ,
-  "swapFailedErrorDescriptionWithSupportLink": 
-     "Transaction failures happen and we are here to help. If this issue persists, you can reach our customer support at $1 for further assistance."
-    
-  ,
-  "swapFailedErrorTitle": 
-     "Swap failed"
-  ,
-  "swapFetchingQuotes": 
-     "Fetching quotes"
-  ,
-  "swapFetchingQuotesErrorDescription": 
-     "Hmmm... something went wrong. Try again, or if errors persist, contact customer support."
-  ,
-  "swapFetchingQuotesErrorTitle": 
-     "Error fetching quotes"
-  ,
-  "swapFetchingTokens": 
-     "Fetching tokens..."
-  ,
-  "swapFromTo": 
-     "The swap of $1 to $2"
-    
-  ,
-  "swapGasFeesDetails": 
-     "Gas fees are estimated and will fluctuate based on network traffic and transaction complexity."
-  ,
-  "swapGasFeesLearnMore": 
-     "Learn more about gas fees"
-  ,
-  "swapGasFeesSplit": 
-     "Gas fees on the previous screen are split between these two transactions."
-  ,
-  "swapGasFeesSummary": 
-     "Gas fees are paid to crypto miners who process transactions on the $1 network. Wallet does not profit from gas fees."
-    
-  ,
-  "swapHighSlippageWarning": 
-     "Slippage amount is very high."
-  ,
-  "swapIncludesMMFee": 
-     "Includes a $1% Wallet fee."
-    
-  ,
-  "swapLowSlippageError": 
-     "Transaction may fail, max slippage too low."
-  ,
-  "swapMaxSlippage": 
-     "Max slippage"
-  ,
-  "swapWalletFee": 
-     "Wallet fee"
-  ,
-  "swapWalletFeeDescription": 
-     "We find the best price from the top liquidity sources, every time. A fee of $1% is automatically factored into this quote."
-    
-  ,
-  "swapNQuotesWithDot": 
-     "$1 quotes."
-    
-  ,
-  "swapNewQuoteIn": 
-     "New quotes in $1"
-    
-  ,
-  "swapOnceTransactionHasProcess": 
-     "Your $1 will be added to your account once this transaction has processed."
-    
-  ,
-  "swapPriceDifference": 
-     "You are about to swap $1 $2 (~$3) for $4 $5 (~$6)."
-    
-  ,
-  "swapPriceDifferenceTitle": 
-     "Price difference of ~$1%"
-    
-  ,
-  "swapPriceImpactTooltip": 
-     "Price impact is the difference between the current market price and the amount received during transaction execution. Price impact is a function of the size of your trade relative to the size of the liquidity pool."
-  ,
-  "swapPriceUnavailableDescription": 
-     "Price impact could not be determined due to lack of market price data. Please confirm that you are comfortable with the amount of tokens you are about to receive before swapping."
-  ,
-  "swapPriceUnavailableTitle": 
-     "Check your rate before proceeding"
-  ,
-  "swapProcessing": 
-     "Processing"
-  ,
-  "swapQuoteDetails": 
-     "Quote details"
-  ,
-  "swapQuoteDetailsSlippageInfo": 
-     "If the price changes between the time your order is placed and confirmed it’s called \"slippage\". Your Swap will automatically cancel if slippage exceeds your \"slippage tolerance\" setting."
-  ,
-  "swapQuoteNofN": 
-     "Quote $1 of $2"
-    
-  ,
-  "swapQuoteSource": 
-     "Quote source"
-  ,
-  "swapQuotesExpiredErrorDescription": 
-     "Please request new quotes to get the latest rates."
-  ,
-  "swapQuotesExpiredErrorTitle": 
-     "Quotes timeout"
-  ,
-  "swapQuotesNotAvailableErrorDescription": 
-     "Try adjusting the amount or slippage settings and try again."
-  ,
-  "swapQuotesNotAvailableErrorTitle": 
-     "No quotes available"
-  ,
-  "swapRate": 
-     "Rate"
-  ,
-  "swapReceiving": 
-     "Receiving"
-  ,
-  "swapReceivingInfoTooltip": 
-     "This is an estimate. The exact amount depends on slippage."
-  ,
-  "swapRequestForQuotation": 
-     "Request for quotation"
-  ,
-  "swapReviewSwap": 
-     "Review Swap"
-  ,
-  "swapSearchForAToken": 
-     "Search for a token"
-  ,
-  "swapSelect": 
-     "Select"
-  ,
-  "swapSelectAQuote": 
-     "Select a quote"
-  ,
-  "swapSelectAToken": 
-     "Select a token"
-  ,
-  "swapSelectQuotePopoverDescription": 
-     "Below are all the quotes gathered from multiple liquidity sources."
-  ,
-  "swapSlippageNegative": 
-     "Slippage must be greater or equal to zero"
-  ,
-  "swapSource": 
-     "Liquidity source"
-  ,
-  "swapSourceInfo": 
-     "We search multiple liquidity sources (exchanges, aggregators and professional market makers) to find the best rates and lowest network fees."
-  ,
-  "swapSuggested": 
-     "Swap suggested"
-  ,
-  "swapSuggestedGasSettingToolTipMessage": 
-     "Swaps are complex and time sensitive transactions. We recommend this gas fee for a good balance between cost and confidence of a successful Swap."
-  ,
-  "swapSwapFrom": 
-     "Swap from"
-  ,
-  "swapSwapSwitch": 
-     "Switch from and to tokens"
-  ,
-  "swapSwapTo": 
-     "Swap to"
-  ,
-  "swapToConfirmWithHwWallet": 
-     "to confirm with your hardware wallet"
-  ,
-  "swapTokenAvailable": 
-     "Your $1 has been added to your account."
-  ,
-  "swapTokenBalanceUnavailable": 
-     "We were unable to retrieve your $1 balance"
-  ,
-  "swapTokenToToken": 
-     "Swap $1 to $2"
-  ,
-  "swapTokenVerificationAddedManually": 
-     "This token has been added manually."
-  ,
-  "swapTokenVerificationMessage": 
-     "Always confirm the token address on $1."
-    
-  ,
-  "swapTokenVerificationOnlyOneSource": 
-     "Only verified on 1 source."
-  ,
-  "swapTokenVerificationSources.message": 
-     "Verified on $1 sources."
-  ,
-  "swapTokenVerificationSources.description": 
-    "Indicates the number of token information sources that recognize the symbol + address. $1 is a decimal number."
-  ,
-  "swapTooManyDecimalsError.message": 
-    "$1 allows up to $2 decimals"
-  ,
-  "swapTooManyDecimalsError.description": 
-    "$1 is a token symbol and $2 is the max. number of decimals allowed for the token"
-  ,
-  "swapTransactionComplete": 
-     "Transaction complete"
-  ,
-  "swapTwoTransactions": 
-     "2 transactions"
-  ,
-  "swapUnknown": 
-     "Unknown"
-  ,
-  "swapVerifyTokenExplanation.message": 
-    "Multiple tokens can use the same name and symbol. Check $1 to verify this is the token you're looking for."
-  ,
-  "swapVerifyTokenExplanation.description": 
-    "This appears in a tooltip next to the verifyThisTokenOn message. It gives the user more information about why they should check the token on a block explorer. $1 will be the name or url of the block explorer, which will be the translation of 'etherscan' or a block explorer url specified for a custom network."
-  ,
-  "swapYourTokenBalance.message": 
-    "$1 $2 available to swap"
-  ,
-    "swapYourTokenBalance.description":
-    "Tells the user how much of a token they have in their balance. $1 is a decimal number amount of tokens, and $2 is a token symbol"
-  ,
-  "swapZeroSlippage": 
-     "0% Slippage"
-  ,
-  "swapsAdvancedOptions": 
-     "Advanced Options"
-  ,
-  "swapsExcessiveSlippageWarning": 
-     "Slippage amount is too high and will result in a bad rate. Please reduce your slippage tolerance to a value below 15%."
-  ,
-  "swapsMaxSlippage": 
-     "Slippage Tolerance"
-  ,
-  "swapsNotEnoughForTx.message": 
-    "Not enough $1 to complete this transaction"
-  ,
-  "swapsNotEnoughForTx.description":
-    "Tells the user that they don't have enough of a token for a proposed swap. $1 is a token symbol"
-  ,
-  "swapsViewInActivity": 
-     "View in activity"
-  ,
-  "switchEthereumChainConfirmationDescription": 
-     "This will switch the selected network within Wallet to a previously added network:"
-  ,
-  "switchEthereumChainConfirmationTitle": 
-     "Allow this site to switch the network?"
-  ,
-  "switchNetwork": 
-     "Switch network"
-  ,
-  "switchNetworks": 
-     "Switch Networks"
-  ,
-  "switchToThisAccount": 
-     "Switch to this account"
-  ,
-  "switchingNetworksCancelsPendingConfirmations": 
-     "Switching networks will cancel all pending confirmations"
-  ,
-  "symbol": 
-     "Symbol"
-  ,
-  "symbolBetweenZeroTwelve": 
-     "Symbol must be 11 characters or fewer."
-  ,
-  "syncFailed": 
-     "Sync failed"
-  ,
-  "syncInProgress": 
-     "Sync in progress"
-  ,
-  "syncWithMobile": 
-     "Sync with mobile"
-  ,
-  "syncWithMobileBeCareful": 
-     "Make sure nobody else is looking at your screen when you scan this code"
-  ,
-  "syncWithMobileComplete": 
-     "Your data has been synced successfully. Enjoy the Wallet mobile app!"
-  ,
-  "syncWithMobileDesc": 
-     "You can sync your accounts and information with your mobile device. Open the Wallet mobile app, go to \"Settings\" and tap on \"Sync from Browser Extension\""
-  ,
-  "syncWithMobileDescNewUsers": 
-     "If you just open the Wallet Mobile app for the first time, just follow the steps in your phone."
-  ,
-  "syncWithMobileScanThisCode": 
-     "Scan this code with your Wallet mobile app"
-  ,
-  "syncWithMobileTitle": 
-     "Sync with mobile"
-  ,
-  "syncWithThreeBox": 
-     "Sync data with 3Box (experimental)"
-  ,
-  "syncWithThreeBoxDescription": 
-     "Turn on to have your settings backed up with 3Box. This feature is currently experimental; use at your own risk."
-  ,
-  "syncWithThreeBoxDisabled": 
-     "3Box has been disabled due to an error during the initial sync"
-  ,
-  "terms": 
-     "Terms of Use"
-  ,
-  "termsOfService": 
-     "Terms of Service"
-  ,
-  "testFaucet": 
-     "Test Faucet"
-  ,
-  "thisWillCreate": 
-     "This will create a new wallet and Secret Recovery Phrase"
-  ,
-  "time": 
-     "Time"
-  ,
-  "tips": 
-     "Tips"
-  ,
-  "to": 
-     "To"
-  ,
-  "toAddress.message": 
-     "To: $1"
-  ,
-  "toAddress.description": 
-    "$1 is the address to include in the To label. It is typically shortened first using shortenAddress"
-  ,
-  "toggleTestNetworks.message": 
-     "$1 test networks"
-  ,
-  "toggleTestNetworks.description": "$1 is a clickable link with text defined by the 'showHide' key. The link will open to the advanced settings where users can enable the display of test networks in the network dropdown."
-  ,
-  "token": 
-     "Token"
-  ,
-  "tokenAlreadyAdded": 
-     "Token has already been added."
-  ,
-  "tokenContractAddress": 
-     "Token Contract Address"
-  ,
-  "tokenDecimalFetchFailed": 
-     "Token decimal required."
-  ,
-  "tokenDetectionAnnouncement": 
-     "New! Improved token detection is available on Ethereum Mainnet as an experimental feature. $1"
-  ,
-  "tokenSymbol": 
-     "Token Symbol"
-  ,
-  "tooltipApproveButton": 
-     "I understand"
-  ,
-  "total": 
-     "Total"
-  ,
-  "transaction": 
-     "transaction"
-  ,
-  "transactionCancelAttempted": 
-     "Transaction cancel attempted with estimated gas fee of $1 at $2"
-  ,
-  "transactionCancelSuccess": 
-     "Transaction successfully cancelled at $2"
-  ,
-  "transactionConfirmed": 
-     "Transaction confirmed at $2."
-  ,
-  "transactionCreated": 
-     "Transaction created with a value of $1 at $2."
-  ,
-  "transactionData": 
-     "Transaction data"
-  ,
-  "transactionDecodingAccreditationDecoded": 
-     "Decoded by Truffle"
-  ,
-  "transactionDecodingAccreditationVerified": 
-     "Verified contract on $1"
-  ,
-  "transactionDecodingUnsupportedNetworkError": 
-     "Transaction decoding is not available for chainId $1"
-  ,
-  "transactionDetailDappGasMoreInfo": 
-     "Site suggested"
-  ,
-  "transactionDetailDappGasTooltip": 
-     "Edit to use Wallet's recommended gas fee based on the latest block."
-  ,
-  "transactionDetailGasHeading": 
-     "Estimated gas fee"
-  ,
-  "transactionDetailGasHeadingV2": 
-     "Gas"
-  ,
-  "transactionDetailGasInfoV2": 
-     "estimated"
-  ,
-  "transactionDetailGasTooltipConversion": 
-     "Learn more about gas fees"
-  ,
-  "transactionDetailGasTooltipExplanation": 
-     "Gas fees are set by the network and fluctuate based on network traffic and transaction complexity."
-  ,
-  "transactionDetailGasTooltipIntro": 
-     "Gas fees are paid to crypto miners who process transactions on the $1 network. Wallet does not profit from gas fees."
-  ,
-  "transactionDetailGasTotalSubtitle": 
-     "Amount + gas fee"
-  ,
-  "transactionDetailLayer2GasHeading": 
-     "Layer 2 gas fee"
-  ,
-  "transactionDetailMultiLayerTotalSubtitle": 
-     "Amount + fees"
-  ,
-  "transactionDropped": 
-     "Transaction dropped at $2."
-  ,
-  "transactionError": 
-     "Transaction Error. Exception thrown in contract code."
-  ,
-  "transactionErrorNoContract": 
-     "Trying to call a function on a non-contract address."
-  ,
-  "transactionErrored": 
-     "Transaction encountered an error."
-  ,
-  "transactionFee": 
-     "Transaction fee"
-  ,
-  "transactionHistoryBaseFee": 
-     "Base Fee (GWEI)"
-  ,
-  "transactionHistoryL1GasLabel": 
-     "Total L1 Gas Fee"
-  ,
-  "transactionHistoryL2GasLimitLabel": 
-     "L2 Gas Limit"
-  ,
-  "transactionHistoryL2GasPriceLabel": 
-     "L2 Gas Price"
-  ,
-  "transactionHistoryMaxFeePerGas": 
-     "Max Fee Per Gas"
-  ,
-  "transactionHistoryPriorityFee": 
-     "Priority Fee (GWEI)"
-  ,
-  "transactionHistoryTotalGasFee": 
-     "Total Gas Fee"
-  ,
-  "transactionResubmitted": 
-     "Transaction resubmitted with estimated gas fee increased to $1 at $2"
-  ,
-  "transactionSubmitted": 
-     "Transaction submitted with estimated gas fee of $1 at $2."
-  ,
-  "transactionUpdated": 
-     "Transaction updated at $2."
-  ,
-  "transfer": 
-     "Transfer"
-  ,
-  "transferBetweenAccounts": 
-     "Transfer between my accounts"
-  ,
-  "transferFrom": 
-     "Transfer From"
-  ,
-  "troubleConnectingToWallet.message": 
-    "We had trouble connecting to your $1, try reviewing $2 and try again."
-  ,
-  "troubleConnectingToWallet.description":
-    "$1 is the wallet device name; $2 is a link to wallet connection guide"
-  ,
-  "troubleTokenBalances.message": 
-    "We had trouble loading your token balances. You can view them "
-  ,
-  "troubleTokenBalances.description": 
-    "Followed by a link (here) to view token balances"
-  ,
-  "trustSiteApprovePermission": 
-     "By granting permission, you are allowing the following $1 to access your funds"
-  ,
-  "tryAgain": 
-     "Try again"
-  ,
-  "tryAnywayOption": 
-     "I will try anyway"
-  ,
-  "turnOnTokenDetection": 
-     "Turn on enhanced token detection"
-  ,
-  "twelveHrTitle": 
-     "12hr:"
-  ,
-  "txInsightsNotSupported": 
-     "Transaction insights not supported for this contract at this time."
-  ,
-  "typePassword": 
-     "Type your Wallet password"
-  ,
-  "u2f.message": 
-     "U2F"
-  ,
-  "u2f.description":
-    "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect Wallet to Ledger devices."
-  ,
-  "unapproved": 
-     "Unapproved"
-  ,
-  "units": 
-     "units"
-  ,
-  "unknown": 
-     "Unknown"
-  ,
-  "unknownCameraError": 
-     "There was an error while trying to access your camera. Please try again..."
-  ,
-  "unknownCameraErrorTitle": 
-     "Ooops! Something went wrong...."
-  ,
-  "unknownNetwork": 
-     "Unknown Private Network"
-  ,
-  "unknownQrCode": 
-     "Error: We couldn't identify that QR code"
-  ,
-  "unlimited": 
-     "Unlimited"
-  ,
-  "unlock": 
-     "Unlock"
-  ,
-  "unlockMessage": 
-     "The decentralized web awaits"
-  ,
-  "unrecognizedChain.message": 
-     "This custom network is not recognized. We recommend that you $1 before proceeding"
-  ,
-  "unrecognizedChain.description": 
-    "$1 is a clickable link with text defined by the 'unrecognizedChanLinkText' key. The link will open to instructions for users to validate custom network details."
-  ,
-  "unrecognizedChainLinkText.message": 
-     "verify the network details"
-  ,
-  "unrecognizedChainLinkText.description": 
-    "Serves as link text for the 'unrecognizedChain' key. This text will be embedded inside the translation for that key."
-  ,
-  "unsendableAsset.message": 
-     "Sending collectible (ERC-721) tokens is not currently supported"
-  ,
-  "unsendableAsset.description":
-    "This is an error message we show the user if they attempt to send a collectible asset type, for which currently don't support sending"
-  ,
-  "updatedWithDate": 
-     "Updated $1"
-  ,
-  "urlErrorMsg": 
-     "URLs require the appropriate HTTP/HTTPS prefix."
-  ,
-  "urlExistsErrorMsg": 
-     "This URL is currently used by the $1 network."
-  ,
-  "useCollectibleDetection": 
-     "Autodetect NFTs"
-  ,
-  "useCollectibleDetectionDescription": 
-     "Displaying NFTs media & data may expose your IP address to centralized servers. Third-party APIs (like OpenSea) are used to detect NFTs in your wallet. This exposes your account address with those services. Leave this disabled if you don’t want the app to pull data from those those services."
-  ,
-  "usePhishingDetection": 
-     "Use Phishing Detection"
-  ,
-  "usePhishingDetectionDescription": 
-     "Display a warning for phishing domains targeting Ethereum users"
-  ,
-  "useTokenDetection": 
-     "Use Token Detection"
-  ,
-  "useTokenDetectionDescription": 
-     "We use third-party APIs to detect and display new tokens sent to your wallet. Turn off if you don’t want Wallet to pull data from those services."
-  ,
-  "usedByClients": 
-     "Used by a variety of different clients"
-  ,
-  "userAccepts": 
-     "I accept"
-  ,
-  "userName": 
-     "Username"
-  ,
-  "verifyThisTokenDecimalOn.message": 
-     "Token decimal can be found on $1"
-  ,
-  "verifyThisTokenDecimalOn.description": 
-    "Points the user to etherscan as a place they can verify information about a token. $1 is replaced with the translation for \"etherscan\""
-  ,
-  "verifyThisTokenOn.message": 
-     "Verify this token on $1"
-  ,
-    "verifyThisTokenOn.description":
-    "Points the user to etherscan as a place they can verify information about a token. $1 is replaced with the translation for \"etherscan\""
-  ,
-  "verifyThisUnconfirmedTokenOn.message": 
-     "Verify this token on $1 and make sure this is the token you want to trade."
-  ,
-  "verifyThisUnconfirmedTokenOn.description":
-    "Points the user to etherscan as a place they can verify information about a token. $1 is replaced with the translation for \"etherscan\""
-  ,
-  "viewAccount": 
-     "View Account"
-  ,
-  "viewAllDetails": 
-     "View all details"
-  ,
-  "viewContact": 
-     "View Contact"
-  ,
-  "viewFullTransactionDetails": 
-     "View full transaction details"
-  ,
-  "viewMore": 
-     "View More"
-  ,
-  "viewOnBlockExplorer": 
-     "View on block explorer"
-  ,
-  "viewOnCustomBlockExplorer.message": 
-     "View $1 at $2"
-    ,
-  "viewOnCustomBlockExplorer.description": 
-    "$1 is the action type. e.g (Account, Transaction, Swap) and $2 is the Custom Block Exporer URL"
-  ,
-  "viewOnEtherscan.message": 
-     "View $1 on Etherscan"
-  ,
-  "viewOnEtherscan.description": 
-    "$1 is the action type. e.g (Account, Transaction, Swap)"
-  ,
-  "viewOnOpensea": 
-     "View on Opensea"
-  ,
-  "viewinExplorer": 
-     "View $1 in Explorer"
-  ,
-  "visitWebSite": 
-     "Visit our web site"
-  ,
-  "walletConnectionGuide": 
-     "our hardware wallet connection guide"
-  ,
-  "walletCreationSuccessDetail": 
-     "You’ve successfully protected your wallet. Keep your Secret Recovery Phrase safe and secret -- it’s your responsibility!"
-  ,
-  "walletCreationSuccessReminder1": 
-     "Wallet can’t recover your Secret Recovery Phrase."
-  ,
-  "walletCreationSuccessReminder2": 
-     "Wallet will never ask you for your Secret Recovery Phrase."
-  ,
-  "walletCreationSuccessReminder3.message": 
-     "$1 with anyone or risk your funds being stolen"
-  ,
-  "description": 
-    "$1 is separated as walletCreationSuccessReminder3BoldSection so that we can bold it"
-  ,
-  "walletCreationSuccessReminder3BoldSection.message": 
-     "Never share your Secret Recovery Phrase"
-  ,
-  "walletCreationSuccessReminder3BoldSection.description": 
-    "This string is localized separately from walletCreationSuccessReminder3 so that we can bold it"
-  ,
-  "walletCreationSuccessTitle": 
-     "Wallet creation successful"
-  ,
-  "walletSeedRestore": 
-     "Wallet Secret Recovery Phrase"
-  ,
-  "web3ShimUsageNotification": 
-     "We noticed that the current website tried to use the removed window.web3 API. If the site appears to be broken, please click $1 for more information."
-    
-  ,
-  "webhid.message": 
-     "WebHID"
-  ,
-  "webhid.description": 
-    "Refers to a interface for connecting external devices to the browser. Used for connecting ledger to the browser. Read more here https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API"
-  ,
-  "welcome": 
-     "Welcome to Wallet"
-  ,
-  "welcomeBack": 
-     "Welcome Back!"
-  ,
-  "welcomeExploreDescription": 
-     "Store, send and spend crypto currencies and assets."
-  ,
-  "welcomeExploreTitle": 
-     "Explore decentralized apps"
-  ,
-  "welcomeLoginDescription": 
-     "Use your Wallet to login to decentralized apps - no signup needed."
-  ,
-  "welcomeLoginTitle": 
-     "Say hello to your wallet"
-  ,
-  "welcomeToWallet": 
-     "Let's get started"
-  ,
-  "welcomeToWalletIntro": 
-     "Trusted by millions, Wallet is a secure wallet making the world of web3 accessible to all."
-  ,
-  "whatsNew.message": 
-     "What's new"
-  ,
-  "whatsNew.description": 
-    "This is the title of a popup that gives users notifications about new features and updates to Wallet."
-  ,
-  "whatsThis": 
-     "What's this?"
-  ,
-  "writePhrase": 
-     "Write this phrase on a piece of paper and store in a secure location. If you want even more security, write it down on multiple pieces of paper and store each in 2 - 3 different locations."
-  ,
-  "xOfY.message": 
-     "$1 of $2"
-  ,
-  "xOfY.description": 
-    "$1 and $2 are intended to be two numbers, where $2 is a total, and $1 is a count towards that total"
-  ,
-  "xOfYPending.message": 
-     "$1 of $2 pending"
-  ,
-  "xOfYPending.description": 
-    "$1 and $2 are intended to be two numbers, where $2 is a total number of pending confirmations, and $1 is a count towards that total"
-  ,
-  "yesLetsTry": 
-     "Yes, let's try"
-  ,
-  "youNeedToAllowCameraAccess": 
-     "You need to allow camera access to use this feature."
-  ,
-  "youSign": 
-     "You are signing"
-  ,
-  "yourPrivateSeedPhrase": 
-     "Your private Secret Recovery Phrase"
-  ,
-  "zeroGasPriceOnSpeedUpError": 
-     "Zero gas price on speed up"
-}  
+  "QRHardwareInvalidTransactionTitle": "Error",
+  "QRHardwareMismatchedSignId": "Incongruent transaction data. Please check the transaction details.",
+  "QRHardwarePubkeyAccountOutOfRange": "No more accounts. If you would like to access another account unlisted below, please reconnect your hardware wallet and select it.",
+  "QRHardwareScanInstructions": "Place the QR code in front of your camera. The screen is blurred, but it will not affect the reading.",
+  "QRHardwareSignRequestCancel": "Reject",
+  "QRHardwareSignRequestDescription": "After you’ve signed with your wallet, click on 'Get Signature' to receive the signature",
+  "QRHardwareSignRequestGetSignature": "Get Signature",
+  "QRHardwareSignRequestSubtitle": "Scan the QR code with your wallet",
+  "QRHardwareSignRequestTitle": "Request Signature",
+  "QRHardwareUnknownQRCodeTitle": "Error",
+  "QRHardwareUnknownWalletQRCode": "Invalid QR code. Please scan the sync QR code of the hardware wallet.",
+  "QRHardwareWalletImporterTitle": "Scan QR Code",
+  "QRHardwareWalletSteps1Description": "Connect an airgapped hardware wallet that communicates through QR-codes. Officially supported airgapped hardware wallets include:",
+  "QRHardwareWalletSteps1Title": "QR-based HW Wallet",
+  "QRHardwareWalletSteps2Description": "AirGap Vault & Ngrave (Coming Soon)",
+  "introduction": "This is a Crypto Wallet!",
+  "about": "About",
+  "aboutSettingsDescription": "Version, support center, and contact info",
+  "acceleratingATransaction": "* Accelerating a transaction by using a higher gas price increases its chances of getting processed by the network faster, but it is not always guaranteed.",
+  "acceptTermsOfUse": "I have read and agree to the $1",
 
+  "accessAndSpendNotice": "$1 may access and spend up to this max amount",
+
+  "accessingYourCamera": "Accessing your camera...",
+  "account": "Account",
+  "accountDetails": "Account details",
+  "accountName": "Account Name",
+  "accountNameDuplicate": "This account name already exists",
+
+  "accountOptions": "Account Options",
+  "accountSelectionRequired": "You need to select an account!",
+  "active": "Active",
+  "activity": "Activity",
+  "activityLog": "Activity log",
+  "add": "Add",
+  "addANetwork": "Add a network",
+  "addANickname": "Add a nickname",
+  "addAcquiredTokens": "Add the tokens you've acquired using Wallet",
+  "addAlias": "Add alias",
+  "addContact": "Add contact",
+  "addCustomToken": "Add Custom Token",
+  "addCustomTokenByContractAddress": "Can’t find a token? You can manually add any token by pasting its address. Token contract addresses can be found on $1.",
+
+  "addEthereumChainConfirmationDescription": "This will allow this network to be used within Wallet.",
+  "addEthereumChainConfirmationRisks": "Wallet does not verify custom networks.",
+  "addEthereumChainConfirmationRisksLearnMore": "Learn about $1.",
+
+  "addEthereumChainConfirmationRisksLearnMoreLink": "scams and network security risks",
+
+  "addEthereumChainConfirmationTitle": "Allow this site to add a network?",
+  "addFriendsAndAddresses": "Add friends and addresses you trust",
+  "addMemo": "Add memo",
+  "addNFT": "Add NFT",
+  "addNetwork": "Add Network",
+  "addSuggestedTokens": "Add Suggested Tokens",
+  "addToAddressBook": "Add to address book",
+  "addToAddressBookModalPlaceholder": "e.g. John D.",
+  "addToken": "Add Token",
+  "address": "Address",
+  "addressBookIcon": "Address book icon",
+  "advanced": "Advanced",
+  "advancedBaseGasFeeToolTip": "When your transaction gets included in the block, any difference between your max base fee and the actual base fee will be refunded. Total amount is calculated as max base fee (in GWEI) * gas limit.",
+  "advancedGasFeeDefaultOptIn": "Save these $1 as my default for \"Advanced\"",
+  "advancedGasFeeDefaultOptOut": "Always use these values and advanced setting as default.",
+  "advancedGasFeeModalTitle": "Advanced gas fee",
+  "advancedGasPriceTitle": "Gas price",
+  "advancedOptions": "Advanced Options",
+  "advancedPriorityFeeToolTip": "Priority fee (aka “miner tip”) goes directly to miners and incentivizes them to prioritize your transaction.",
+  "advancedSettingsDescription": "Access developer features, download State Logs, Reset Account, setup test networks and custom RPC",
+  "affirmAgree": "I Agree",
+  "aggregatorFeeCost": "Aggregator network fee",
+  "alertDisableTooltip": "This can be changed in \"Settings > Alerts\"",
+  "alertSettingsUnconnectedAccount": "Browsing a website with an unconnected account selected",
+  "alertSettingsUnconnectedAccountDescription": "This alert is shown in the popup when you are browsing a connected web3 site, but the currently selected account is not connected.",
+  "alertSettingsWeb3ShimUsage": "When a website tries to use the removed window.web3 API",
+  "alertSettingsWeb3ShimUsageDescription": "This alert is shown in the popup when you are browsing a site that tries to use the removed window.web3 API, and may be broken as a result.",
+  "alerts": "Alerts",
+  "alertsSettingsDescription": "Enable or disable each alert",
+  "allowExternalExtensionTo": "Allow this external extension to:",
+  "allowSpendToken": "Give permission to access your $1?",
+
+  "allowThisSiteTo": "Allow this site to:",
+  "allowWithdrawAndSpend": "Allow $1 to withdraw and spend up to the following amount:",
+
+  "amount": "Amount",
+  "appDescription": "An Ethereum Wallet in your Browser",
+
+  "appName": "Wallet",
+
+  "appNameBeta": "Wallet Beta",
+
+  "appNameFlask": "Wallet Flask",
+
+  "approvalAndAggregatorTxFeeCost": "Approval and aggregator network fee",
+  "approvalTxGasCost": "Approval Tx Gas Cost",
+  "approve": "Approve spend limit",
+  "approveButtonText": "Approve",
+  "approveSpendLimit": "Approve $1 spend limit",
+
+  "approved": "Approved",
+  "approvedAmountWithColon": "Approved amount:",
+  "asset": "Asset",
+  "assetOptions": "Asset options",
+  "assets": "Assets",
+  "attemptToCancel": "Attempt to Cancel?",
+  "attemptToCancelDescription": "Submitting this attempt does not guarantee your original transaction will be cancelled. If the cancellation attempt is successful, you will be charged the transaction fee above.",
+  "attemptingConnect": "Attempting to connect to blockchain.",
+  "attributions": "Attributions",
+  "authorizedPermissions": "You have authorized the following permissions",
+  "autoLockTimeLimit": "Auto-Lock Timer (minutes)",
+  "autoLockTimeLimitDescription": "Set the idle time in minutes before Wallet will become locked.",
+  "average": "Average",
+  "back": "Back",
+  "backToAll": "Back to All",
+  "backupApprovalInfo": "This secret code is required to recover your wallet in case you lose your device, forget your password, have to re-install Wallet, or want to access your wallet on another device.",
+  "backupApprovalNotice": "Backup your Secret Recovery Phrase to keep your wallet and funds secure.",
+  "backupNow": "Backup now",
+  "balance": "Balance",
+  "balanceOutdated": "Balance may be outdated",
+  "baseFee": "Base fee",
+  "basic": "Basic",
+  "betaWalletDescription": "Trusted by millions, Wallet is a secure wallet making the world of web3 accessible to all.",
+  "betaWalletDescriptionExplanation": "Use this version to test upcoming features before they’re released. Your use and feedback helps us build the best version of Wallet possible. Your use of Wallet Beta is subject to our standard $1 as well as our $2. As a Beta, there may be an increased risk of bugs. By proceeding, you accept and acknowledge these risks, as well as those risks found in our Terms and Beta Terms.",
+
+  "betaWalletDescriptionExplanationBetaTermsLinkText": "Supplemental Beta Terms",
+  "betaWalletDescriptionExplanationTermsLinkText": "Terms",
+  "betaWalletVersion": "Wallet Beta Version",
+  "betaWelcome": "Welcome to Wallet Beta",
+  "blockExplorerAccountAction": "Account",
+
+  "blockExplorerAssetAction": "Asset",
+
+  "blockExplorerSwapAction": "Swap",
+
+  "blockExplorerUrl": "Block Explorer URL",
+  "blockExplorerUrlDefinition": "The URL used as the block explorer for this network.",
+  "blockExplorerView": "View account at $1",
+
+  "blockiesIdenticon": "Use Blockies Identicon",
+  "browserNotSupported": "Your Browser is not supported...",
+  "buildContactList": "Build your contact list",
+  "builtAroundTheWorld": "Wallet is designed and built around the world.",
+  "busy": "Busy",
+  "buy": "Buy",
+  "buyWithTransak": "Buy ETH with Transak",
+  "buyWithTransakDescription": "Transak supports debit card and bank transfers (depending on location) in 59+ countries. ETH deposits into your Wallet account.",
+  "buyWithWyre": "Buy ETH with Wyre",
+  "buyWithWyreDescription": "Wyre lets you use a debit card to deposit ETH right in to your Wallet account.",
+  "bytes": "Bytes",
+  "canToggleInSettings": "You can re-enable this notification in Settings -> Alerts.",
+  "cancel": "Cancel",
+  "cancelEdit": "Cancel Edit",
+  "cancelPopoverTitle": "Cancel transaction",
+  "cancelSpeedUp": "cancel or speed up a tranaction.",
+  "cancellationGasFee": "Cancellation Gas Fee",
+  "cancelled": "Cancelled",
+  "chainId": "Chain ID",
+  "chainIdDefinition": "The chain ID used to sign transactions for this network.",
+  "chainIdExistsErrorMsg": "This Chain ID is currently used by the $1 network.",
+  "chromeRequiredForHardwareWallets": "You need to use Wallet on Google Chrome in order to connect to your Hardware Wallet.",
+  "clickToConnectLedgerViaWebHID": "Click here to connect your Ledger via WebHID",
+
+  "clickToRevealSeed": "Click here to reveal secret words",
+  "close": "Close",
+  "confirm": "Confirm",
+  "confirmPassword": "Confirm password",
+  "confirmRecoveryPhrase": "Confirm Secret Recovery Phrase",
+  "confirmSecretBackupPhrase": "Confirm your Secret Recovery Phrase",
+  "confirmed": "Confirmed",
+  "confusableUnicode": "'$1' is similar to '$2'.",
+  "confusableZeroWidthUnicode": "Zero-width character found.",
+  "confusingEnsDomain": "We have detected a confusable character in the ENS name. Check the ENS name to avoid a potential scam.",
+  "congratulations": "Congratulations",
+  "connect": "Connect",
+  "connectAccountOrCreate": "Connect account or create new",
+  "connectHardwareWallet": "Connect Hardware Wallet",
+  "connectManually": "Manually connect to current site",
+  "connectTo": "Connect to $1",
+
+  "connectToAll": "Connect to all your $1",
+
+  "connectToAllAccounts": "accounts",
+
+  "connectToMultiple": "Connect to $1",
+
+  "connectToMultipleNumberOfAccounts": "$1 accounts",
+
+  "connectWithWallet": "Connect With Wallet",
+  "connectedAccountsDescriptionPlural": "You have $1 accounts connected to this site.",
+
+  "connectedAccountsDescriptionSingular": "You have 1 account connected to this site.",
+  "connectedAccountsEmptyDescription": "Wallet is not connected to this site. To connect to a web3 site, find and click the connect button.",
+  "connectedSites": "Connected sites",
+  "connectedSitesDescription": "$1 is connected to these sites. They can view your account address.",
+
+  "connectedSitesEmptyDescription": "$1 is not connected to any sites.",
+
+  "connecting": "Connecting...",
+  "connectingTo": "Connecting to $1",
+  "connectingToGoerli": "Connecting to Goerli Test Network",
+  "connectingToKovan": "Connecting to Kovan Test Network",
+  "connectingToMainnet": "Connecting to Ethereum Mainnet",
+  "connectingToRinkeby": "Connecting to Rinkeby Test Network",
+  "connectingToRopsten": "Connecting to Ropsten Test Network",
+  "contactUs": "Contact us",
+  "contacts": "Contacts",
+  "contactsSettingsDescription": "Add, edit, remove, and manage your contacts",
+  "continue": "Continue",
+  "continueToTransak": "Continue to Transak",
+  "continueToWyre": "Continue to Wyre",
+  "contract": "Contract",
+  "contractAddress": "Contract address",
+  "contractAddressError": "You are sending tokens to the token's contract address. This may result in the loss of these tokens.",
+  "contractDeployment": "Contract Deployment",
+  "contractInteraction": "Contract Interaction",
+  "copiedExclamation": "Copied!",
+  "copyAddress": "Copy address to clipboard",
+  "copyPrivateKey": "This is your private key (click to copy)",
+  "copyRawTransactionData": "Copy raw transaction data",
+  "copyToClipboard": "Copy to clipboard",
+  "copyTransactionId": "Copy Transaction ID",
+  "create": "Create",
+  "createAWallet": "Create a Wallet",
+  "createAccount": "Create Account",
+  "createNewWallet": "Create a new wallet",
+  "createPassword": "Create Password",
+  "currencyConversion": "Currency Conversion",
+  "currencySymbol": "Currency Symbol",
+  "currencySymbolDefinition": "The ticker symbol displayed for this network’s currency.",
+  "currentAccountNotConnected": "Your current account is not connected",
+  "currentExtension": "Current extension page",
+  "currentLanguage": "Current Language",
+  "currentTitle": "Current:",
+  "currentlyUnavailable": "Unavailable on this network",
+  "custom": "Advanced",
+  "customGas": "Customize Gas",
+  "customGasSettingToolTipMessage": "Use $1 to customise the gas price. This can be confusing if you aren’t familiar. Interact at your own risk.",
+
+  "customGasSubTitle": "Increasing fee may decrease processing times, but it is not guaranteed.",
+  "customSpendLimit": "Custom Spend Limit",
+  "customToken": "Custom Token",
+  "dappSuggested": "Site suggested",
+  "dappSuggestedGasSettingToolTipMessage": "$1 has suggested this price.",
+
+  "dappSuggestedShortLabel": "Site",
+  "dappSuggestedTooltip": "$1 has recommended this price.",
+
+  "data": "Data",
+  "dataBackupFoundInfo": "Some of your account data was backed up during a previous installation of Wallet. This could include your settings, contacts, and tokens. Would you like to restore this data now?",
+  "dataHex": "Hex",
+  "decimal": "Token Decimal",
+  "decimalsMustZerotoTen": "Decimals must be at least 0, and not over 36.",
+  "decrypt": "Decrypt",
+  "decryptCopy": "Copy encrypted message",
+  "decryptInlineError": "This message cannot be decrypted due to error: $1",
+
+  "decryptMessageNotice": "$1 would like to read this message to complete your action",
+
+  "decryptWallet": "Decrypt message",
+  "decryptRequest": "Decrypt request",
+  "delete": "Delete",
+  "deleteAccount": "Delete Account",
+  "deleteNetwork": "Delete Network?",
+  "deleteNetworkDescription": "Are you sure you want to delete this network?",
+  "depositEther": "Deposit Ether",
+  "description": "Description",
+  "details": "Details",
+  "directDepositEther": "Directly Deposit Ether",
+  "directDepositEtherExplainer": "If you already have some Ether, the quickest way to get Ether in your new wallet by direct deposit.",
+  "disconnect": "Disconnect",
+  "disconnectAllAccounts": "Disconnect all accounts",
+  "disconnectAllAccountsConfirmationDescription": "Are you sure you want to disconnect? You may lose site functionality.",
+  "disconnectPrompt": "Disconnect $1",
+  "disconnectThisAccount": "Disconnect this account",
+  "dismiss": "Dismiss",
+  "dismissReminderDescriptionField": "Turn this on to dismiss the Secret Recovery Phrase backup reminder message. We highly recommend that you back up your Secret Recovery Phrase to avoid loss of funds",
+  "dismissReminderField": "Dismiss Secret Recovery Phrase backup reminder",
+  "domain": "Domain",
+  "done": "Done",
+  "dontShowThisAgain": "Don't show this again",
+  "downloadGoogleChrome": "Download Google Chrome",
+  "downloadSecretBackup": "Download this Secret Recovery Phrase and keep it stored safely on an external encrypted hard drive or storage medium.",
+  "downloadStateLogs": "Download State Logs",
+  "dropped": "Dropped",
+  "edit": "Edit",
+  "editANickname": "Edit nickname",
+  "editAddressNickname": "Edit address nickname",
+  "editContact": "Edit Contact",
+  "editGasEducationButtonText": "How should I choose?",
+  "editGasEducationHighExplanation": "This is best for time sensitive transactions (like Swaps) as it increases the likelihood of a successful transaction. If a Swap takes too long to process it may fail and result in losing some of your gas fee.",
+  "editGasEducationLowExplanation": "A lower gas fee should only be used when processing time is less important. Lower fees make it hard predict when (or if) your transaction will be successful.",
+  "editGasEducationMediumExplanation": "A medium gas fee is good for sending, withdrawing or other non-time sensitive transactions. This setting will most often result in a successful transaction.",
+  "editGasEducationModalIntro": "Selecting the right gas fee depends on the type of transaction and how important it is to you.",
+  "editGasEducationModalTitle": "How to choose?",
+  "editGasFeeModalTitle": "Edit gas fee",
+  "editGasHigh": "High",
+  "editGasLimitOutOfBounds": "Gas limit must be at least $1",
+  "editGasLimitOutOfBoundsV2": "Gas limit must be greater than $1 and less than $2",
+
+  "editGasLimitTooltip": "Gas limit is the maximum units of gas you are willing to use. Units of gas are a multiplier to “Max priority fee” and “Max fee”.",
+  "editGasLow": "Low",
+  "editGasMaxBaseFeeGWEIImbalance": "Max base fee cannot be lower than priority fee",
+  "editGasMaxBaseFeeHigh": "Max base fee is higher than necessary",
+  "editGasMaxBaseFeeLow": "Max base fee is low for current network conditions",
+  "editGasMaxBaseFeeMultiplierImbalance": "Multiplier is low relative to Priority fee",
+  "editGasMaxFeeHigh": "Max fee is higher than necessary",
+  "editGasMaxFeeLow": "Max fee too low for network conditions",
+  "editGasMaxFeePriorityImbalance": "Max fee cannot be lower than max priority fee",
+  "editGasMaxFeeTooltip": "The max fee is the most you’ll pay (base fee + priority fee).",
+  "editGasMaxPriorityFeeBelowMinimum": "Max priority fee must be greater than 0 GWEI",
+  "editGasMaxPriorityFeeBelowMinimumV2": "Priority fee must be greater than 0.",
+  "editGasMaxPriorityFeeHigh": "Max priority fee is higher than necessary. You may pay more than needed.",
+  "editGasMaxPriorityFeeHighV2": "Priority fee is higher than necessary. You may pay more than needed",
+  "editGasMaxPriorityFeeLow": "Max priority fee is low for current network conditions",
+  "editGasMaxPriorityFeeLowV2": "Priority fee is low for current network conditions",
+  "editGasMaxPriorityFeeTooltip": "Max priority fee (aka “miner tip”) goes directly to miners and incentivizes them to prioritize your transaction. You’ll most often pay your max setting",
+  "editGasMedium": "Medium",
+  "editGasPriceTooLow": "Gas price must be greater than 0",
+  "editGasPriceTooltip": "This network requires a “Gas price” field when submitting a transaction. Gas price is the amount you will pay pay per unit of gas.",
+  "editGasSubTextAmountLabel": "Max amount:",
+
+  "editGasSubTextFeeLabel": "Max fee:",
+  "editGasTitle": "Edit priority",
+  "editGasTooLow": "Unknown processing time",
+  "editGasTooLowTooltip": "Your max fee or max priority fee may be low for current market conditions. We don't know when (or if) your transaction will be processed. ",
+  "editGasTooLowWarningTooltip": "This lowers your maximum fee but if network traffic increases your transaction may be delayed or fail.",
+  "editInGwei": "Edit in GWEI",
+  "editInMultiplier": "Edit in multiplier",
+  "editNonceField": "Edit Nonce",
+  "editNonceMessage": "This is an advanced feature, use cautiously.",
+  "editPermission": "Edit Permission",
+  "enableAutoDetect": " Enable Autodetect",
+  "enableFromSettings": " Enable it from Settings.",
+  "enableOpenSeaAPI": "Enable OpenSea API",
+  "enableOpenSeaAPIDescription": "Use OpenSea's API to fetch NFT data. NFT auto-detection relies on OpenSea's API, and will not be available when this is turned off.",
+  "enableToken": "enable $1",
+
+  "encryptionPublicKeyNotice": "$1 would like your public encryption key. By consenting, this site will be able to compose encrypted messages to you.",
+
+  "encryptionPublicKeyRequest": "Request encryption public key",
+  "endOfFlowMessage1": "You passed the test - keep your Secret Recovery Phrase safe, it's your responsibility!",
+  "endOfFlowMessage10": "All Done",
+  "endOfFlowMessage2": "Tips on storing it safely",
+  "endOfFlowMessage3": "Save a backup in multiple places.",
+  "endOfFlowMessage4": "Never share the phrase with anyone.",
+  "endOfFlowMessage5": "Be careful of phishing! Wallet will never spontaneously ask for your Secret Recovery Phrase.",
+  "endOfFlowMessage6": "If you need to back up your Secret Recovery Phrase again, you can find it in Settings -> Security.",
+  "endOfFlowMessage7": "If you ever have questions or see something fishy, contact our support $1.",
+
+  "endOfFlowMessage8": "Wallet cannot recover your Secret Recovery Phrase.",
+  "endOfFlowMessage9": "Learn more.",
+  "endpointReturnedDifferentChainId": "The endpoint returned a different chain ID: $1",
+
+  "ensIllegalCharacter": "Illegal Character for ENS.",
+  "ensNotFoundOnCurrentNetwork": "ENS name not found on the current network. Try switching to Ethereum Mainnet.",
+  "ensNotSupportedOnNetwork": "Network does not support ENS",
+  "ensRegistrationError": "Error in ENS name registration",
+  "ensUnknownError": "ENS Lookup failed.",
+  "enterAnAlias": "Enter an alias",
+  "enterMaxSpendLimit": "Enter Max Spend Limit",
+  "enterPassword": "Enter password",
+  "enterPasswordContinue": "Enter password to continue",
+  "errorCode": "Code: $1",
+
+  "errorDetails": "Error Details",
+
+  "errorMessage": "Message: $1",
+
+  "errorName": "Code: $1",
+
+  "errorPageMessage": "Try again by reloading the page, or contact support $1.",
+
+  "errorPagePopupMessage": "Try again by closing and reopening the popup, or contact support $1.",
+
+  "errorPageTitle": "Wallet encountered an error",
+
+  "errorStack": "Stack:",
+
+  "estimatedProcessingTimes": "Estimated Processing Times",
+  "ethGasPriceFetchWarning": "Backup gas price is provided as the main gas estimation service is unavailable right now.",
+  "eth_accounts": "See address, account balance, activity and initiate transactions",
+
+  "ethereumPublicAddress": "Ethereum Public Address",
+  "etherscan": "Etherscan",
+  "etherscanView": "View account on Etherscan",
+  "etherscanViewOn": "View on Etherscan",
+  "expandView": "Expand view",
+  "experimental": "Experimental",
+  "experimentalSettingsDescription": "Token detection & more",
+  "exportPrivateKey": "Export Private Key",
+  "externalExtension": "External Extension",
+  "extraApprovalGas": "+$1 approval gas",
+
+  "failed": "Failed",
+  "failedToFetchChainId": "Could not fetch chain ID. Is your RPC URL correct?",
+  "failureMessage": "Something went wrong, and we were unable to complete the action",
+  "fakeTokenWarning": "Anyone can create a token, including creating fake versions of existing tokens. Learn more about $1",
+  "fast": "Fast",
+  "fastest": "Fastest",
+  "feeAssociatedRequest": "A fee is associated with this request.",
+  "fiat": "Fiat",
+
+  "fileImportFail": "File import not working? Click here!",
+
+  "flaskExperimentalText1": "Using Flask can greatly increase your risk of fund loss:",
+  "flaskExperimentalText2": "if you use it to install non-trustworthy Snaps",
+  "flaskExperimentalText3": "if you do not review confirmations before approving changes",
+  "flaskExperimentalText4": "if you interact with unfamiliar smart contracts",
+  "flaskExperimentalText5": "Using Flask gives you much greater discretion in using the power of Wallet, and that discretion is yours. Do you accept these risks as well as extra responsibility for your wallet's safety?",
+  "flaskSnapSettingsCardButtonCta": "See details",
+
+  "flaskSnapSettingsCardDateAddedOn": "Added on",
+
+  "flaskSnapSettingsCardFrom": "from",
+
+  "followUsOnTwitter": "Follow us on Twitter",
+  "forbiddenIpfsGateway": "Forbidden IPFS Gateway: Please specify a CID gateway",
+  "forgetDevice": "Forget this device",
+  "from": "From",
+  "fromAddress": "From: $1",
+
+  "functionApprove": "Function: Approve",
+  "functionType": "Function Type",
+  "gasDisplayAcknowledgeDappButtonText": "Edit suggested gas fee",
+  "gasDisplayDappWarning": "This gas fee has been suggested by $1. Overriding this may cause a problem with your transaction. Please reach out to $1 if you have questions.",
+
+  "gasEstimatesUnavailableWarning": "Our low, medium and high estimates are not available.",
+  "gasLimit": "Gas Limit",
+  "gasLimitInfoTooltipContent": "Gas limit is the maximum amount of units of gas you are willing to spend.",
+  "gasLimitTooLow": "Gas limit must be at least 21000",
+  "gasLimitTooLowWithDynamicFee": "Gas limit must be at least $1",
+
+  "gasLimitV2": "Gas limit",
+  "gasOption": "Gas option",
+  "gasPrice": "Gas Price (GWEI)",
+  "gasPriceExcessive": "Your gas fee is set unnecessarily high. Consider lowering the amount.",
+  "gasPriceExcessiveInput": "Gas Price Is Excessive",
+  "gasPriceExtremelyLow": "Gas Price Extremely Low",
+  "gasPriceFetchFailed": "Gas price estimation failed due to network error.",
+  "gasPriceInfoTooltipContent": "Gas price specifies the amount of Ether you are willing to pay for each unit of gas.",
+  "gasTimingHoursShort": "$1 hrs",
+
+  "gasTimingMinutes": "$1 minutes",
+
+  "gasTimingMinutesShort": "$1 min",
+
+  "gasTimingNegative": "Maybe in $1",
+
+  "gasTimingPositive": "Likely in < $1",
+
+  "gasTimingSeconds": "$1 seconds",
+
+  "gasTimingSecondsShort": "$1 sec",
+
+  "gasTimingVeryPositive": "Very likely in < $1",
+
+  "gasUsed": "Gas Used",
+  "gdprMessage": "This data is aggregated and is therefore anonymous for the purposes of General Data Protection Regulation (EU) 2016/679. For more information in relation to our privacy practices, please see our $1.",
+
+  "gdprMessagePrivacyPolicy": "Privacy Policy here",
+
+  "general": "General",
+  "generalSettingsDescription": "Currency conversion, primary currency, language, blockies identicon",
+  "getEther": "Get Ether",
+  "getEtherFromFaucet": "Get Ether from a faucet for the $1",
+
+  "getStarted": "Get Started",
+  "goBack": "Go Back",
+  "goerli": "Goerli Test Network",
+  "grantedToWithColon": "Granted to:",
+  "happyToSeeYou": "We’re happy to see you.",
+  "hardware": "Hardware",
+  "hardwareWalletConnected": "Hardware wallet connected",
+  "hardwareWalletLegacyDescription": "(legacy)",
+
+  "hardwareWalletSupportLinkConversion": "click here",
+  "hardwareWallets": "Connect a hardware wallet",
+  "hardwareWalletsMsg": "Select a hardware wallet you'd like to use with Wallet.",
+  "here": "here",
+
+  "hexData": "Hex Data",
+  "hide": "Hide",
+  "hideTokenPrompt": "Hide Token?",
+  "hideTokenSymbol": "Hide $1",
+
+  "hideZeroBalanceTokens": "Hide Tokens Without Balance",
+  "high": "Aggressive",
+  "highGasSettingToolTipDialog": "High probability, even in volatile markets",
+  "highGasSettingToolTipMessage": "Use $1 to cover surges in network traffic due to things like popular NFT drops.",
+
+  "highLowercase": "high",
+  "history": "History",
+  "id": "ID",
+  "import": "Import",
+
+  "importAccount": "Import Account",
+  "importAccountError": "Error importing account.",
+  "importAccountLinkText": "import using Secret Recovery Phrase",
+  "importAccountMsg": "Imported accounts will not be associated with your originally created Wallet account Secret Recovery Phrase. Learn more about imported accounts",
+  "importAccountSeedPhrase": "Import a wallet with Secret Recovery Phrase",
+  "importAccountText": "or $1",
+
+  "importExistingWalletDescription": "Enter your Secret Recovery Phrase (aka Seed Phrase) that you were given when you created your wallet. $1",
+
+  "importExistingWalletTitle": "Import existing wallet with Secret Recovery Phrase",
+  "importMyWallet": "Import My Wallet",
+  "importNFTs": "Import NFTs",
+  "importTokenQuestion": "Import token?",
+  "importTokenWarning": "Anyone can create a token with any name, including fake versions of existing tokens. Add and trade at your own risk!",
+  "importTokens": "import tokens",
+  "importTokensCamelCase": "Import Tokens",
+  "importWallet": "Import wallet",
+  "importYourExisting": "Import your existing wallet using a Secret Recovery Phrase",
+  "imported": "Imported",
+
+  "infuraBlockedNotification": "Wallet is unable to connect to the blockchain host. Review possible reasons $1.",
+
+  "initialTransactionConfirmed": "Your initial transaction was confirmed by the network. Click OK to go back.",
+  "insufficientBalance": "Insufficient balance.",
+  "insufficientFunds": "Insufficient funds.",
+  "insufficientFundsForGas": "Insufficient funds for gas",
+  "insufficientTokens": "Insufficient tokens.",
+  "invalidAddress": "Invalid address",
+  "invalidAddressRecipient": "Recipient address is invalid",
+  "invalidAddressRecipientNotEthNetwork": "Not ETH network, set to lowercase",
+  "invalidBlockExplorerURL": "Invalid Block Explorer URL",
+  "invalidChainIdTooBig": "Invalid chain ID. The chain ID is too big.",
+  "invalidCustomNetworkAlertContent1": "The chain ID for custom network '$1' has to be re-entered.",
+
+  "invalidCustomNetworkAlertContent2": "To protect you from malicious or faulty network providers, chain IDs are now required for all custom networks.",
+  "invalidCustomNetworkAlertContent3": "Go to Settings > Network and enter the chain ID. You can find the chain IDs of most popular networks on $1.",
+
+  "invalidCustomNetworkAlertTitle": "Invalid Custom Network",
+  "invalidHexNumber": "Invalid hexadecimal number.",
+  "invalidHexNumberLeadingZeros": "Invalid hexadecimal number. Remove any leading zeros.",
+  "invalidIpfsGateway": "Invalid IPFS Gateway: The value must be a valid URL",
+  "invalidNumber": "Invalid number. Enter a decimal or '0x'-prefixed hexadecimal number.",
+  "invalidNumberLeadingZeros": "Invalid number. Remove any leading zeros.",
+  "invalidRPC": "Invalid RPC URL",
+  "invalidSeedPhrase": "Invalid Secret Recovery Phrase",
+  "ipfsGateway": "IPFS Gateway",
+  "ipfsGatewayDescription": "Enter the URL of the IPFS CID gateway to use for ENS content resolution.",
+  "jsDeliver": "jsDeliver",
+  "jsonFile": "JSON File",
+
+  "keystone": "Keystone",
+  "keystoneTutorial": " (Tutorials)",
+  "knownAddressRecipient": "Known contract address.",
+  "knownTokenWarning": "This action will edit tokens that are already listed in your wallet, which can be used to phish you. Only approve if you are certain that you mean to change what these tokens represent.",
+  "kovan": "Kovan Test Network",
+  "lastConnected": "Last Connected",
+  "layer1Fees": "Layer 1 fees",
+  "learmMoreAboutGas": "Want to $1 about gas?",
+  "learnCancelSpeeedup": "Learn how to $1",
+
+  "learnMore": "learn more",
+  "learnMoreUpperCase": "Learn more",
+  "learnScamRisk": "scams and security risks.",
+  "ledgerAccountRestriction": "You need to make use your last account before you can add a new one.",
+  "ledgerConnectionInstructionCloseOtherApps": "Close any other software connected to your device and then click here to refresh.",
+  "ledgerConnectionInstructionHeader": "Prior to clicking confirm:",
+  "ledgerConnectionInstructionStepFour": "Enable \"smart contract data\" or \"blind signing\" on your Ledger device",
+  "ledgerConnectionInstructionStepOne": "Enable Use Ledger Live under Settings > Advanced",
+  "ledgerConnectionInstructionStepThree": "Plug in your Ledger device and select the Ethereum app",
+  "ledgerConnectionInstructionStepTwo": "Open and unlock Ledger Live App",
+  "ledgerConnectionPreferenceDescription": "Customize how you connect your Ledger to Wallet. $1 is recommended, but other options are available. Read more here: $2",
+
+  "ledgerDeviceOpenFailureMessage": "The Ledger device failed to open. Your Ledger might be connected to other software. Please close Ledger Live or other applications connected to your Ledger device, and try to connect again.",
+  "ledgerLive": "Ledger Live",
+
+  "ledgerLiveApp": "Ledger Live App",
+  "ledgerLocked": "Cannot connect to Ledger device. Please make sure your device is unlocked and Ethereum app is opened.",
+  "ledgerTimeout": "Ledger Live is taking too long to respond or connection timeout. Make sure Ledger Live app is opened and your device is unlocked.",
+  "ledgerTransportChangeWarning": "If your Ledger Live app is open, please disconnect any open Ledger Live connection and close the Ledger Live app.",
+  "ledgerWebHIDNotConnectedErrorMessage": "The ledger device was not connected. If you wish to connect your Ledger, please click 'Continue' again and approve HID connection",
+
+  "letsGoSetUp": "Yes, let’s get set up!",
+  "likeToImportTokens": "Would you like to import these tokens?",
+  "link": "Link",
+  "links": "Links",
+  "loadMore": "Load More",
+  "loading": "Loading...",
+  "loadingTokens": "Loading Tokens...",
+  "localhost": "Localhost 8545",
+  "lock": "Lock",
+  "lockTimeTooGreat": "Lock time is too great",
+  "low": "Low",
+  "lowGasSettingToolTipMessage": "Use $1 to wait for a cheaper price. Time estimates are much less accurate as prices are somewhat unpredicible.",
+
+  "lowLowercase": "low",
+  "lowPriorityMessage": "Future transactions will queue after this one. This price was last seen was some time ago.",
+  "mainnet": "Ethereum Mainnet",
+  "makeAnotherSwap": "Create a new swap",
+  "makeSureNoOneWatching": "Make sure no one is watching your screen",
+
+  "max": "Max",
+  "maxBaseFee": "Max base fee",
+  "maxFee": "Max fee",
+  "maxPriorityFee": "Max priority fee",
+  "medium": "Market",
+  "mediumGasSettingToolTipMessage": "Use $1 for fast processing at current market price.",
+
+  "memo": "memo",
+  "memorizePhrase": "Memorize this phrase.",
+  "WalletConnectStatusParagraphOne": "You now have more control over your account connections in Wallet.",
+  "WalletConnectStatusParagraphThree": "Click it to manage your connected accounts.",
+  "WalletConnectStatusParagraphTwo": "The connection status button shows if the website you’re visiting is connected to your currently selected account.",
+  "WalletDescription": "Connecting you to Ethereum and the Decentralized Web.",
+  "WalletSwapsOfflineDescription": "Wallet Swaps is undergoing maintenance. Please check back later.",
+  "WalletVersion": "Wallet Version",
+  "metametricsCommitmentsAllowOptOut": "Always allow you to opt-out via Settings",
+  "metametricsCommitmentsAllowOptOut2": "Always be able to opt-out via Settings",
+  "metametricsCommitmentsBoldNever": "Never",
+
+  "metametricsCommitmentsIntro": "Wallet will..",
+  "metametricsCommitmentsNeverCollect": "Never collect keys, addresses, transactions, balances, hashes, or any personal information",
+  "metametricsCommitmentsNeverCollectIP": "$1 collect your full IP address",
+
+  "metametricsCommitmentsNeverCollectKeysEtc": "$1 collect keys, addresses, transactions, balances, hashes, or any personal information",
+
+  "metametricsCommitmentsNeverIP": "Never collect your full IP address",
+  "metametricsCommitmentsNeverSell": "Never sell data for profit. Ever!",
+  "metametricsCommitmentsNeverSellDataForProfit": "$1 sell data for profit. Ever!",
+
+  "metametricsCommitmentsSendAnonymizedEvents": "Send anonymized click & pageview events",
+  "metametricsHelpImproveWallet": "Help us improve Wallet",
+  "metametricsOptInDescription": "Wallet would like to gather usage data to better understand how our users interact with the extension. This data will be used to continually improve the usability and user experience of our product and the Ethereum ecosystem.",
+  "metametricsOptInDescription2": "We would like to gather basic usage data to improve the usability of our product.  These metrics will...",
+  "metametricsTitle": "Join 6M+ users to improve Wallet",
+  "mismatchedChain": "The network details for this chain ID do not match our records. We recommend that you $1 before proceeding.",
+
+  "mismatchedChainLinkText": "verify the network details",
+
+  "missingNFT": "Don't see your NFT?",
+  "missingToken": "Don't see your token?",
+  "mobileSyncWarning": "The 'Sync with extension' feature is temporarily disabled. If you want to use your extension wallet on Wallet mobile, then on your mobile app: go back to the wallet setup options and select the 'Import with Secret Recovery Phrase' option. Use your extension wallet's secret phrase to then import your wallet into mobile.",
+  "multiplier": "multiplier",
+  "mustSelectOne": "Must select at least 1 token.",
+  "myAccounts": "My Accounts",
+  "name": "Name",
+  "needEtherInWallet": "To interact with decentralized applications using Wallet, you’ll need Ether in your wallet.",
+  "needHelp": "Need help? Contact $1",
+
+  "needHelpFeedback": "Share your Feedback",
+  "needHelpLinkText": "Wallet Support",
+  "needHelpSubmitTicket": "Submit a Ticket",
+  "needImportFile": "You must select a file to import.",
+
+  "negativeETH": "Can not send negative amounts of ETH.",
+  "networkDetails": "Network Details",
+  "networkName": "Network Name",
+  "networkNameBSC": "BSC",
+  "networkNameDefinition": "The name associated with this network.",
+  "networkNameEthereum": "Ethereum",
+  "networkNamePolygon": "Polygon",
+  "networkNameRinkeby": "Rinkeby",
+  "networkNameTestnet": "Testnet",
+  "networkSettingsChainIdDescription": "The chain ID is used for signing transactions. It must match the chain ID returned by the network. You can enter a decimal or '0x'-prefixed hexadecimal number, but we will display the number in decimal.",
+  "networkSettingsDescription": "Add and edit custom RPC networks",
+  "networkStatus": "Network status",
+  "networkStatusBaseFeeTooltip": "The base fee is set by the network and changes every 13-14 seconds. Our $1 and $2 options account for sudden increases.",
+
+  "networkStatusPriorityFeeTooltip": "Range of priority fees (aka “miner tip”). This goes to miners and incentivizes them to prioritize your transaction.",
+  "networkStatusStabilityFeeTooltip": "Gas fees are $1 relative to the past 72 hours.",
+
+  "networkURL": "Network URL",
+  "networkURLDefinition": "The URL used to access this network.",
+  "networks": "Networks",
+  "nevermind": "Nevermind",
+  "newAccount": "New Account",
+  "newAccountDetectedDialogMessage": "New address detected! Click here to add to your address book.",
+  "newAccountNumberName": "Account $1",
+
+  "newCollectibleAddFailed": "Collectible was not added because: $1",
+  "newCollectibleAddedMessage": "Collectible was successfully added!",
+  "newContact": "New Contact",
+  "newContract": "New Contract",
+  "newNFTsDetected": "New! NFT detection",
+  "newNFTsDetectedInfo": "Allow Wallet to automatically detect NFTs from Opensea and display in your Wallet wallet.",
+  "newNetworkAdded": "“$1” was successfully added!",
+  "newPassword": "New password (min 8 chars)",
+  "newToWallet": "New to Wallet?",
+  "newTotal": "New Total",
+  "newTransactionFee": "New Transaction Fee",
+  "newValues": "new values",
+  "next": "Next",
+  "nextNonceWarning": "Nonce is higher than suggested nonce of $1",
+
+  "nftTokenIdPlaceholder": "Enter the collectible ID",
+  "nfts": "NFTs",
+  "nickname": "Nickname",
+  "noAccountsFound": "No accounts found for the given search query",
+  "noAddressForName": "No address has been set for this name.",
+  "noAlreadyHaveSeed": "No, I already have a Secret Recovery Phrase",
+  "noConversionDateAvailable": "No Currency Conversion Date Available",
+  "noConversionRateAvailable": "No Conversion Rate Available",
+  "noNFTs": "No NFTs yet",
+  "noThanks": "No Thanks",
+  "noTransactions": "You have no transactions",
+  "noWebcamFound": "Your computer's webcam was not found. Please try again.",
+  "noWebcamFoundTitle": "Webcam not found",
+  "nonce": "Nonce",
+  "nonceField": "Customize transaction nonce",
+  "nonceFieldDescription": "Turn this on to change the nonce (transaction number) on confirmation screens. This is an advanced feature, use cautiously.",
+  "nonceFieldHeading": "Custom Nonce",
+  "notBusy": "Not busy",
+  "notCurrentAccount": "Is this the correct account? It's different from the currently selected account in your wallet",
+  "notEnoughGas": "Not Enough Gas",
+  "notifications1Description": "Wallet Mobile users can now swap tokens inside their mobile wallet. Scan the QR code to get the mobile app and start swapping.",
+
+  "notifications1Title": "Swapping on mobile is here!",
+
+  "notifications3ActionText": "Read more",
+
+  "notifications3Description": "Stay up to date on Wallet security best practices and get the latest security tips from official Wallet support.",
+
+  "notifications3Title": "Stay secure",
+
+  "notifications4ActionText": "Start swapping",
+
+  "notifications4Description": "Get the best prices on token swaps right inside your wallet. Wallet now connects you to multiple decentralized exchange aggregators and professional market makers on Binance Smart Chain.",
+
+  "notifications4Title": "Swap on Binance Smart Chain",
+
+  "notifications5Description": "Your \"Seed Phrase\" is now called your \"Secret Recovery Phrase.\"",
+
+  "notifications6DescriptionOne": "As of Chrome version 91, the API that enabled our Ledger support (U2F) no longer supports hardware wallets. Wallet has implemented a new Ledger Live support that allows you to continue to connect to your Ledger device via the Ledger Live desktop app.",
+
+  "notifications6DescriptionThree": "When interacting with your Ledger account in Wallet, a new tab will open and you will be asked to open the Ledger Live app.  Once the app opens, you'll be asked to allow a WebSocket connection to your Wallet account.  That's all!",
+
+  "notifications6DescriptionTwo": "You can enable Ledger Live support by clicking Settings > Advanced > Use Ledger Live.",
+
+  "notifications6Title": "Ledger Support Update for Chrome Users",
+
+  "notifications7DescriptionOne": "Wallet v10.1.0 included new support for EIP-1559 transactions when using Ledger devices.",
+
+  "notifications7DescriptionTwo": "To complete transactions on Ethereum Mainnet, make sure your Ledger device has the latest firmware.",
+
+  "notifications7Title": "Ledger firmware update",
+
+  "notifications8ActionText": "Go to Advanced Settings",
+
+  "notifications8DescriptionOne": "As of Wallet v10.4.0, you no longer need Ledger Live to connect your Ledger device to Wallet.",
+
+  "notifications8DescriptionTwo": "For an easier and more stable ledger experience, go to the Advanced tab of settings and switch the 'Preferred Ledger Connection Type' to 'WebHID'.",
+
+  "notifications8Title": "Ledger connection improvement",
+
+  "notifications9DescriptionOne": "We now provide you with more insights on the 'Data' tab when confirming smart contract transactions.",
+  "notifications9DescriptionTwo": "You can now get a better understanding of your transaction’s details before confirming, and more easily add transaction addresses to your address book, helping you make safe and informed decisions.",
+  "notifications9Title": "👓 We are making transactions easier to read.",
+  "ofTextNofM": "of",
+  "off": "Off",
+  "offlineForMaintenance": "Offline for maintenance",
+  "ok": "Ok",
+  "on": "On",
+  "onboardingCreateWallet": "Create a new wallet",
+  "onboardingImportWallet": "Import an existing wallet",
+  "onboardingPinExtensionBillboardAccess": "Full Access",
+  "onboardingPinExtensionBillboardDescription": "These extensions can see and change information",
+  "onboardingPinExtensionBillboardDescription2": "on this site.",
+  "onboardingPinExtensionBillboardTitle": "Extensions",
+  "onboardingPinExtensionChrome": "Click the browser extension icon",
+  "onboardingPinExtensionDescription": "Pin Wallet on your browser so it's accessible and easy to view transaction confirmations.",
+  "onboardingPinExtensionDescription2": "You can open Wallet by clicking on the extension and access your wallet with 1 click.",
+  "onboardingPinExtensionDescription3": "Click browser extension icon to access it instantly",
+  "onboardingPinExtensionLabel": "Pin Wallet",
+  "onboardingPinExtensionStep1": "1",
+  "onboardingPinExtensionStep2": "2",
+  "onboardingPinExtensionTitle": "Your Wallet install is complete!",
+  "onboardingReturnNotice": "\"$1\" will close this tab and direct back to $2",
+
+  "onboardingShowIncomingTransactionsDescription": "Showing incoming transactions in your wallet relies on communication with $1. Etherscan will have access to your Ethereum address and your IP address. View $2.",
+
+  "onboardingUsePhishingDetectionDescription": "Phishing detection alerts rely on communication with $1. jsDeliver will have access to your IP address. View $2.",
+
+  "onlyAddTrustedNetworks": "A malicious network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust.",
+  "onlyConnectTrust": "Only connect with sites you trust.",
+  "openFullScreenForLedgerWebHid": "Open Wallet in full screen to connect your ledger via WebHID.",
+
+  "optional": "Optional",
+  "optionalWithParanthesis": "(Optional)",
+  "or": "or",
+  "origin": "Origin",
+  "parameters": "Parameters",
+  "participateInMetaMetrics": "Participate in MetaMetrics",
+  "participateInMetaMetricsDescription": "Participate in MetaMetrics to help us make Wallet better",
+  "password": "Password",
+  "passwordNotLongEnough": "Password not long enough",
+  "passwordSetupDetails": "This password will unlock your Wallet wallet only on this device. Wallet can not recover this password.",
+  "passwordTermsWarning": "I understand that Wallet cannot recover this password for me. $1",
+  "passwordsDontMatch": "Passwords Don't Match",
+  "pastePrivateKey": "Paste your private key string here:",
+
+  "pending": "Pending",
+  "pendingTransactionInfo": "This transaction will not process until that one is complete.",
+  "pendingTransactionMultiple": "You have ($1) pending transactions.",
+  "pendingTransactionSingle": "You have (1) pending transaction.",
+
+  "permissionRequest": "Permission request",
+  "permissions": "Permissions",
+  "personalAddressDetected": "Personal address detected. Input the token contract address.",
+  "plusXMore": "+ $1 more",
+
+  "preferredLedgerConnectionType": "Preferred Ledger Connection Type",
+
+  "prev": "Prev",
+  "primaryCurrencySetting": "Primary Currency",
+  "primaryCurrencySettingDescription": "Select native to prioritize displaying values in the native currency of the chain (e.g. ETH). Select Fiat to prioritize displaying values in your selected fiat currency.",
+  "priorityFee": "Priority fee",
+  "priorityFeeProperCase": "Priority Fee",
+  "privacyMsg": "Privacy Policy",
+  "privateKey": "Private Key",
+
+  "privateKeyWarning": "Warning: Never disclose this key. Anyone with your private keys can steal any assets held in your account.",
+  "privateNetwork": "Private Network",
+  "proceedWithTransaction": "I want to proceed anyway",
+  "proposedApprovalLimit": "Proposed Approval Limit",
+  "provide": "Provide",
+  "publicAddress": "Public Address",
+  "queue": "Queue",
+  "queued": "Queued",
+  "readdToken": "You can add this token back in the future by going to “Import token” in your accounts options menu.",
+  "receive": "Receive",
+  "recents": "Recents",
+  "recipientAddressPlaceholder": "Search, public address (0x), or ENS",
+  "recommendedGasLabel": "Recommended",
+  "recoveryPhraseReminderBackupStart": "Start here",
+  "recoveryPhraseReminderConfirm": "Got it",
+  "recoveryPhraseReminderHasBackedUp": "Always keep your Secret Recovery Phrase in a secure and secret place",
+  "recoveryPhraseReminderHasNotBackedUp": "Need to backup your Secret Recovery Phrase again?",
+  "recoveryPhraseReminderItemOne": "Never share your Secret Recovery Phrase with anyone",
+  "recoveryPhraseReminderItemTwo": "The Wallet team will never ask for your Secret Recovery Phrase",
+  "recoveryPhraseReminderSubText": "Your Secret Recovery Phrase controls all of your accounts.",
+  "recoveryPhraseReminderTitle": "Protect your funds",
+  "refreshList": "Refresh list",
+  "reject": "Reject",
+  "rejectAll": "Reject All",
+  "rejectTxsDescription": "You are about to batch reject $1 transactions.",
+  "rejectTxsN": "Reject $1 transactions",
+  "rejected": "Rejected",
+  "remember": "Remember:",
+  "remindMeLater": "Remind me later",
+  "remove": "Remove",
+  "removeAccount": "Remove account",
+  "removeAccountDescription": "This account will be removed from your wallet. Please make sure you have the original Secret Recovery Phrase or private key for this imported account before continuing. You can import or create accounts again from the account drop-down. ",
+  "removeNFT": "Remove NFT",
+  "requestsAwaitingAcknowledgement": "requests waiting to be acknowledged",
+  "required": "Required",
+  "reset": "Reset",
+  "resetAccount": "Reset Account",
+  "resetAccountDescription": "Resetting your account will clear your transaction history. This will not change the balances in your accounts or require you to re-enter your Secret Recovery Phrase.",
+  "restore": "Restore",
+  "restoreAccountWithSeed": "Restore your Account with Secret Recovery Phrase",
+  "restoreWalletPreferences": "A backup of your data from $1 has been found. Would you like to restore your wallet preferences?",
+
+  "retryTransaction": "Retry Transaction",
+  "reusedTokenNameWarning": "A token here reuses a symbol from another token you watch, this can be confusing or deceptive.",
+  "revealSeedWords": "Reveal Secret Recovery Phrase",
+  "revealSeedWordsDescription": "If you ever change browsers or move computers, you will need this Secret Recovery Phrase to access your accounts. Save them somewhere safe and secret.",
+  "revealSeedWordsWarning": "These words can be used to steal all your accounts.",
+  "revealSeedWordsWarningTitle": "DO NOT share this phrase with anyone!",
+  "rinkeby": "Rinkeby Test Network",
+  "ropsten": "Ropsten Test Network",
+  "rpcUrl": "New RPC URL",
+  "save": "Save",
+  "saveAsCsvFile": "Save as CSV File",
+  "scanInstructions": "Place the QR code in front of your camera",
+  "scanQrCode": "Scan QR Code",
+  "scrollDown": "Scroll down",
+  "search": "Search",
+  "searchAccounts": "Search Accounts",
+  "searchResults": "Search Results",
+  "searchTokens": "Search Tokens",
+  "secretBackupPhraseDescription": "Your Secret Recovery Phrase makes it easy to back up and restore your account.",
+  "secretBackupPhraseWarning": "WARNING: Never disclose your Secret Recovery Phrase. Anyone with this phrase can take your Ether forever.",
+  "secretPhrase": "Only the first account on this wallet will auto load. After completing this process, to add additional accounts, click the drop down menu, then select Create Account.",
+  "secretPhraseWarning": "If you restore using another Secret Recovery Phrase, your current wallet, accounts and assets will be removed from this app permanently. This action cannot be undone.",
+  "secretRecoveryPhrase": "Secret Recovery Phrase",
+  "secureWallet": "Secure Wallet",
+  "securityAndPrivacy": "Security & Privacy",
+  "securitySettingsDescription": "Privacy settings and wallet Secret Recovery Phrase",
+  "seedPhraseConfirm": "Confirm Secret Recovery Phrase",
+  "seedPhraseEnterMissingWords": "Confirm Secret Recovery Phrase",
+  "seedPhraseIntroNotRecommendedButtonCopy": "Remind me later (not recommended)",
+  "seedPhraseIntroRecommendedButtonCopy": "Secure my wallet (recommended)",
+  "seedPhraseIntroSidebarBulletFour": "Write down and store in multiple secret places.",
+  "seedPhraseIntroSidebarBulletOne": "Save in a password manager",
+  "seedPhraseIntroSidebarBulletThree": "Store in a safe-deposit box.",
+  "seedPhraseIntroSidebarBulletTwo": "Store in a bank vault.",
+  "seedPhraseIntroSidebarCopyOne": "Your Secret Recovery Phrase is a 12-word phrase that is the “master key” to your wallet and your funds",
+  "seedPhraseIntroSidebarCopyThree": "If someone asks for your recovery phrase they are likely trying to scam you and steal your wallet funds",
+  "seedPhraseIntroSidebarCopyTwo": "Never, ever share your Secret Recovery Phrase, not even with Wallet!",
+  "seedPhraseIntroSidebarTitleOne": "What is a Secret Recovery Phrase?",
+  "seedPhraseIntroSidebarTitleThree": "Should I share my Secret Recovery Phrase?",
+  "seedPhraseIntroSidebarTitleTwo": "How do I save my Secret Recovery Phrase?",
+  "seedPhraseIntroTitle": "Secure your wallet",
+  "seedPhraseIntroTitleCopy": "Before getting started, watch this short video to learn about your Secret Recovery Phrase and how to keep your wallet safe.",
+  "seedPhrasePlaceholder": "Separate each word with a single space",
+  "seedPhrasePlaceholderPaste": "Paste Secret Recovery Phrase from clipboard",
+  "seedPhraseReq": "Secret Recovery Phrases contain 12, 15, 18, 21, or 24 words",
+  "seedPhraseWriteDownDetails": "Write down this 12-word Secret Recovery Phrase and save it in a place that you trust and only you can access.",
+  "seedPhraseWriteDownHeader": "Write down your Secret Recovery Phrase",
+  "selectAHigherGasFee": "Select a higher gas fee to accelerate the processing of your transaction.*",
+  "selectAccounts": "Select the account(s) to use on this site",
+  "selectAll": "Select all",
+  "selectAnAccount": "Select an Account",
+  "selectAnAccountAlreadyConnected": "This account has already been connected to Wallet",
+  "selectEachPhrase": "Please select each phrase in order to make sure it is correct.",
+  "selectHdPath": "Select HD Path",
+  "selectNFTPrivacyPreference": "Turn on NFT detection in Settings",
+  "selectPathHelp": "If you don't see the accounts you expect, try switching the HD path.",
+  "selectType": "Select Type",
+  "selectingAllWillAllow": "Selecting all will allow this site to view all of your current accounts. Make sure you trust this site.",
+  "send": "Send",
+  "sendAmount": "Send Amount",
+  "sendSpecifiedTokens": "Send $1",
+
+  "sendTo": "Send to",
+  "sendTokens": "Send Tokens",
+  "sendingNativeAsset": "Sending $1",
+
+  "separateEachWord": "Separate each word with a single space",
+  "setAdvancedPrivacySettings": "Set advanced privacy settings",
+  "setAdvancedPrivacySettingsDetails": "Wallet uses these trusted third-party services to enhance product usability and safety.",
+  "settings": "Settings",
+  "show": "Show",
+  "showAdvancedGasInline": "Advanced gas controls",
+  "showAdvancedGasInlineDescription": "Select this to show gas price and limit controls directly on the send and confirm screens.",
+  "showFiatConversionInTestnets": "Show Conversion on test networks",
+  "showFiatConversionInTestnetsDescription": "Select this to show fiat conversion on test networks",
+  "showHexData": "Show Hex Data",
+  "showHexDataDescription": "Select this to show the hex data field on the send screen",
+  "showHide": "Show/hide",
+  "showIncomingTransactions": "Show Incoming Transactions",
+  "showIncomingTransactionsDescription": "Select this to use Etherscan to show incoming transactions in the transactions list",
+  "showPermissions": "Show permissions",
+  "showPrivateKeys": "Show Private Keys",
+  "showRecommendations": "Show Recommendations",
+  "showSeedPhrase": "Show Secret Recovery Phrase",
+  "showTestnetNetworks": "Show test networks",
+  "showTestnetNetworksDescription": "Select this to show test networks in network list",
+  "sigRequest": "Signature Request",
+  "sign": "Sign",
+  "signNotice": "Signing this message can be dangerous. This signature could potentially perform any operation on your account's behalf, including granting complete control of your account and all of its assets to the requesting site. Only sign this message if you know what you're doing or completely trust the requesting site.",
+  "signatureRequest": "Signature Request",
+  "signatureRequest1": "Message",
+  "signed": "Signed",
+  "simulationErrorMessage": "This transaction is expected to fail. Trying to execute it is expected to be expensive but fail, and is not recommended.",
+  "simulationErrorMessageV2": "We were not able to estimate gas. There might be an error in the contract and this transaction may fail.",
+  "skip": "Skip",
+  "skipAccountSecurity": "Skip Account Security?",
+  "skipAccountSecurityDetails": "I understand that until I back up my Secret Recovery Phrase, I may lose my accounts and all of their assets.",
+  "slow": "Slow",
+  "somethingWentWrong": "Oops! Something went wrong.",
+  "source": "Source",
+  "speedUp": "Speed Up",
+  "speedUpCancellation": "Speed up this cancellation",
+  "speedUpExplanation": "We’ve updated the gas fee based on current network conditions and have increased it by at least 10% (required by the network).",
+  "speedUpPopoverTitle": "Speed up transaction",
+  "speedUpTooltipText": "New gas fee",
+  "speedUpTransaction": "Speed up this transaction",
+  "spendLimitAmount": "Spend limit amount",
+  "spendLimitInsufficient": "Spend limit insufficient",
+  "spendLimitInvalid": "Spend limit invalid; must be a positive number",
+  "spendLimitPermission": "Spend limit permission",
+  "spendLimitRequestedBy": "Spend limit requested by $1",
+
+  "spendLimitTooLarge": "Spend limit too large",
+  "stable": "Stable",
+  "stableLowercase": "stable",
+  "stateLogError": "Error in retrieving state logs.",
+  "stateLogFileName": "Wallet State Logs",
+  "stateLogs": "State Logs",
+  "stateLogsDescription": "State logs contain your public account addresses and sent transactions.",
+  "statusConnected": "Connected",
+  "statusNotConnected": "Not connected",
+  "step1LatticeWallet": "Make sure your Lattice1 is ready to connect",
+  "step1LatticeWalletMsg": "You can connect Wallet to your Lattice1 device once it is set up and online. Unlock your device and have your Device ID ready. For more on using hardware wallets, $1",
+
+  "step1LedgerWallet": "Download Ledger app",
+  "step1LedgerWalletMsg": "Download, set up, and enter your password to unlock $1.",
+
+  "step1TrezorWallet": "Plug in Trezor wallet",
+  "step1TrezorWalletMsg": "Connect your wallet directly to your computer. For more on using your hardware wallet device, $1",
+
+  "step2LedgerWallet": "Plug in Ledger wallet",
+  "step2LedgerWalletMsg": "Connect your wallet directly to your computer.  Unlock your Ledger and open the Ethereum app. For more on using your hardware wallet device, $1.",
+
+  "storePhrase": "Store this phrase in a password manager like 1Password.",
+  "submit": "Submit",
+  "submitted": "Submitted",
+  "support": "Support",
+  "supportCenter": "Visit our Support Center",
+  "swap": "Swap",
+  "swapAdvancedSlippageInfo": "If the price changes between the time your order is placed and confirmed it’s called “slippage”. Your swap will automatically cancel if slippage exceeds your “max slippage” setting.",
+  "swapAggregator": "Aggregator",
+  "swapAllowSwappingOf": "Allow swapping of $1",
+
+  "swapAmountReceived": "Guaranteed amount",
+  "swapAmountReceivedInfo": "This is the minimum amount you will receive. You may receive more depending on slippage.",
+  "swapApproval": "Approve $1 for swaps",
+
+  "swapApproveNeedMoreTokens": "You need $1 more $2 to complete this swap",
+
+  "swapBestOfNQuotes": "Best of $1 quotes.",
+
+  "swapBuildQuotePlaceHolderText": "No tokens available matching $1",
+
+  "swapConfirmWithHwWallet": "Confirm with your hardware wallet",
+  "swapContractDataDisabledErrorDescription": "In the Ethereum app on your Ledger, go to \"Settings\" and allow contract data. Then, try your swap again.",
+  "swapContractDataDisabledErrorTitle": "Contract data is not enabled on your Ledger",
+  "swapCustom": "custom",
+  "swapDecentralizedExchange": "Decentralized exchange",
+  "swapDirectContract": "Direct contract",
+  "swapEditLimit": "Edit limit",
+  "swapEnableDescription": "This is required and gives Wallet permission to swap your $1.",
+
+  "swapEnableTokenForSwapping": "This will $1 for swapping",
+
+  "swapEstimatedNetworkFees": "Estimated network fees",
+  "swapEstimatedNetworkFeesInfo": "This is an estimate of the network fee that will be used to complete your swap. The actual amount may change according to network conditions.",
+  "swapFailedErrorDescriptionWithSupportLink": "Transaction failures happen and we are here to help. If this issue persists, you can reach our customer support at $1 for further assistance.",
+
+  "swapFailedErrorTitle": "Swap failed",
+  "swapFetchingQuotes": "Fetching quotes",
+  "swapFetchingQuotesErrorDescription": "Hmmm... something went wrong. Try again, or if errors persist, contact customer support.",
+  "swapFetchingQuotesErrorTitle": "Error fetching quotes",
+  "swapFetchingTokens": "Fetching tokens...",
+  "swapFromTo": "The swap of $1 to $2",
+
+  "swapGasFeesDetails": "Gas fees are estimated and will fluctuate based on network traffic and transaction complexity.",
+  "swapGasFeesLearnMore": "Learn more about gas fees",
+  "swapGasFeesSplit": "Gas fees on the previous screen are split between these two transactions.",
+  "swapGasFeesSummary": "Gas fees are paid to crypto miners who process transactions on the $1 network. Wallet does not profit from gas fees.",
+
+  "swapHighSlippageWarning": "Slippage amount is very high.",
+  "swapIncludesMMFee": "Includes a $1% Wallet fee.",
+
+  "swapLowSlippageError": "Transaction may fail, max slippage too low.",
+  "swapMaxSlippage": "Max slippage",
+  "swapWalletFee": "Wallet fee",
+  "swapWalletFeeDescription": "We find the best price from the top liquidity sources, every time. A fee of $1% is automatically factored into this quote.",
+
+  "swapNQuotesWithDot": "$1 quotes.",
+
+  "swapNewQuoteIn": "New quotes in $1",
+
+  "swapOnceTransactionHasProcess": "Your $1 will be added to your account once this transaction has processed.",
+
+  "swapPriceDifference": "You are about to swap $1 $2 (~$3) for $4 $5 (~$6).",
+
+  "swapPriceDifferenceTitle": "Price difference of ~$1%",
+
+  "swapPriceImpactTooltip": "Price impact is the difference between the current market price and the amount received during transaction execution. Price impact is a function of the size of your trade relative to the size of the liquidity pool.",
+  "swapPriceUnavailableDescription": "Price impact could not be determined due to lack of market price data. Please confirm that you are comfortable with the amount of tokens you are about to receive before swapping.",
+  "swapPriceUnavailableTitle": "Check your rate before proceeding",
+  "swapProcessing": "Processing",
+  "swapQuoteDetails": "Quote details",
+  "swapQuoteDetailsSlippageInfo": "If the price changes between the time your order is placed and confirmed it’s called \"slippage\". Your Swap will automatically cancel if slippage exceeds your \"slippage tolerance\" setting.",
+  "swapQuoteNofN": "Quote $1 of $2",
+
+  "swapQuoteSource": "Quote source",
+  "swapQuotesExpiredErrorDescription": "Please request new quotes to get the latest rates.",
+  "swapQuotesExpiredErrorTitle": "Quotes timeout",
+  "swapQuotesNotAvailableErrorDescription": "Try adjusting the amount or slippage settings and try again.",
+  "swapQuotesNotAvailableErrorTitle": "No quotes available",
+  "swapRate": "Rate",
+  "swapReceiving": "Receiving",
+  "swapReceivingInfoTooltip": "This is an estimate. The exact amount depends on slippage.",
+  "swapRequestForQuotation": "Request for quotation",
+  "swapReviewSwap": "Review Swap",
+  "swapSearchForAToken": "Search for a token",
+  "swapSelect": "Select",
+  "swapSelectAQuote": "Select a quote",
+  "swapSelectAToken": "Select a token",
+  "swapSelectQuotePopoverDescription": "Below are all the quotes gathered from multiple liquidity sources.",
+  "swapSlippageNegative": "Slippage must be greater or equal to zero",
+  "swapSource": "Liquidity source",
+  "swapSourceInfo": "We search multiple liquidity sources (exchanges, aggregators and professional market makers) to find the best rates and lowest network fees.",
+  "swapSuggested": "Swap suggested",
+  "swapSuggestedGasSettingToolTipMessage": "Swaps are complex and time sensitive transactions. We recommend this gas fee for a good balance between cost and confidence of a successful Swap.",
+  "swapSwapFrom": "Swap from",
+  "swapSwapSwitch": "Switch from and to tokens",
+  "swapSwapTo": "Swap to",
+  "swapToConfirmWithHwWallet": "to confirm with your hardware wallet",
+  "swapTokenAvailable": "Your $1 has been added to your account.",
+  "swapTokenBalanceUnavailable": "We were unable to retrieve your $1 balance",
+  "swapTokenToToken": "Swap $1 to $2",
+  "swapTokenVerificationAddedManually": "This token has been added manually.",
+  "swapTokenVerificationMessage": "Always confirm the token address on $1.",
+
+  "swapTokenVerificationOnlyOneSource": "Only verified on 1 source.",
+  "swapTokenVerificationSources.message": "Verified on $1 sources.",
+  "swapTokenVerificationSources.description": "Indicates the number of token information sources that recognize the symbol + address. $1 is a decimal number.",
+  "swapTooManyDecimalsError.message": "$1 allows up to $2 decimals",
+  "swapTooManyDecimalsError.description": "$1 is a token symbol and $2 is the max. number of decimals allowed for the token",
+  "swapTransactionComplete": "Transaction complete",
+  "swapTwoTransactions": "2 transactions",
+  "swapUnknown": "Unknown",
+  "swapVerifyTokenExplanation.message": "Multiple tokens can use the same name and symbol. Check $1 to verify this is the token you're looking for.",
+  "swapVerifyTokenExplanation.description": "This appears in a tooltip next to the verifyThisTokenOn message. It gives the user more information about why they should check the token on a block explorer. $1 will be the name or url of the block explorer, which will be the translation of 'etherscan' or a block explorer url specified for a custom network.",
+  "swapYourTokenBalance.message": "$1 $2 available to swap",
+  "swapYourTokenBalance.description": "Tells the user how much of a token they have in their balance. $1 is a decimal number amount of tokens, and $2 is a token symbol",
+  "swapZeroSlippage": "0% Slippage",
+  "swapsAdvancedOptions": "Advanced Options",
+  "swapsExcessiveSlippageWarning": "Slippage amount is too high and will result in a bad rate. Please reduce your slippage tolerance to a value below 15%.",
+  "swapsMaxSlippage": "Slippage Tolerance",
+  "swapsNotEnoughForTx.message": "Not enough $1 to complete this transaction",
+  "swapsNotEnoughForTx.description": "Tells the user that they don't have enough of a token for a proposed swap. $1 is a token symbol",
+  "swapsViewInActivity": "View in activity",
+  "switchEthereumChainConfirmationDescription": "This will switch the selected network within Wallet to a previously added network:",
+  "switchEthereumChainConfirmationTitle": "Allow this site to switch the network?",
+  "switchNetwork": "Switch network",
+  "switchNetworks": "Switch Networks",
+  "switchToThisAccount": "Switch to this account",
+  "switchingNetworksCancelsPendingConfirmations": "Switching networks will cancel all pending confirmations",
+  "symbol": "Symbol",
+  "symbolBetweenZeroTwelve": "Symbol must be 11 characters or fewer.",
+  "syncFailed": "Sync failed",
+  "syncInProgress": "Sync in progress",
+  "syncWithMobile": "Sync with mobile",
+  "syncWithMobileBeCareful": "Make sure nobody else is looking at your screen when you scan this code",
+  "syncWithMobileComplete": "Your data has been synced successfully. Enjoy the Wallet mobile app!",
+  "syncWithMobileDesc": "You can sync your accounts and information with your mobile device. Open the Wallet mobile app, go to \"Settings\" and tap on \"Sync from Browser Extension\"",
+  "syncWithMobileDescNewUsers": "If you just open the Wallet Mobile app for the first time, just follow the steps in your phone.",
+  "syncWithMobileScanThisCode": "Scan this code with your Wallet mobile app",
+  "syncWithMobileTitle": "Sync with mobile",
+  "syncWithThreeBox": "Sync data with 3Box (experimental)",
+  "syncWithThreeBoxDescription": "Turn on to have your settings backed up with 3Box. This feature is currently experimental; use at your own risk.",
+  "syncWithThreeBoxDisabled": "3Box has been disabled due to an error during the initial sync",
+  "terms": "Terms of Use",
+  "termsOfService": "Terms of Service",
+  "testFaucet": "Test Faucet",
+  "thisWillCreate": "This will create a new wallet and Secret Recovery Phrase",
+  "time": "Time",
+  "tips": "Tips",
+  "to": "To",
+  "toAddress.message": "To: $1",
+  "toAddress.description": "$1 is the address to include in the To label. It is typically shortened first using shortenAddress",
+  "toggleTestNetworks.message": "$1 test networks",
+  "toggleTestNetworks.description": "$1 is a clickable link with text defined by the 'showHide' key. The link will open to the advanced settings where users can enable the display of test networks in the network dropdown.",
+  "token": "Token",
+  "tokenAlreadyAdded": "Token has already been added.",
+  "tokenContractAddress": "Token Contract Address",
+  "tokenDecimalFetchFailed": "Token decimal required.",
+  "tokenDetectionAnnouncement": "New! Improved token detection is available on Ethereum Mainnet as an experimental feature. $1",
+  "tokenSymbol": "Token Symbol",
+  "tooltipApproveButton": "I understand",
+  "total": "Total",
+  "transaction": "transaction",
+  "transactionCancelAttempted": "Transaction cancel attempted with estimated gas fee of $1 at $2",
+  "transactionCancelSuccess": "Transaction successfully cancelled at $2",
+  "transactionConfirmed": "Transaction confirmed at $2.",
+  "transactionCreated": "Transaction created with a value of $1 at $2.",
+  "transactionData": "Transaction data",
+  "transactionDecodingAccreditationDecoded": "Decoded by Truffle",
+  "transactionDecodingAccreditationVerified": "Verified contract on $1",
+  "transactionDecodingUnsupportedNetworkError": "Transaction decoding is not available for chainId $1",
+  "transactionDetailDappGasMoreInfo": "Site suggested",
+  "transactionDetailDappGasTooltip": "Edit to use Wallet's recommended gas fee based on the latest block.",
+  "transactionDetailGasHeading": "Estimated gas fee",
+  "transactionDetailGasHeadingV2": "Gas",
+  "transactionDetailGasInfoV2": "estimated",
+  "transactionDetailGasTooltipConversion": "Learn more about gas fees",
+  "transactionDetailGasTooltipExplanation": "Gas fees are set by the network and fluctuate based on network traffic and transaction complexity.",
+  "transactionDetailGasTooltipIntro": "Gas fees are paid to crypto miners who process transactions on the $1 network. Wallet does not profit from gas fees.",
+  "transactionDetailGasTotalSubtitle": "Amount + gas fee",
+  "transactionDetailLayer2GasHeading": "Layer 2 gas fee",
+  "transactionDetailMultiLayerTotalSubtitle": "Amount + fees",
+  "transactionDropped": "Transaction dropped at $2.",
+  "transactionError": "Transaction Error. Exception thrown in contract code.",
+  "transactionErrorNoContract": "Trying to call a function on a non-contract address.",
+  "transactionErrored": "Transaction encountered an error.",
+  "transactionFee": "Transaction fee",
+  "transactionHistoryBaseFee": "Base Fee (GWEI)",
+  "transactionHistoryL1GasLabel": "Total L1 Gas Fee",
+  "transactionHistoryL2GasLimitLabel": "L2 Gas Limit",
+  "transactionHistoryL2GasPriceLabel": "L2 Gas Price",
+  "transactionHistoryMaxFeePerGas": "Max Fee Per Gas",
+  "transactionHistoryPriorityFee": "Priority Fee (GWEI)",
+  "transactionHistoryTotalGasFee": "Total Gas Fee",
+  "transactionResubmitted": "Transaction resubmitted with estimated gas fee increased to $1 at $2",
+  "transactionSubmitted": "Transaction submitted with estimated gas fee of $1 at $2.",
+  "transactionUpdated": "Transaction updated at $2.",
+  "transfer": "Transfer",
+  "transferBetweenAccounts": "Transfer between my accounts",
+  "transferFrom": "Transfer From",
+  "troubleConnectingToWallet.message": "We had trouble connecting to your $1, try reviewing $2 and try again.",
+  "troubleConnectingToWallet.description": "$1 is the wallet device name; $2 is a link to wallet connection guide",
+  "troubleTokenBalances.message": "We had trouble loading your token balances. You can view them ",
+  "troubleTokenBalances.description": "Followed by a link (here) to view token balances",
+  "trustSiteApprovePermission": "By granting permission, you are allowing the following $1 to access your funds",
+  "tryAgain": "Try again",
+  "tryAnywayOption": "I will try anyway",
+  "turnOnTokenDetection": "Turn on enhanced token detection",
+  "twelveHrTitle": "12hr:",
+  "txInsightsNotSupported": "Transaction insights not supported for this contract at this time.",
+  "typePassword": "Type your Wallet password",
+  "u2f.message": "U2F",
+  "u2f.description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect Wallet to Ledger devices.",
+  "unapproved": "Unapproved",
+  "units": "units",
+  "unknown": "Unknown",
+  "unknownCameraError": "There was an error while trying to access your camera. Please try again...",
+  "unknownCameraErrorTitle": "Ooops! Something went wrong....",
+  "unknownNetwork": "Unknown Private Network",
+  "unknownQrCode": "Error: We couldn't identify that QR code",
+  "unlimited": "Unlimited",
+  "unlock": "Unlock",
+  "unlockMessage": "The decentralized web awaits",
+  "unrecognizedChain.message": "This custom network is not recognized. We recommend that you $1 before proceeding",
+  "unrecognizedChain.description": "$1 is a clickable link with text defined by the 'unrecognizedChanLinkText' key. The link will open to instructions for users to validate custom network details.",
+  "unrecognizedChainLinkText.message": "verify the network details",
+  "unrecognizedChainLinkText.description": "Serves as link text for the 'unrecognizedChain' key. This text will be embedded inside the translation for that key.",
+  "unsendableAsset.message": "Sending collectible (ERC-721) tokens is not currently supported",
+  "unsendableAsset.description": "This is an error message we show the user if they attempt to send a collectible asset type, for which currently don't support sending",
+  "updatedWithDate": "Updated $1",
+  "urlErrorMsg": "URLs require the appropriate HTTP/HTTPS prefix.",
+  "urlExistsErrorMsg": "This URL is currently used by the $1 network.",
+  "useCollectibleDetection": "Autodetect NFTs",
+  "useCollectibleDetectionDescription": "Displaying NFTs media & data may expose your IP address to centralized servers. Third-party APIs (like OpenSea) are used to detect NFTs in your wallet. This exposes your account address with those services. Leave this disabled if you don’t want the app to pull data from those those services.",
+  "usePhishingDetection": "Use Phishing Detection",
+  "usePhishingDetectionDescription": "Display a warning for phishing domains targeting Ethereum users",
+  "useTokenDetection": "Use Token Detection",
+  "useTokenDetectionDescription": "We use third-party APIs to detect and display new tokens sent to your wallet. Turn off if you don’t want Wallet to pull data from those services.",
+  "usedByClients": "Used by a variety of different clients",
+  "userAccepts": "I accept",
+  "userName": "Username",
+  "verifyThisTokenDecimalOn.message": "Token decimal can be found on $1",
+  "verifyThisTokenDecimalOn.description": "Points the user to etherscan as a place they can verify information about a token. $1 is replaced with the translation for \"etherscan\"",
+  "verifyThisTokenOn.message": "Verify this token on $1",
+  "verifyThisTokenOn.description": "Points the user to etherscan as a place they can verify information about a token. $1 is replaced with the translation for \"etherscan\"",
+  "verifyThisUnconfirmedTokenOn.message": "Verify this token on $1 and make sure this is the token you want to trade.",
+  "verifyThisUnconfirmedTokenOn.description": "Points the user to etherscan as a place they can verify information about a token. $1 is replaced with the translation for \"etherscan\"",
+  "viewAccount": "View Account",
+  "viewAllDetails": "View all details",
+  "viewContact": "View Contact",
+  "viewFullTransactionDetails": "View full transaction details",
+  "viewMore": "View More",
+  "viewOnBlockExplorer": "View on block explorer",
+  "viewOnCustomBlockExplorer.message": "View $1 at $2",
+  "viewOnCustomBlockExplorer.description": "$1 is the action type. e.g (Account, Transaction, Swap) and $2 is the Custom Block Exporer URL",
+  "viewOnEtherscan.message": "View $1 on Etherscan",
+  "viewOnEtherscan.description": "$1 is the action type. e.g (Account, Transaction, Swap)",
+  "viewOnOpensea": "View on Opensea",
+  "viewinExplorer": "View $1 in Explorer",
+  "visitWebSite": "Visit our web site",
+  "walletConnectionGuide": "our hardware wallet connection guide",
+  "walletCreationSuccessDetail": "You’ve successfully protected your wallet. Keep your Secret Recovery Phrase safe and secret -- it’s your responsibility!",
+  "walletCreationSuccessReminder1": "Wallet can’t recover your Secret Recovery Phrase.",
+  "walletCreationSuccessReminder2": "Wallet will never ask you for your Secret Recovery Phrase.",
+  "walletCreationSuccessReminder3.message": "$1 with anyone or risk your funds being stolen",
+  "description": "$1 is separated as walletCreationSuccessReminder3BoldSection so that we can bold it",
+  "walletCreationSuccessReminder3BoldSection.message": "Never share your Secret Recovery Phrase",
+  "walletCreationSuccessReminder3BoldSection.description": "This string is localized separately from walletCreationSuccessReminder3 so that we can bold it",
+  "walletCreationSuccessTitle": "Wallet creation successful",
+  "walletSeedRestore": "Wallet Secret Recovery Phrase",
+  "web3ShimUsageNotification": "We noticed that the current website tried to use the removed window.web3 API. If the site appears to be broken, please click $1 for more information.",
+
+  "webhid.message": "WebHID",
+  "webhid.description": "Refers to a interface for connecting external devices to the browser. Used for connecting ledger to the browser. Read more here https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API",
+  "welcome": "Welcome to Wallet",
+  "welcomeBack": "Welcome Back!",
+  "welcomeExploreDescription": "Store, send and spend crypto currencies and assets.",
+  "welcomeExploreTitle": "Explore decentralized apps",
+  "welcomeLoginDescription": "Use your Wallet to login to decentralized apps - no signup needed.",
+  "welcomeLoginTitle": "Say hello to your wallet",
+  "welcomeToWallet": "Let's get started",
+  "welcomeToWalletIntro": "Trusted by millions, Wallet is a secure wallet making the world of web3 accessible to all.",
+  "whatsNew.message": "What's new",
+  "whatsNew.description": "This is the title of a popup that gives users notifications about new features and updates to Wallet.",
+  "whatsThis": "What's this?",
+  "writePhrase": "Write this phrase on a piece of paper and store in a secure location. If you want even more security, write it down on multiple pieces of paper and store each in 2 - 3 different locations.",
+  "xOfY.message": "$1 of $2",
+  "xOfY.description": "$1 and $2 are intended to be two numbers, where $2 is a total, and $1 is a count towards that total",
+  "xOfYPending.message": "$1 of $2 pending",
+  "xOfYPending.description": "$1 and $2 are intended to be two numbers, where $2 is a total number of pending confirmations, and $1 is a count towards that total",
+  "yesLetsTry": "Yes, let's try",
+  "youNeedToAllowCameraAccess": "You need to allow camera access to use this feature.",
+  "youSign": "You are signing",
+  "yourPrivateSeedPhrase": "Your private Secret Recovery Phrase",
+  "zeroGasPriceOnSpeedUpError": "Zero gas price on speed up"
+}

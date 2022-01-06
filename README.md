@@ -1,10 +1,24 @@
 <img src="src/assets/img/icon-128.png" width="64"/>
 
-
-
 ## Announcements
 
 ## Features
+
+- Multilanguages Supports (Done)
+- Sentry Support (On Planning)
+- Genache Server & Cli Support (On Planning)
+- Account Controller (on Developing)
+  - Mnemonic seed generate for account creation process
+  - Derived Private key from Mnemonic
+  - Derived Public key from Private key
+  - Brain key input and recommendation used as password to unlock wallet and hash private data
+  - Vault storage and hashing private account information like 'private key' to blob-store
+  - Account link with 3box id (optionals)
+- Network Controller (on Planning- Jan/2022)
+- Transaction Controller (on Planning - Feb/2022)
+- Hardware Wallet Connect (on Planning - Feb/2022)
+- ...
+
 ## Installing and Running
 
 ### Procedures:
@@ -26,11 +40,9 @@
 
 All your extension's code must be placed in the `src` folder.
 
-The boilerplate is already prepared to have a popup, an options page, a background page, and a new tab page (which replaces the new tab page of your browser). But feel free to customize these.
-
 ## TypeScript
 
-This boilerplate now supports TypeScript! The `Options` Page is implemented using TypeScript. Please refer to `src/pages/Options/` for example usages.
+Supports TypeScript! The `Options` Page is implemented using TypeScript. Please refer to `src/pages/Options/` for example usages.
 
 ## Webpack auto-reload and HRM
 
@@ -44,7 +56,7 @@ $ PORT=6002 npm run start
 
 ## Content Scripts
 
-Although this boilerplate uses the webpack dev server, it's also prepared to write all your bundles files on the disk at every code change, so you can point, on your extension manifest, to your bundles that you want to use as [content scripts](https://developer.chrome.com/extensions/content_scripts), but you need to exclude these entry points from hot reloading [(why?)](https://github.com/samuelsimoes/chrome-extension-webpack-boilerplate/issues/4#issuecomment-261788690). To do so you need to expose which entry points are content scripts on the `webpack.config.js` using the `chromeExtensionBoilerplate -> notHotReload` config. Look the example below.
+Although uses the webpack dev server, it's also prepared to write all your bundles files on the disk at every code change, so you can point, on your extension manifest, to your bundles that you want to use as [content scripts](https://developer.chrome.com/extensions/content_scripts), but you need to exclude these entry points from hot reloading [(why?)](https://github.com/samuelsimoes/chrome-extension-webpack-boilerplate/issues/4#issuecomment-261788690). To do so you need to expose which entry points are content scripts on the `webpack.config.js` using the `chromeExtensionBoilerplate -> notHotReload` config. Look the example below.
 
 Let's say that you want use the `myContentScript` entry point as content script, so on your `webpack.config.js` you will configure the entry point and exclude it from hot reloading, like this:
 
@@ -73,10 +85,6 @@ and on your `src/manifest.json`:
   ]
 }
 ```
-
-## Intelligent Code Completion
-
-Thanks to [@hudidit](https://github.com/lxieyang/chrome-extension-boilerplate-react/issues/4)'s kind suggestions, this boilerplate supports chrome-specific intelligent code completion using [@types/chrome](https://www.npmjs.com/package/@types/chrome).
 
 ## Packing
 
@@ -111,7 +119,38 @@ ApiCall({ key: secrets.key });
 
 ## Resources:
 
+DEVELOPMENTS
+
 - [Webpack documentation](https://webpack.js.org/concepts/)
 - [Chrome Extension documentation](https://developer.chrome.com/extensions/getstarted)
+- [A glossary of common terms in ethereum crypto space](https://support.mycrypto.com/general-knowledge/ethereum-blockchain/a-glossary-of-common-terms-in-the-ethereum-crypto-space/)
+
+PROTOCOLS
+
+- [JSON-RPC Method](https://eth.wiki/json-rpc/API#json-rpc-methods)
+- [Ethereum js provider specfified in EIP-1193](https://eips.ethereum.org/EIPS/eip-1193)
+- [Ethereum Web3 wallet permission in EIP-2255](https://eips.ethereum.org/EIPS/eip-2255)
+- [Ethereum typed structured data hashing and signing](https://eips.ethereum.org/EIPS/eip-712)
+
+MNEMONIC PHRASES
+
+- [MNEMONIC PHRASE/SEED PHRASE/BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)
+- [BIP39 WORDLIST](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md)
+- [SLIP39 PROPOSALS](https://github.com/satoshilabs/slips)
+- [EIP-3450 LIKE BIP39 BUT ON ETHEREUM](https://eips.ethereum.org/EIPS/eip-3450)
+- [EIP-3450 WORDLIST](https://eips.ethereum.org/assets/eip-3450/wordlist.txt)
+
+PACKAGES
+
+- [JSON RPC Capabilities Middleware, compatible with EIP-2255](https://github.com/MetaMask/rpc-cap)
+- [JavaScript implementations - Signing Data](https://github.com/MetaMask/eth-sig-util)
+- [Decentrailized storage, messsage solution for Dapps](https://github.com/3box/3box)
+- [Ceramic - Decentrailized flatform for create, host , share stream of data](https://github.com/ceramicnetwork)
+
+EXAMPLES
+
+- [JS Ethereum Signature Example - Signing Data](https://github.com/danfinlay/js-eth-personal-sign-examples)
 
 ---
+
+save orange bacon jaguar mobile poet bar between clog coral banana useful

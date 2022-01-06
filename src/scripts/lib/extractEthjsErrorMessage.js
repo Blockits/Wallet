@@ -14,13 +14,13 @@ const errorLabelPrefix = 'Error: ';
  *
  */
 export default function extractEthjsErrorMessage(errorMessage) {
-    const isEthjsRpcError = errorMessage.includes(ethJsRpcSlug);
-    if(isEthjsRpcError) {
-        const payloadAndError = errorMessage.slice(ethJsRpcSlug.length);
-        const originalError = payloadAndError.slice(
-            payloadAndError.indexOf(errorLabelPrefix) + errorLabelPrefix.length,
-        )
-        return originalError;
-    }
-    return errorMessage;
+  const isEthjsRpcError = errorMessage.includes(ethJsRpcSlug);
+  if (isEthjsRpcError) {
+    const payloadAndError = errorMessage.slice(ethJsRpcSlug.length);
+    const originalError = payloadAndError.slice(
+      payloadAndError.indexOf(errorLabelPrefix) + errorLabelPrefix.length
+    );
+    return originalError;
+  }
+  return errorMessage;
 }

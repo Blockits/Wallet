@@ -1,0 +1,51 @@
+{
+  "author": "https://github.com/Blockits",
+  "description": "__MSG_appDescription__",
+  "manifest_version": 2,
+  "name": "Wallet",
+  "options_page": "options.html",
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon-34.png",
+    "default_title": "Wallet"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "file://*/*",
+        "http://*/*", 
+        "https://*/*", 
+        "<all_urls>"
+      ],
+      "js": [
+        "contentScript.bundle.js"
+      ],
+      "css": ["content.styles.css"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "clipboardWrite",
+    "activeTab",
+    "notifications",
+    "webRequest",
+    "http://localhost:8545/",
+    "https://*.infura.io/",
+    "https://wallet.gridplus.io/*",
+    "*://*.eth/"
+  ],
+  "web_accessible_resources": ["inpage.js"]
+}

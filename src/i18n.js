@@ -1,12 +1,12 @@
 /**
  * i18n.js
- * 
+ *
  * This contains react-intl initializaion
- * 
+ *
  * exports AppLocaleList, translatedMessages, DEFAULT_LOCALE
  */
 
-const AppLocaleList = require('./_locales/index'); 
+const AppLocaleList = require('./_locales/index');
 
 // Deprecated when upgrade to react-int >= v3
 /*
@@ -27,9 +27,9 @@ const viTranslationMessages = require('./_locales/vi/messages.json');
 const zhTranslationMessages = require('./_locales/zh/messages.json');
 
 const translatedMessages = {
-    en: enTranslationMessages,
-    vi: viTranslationMessages,
-    zh: zhTranslationMessages,
+  en: enTranslationMessages,
+  vi: viTranslationMessages,
+  zh: zhTranslationMessages,
 };
 
 const DEFAULT_LOCALE = navigator.language.match(/^[A-Za-z]{2}/)[0];

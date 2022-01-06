@@ -1,2349 +1,863 @@
 {
-  "introduction": 
-      "Đây là ví tiền mã hoá!"
-  ,
-  "about": 
-     "Giới thiệu"
-  ,
-  "aboutSettingsDescription": 
-     "Phiên bản, trung tâm trợ giúp và thông tin liên hệ"
-  ,
-  "acceleratingATransaction": 
-     "* Việc đẩy nhanh giao dịch bằng cách sử dụng giá gas cao hơn sẽ tăng khả năng được mạng xử lý nhanh hơn, nhưng không phải lúc nào điều này cũng được đảm bảo."
-  ,
-  "acceptTermsOfUse": 
-     "Tôi đã đọc và đồng ý với $1"
-    
-  ,
-  "accessAndSpendNotice": 
-     "$1 có thể truy cập và chi tiêu đến số tiền tối đa"
-    
-  ,
-  "accessingYourCamera": 
-     "Đang truy cập camera..."
-  ,
-  "account": 
-     "Tài khoản"
-  ,
-  "accountDetails": 
-     "Chi tiết tài khoản"
-  ,
-  "accountName": 
-     "Tên tài khoản"
-  ,
-  "accountOptions": 
-     "Tùy chọn tài khoản"
-  ,
-  "accountSelectionRequired": 
-     "Bạn cần chọn một tài khoản!"
-  ,
-  "active": 
-     "Đang hoạt động"
-  ,
-  "activity": 
-     "Hoạt động"
-  ,
-  "activityLog": 
-     "nhật ký hoạt động"
-  ,
-  "addAcquiredTokens": 
-     "Thêm token mà bạn đã mua bằng Wallet"
-  ,
-  "addAlias": 
-     "Thêm biệt danh"
-  ,
-  "addContact": 
-     "Thêm người liên hệ"
-  ,
-  "addCustomTokenByContractAddress": 
-     "Bạn không tìm thấy token? Bạn có thể dán địa chỉ của bất kỳ token nào để thêm token đó theo cách thủ công. Bạn có thể tìm thấy địa chỉ hợp đồng token trên $1."
-    
-  ,
-  "addEthereumChainConfirmationDescription": 
-     "Thao tác này sẽ cho phép sử dụng mạng này trong Wallet."
-  ,
-  "addEthereumChainConfirmationRisks": 
-     "Wallet không xác minh mạng tùy chỉnh."
-  ,
-  "addEthereumChainConfirmationRisksLearnMore": 
-     "Tìm hiểu về $1."
-    
-  ,
-  "addEthereumChainConfirmationRisksLearnMoreLink": 
-     "lừa đảo và các nguy cơ về an ninh mạng"
-    
-  ,
-  "addEthereumChainConfirmationTitle": 
-     "Cho phép trang này thêm một mạng?"
-  ,
-  "addFriendsAndAddresses": 
-     "Thêm bạn bè và địa chỉ bạn tin cậy"
-  ,
-  "addNetwork": 
-     "Thêm mạng"
-  ,
-  "addSuggestedTokens": 
-     "Thêm token được đề xuất"
-  ,
-  "addToAddressBook": 
-     "Thêm vào sổ địa chỉ"
-  ,
-  "addToAddressBookModalPlaceholder": 
-     "ví dụ: John D."
-  ,
-  "addToken": 
-     "Thêm token"
-  ,
-  "advanced": 
-     "Nâng cao"
-  ,
-  "advancedOptions": 
-     "Tùy chọn nâng cao"
-  ,
-  "advancedSettingsDescription": 
-     "Truy cập các tính năng dành cho nhà phát triển, tải Nhật ký trạng thái xuống, Đặt lại tài khoản, thiết lập mạng thử nghiệm và RPC tùy chỉnh"
-  ,
-  "affirmAgree": 
-     "Tôi đồng ý"
-  ,
-  "aggregatorFeeCost": 
-     "Phí mạng cho trình tổng hợp"
-  ,
-  "alertDisableTooltip": 
-     "Bạn có thể thay đổi trong phần \"Cài đặt > Cảnh báo\""
-  ,
-  "alertSettingsUnconnectedAccount": 
-     "Đang duyệt trang web khi chọn một tài khoản không được kết nối"
-  ,
-  "alertSettingsUnconnectedAccountDescription": 
-     "Cảnh báo này hiển thị trong cửa sổ bật lên khi bạn đang duyệt một trang web đã được kết nối trên web3, nhưng tài khoản đang chọn không được kết nối."
-  ,
-  "alertSettingsWeb3ShimUsage": 
-     "Khi một trang web cố dùng API window.web3 đã bị xóa"
-  ,
-  "alertSettingsWeb3ShimUsageDescription": 
-     "Cảnh báo này hiển thị trong cửa sổ bật lên khi bạn đang duyệt một trang web cố sử dụng API window.web3 đã bị xóa nên có thể bị lỗi."
-  ,
-  "alerts": 
-     "Cảnh báo"
-  ,
-  "alertsSettingsDescription": 
-     "Bật hoặc tắt từng cảnh báo"
-  ,
-  "allowExternalExtensionTo": 
-     "Cho phép tiện ích bên ngoài này:"
-  ,
-  "allowThisSiteTo": 
-     "Cho phép trang web này:"
-  ,
-  "allowWithdrawAndSpend": 
-     "Cho phép $1 rút và chi tiêu tối đa số tiền sau đây:"
-    
-  ,
-  "amount": 
-     "Số tiền"
-  ,
-  "appDescription": 
-     "Ví Ethereum trên trình duyệt của bạn"
-    
-  ,
-  "appName": 
-     "Wallet"
-    
-  ,
-  "appNameBeta": 
-     "Wallet Beta"
-    
-  ,
-  "appNameFlask": 
-     "Wallet Flask"
-    
-  ,
-  "approvalAndAggregatorTxFeeCost": 
-     "Phí mạng cho trình tổng hợp và việc phê duyệt"
-  ,
-  "approvalTxGasCost": 
-     "Chi phí gas cho giao dịch phê duyệt"
-  ,
-  "approve": 
-     "Phê duyệt giới hạn chi tiêu"
-  ,
-  "approveButtonText": 
-     "Phê duyệt"
-  ,
-  "approveSpendLimit": 
-     "Phê duyệt giới hạn chi tiêu $1"
-    
-  ,
-  "approved": 
-     "Đã phê duyệt"
-  ,
-  "asset": 
-     "Tài sản"
-  ,
-  "assetOptions": 
-     "Tùy chọn tài sản"
-  ,
-  "assets": 
-     "Tài sản"
-  ,
-  "attemptToCancel": 
-     "Cố gắng hủy?"
-  ,
-  "attemptToCancelDescription": 
-     "Việc gửi lần thử này không đảm bảo rằng giao dịch gốc của bạn sẽ được hủy. Nếu lần hủy này thành công, bạn sẽ chịu phí giao dịch nêu ở trên."
-  ,
-  "attemptingConnect": 
-     "Đang cố gắng kết nối với chuỗi khối."
-  ,
-  "attributions": 
-     "Ghi nhận đóng góp"
-  ,
-  "authorizedPermissions": 
-     "Bạn đã cấp các quyền sau đây"
-  ,
-  "autoLockTimeLimit": 
-     "Hẹn giờ tự động khóa (phút)"
-  ,
-  "autoLockTimeLimitDescription": 
-     "Đặt khoảng thời gian không hoạt động tính bằng phút trước khi Wallet khóa."
-  ,
-  "average": 
-     "Trung bình"
-  ,
-  "back": 
-     "Quay lại"
-  ,
-  "backToAll": 
-     "Quay lại toàn bộ danh sách"
-  ,
-  "backupApprovalInfo": 
-     "Đây là mã bí mật bắt buộc phải dùng để khôi phục ví trong trường hợp bạn bị mất thiết bị, quên mật khẩu, phải cài đặt lại Wallet hoặc muốn truy cập ví của mình trên một thiết bị khác."
-  ,
-  "backupApprovalNotice": 
-     "Sao lưu Mã khôi phục bí mật để đảm bảo an toàn cho ví và tiền của bạn."
-  ,
-  "backupNow": 
-     "Sao lưu ngay"
-  ,
-  "balance": 
-     "Số dư"
-  ,
-  "balanceOutdated": 
-     "Số dư có thể đã cũ"
-  ,
-  "basic": 
-     "Cơ bản"
-  ,
-  "blockExplorerUrl": 
-     "URL trình khám phá khối"
-  ,
-  "blockExplorerUrlDefinition": 
-     "URL được dùng làm trình khám phá khối cho mạng này."
-  ,
-  "blockExplorerView": 
-     "Xem tài khoản tại $1"
-    
-  ,
-  "blockiesIdenticon": 
-     "Dùng biểu tượng nhận dạng kiểu Blockies"
-  ,
-  "browserNotSupported": 
-     "Trình duyệt của bạn không được hỗ trợ..."
-  ,
-  "buildContactList": 
-     "Xây dựng danh sách liên hệ của bạn"
-  ,
-  "buy": 
-     "Mua"
-  ,
-  "buyWithWyre": 
-     "Mua ETH qua Wyre"
-  ,
-  "buyWithWyreDescription": 
-     "Wyre cho phép bạn dùng thẻ ghi nợ để nộp ETH trực tiếp vào tài khoản Wallet của mình."
-  ,
-  "bytes": 
-     "Byte"
-  ,
-  "canToggleInSettings": 
-     "Bạn có thể bật lại thông báo này trong phần Cài đặt -> Cảnh báo."
-  ,
-  "cancel": 
-     "Hủy"
-  ,
-  "cancellationGasFee": 
-     "Phí gas hủy"
-  ,
-  "cancelled": 
-     "Đã hủy"
-  ,
-  "chainId": 
-     "Mã chuỗi"
-  ,
-  "chainIdDefinition": 
-     "Mã chuỗi được dùng để ký các giao dịch cho mạng này."
-  ,
-  "chainIdExistsErrorMsg": 
-     "Mạng $1 hiện đang sử dụng mã chuỗi này."
-  ,
-  "chromeRequiredForHardwareWallets": 
-     "Bạn cần sử dụng Wallet trên Google Chrome để kết nối với Ví cứng của bạn."
-  ,
-  "clickToRevealSeed": 
-     "Nhấp vào đây để hiện các từ bí mật"
-  ,
-  "close": 
-     "Đóng"
-  ,
-  "confirm": 
-     "Xác nhận"
-  ,
-  "confirmPassword": 
-     "Xác nhận mật khẩu"
-  ,
-  "confirmSecretBackupPhrase": 
-     "Xác nhận Cụm mật khẩu sao lưu bí mật"
-  ,
-  "confirmed": 
-     "Đã xác nhận"
-  ,
-  "confusableUnicode": 
-     "“$1” tương tự với “$2”."
-  ,
-  "confusableZeroWidthUnicode": 
-     "Tìm thấy ký tự có độ rộng bằng 0."
-  ,
-  "confusingEnsDomain": 
-     "Chúng tôi đã phát hiện thấy một ký tự có thể gây nhầm lẫn trong tên ENS. Hãy kiểm tra tên ENS để tránh khả năng bị lừa đảo."
-  ,
-  "congratulations": 
-     "Chúc mừng bạn"
-  ,
-  "connect": 
-     "Kết nối"
-  ,
-  "connectAccountOrCreate": 
-     "Kết nối tài khoản hoặc tạo tài khoản mới"
-  ,
-  "connectHardwareWallet": 
-     "Kết nối với ví cứng"
-  ,
-  "connectManually": 
-     "Kết nối thủ công với trang web hiện tại"
-  ,
-  "connectTo": 
-     "Kết nối với $1"
-    
-  ,
-  "connectToAll": 
-     "Kết nối với tất cả các $1 của bạn"
-    
-  ,
-  "connectToAllAccounts": 
-     "tài khoản"
-    
-  ,
-  "connectToMultiple": 
-     "Kết nối với $1"
-    
-  ,
-  "connectToMultipleNumberOfAccounts": 
-     "$1 tài khoản"
-    
-  ,
-  "connectWithWallet": 
-     "Kết nối với Wallet"
-  ,
-  "connectedAccountsDescriptionPlural": 
-     "Bạn có $1 tài khoản kết nối với trang web này."
-    
-  ,
-  "connectedAccountsDescriptionSingular": 
-     "Bạn có 1 tài khoản kết nối với trang web này."
-  ,
-  "connectedAccountsEmptyDescription": 
-     "Wallet chưa kết nối với trang web này. Để kết nối với một trang web trên web3, hãy tìm nút kết nối trên trang web của họ."
-  ,
-  "connectedSites": 
-     "Trang web đã kết nối"
-  ,
-  "connectedSitesDescription": 
-     "$1 đã kết nối với các trang web này. Các trang web này có thể xem địa chỉ tài khoản của bạn."
-    
-  ,
-  "connectedSitesEmptyDescription": 
-     "$1 chưa kết nối với bất kỳ trang web nào."
-    
-  ,
-  "connecting": 
-     "Đang kết nối..."
-  ,
-  "connectingTo": 
-     "Đang kết nối với $1"
-  ,
-  "connectingToGoerli": 
-     "Đang kết nối với mạng thử nghiệm Goerli"
-  ,
-  "connectingToKovan": 
-     "Đang kết nối với mạng thử nghiệm Kovan"
-  ,
-  "connectingToMainnet": 
-     "Đang kết nối với mạng chính thức của Ethereum"
-  ,
-  "connectingToRinkeby": 
-     "Đang kết nối với mạng thử nghiệm Rinkeby"
-  ,
-  "connectingToRopsten": 
-     "Đang kết nối với mạng thử nghiệm Ropsten"
-  ,
-  "contactUs": 
-     "Liên hệ với chúng tôi"
-  ,
-  "contacts": 
-     "Danh bạ"
-  ,
-  "contactsSettingsDescription": 
-     "Thêm, chỉnh sửa, xóa và quản lý danh bạ của bạn"
-  ,
-  "continue": 
-     "Tiếp tục"
-  ,
-  "continueToWyre": 
-     "Tiếp tục chuyển đến Wyre"
-  ,
-  "contract": 
-     "Hợp đồng"
-  ,
-  "contractAddressError": 
-     "Bạn đang gửi token đến địa chỉ hợp đồng của token. Điều này có thể khiến bạn bị mất những token này."
-  ,
-  "contractDeployment": 
-     "Triển khai hợp đồng"
-  ,
-  "contractInteraction": 
-     "Tương tác với hợp đồng"
-  ,
-  "copiedExclamation": 
-     "Đã sao chép!"
-  ,
-  "copyAddress": 
-     "Sao chép địa chỉ vào khay nhớ tạm"
-  ,
-  "copyPrivateKey": 
-     "Đây là khóa riêng tư của bạn (hãy nhấp vào để sao chép)"
-  ,
-  "copyToClipboard": 
-     "Sao chép vào khay nhớ tạm"
-  ,
-  "copyTransactionId": 
-     "Sao chép mã giao dịch"
-  ,
-  "create": 
-     "Tạo"
-  ,
-  "createAWallet": 
-     "Tạo ví"
-  ,
-  "createAccount": 
-     "Tạo tài khoản"
-  ,
-  "createPassword": 
-     "Tạo mật khẩu"
-  ,
-  "currencyConversion": 
-     "Quy đổi tiền"
-  ,
-  "currencySymbol": 
-     "Ký hiệu tiền tệ"
-  ,
-  "currencySymbolDefinition": 
-     "Mã chứng khoán hiển thị cho tiền tệ của mạng này."
-  ,
-  "currentAccountNotConnected": 
-     "Tài khoản hiện tại của bạn chưa được kết nối"
-  ,
-  "currentExtension": 
-     "Trang tiện ích hiện tại"
-  ,
-  "currentLanguage": 
-     "Ngôn ngữ hiện tại"
-  ,
-  "customGas": 
-     "Tùy chỉnh gas"
-  ,
-  "customGasSubTitle": 
-     "Việc tăng phí có thể giúp giảm thời gian xử lý, nhưng điều này không được đảm bảo."
-  ,
-  "customSpendLimit": 
-     "Giới hạn chi tiêu tùy chỉnh"
-  ,
-  "customToken": 
-     "Token tùy chỉnh"
-  ,
-  "dataBackupFoundInfo": 
-     "Một số dữ liệu tài khoản của bạn đã được sao lưu trong lần cài đặt Wallet trước đó. Dữ liệu này có thể bao gồm các tùy chọn cài đặt, danh bạ và token. Bạn có muốn khôi phục dữ liệu này bây giờ không?"
-  ,
-  "decimal": 
-     "Vị trí thập phân của token"
-  ,
-  "decimalsMustZerotoTen": 
-     "Số vị trí thập phân ít nhất phải bằng 0 và không được quá 36."
-  ,
-  "decrypt": 
-     "Giải mã"
-  ,
-  "decryptCopy": 
-     "Sao chép thông báo đã mã hóa"
-  ,
-  "decryptInlineError": 
-     "Không thể giải mã thông báo này do lỗi: $1"
-    
-  ,
-  "decryptMessageNotice": 
-     "$1 muốn đọc thông báo này để hoàn tất hành động của bạn"
-    
-  ,
-  "decryptWallet": 
-     "Thông báo của Decrypt"
-  ,
-  "decryptRequest": 
-     "Yêu cầu của Decrypt"
-  ,
-  "delete": 
-     "Xóa"
-  ,
-  "deleteAccount": 
-     "Xóa tài khoản"
-  ,
-  "deleteNetwork": 
-     "Xóa mạng?"
-  ,
-  "deleteNetworkDescription": 
-     "Bạn có chắc chắn muốn xóa mạng này không?"
-  ,
-  "depositEther": 
-     "Nộp Ether"
-  ,
-  "details": 
-     "Chi tiết"
-  ,
-  "directDepositEther": 
-     "Nộp trực tiếp Ether"
-  ,
-  "directDepositEtherExplainer": 
-     "Nếu bạn đã có một lượng Ether, cách nhanh nhất để chuyển Ether vào ví mới của bạn là nộp trực tiếp."
-  ,
-  "disconnect": 
-     "Ngắt kết nối"
-  ,
-  "disconnectAllAccounts": 
-     "Ngắt kết nối tất cả các tài khoản"
-  ,
-  "disconnectAllAccountsConfirmationDescription": 
-     "Bạn có chắc chắn muốn ngắt kết nối không? Bạn có thể bị mất chức năng của trang web."
-  ,
-  "disconnectPrompt": 
-     "Ngắt kết nối $1"
-  ,
-  "disconnectThisAccount": 
-     "Ngắt kết nối tài khoản này"
-  ,
-  "dismiss": 
-     "Đóng"
-  ,
-  "dismissReminderDescriptionField": 
-     "Bật tùy chọn này để tắt thông báo nhắc sao lưu cụm mật khẩu khôi phục. Bạn nên sao lưu Cụm mật khẩu khôi phục bí mật của mình để tránh mất tiền"
-  ,
-  "dismissReminderField": 
-     "Tắt lời nhắc sao lưu cụm mật khẩu khôi phục"
-  ,
-  "domain": 
-     "Miền"
-  ,
-  "done": 
-     "Hoàn tất"
-  ,
-  "dontShowThisAgain": 
-     "Không hiển thị lại"
-  ,
-  "downloadGoogleChrome": 
-     "Tải Google Chrome xuống"
-  ,
-  "downloadSecretBackup": 
-     "Tải Cụm mật khẩu sao lưu bí mật này xuống và lưu giữ trên một ổ đĩa cứng hoặc môi trường lưu trữ bên ngoài được mã hóa."
-  ,
-  "downloadStateLogs": 
-     "Tải nhật ký trạng thái xuống"
-  ,
-  "dropped": 
-     "Đã ngừng"
-  ,
-  "edit": 
-     "Chỉnh sửa"
-  ,
-  "editContact": 
-     "Chỉnh sửa người liên hệ"
-  ,
-  "editNonceField": 
-     "Chỉnh sửa số chỉ dùng một lần"
-  ,
-  "editNonceMessage": 
-     "Đây là tính năng nâng cao, hãy dùng một cách thận trọng."
-  ,
-  "editPermission": 
-     "Chỉnh sửa quyền"
-  ,
-  "encryptionPublicKeyNotice": 
-     "$1 muốn biết khóa mã hóa công khai của bạn. Bằng việc đồng ý, trang web này sẽ có thể gửi thông báo được mã hóa cho bạn."
-    
-  ,
-  "encryptionPublicKeyRequest": 
-     "Yêu cầu khóa mã hóa công khai"
-  ,
-  "endOfFlowMessage1": 
-     "Bạn đã vượt qua bài kiểm tra. Hãy lưu giữ Cụm mật khẩu khôi phục bí mật của bạn an toàn, đó là trách nhiệm của bạn!"
-  ,
-  "endOfFlowMessage10": 
-     "Tất cả đã hoàn tất"
-  ,
-  "endOfFlowMessage2": 
-     "Mẹo lưu trữ an toàn"
-  ,
-  "endOfFlowMessage3": 
-     "Lưu bản sao lưu ở nhiều nơi."
-  ,
-  "endOfFlowMessage4": 
-     "Tuyệt đối không chia sẻ cụm mật khẩu với bất kỳ ai."
-  ,
-  "endOfFlowMessage5": 
-     "Hãy cẩn thận với hoạt động lừa đảo! Wallet sẽ không bao giờ tự ý hỏi Cụm mật khẩu khôi phục bí mật của bạn."
-  ,
-  "endOfFlowMessage6": 
-     "Nếu bạn cần sao lưu lại Cụm mật khẩu khôi phục bí mật, bạn có thể tìm thấy chức năng này trong phần Cài đặt -> Bảo mật."
-  ,
-  "endOfFlowMessage7": 
-     "Nếu bạn có thắc mắc hoặc thấy điều gì đó đáng ngờ, hãy liên hệ với bộ phận hỗ trợ của chúng tôi $1."
-    
-  ,
-  "endOfFlowMessage8": 
-     "Wallet không thể khôi phục Cụm mật khẩu khôi phục bí mật của bạn."
-  ,
-  "endOfFlowMessage9": 
-     "Tìm hiểu thêm."
-  ,
-  "endpointReturnedDifferentChainId": 
-     "Điểm cuối đã trả về một mã chuỗi khác: $1"
-    
-  ,
-  "ensNotFoundOnCurrentNetwork": 
-     "Không tìm thấy tên ENS trên mạng hiện tại. Đang chuyển sang mạng chính thức của Ethereum."
-  ,
-  "ensRegistrationError": 
-     "Lỗi khi đăng ký tên ENS"
-  ,
-  "enterAnAlias": 
-     "Nhập một biệt danh"
-  ,
-  "enterMaxSpendLimit": 
-     "Nhập giới hạn chi tiêu tối đa"
-  ,
-  "enterPassword": 
-     "Nhập mật khẩu"
-  ,
-  "enterPasswordContinue": 
-     "Nhập mật khẩu để tiếp tục"
-  ,
-  "errorCode": 
-     "Mã: $1"
-    
-  ,
-  "errorDetails": 
-     "Chi tiết về lỗi"
-    
-  ,
-  "errorMessage": 
-     "Thông báo: $1"
-    
-  ,
-  "errorName": 
-     "Mã: $1"
-    
-  ,
-  "errorPageMessage": 
-     "Hãy thử lại bằng cách tải lại trang hoặc liên hệ với bộ phận hỗ trợ $1."
-    
-  ,
-  "errorPagePopupMessage": 
-     "Hãy thử lại bằng cách đóng và mở lại cửa sổ bật lên hoặc liên hệ với bộ phận hỗ trợ $1."
-    
-  ,
-  "errorPageTitle": 
-     "Wallet đã gặp lỗi"
-    
-  ,
-  "errorStack": 
-     "Cụm:"
-    
-  ,
-  "estimatedProcessingTimes": 
-     "Thời gian xử lý ước tính"
-  ,
-  "ethGasPriceFetchWarning": 
-     "Giá gas dự phòng được cung cấp vì dịch vụ ước tính giá gas chính hiện không hoạt động."
-  ,
-  "eth_accounts": 
-     "Xem địa chỉ của các tài khoản được cho phép của bạn (bắt buộc)"
-    
-  ,
-  "ethereumPublicAddress": 
-     "Địa chỉ công khai trên Ethereum"
-  ,
-  "etherscan": 
-     "Etherscan"
-  ,
-  "etherscanView": 
-     "Xem tài khoản trên Etherscan"
-  ,
-  "expandView": 
-     "Mở rộng cửa sổ xem"
-  ,
-  "exportPrivateKey": 
-     "Xuất khóa riêng tư"
-  ,
-  "externalExtension": 
-     "Tiện ích bên ngoài"
-  ,
-  "extraApprovalGas": 
-     "+$1 gas phê duyệt"
-    
-  ,
-  "failed": 
-     "Không thành công"
-  ,
-  "failedToFetchChainId": 
-     "Không thể tìm nạp mã chuỗi. URL RPC của bạn có chính xác không?"
-  ,
-  "failureMessage": 
-     "Đã xảy ra sự cố và chúng tôi không thể hoàn tất hành động"
-  ,
-  "fast": 
-     "Nhanh"
-  ,
-  "fastest": 
-     "Nhanh nhất"
-  ,
-  "feeAssociatedRequest": 
-     "Yêu cầu này có kèm theo một khoản phí."
-  ,
-  "fiat": 
-     "Pháp định"
-    
-  ,
-  "fileImportFail": 
-     "Tính năng nhập tệp không hoạt động? Nhấp vào đây!"
-    
-  ,
-  "forbiddenIpfsGateway": 
-     "Cổng kết nối IPFS không được phép: Vui lòng chỉ định một cổng kết nối CID"
-  ,
-  "forgetDevice": 
-     "Quên thiết bị này"
-  ,
-  "from": 
-     "Từ"
-  ,
-  "fromAddress": 
-     "Từ: $1"
-    
-  ,
-  "functionApprove": 
-     "Chức năng: Phê duyệt"
-  ,
-  "functionType": 
-     "Loại chức năng"
-  ,
-  "gasLimit": 
-     "Giới hạn gas"
-  ,
-  "gasLimitInfoTooltipContent": 
-     "Giới hạn gas là số lượng đơn vị gas tối đa mà bạn sẵn sàng chi tiêu."
-  ,
-  "gasLimitTooLow": 
-     "Giới hạn gas ít nhất phải là 21000"
-  ,
-  "gasLimitTooLowWithDynamicFee": 
-     "Giới hạn gas ít nhất phải là $1"
-    
-  ,
-  "gasPrice": 
-     "Giá gas (GWEI)"
-  ,
-  "gasPriceExcessive": 
-     "Bạn đã đặt phí gas cao một cách không cần thiết. Hãy cân nhắc giảm mức phí này."
-  ,
-  "gasPriceExcessiveInput": 
-     "Giá gas quá cao"
-  ,
-  "gasPriceExtremelyLow": 
-     "Giá gas cực kỳ thấp"
-  ,
-  "gasPriceFetchFailed": 
-     "Không ước tính được giá gas do lỗi mạng."
-  ,
-  "gasPriceInfoTooltipContent": 
-     "Giá gas xác định khoản Ether mà bạn sẵn sàng thanh toán cho mỗi đơn vị gas."
-  ,
-  "gasUsed": 
-     "Đã dùng gas"
-  ,
-  "gdprMessage": 
-     "Đây là dữ liệu tổng hợp, do đó ở trạng thái ẩn danh để phục vụ cho mục đích của Quy định chung về bảo vệ dữ liệu (Liên minh Châu Âu) 2016/679. Để biết thêm thông tin liên quan đến các phương thức bảo vệ quyền riêng tư của chúng tôi, vui lòng xem $1 của chúng tôi."
-    
-  ,
-  "gdprMessagePrivacyPolicy": 
-     "Chính sách quyền riêng tư tại đây"
-    
-  ,
-  "general": 
-     "Chung"
-  ,
-  "generalSettingsDescription": 
-     "Quy đổi tiền, đơn vị tiền chính, ngôn ngữ, biểu tượng nhận dạng kiểu blockies"
-  ,
-  "getEther": 
-     "Nhận Ether"
-  ,
-  "getEtherFromFaucet": 
-     "Nhận Ether từ một vòi dành cho $1"
-    
-  ,
-  "getStarted": 
-     "Bắt đầu"
-  ,
-  "goerli": 
-     "Mạng thử nghiệm Goerli"
-  ,
-  "happyToSeeYou": 
-     "Chúng tôi rất vui khi được gặp bạn."
-  ,
-  "hardware": 
-     "Phần cứng"
-  ,
-  "hardwareWalletConnected": 
-     "Đã kết nối với ví cứng"
-  ,
-  "hardwareWalletLegacyDescription": 
-     "(cũ)"
-    
-  ,
-  "hardwareWalletSupportLinkConversion": 
-     "nhấp vào đây"
-  ,
-  "hardwareWallets": 
-     "Kết nối với một ví cứng"
-  ,
-  "hardwareWalletsMsg": 
-     "Chọn một ví cứng mà bạn muốn sử dụng với Wallet."
-  ,
-  "here": 
-     "tại đây"
-    
-  ,
-  "hexData": 
-     "Dữ liệu thập lục phân"
-  ,
-  "hide": 
-     "Ẩn"
-  ,
-  "hideTokenPrompt": 
-     "Ẩn token?"
-  ,
-  "hideTokenSymbol": 
-     "Ẩn $1"
-    
-  ,
-  "hideZeroBalanceTokens": 
-     "Ẩn các token không có số dư"
-  ,
-  "history": 
-     "Lịch sử"
-  ,
-  "import": 
-     "Nhập"
-    
-  ,
-  "importAccount": 
-     "Nhập tài khoản"
-  ,
-  "importAccountLinkText": 
-     "nhập bằng Cụm mật khẩu khôi phục bí mật"
-  ,
-  "importAccountMsg": 
-     " Tài khoản đã nhập sẽ không được liên kết với Cụm mật khẩu khôi phục bí mật cho tài khoản Wallet đã tạo ban đầu của bạn. Tìm hiểu thêm về các tài khoản đã nhập "
-  ,
-  "importAccountSeedPhrase": 
-     "Nhập một tài khoản bằng Cụm mật khẩu khôi phục bí mật"
-  ,
-  "importAccountText": 
-     "hoặc $1"
-    
-  ,
-  "importTokenQuestion": 
-     "Bạn muốn nhập token?"
-  ,
-  "importTokenWarning": 
-     "Bất kỳ ai cũng tạo được token bằng bất kỳ tên nào, kể cả phiên bản giả của token hiện có. Bạn tự chịu rủi ro khi thêm và giao dịch!"
-  ,
-  "importWallet": 
-     "Nhập ví"
-  ,
-  "importYourExisting": 
-     "Nhập ví hiện tại của bạn bằng Cụm mật khẩu khôi phục bí mật"
-  ,
-  "imported": 
-     "Đã nhập"
-    
-  ,
-  "infuraBlockedNotification": 
-     "Wallet không thể kết nối với máy chủ chuỗi khối. Hãy xem xét các lý do tiềm ẩn $1."
-    
-  ,
-  "initialTransactionConfirmed": 
-     "Mạng đã xác nhận giao dịch ban đầu của bạn. Nhấp vào OK để quay lại."
-  ,
-  "insufficientBalance": 
-     "Không đủ số dư."
-  ,
-  "insufficientFunds": 
-     "Không đủ tiền."
-  ,
-  "insufficientTokens": 
-     "Không đủ token."
-  ,
-  "invalidAddress": 
-     "Địa chỉ không hợp lệ"
-  ,
-  "invalidAddressRecipient": 
-     "Địa chỉ người nhận không hợp lệ"
-  ,
-  "invalidAddressRecipientNotEthNetwork": 
-     "Không phải mạng ETH, hãy đặt ở chữ viết thường"
-  ,
-  "invalidBlockExplorerURL": 
-     "URL trình khám phá khối không hợp lệ"
-  ,
-  "invalidChainIdTooBig": 
-     "Mã chuỗi không hợp lệ. Mã chuỗi quá to."
-  ,
-  "invalidCustomNetworkAlertContent1": 
-     "Phải nhập lại mã chuỗi cho mạng tùy chỉnh “$1”."
-    
-  ,
-  "invalidCustomNetworkAlertContent2": 
-     "Để bảo vệ bạn khỏi các nhà cung cấp mạng độc hại hoặc bị lỗi, mã chuỗi giờ đây là yêu cầu bắt buộc đối với tất cả các mạng tùy chỉnh."
-  ,
-  "invalidCustomNetworkAlertContent3": 
-     "Chuyển đến phần Cài đặt > Mạng, rồi nhập mã chuỗi. Bạn có thể tìm được mã chuỗi của hầu hết các mạng phổ biến trên $1."
-    
-  ,
-  "invalidCustomNetworkAlertTitle": 
-     "Mạng tùy chỉnh không hợp lệ"
-  ,
-  "invalidHexNumber": 
-     "Số thập lục phân không hợp lệ."
-  ,
-  "invalidHexNumberLeadingZeros": 
-     "Số thập lục phân không hợp lệ. Xóa mọi chữ số 0 ở đầu."
-  ,
-  "invalidIpfsGateway": 
-     "Cổng kết nối IPFS không hợp lệ: Giá trị phải là URL hợp lệ"
-  ,
-  "invalidNumber": 
-     "Số không hợp lệ. Hãy nhập một số thập phân hoặc số thập lục phân bắt đầu bằng “0x”."
-  ,
-  "invalidNumberLeadingZeros": 
-     "Số không hợp lệ. Xóa mọi chữ số 0 ở đầu."
-  ,
-  "invalidRPC": 
-     "URL RPC không hợp lệ"
-  ,
-  "invalidSeedPhrase": 
-     "Cụm mật khẩu khôi phục bí mật không hợp lệ"
-  ,
-  "ipfsGateway": 
-     "Cổng kết nối IPFS"
-  ,
-  "ipfsGatewayDescription": 
-     "Nhập URL của cổng kết nối IPFS CID để dùng cho quá trình phân giải nội dung ENS."
-  ,
-  "jsonFile": 
-     "Tệp JSON"
-    
-  ,
-  "knownAddressRecipient": 
-     "Địa chỉ hợp đồng đã biết."
-  ,
-  "knownTokenWarning": 
-     "Hành động này sẽ chỉnh sửa các token đã niêm yết trong ví của bạn, kẻ xấu có thể lợi dụng việc này để lừa đảo bạn. Chỉ phê duyệt nếu bạn chắc chắn rằng bạn muốn thay đổi giá trị mà những token này đại diện cho."
-  ,
-  "kovan": 
-     "Mạng thử nghiệm Kovan"
-  ,
-  "lastConnected": 
-     "Đã kết nối lần gần đây nhất"
-  ,
-  "learnMore": 
-     "Tìm hiểu thêm"
-  ,
-  "ledgerAccountRestriction": 
-     "Bạn cần sử dụng tài khoản gần đây nhất thì mới có thể thêm một tài khoản mới."
-  ,
-  "ledgerLiveApp": 
-     "Ứng dụng Ledger Live"
-  ,
-  "ledgerLocked": 
-     "Không thể kết nối với thiết bị Ledger. Vui lòng đảm bảo bạn đã mở khóa thiết bị và mở ứng dụng Ethereum."
-  ,
-  "ledgerTimeout": 
-     "Ledger Live mất quá nhiều thời gian để phản hồi hoặc đã hết thời gian chờ kết nối. Hãy đảm bảo bạn đã mở ứng dụng Ledger Live và đã mở khóa thiết bị."
-  ,
-  "letsGoSetUp": 
-     "Có, hãy thiết lập!"
-  ,
-  "likeToImportTokens": 
-     "Bạn có muốn thêm những token này không?"
-  ,
-  "links": 
-     "Đường liên kết"
-  ,
-  "loadMore": 
-     "Nạp thêm"
-  ,
-  "loading": 
-     "Đang tải..."
-  ,
-  "loadingTokens": 
-     "Đang nạp token..."
-  ,
-  "localhost": 
-     "Máy chủ cục bộ 8545"
-  ,
-  "lock": 
-     "Khóa"
-  ,
-  "lockTimeTooGreat": 
-     "Thời gian khóa quá lớn"
-  ,
-  "mainnet": 
-     "Mạng chính thức của Ethereum"
-  ,
-  "makeAnotherSwap": 
-     "Tạo một giao dịch hoán đổi mới"
-  ,
-  "max": 
-     "Tối đa"
-  ,
-  "memo": 
-     "thư báo"
-  ,
-  "memorizePhrase": 
-     "Lưu cụm mật khẩu này."
-  ,
-  "WalletConnectStatusParagraphOne": 
-     "Giờ đây bạn có thể kiểm soát chi tiết hơn đối với các mối liên kết với tài khoản của mình trong Wallet."
-  ,
-  "WalletConnectStatusParagraphThree": 
-     "Nhấp vào đó để quản lý các tài khoản bạn đã kết nối."
-  ,
-  "WalletConnectStatusParagraphTwo": 
-     "Nút trạng thái kết nối sẽ hiển thị nếu trang web mà bạn đang truy cập được kết nối với tài khoản bạn đang chọn."
-  ,
-  "WalletDescription": 
-     "Kết nối bạn với Ethereum và Web phi tập trung."
-  ,
-  "WalletSwapsOfflineDescription": 
-     "Tính năng Hoán đổi trên Wallet đang được bảo trì. Vui lòng kiểm tra lại sau."
-  ,
-  "WalletVersion": 
-     "Phiên bản Wallet"
-  ,
-  "metametricsCommitmentsAllowOptOut": 
-     "Luôn cho phép bạn chọn không tham gia thông qua phần Cài đặt"
-  ,
-  "metametricsCommitmentsBoldNever": 
-     "Không bao giờ"
-    
-  ,
-  "metametricsCommitmentsIntro": 
-     "Wallet sẽ.."
-  ,
-  "metametricsCommitmentsNeverCollectIP": 
-     "$1 thu thập địa chỉ IP đầy đủ của bạn"
-    
-  ,
-  "metametricsCommitmentsNeverCollectKeysEtc": 
-     "$1 thu thập mã khóa, địa chỉ, giao dịch, số dư, mã băm hoặc bất kỳ thông tin cá nhân nào"
-    
-  ,
-  "metametricsCommitmentsNeverSellDataForProfit": 
-     "$1 bán dữ liệu để thu lợi. Tuyệt đối không bao giờ!"
-    
-  ,
-  "metametricsCommitmentsSendAnonymizedEvents": 
-     "Gửi các lượt nhấp và xem trang đã được ẩn danh"
-  ,
-  "metametricsHelpImproveWallet": 
-     "Giúp chúng tôi cải thiện Wallet"
-  ,
-  "metametricsOptInDescription": 
-     "Wallet muốn thu thập dữ liệu sử dụng để hiểu rõ hơn về cách người dùng tương tác với tiện ích. Chúng tôi sẽ dùng dữ liệu này để liên tục cải thiện độ hữu ích và trải nghiệm người dùng trên sản phẩm của mình và hệ sinh thái Ethereum."
-  ,
-  "mismatchedChain": 
-     "Thông tin về mạng cho mã chuỗi này không khớp với hồ sơ của chúng tôi. Bạn nên $1 trước khi tiếp tục."
-    
-  ,
-  "mismatchedChainLinkText": 
-     "xác minh thông tin về mạng"
-    
-  ,
-  "mustSelectOne": 
-     "Phải chọn ít nhất 1 token."
-  ,
-  "myAccounts": 
-     "Tài khoản của tôi"
-  ,
-  "name": 
-     "Tên"
-  ,
-  "needEtherInWallet": 
-     "Để tương tác với các ứng dụng phi tập trung bằng Wallet, bạn sẽ cần phải có Ether trong ví của mình."
-  ,
-  "needHelp": 
-     "Bạn cần trợ giúp? Liên hệ $1"
-    
-  ,
-  "needHelpLinkText": 
-     "Hỗ trợ về Wallet"
-  ,
-  "needImportFile": 
-     "Bạn phải chọn tệp để nhập."
-    
-  ,
-  "negativeETH": 
-     "Không thể gửi khoản ETH âm."
-  ,
-  "networkDetails": 
-     "Thông tin về mạng"
-  ,
-  "networkName": 
-     "Tên mạng"
-  ,
-  "networkNameBSC": 
-     "BSC"
-  ,
-  "networkNameDefinition": 
-     "Tên liên kết với mạng này."
-  ,
-  "networkNameEthereum": 
-     "Ethereum"
-  ,
-  "networkNameTestnet": 
-     "Mạng thử nghiệm"
-  ,
-  "networkSettingsChainIdDescription": 
-     "Mã chuỗi được dùng để ký các giao dịch. Giá trị này phải khớp với mã chuỗi do mạng trả về. Bạn có thể nhập một số thập phân hoặc số thập lục phân bắt đầu bằng “0x” nhưng chúng tôi sẽ hiển thị số ở dạng thập phân."
-  ,
-  "networkSettingsDescription": 
-     "Thêm và chỉnh sửa mạng RPC tùy chỉnh"
-  ,
-  "networkURL": 
-     "URL mạng"
-  ,
-  "networkURLDefinition": 
-     "URL dùng để truy cập vào mạng này."
-  ,
-  "networks": 
-     "Mạng"
-  ,
-  "nevermind": 
-     "Bỏ qua"
-  ,
-  "newAccount": 
-     "Tài khoản mới"
-  ,
-  "newAccountDetectedDialogMessage": 
-     "Đã tìm thấy địa chỉ mới! Nhấp vào đây để thêm địa chỉ này vào sổ địa chỉ của bạn."
-  ,
-  "newAccountNumberName": 
-     "Tài khoản $1"
-    
-  ,
-  "newContact": 
-     "Người liên hệ mới"
-  ,
-  "newContract": 
-     "Hợp đồng mới"
-  ,
-  "newPassword": 
-     "Mật khẩu mới (tối thiểu 8 ký tự)"
-  ,
-  "newToWallet": 
-     "Bạn mới sử dụng Wallet?"
-  ,
-  "newTotal": 
-     "Tổng mới"
-  ,
-  "newTransactionFee": 
-     "Phí giao dịch mới"
-  ,
-  "next": 
-     "Tiếp theo"
-  ,
-  "nextNonceWarning": 
-     "Số chỉ dùng một lần lớn hơn số chỉ dùng một lần gợi ý là $1"
-    
-  ,
-  "noAccountsFound": 
-     "Không tìm thấy tài khoản nào cho cụm từ tìm kiếm đã đưa ra"
-  ,
-  "noAddressForName": 
-     "Chưa có địa chỉ nào được đặt cho tên này."
-  ,
-  "noAlreadyHaveSeed": 
-     "Không, tôi đã có Cụm mật khẩu bí mật"
-  ,
-  "noConversionRateAvailable": 
-     "Không có sẵn tỷ lệ quy đổi nào"
-  ,
-  "noThanks": 
-     "Không, cảm ơn"
-  ,
-  "noTransactions": 
-     "Bạn không có giao dịch nào"
-  ,
-  "noWebcamFound": 
-     "Không tìm thấy webcam trên máy tính của bạn. Vui lòng thử lại."
-  ,
-  "noWebcamFoundTitle": 
-     "Không tìm thấy webcam"
-  ,
-  "nonce": 
-     "Số chỉ dùng một lần"
-  ,
-  "nonceField": 
-     "Tùy chỉnh số chỉ dùng một lần của giao dịch"
-  ,
-  "nonceFieldDescription": 
-     "Bật tùy chọn này để thay đổi số dùng một lần (số giao dịch) trên màn hình xác nhận. Đây là tính năng nâng cao, hãy dùng một cách thận trọng."
-  ,
-  "nonceFieldHeading": 
-     "Số dùng một lần tùy chỉnh"
-  ,
-  "notCurrentAccount": 
-     "Tài khoản này có chính xác không? Tài khoản này khác với tài khoản bạn đang chọn trong ví của mình"
-  ,
-  "notEnoughGas": 
-     "Không đủ gas"
-  ,
-  "notifications1Description": 
-     "Giờ đây, người dùng Wallet trên điện thoại di động có thể hoán đổi token trong ví di động của họ. Quét mã QR để tải ứng dụng di động và bắt đầu hoán đổi."
-    
-  ,
-  "notifications1Title": 
-     "Tính năng hoán đổi trên điện thoại di động đã sẵn sàng!"
-    
-  ,
-  "notifications3ActionText": 
-     "Đọc thêm"
-    
-  ,
-  "notifications3Description": 
-     "Luôn cập nhật các phương pháp bảo mật hay nhất của Wallet và nhận các mẹo mới nhất về bảo mật từ nhóm hỗ trợ chính thức của Wallet."
-    
-  ,
-  "notifications3Title": 
-     "Luôn bảo mật"
-    
-  ,
-  "notifications4ActionText": 
-     "Bắt đầu hoán đổi"
-    
-  ,
-  "notifications4Description": 
-     "Nhận giá hoán đổi token tốt nhất ngay trong ví của bạn. Giờ đây, Wallet sẽ kết nối bạn với nhiều trình tổng hợp sàn giao dịch phi tập trung và nhà tạo lập thị trường chuyên nghiệp trên Binance Smart Chain."
-    
-  ,
-  "notifications4Title": 
-     "Hoán đổi trên Binance Smart Chain"
-    
-  ,
-  "notifications5Description": 
-     "Từ giờ, \"Cụm mật khẩu gốc\" sẽ được gọi là \"Cụm mật khẩu khôi phục bí mật.\""
-    
-  ,
-  "notifications6DescriptionOne": 
-     "Kể từ phiên bản Chrome 91, API từng cho phép hỗ trợ Ledger (U2F) của chúng tôi không còn hỗ trợ ví cứng nữa. Wallet đã triển khai một tính năng hỗ trợ Ledger Live mới cho phép bạn tiếp tục kết nối với thiết bị Ledger của mình thông qua ứng dụng Ledger Live trên máy tính."
-    
-  ,
-  "notifications6DescriptionThree": 
-     "Khi tương tác với tài khoản Ledger của bạn trong Wallet, một tab mới sẽ mở ra và bạn sẽ được yêu cầu mở ứng dụng Ledger Live.  Khi ứng dụng này mở ra, bạn sẽ được yêu cầu cho phép kết nối WebSocket với tài khoản Wallet của mình.  Đơn giản vậy thôi!"
-    
-  ,
-  "notifications6DescriptionTwo": 
-     "Bạn có thể kích hoạt tính năng hỗ trợ Ledger Live bằng cách nhấp vào phần Cài đặt > Nâng cao > Sử dụng Ledger Live."
-    
-  ,
-  "notifications6Title": 
-     "Thông tin cập nhật về việc hỗ trợ Ledger cho người dùng Chrome"
-    
-  ,
-  "ofTextNofM": 
-     "trên"
-  ,
-  "off": 
-     "Tắt"
-  ,
-  "offlineForMaintenance": 
-     "Ngoại tuyến để bảo trì"
-  ,
-  "ok": 
-     "Ok"
-  ,
-  "on": 
-     "Bật"
-  ,
-  "onboardingReturnNotice": 
-     "\"$1\" sẽ đóng tab này và quay về $2"
-    
-  ,
-  "onlyAddTrustedNetworks": 
-     "Một nhà cung cấp mạng độc hại có thể nói dối về trạng thái của chuỗi khối và ghi lại hoạt động của bạn trên mạng. Chỉ thêm các mạng tùy chỉnh mà bạn tin tưởng."
-  ,
-  "onlyConnectTrust": 
-     "Chỉ kết nối với các trang web mà bạn tin tưởng."
-  ,
-  "origin": 
-     "Nguồn gốc"
-  ,
-  "parameters": 
-     "Tham số"
-  ,
-  "participateInMetaMetrics": 
-     "Tham gia MetaMetrics"
-  ,
-  "participateInMetaMetricsDescription": 
-     "Tham gia MetaMetrics để giúp chúng tôi cải thiện Wallet"
-  ,
-  "password": 
-     "Mật khẩu"
-  ,
-  "passwordNotLongEnough": 
-     "Mật khẩu không đủ dài"
-  ,
-  "passwordsDontMatch": 
-     "Mật khẩu không khớp"
-  ,
-  "pastePrivateKey": 
-     "Dán chuỗi khóa riêng tư của bạn vào đây:"
-    
-  ,
-  "pending": 
-     "Đang chờ xử lý"
-  ,
-  "permissions": 
-     "Quyền"
-  ,
-  "personalAddressDetected": 
-     "Đã tìm thấy địa chỉ cá nhân. Nhập địa chỉ hợp đồng token."
-  ,
-  "plusXMore": 
-     "+ $1 khác"
-    
-  ,
-  "prev": 
-     "Trước"
-  ,
-  "primaryCurrencySetting": 
-     "Đơn vị tiền chính"
-  ,
-  "primaryCurrencySettingDescription": 
-     "Chọn Gốc để ưu tiên hiển thị giá trị bằng đơn vị tiền gốc của chuỗi (ví dụ: ETH). Chọn Pháp định để ưu tiên hiển thị giá trị bằng đơn vị tiền pháp định mà bạn chọn."
-  ,
-  "privacyMsg": 
-     "Chính sách quyền riêng tư"
-  ,
-  "privateKey": 
-     "Khóa riêng tư"
-    
-  ,
-  "privateKeyWarning": 
-     "Cảnh báo: Tuyệt đối không để lộ mã khóa này. Bất kỳ ai có mã khóa riêng tư của bạn cũng có thể đánh cắp tài sản được giữ trong tài khoản của bạn."
-  ,
-  "privateNetwork": 
-     "Mạng riêng"
-  ,
-  "proposedApprovalLimit": 
-     "Giới hạn phê duyệt đề xuất"
-  ,
-  "provide": 
-     "Cung cấp"
-  ,
-  "publicAddress": 
-     "Địa chỉ công khai"
-  ,
-  "queue": 
-     "Hàng đợi"
-  ,
-  "queued": 
-     "Đã đưa vào hàng đợi"
-  ,
-  "readdToken": 
-     "Bạn có thể thêm lại token này trong tương lai bằng cách chuyển đến mục “Thêm token” trong trình đơn tùy chọn tài khoản."
-  ,
-  "receive": 
-     "Nhận"
-  ,
-  "recents": 
-     "Gần đây"
-  ,
-  "recipientAddressPlaceholder": 
-     "Tìm kiếm, địa chỉ công khai (0x) hoặc ENS"
-  ,
-  "recoveryPhraseReminderBackupStart": 
-     "Bắt đầu tại đây"
-  ,
-  "recoveryPhraseReminderConfirm": 
-     "Đã hiểu"
-  ,
-  "recoveryPhraseReminderHasBackedUp": 
-     "Luôn lưu giữ Cụm mật khẩu khôi phục bí mật ở nơi an toàn và bí mật"
-  ,
-  "recoveryPhraseReminderHasNotBackedUp": 
-     "Bạn cần sao lưu lại Cụm mật khẩu khôi phục bí mật?"
-  ,
-  "recoveryPhraseReminderItemOne": 
-     "Tuyệt đối không cho ai biết Cụm mật khẩu khôi phục bí mật"
-  ,
-  "recoveryPhraseReminderItemTwo": 
-     "Nhóm Wallet sẽ không bao giờ hỏi Cụm mật khẩu khôi phục bí mật của bạn"
-  ,
-  "recoveryPhraseReminderSubText": 
-     "Cụm mật khẩu khôi phục bí mật sẽ kiểm soát mọi thứ trong tài khoản của bạn."
-  ,
-  "recoveryPhraseReminderTitle": 
-     "Bảo vệ tiền của bạn"
-  ,
-  "reject": 
-     "Từ chối"
-  ,
-  "rejectAll": 
-     "Từ chối tất cả"
-  ,
-  "rejectTxsDescription": 
-     "Bạn chuẩn bị từ chối hàng loạt $1 giao dịch."
-  ,
-  "rejectTxsN": 
-     "Từ chối $1 giao dịch"
-  ,
-  "rejected": 
-     "Đã từ chối"
-  ,
-  "remindMeLater": 
-     "Nhắc tôi sau"
-  ,
-  "remove": 
-     "Xóa"
-  ,
-  "removeAccount": 
-     "Xóa tài khoản"
-  ,
-  "removeAccountDescription": 
-     "Tài khoản này sẽ được xóa khỏi ví của bạn. Hãy đảm bảo rằng bạn có Cụm mật khẩu khôi phục bí mật ban đầu hoặc khóa riêng tư cho tài khoản được nhập trước khi tiếp tục. Bạn có thể nhập hoặc tạo lại tài khoản từ trình đơn tài khoản thả xuống. "
-  ,
-  "requestsAwaitingAcknowledgement": 
-     "yêu cầu đang chờ xác nhận"
-  ,
-  "required": 
-     "Bắt buộc"
-  ,
-  "reset": 
-     "Đặt lại"
-  ,
-  "resetAccount": 
-     "Đặt lại tài khoản"
-  ,
-  "resetAccountDescription": 
-     "Nếu đặt lại tài khoản của bạn, toàn bộ lịch sử giao dịch sẽ bị xóa. Việc này sẽ không làm thay đổi số dư trong tài khoản của bạn hoặc yêu cầu bạn phải nhập lại Cụm mật khẩu khôi phục bí mật."
-  ,
-  "restore": 
-     "Khôi phục"
-  ,
-  "restoreAccountWithSeed": 
-     "Khôi phục tài khoản của bạn bằng cụm mật khẩu khôi phục bí mật"
-  ,
-  "restoreWalletPreferences": 
-     "Đã tìm thấy bản sao lưu dữ liệu của bạn từ $1. Bạn có muốn khôi phục các tùy chọn ưu tiên trong ví của mình không?"
-    
-  ,
-  "retryTransaction": 
-     "Thử lại giao dịch"
-  ,
-  "reusedTokenNameWarning": 
-     "Một token trong đây sử dụng lại ký hiệu của một token khác mà bạn thấy, điều này có thể gây nhầm lẫn hoặc mang tính lừa dối."
-  ,
-  "revealSeedWords": 
-     "Hiện Cụm mật khẩu khôi phục bí mật"
-  ,
-  "revealSeedWordsDescription": 
-     "Nếu thay đổi trình duyệt hoặc chuyển máy tính, bạn sẽ cần Cụm mật khẩu khôi phục bí mật này để truy cập tài khoản của mình. Hãy lưu Cụm mật khẩu khôi phục bí mật này ở nơi an toàn và bí mật."
-  ,
-  "revealSeedWordsWarning": 
-     "Kẻ xấu có thể dùng các từ này để đánh cắp tất cả các tài khoản của bạn."
-  ,
-  "revealSeedWordsWarningTitle": 
-     "KHÔNG chia sẻ cụm mật khẩu này với bất kỳ ai!"
-  ,
-  "rinkeby": 
-     "Mạng thử nghiệm Rinkeby"
-  ,
-  "ropsten": 
-     "Mạng thử nghiệm Ropsten"
-  ,
-  "rpcUrl": 
-     "URL RPC mới"
-  ,
-  "save": 
-     "Lưu"
-  ,
-  "saveAsCsvFile": 
-     "Lưu dưới dạng tệp CSV"
-  ,
-  "scanInstructions": 
-     "Đặt mã QR vào trước máy ảnh"
-  ,
-  "scanQrCode": 
-     "Quét mã QR"
-  ,
-  "scrollDown": 
-     "Cuộn xuống"
-  ,
-  "search": 
-     "Tìm kiếm"
-  ,
-  "searchAccounts": 
-     "Tìm kiếm tài khoản"
-  ,
-  "searchResults": 
-     "Kết quả tìm kiếm"
-  ,
-  "searchTokens": 
-     "Tìm kiếm token"
-  ,
-  "secretBackupPhraseDescription": 
-     "Cụm mật khẩu sao lưu bí mật giúp việc sao lưu và khôi phục tài khoản trở nên dễ dàng."
-  ,
-  "secretBackupPhraseWarning": 
-     "CẢNH BÁO: Tuyệt đối không để lộ cụm mật khẩu sao lưu của bạn. Bất kỳ ai có cụm mật khẩu này cũng có thể lấy Ether của bạn vĩnh viễn."
-  ,
-  "secretPhrase": 
-     "Nhập cụm mật khẩu bí mật của bạn vào đây để khôi phục két của bạn."
-  ,
-  "securityAndPrivacy": 
-     "Bảo mật và quyền riêng tư"
-  ,
-  "securitySettingsDescription": 
-     "Các cài đặt quyền riêng tư và Cụm mật khẩu khôi phục bí mật của ví"
-  ,
-  "seedPhraseIntroSidebarBulletFour": 
-     "Viết ra và cất ở nhiều nơi bí mật."
-  ,
-  "seedPhraseIntroSidebarBulletOne": 
-     "Lưu trong một trình quản lý mật khẩu"
-  ,
-  "seedPhraseIntroSidebarBulletThree": 
-     "Lưu giữ trong hộp ký gửi an toàn."
-  ,
-  "seedPhraseIntroSidebarBulletTwo": 
-     "Lưu giữ trong két an toàn."
-  ,
-  "seedPhraseIntroSidebarCopyOne": 
-     "Cụm mật khẩu khôi phục bí mật là “chìa khóa chính” để truy cập ví và số tiền của bạn."
-  ,
-  "seedPhraseIntroSidebarCopyThree": 
-     "Nếu ai đó hỏi bạn cụm mật khẩu khôi phục bí mật, thì họ đang cố gắng lừa đảo bạn."
-  ,
-  "seedPhraseIntroSidebarCopyTwo": 
-     "Đừng bao giờ cho ai biết cụm mật khẩu khôi phục bí mật, kể cả Wallet!"
-  ,
-  "seedPhraseIntroSidebarTitleOne": 
-     "Cụm mật khẩu khôi phục là gì?"
-  ,
-  "seedPhraseIntroSidebarTitleThree": 
-     "Tôi có nên cho ai biết cụm mật khẩu khôi phục bí mật của mình không?"
-  ,
-  "seedPhraseIntroSidebarTitleTwo": 
-     "Tôi lưu cụm mật khẩu khôi phục của mình bằng cách nào?"
-  ,
-  "seedPhraseIntroTitle": 
-     "Bảo mật cho ví của bạn"
-  ,
-  "seedPhraseIntroTitleCopy": 
-     "Trước khi bắt đầu, hãy xem video ngắn này để tìm hiểu thêm về cụm mật khẩu khôi phục bí mật của bạn và cách bảo vệ ví của bạn."
-  ,
-  "seedPhrasePlaceholder": 
-     "Phân tách mỗi từ bằng một dấu cách"
-  ,
-  "seedPhrasePlaceholderPaste": 
-     "Dán Cụm mật khẩu khôi phục bí mật từ khay nhớ tạm"
-  ,
-  "seedPhraseReq": 
-     "Cụm mật khẩu khôi phục bí mật gồm 12, 15, 18, 21 hoặc 24 từ"
-  ,
-  "selectAHigherGasFee": 
-     "Chọn phí gas cao hơn để tăng tốc quá trình xử lý giao dịch của bạn.*"
-  ,
-  "selectAccounts": 
-     "Chọn (các) tài khoản"
-  ,
-  "selectAll": 
-     "Chọn tất cả"
-  ,
-  "selectAnAccount": 
-     "Chọn một tài khoản"
-  ,
-  "selectAnAccountAlreadyConnected": 
-     "Tài khoản này đã được kết nối với Wallet"
-  ,
-  "selectEachPhrase": 
-     "Vui lòng chọn từng cụm mật khẩu theo thứ tự để đảm bảo sự chính xác."
-  ,
-  "selectHdPath": 
-     "Chọn đường dẫn phân cấp xác định"
-  ,
-  "selectPathHelp": 
-     "Nếu bạn không thấy các tài khoản Ledger hiện có của bạn dưới đây, hãy thử chuyển đường dẫn thành \"Legacy (MEW / MyCrypto)\""
-  ,
-  "selectType": 
-     "Chọn loại"
-  ,
-  "selectingAllWillAllow": 
-     "Việc chọn tất cả sẽ cho phép trang này xem tất cả các tài khoản hiện tại của bạn. Đảm bảo rằng bạn tin tưởng trang web này."
-  ,
-  "send": 
-     "Gửi"
-  ,
-  "sendAmount": 
-     "Gửi khoản tiền"
-  ,
-  "sendSpecifiedTokens": 
-     "Gửi $1"
-    
-  ,
-  "sendTokens": 
-     "Gửi token"
-  ,
-  "separateEachWord": 
-     "Phân tách mỗi từ bằng một dấu cách"
-  ,
-  "settings": 
-     "Cài đặt"
-  ,
-  "showAdvancedGasInline": 
-     "Quyền kiểm soát gas nâng cao"
-  ,
-  "showAdvancedGasInlineDescription": 
-     "Chọn tùy chọn này để hiển thị các quyền kiểm soát giá và giới hạn ngay trên màn hình gửi và xác nhận."
-  ,
-  "showFiatConversionInTestnets": 
-     "Hiển thị tỷ lệ quy đổi trên các mạng thử nghiệm"
-  ,
-  "showFiatConversionInTestnetsDescription": 
-     "Chọn tùy chọn này để hiển thị tỷ lệ quy đổi pháp định trên Mạng thử nghiệm"
-  ,
-  "showHexData": 
-     "Hiển thị dữ liệu thập lục phân"
-  ,
-  "showHexDataDescription": 
-     "Chọn tùy chọn này để hiển thị trường dữ liệu thập lục phân trên màn hình gửi"
-  ,
-  "showIncomingTransactions": 
-     "Hiển thị các giao dịch đến"
-  ,
-  "showIncomingTransactionsDescription": 
-     "Chọn tùy chọn này nếu bạn muốn dùng Etherscan để hiển thị các giao dịch đến trong danh sách giao dịch"
-  ,
-  "showPermissions": 
-     "Hiển thị quyền"
-  ,
-  "showPrivateKeys": 
-     "Hiện khóa riêng tư"
-  ,
-  "showSeedPhrase": 
-     "Hiển thị Cụm mật khẩu khôi phục bí mật"
-  ,
-  "sigRequest": 
-     "Yêu cầu chữ ký"
-  ,
-  "sign": 
-     "Ký"
-  ,
-  "signNotice": 
-     "Việc ký thông báo này có thể gây ra \nảnh hưởng nguy hiểm ngoài ý muốn. Chỉ ký những thông báo từ \ncác trang web mà bạn hoàn toàn tin tưởng bằng toàn bộ tài khoản của mình.\n Chúng tôi sẽ loại bỏ phương thức nguy hiểm này trong phiên bản sau này. "
-  ,
-  "signatureRequest": 
-     "Yêu cầu chữ ký"
-  ,
-  "signatureRequest1": 
-     "Thông báo"
-  ,
-  "signed": 
-     "Đã ký"
-  ,
-  "slow": 
-     "Chậm"
-  ,
-  "somethingWentWrong": 
-     "Rất tiếc! Đã xảy ra sự cố."
-  ,
-  "speedUp": 
-     "Tăng tốc"
-  ,
-  "speedUpCancellation": 
-     "Tăng tốc lệnh hủy này"
-  ,
-  "speedUpTransaction": 
-     "Tăng tốc giao dịch này"
-  ,
-  "spendLimitAmount": 
-     "Khoản tiền giới hạn chi tiêu"
-  ,
-  "spendLimitInsufficient": 
-     "Giới hạn chi tiêu không đủ"
-  ,
-  "spendLimitInvalid": 
-     "Giới hạn chi tiêu không hợp lệ; giá trị này phải là số dương."
-  ,
-  "spendLimitPermission": 
-     "Quyền đối với giới hạn chi tiêu"
-  ,
-  "spendLimitRequestedBy": 
-     "Bên yêu cầu giới hạn chi tiêu: $1"
-    
-  ,
-  "spendLimitTooLarge": 
-     "Giới hạn chi tiêu quá lớn"
-  ,
-  "stateLogError": 
-     "Lỗi khi truy xuất nhật ký trạng thái."
-  ,
-  "stateLogFileName": 
-     "Nhật ký trạng thái của Wallet"
-  ,
-  "stateLogs": 
-     "Nhật ký trạng thái"
-  ,
-  "stateLogsDescription": 
-     "Nhật ký trạng thái có chứa các địa chỉ tài khoản công khai của bạn và các giao dịch đã gửi."
-  ,
-  "statusConnected": 
-     "Đã kết nối"
-  ,
-  "statusNotConnected": 
-     "Chưa kết nối"
-  ,
-  "step1LedgerWallet": 
-     "Tải ứng dụng Ledger xuống"
-  ,
-  "step1LedgerWalletMsg": 
-     "Tải xuống, thiết lập và nhập mật khẩu của bạn để mở khóa $1."
-    
-  ,
-  "step1TrezorWallet": 
-     "Kết nối ví Trezor"
-  ,
-  "step1TrezorWalletMsg": 
-     "Kết nối ví của bạn trực tiếp với máy tính. Để biết thêm thông tin về cách sử dụng thiết bị ví cứng của bạn, $1"
-    
-  ,
-  "step2LedgerWallet": 
-     "Kết nối ví Ledger"
-  ,
-  "step2LedgerWalletMsg": 
-     "Kết nối ví của bạn trực tiếp với máy tính.  Mở khóa Ledger của bạn và mở ứng dụng Ethereum. Để biết thêm thông tin về cách sử dụng thiết bị ví cứng của bạn, $1."
-    
-  ,
-  "storePhrase": 
-     "Lưu cụm mật khẩu này trong trình quản lý mật khẩu chẳng hạn như 1Password."
-  ,
-  "submit": 
-     "Gửi"
-  ,
-  "submitted": 
-     "Đã gửi"
-  ,
-  "support": 
-     "Hỗ trợ"
-  ,
-  "supportCenter": 
-     "Truy cập Trung tâm hỗ trợ của chúng tôi"
-  ,
-  "swap": 
-     "Hoán đổi"
-  ,
-  "swapAdvancedSlippageInfo": 
-     "Khi giá giữa thời điểm đặt lệnh và thời điểm xác nhận lệnh thay đổi, hiện tượng này được gọi là “trượt giá”. Giao dịch hoán đổi của bạn sẽ tự động hủy nếu mức trượt giá vượt quá “mức trượt giá tối đa” đã cài đặt."
-  ,
-  "swapAggregator": 
-     "Trình tổng hợp"
-  ,
-  "swapAllowSwappingOf": 
-     "Cho phép hoán đổi $1"
-    
-  ,
-  "swapAmountReceived": 
-     "Số tiền được đảm bảo"
-  ,
-  "swapAmountReceivedInfo": 
-     "Đây là số tiền tối thiểu mà bạn sẽ nhận được. Bạn sẽ nhận được nhiều hơn tùy thuộc vào mức trượt giá."
-  ,
-  "swapApproval": 
-     "Phê duyệt $1 cho các giao dịch hoán đổi"
-    
-  ,
-  "swapApproveNeedMoreTokens": 
-     "Bạn cần $1 $2 nữa để hoàn tất giao dịch hoán đổi này"
-    
-  ,
-  "swapBuildQuotePlaceHolderText": 
-     "Không có token nào khớp với $1"
-    
-  ,
-  "swapConfirmWithHwWallet": 
-     "Xác nhận ví cứng của bạn"
-  ,
-  "swapContractDataDisabledErrorDescription": 
-     "Trong ứng dụng Ethereum trên Ledger của bạn, hãy chuyển đến phần \"Cài đặt\" và cho phép dữ liệu hợp đồng. Sau đó, thử hoán đổi lại."
-  ,
-  "swapContractDataDisabledErrorTitle": 
-     "Chưa bật dữ liệu hợp đồng trên Ledger của bạn"
-  ,
-  "swapCustom": 
-     "tùy chỉnh"
-  ,
-  "swapDecentralizedExchange": 
-     "Sàn giao dịch phi tập trung"
-  ,
-  "swapEditLimit": 
-     "Chỉnh sửa giới hạn"
-  ,
-  "swapEnableDescription": 
-     "Thao tác này là bắt buộc và cấp cho Wallet quyền hoán đổi $1 của bạn."
-    
-  ,
-  "swapEstimatedNetworkFees": 
-     "Phí mạng ước tính"
-  ,
-  "swapEstimatedNetworkFeesInfo": 
-     "Đây là giá trị ước tính của phí mạng sẽ dùng để hoàn thành giao dịch hoán đổi của bạn. Số tiền thực tế có thể thay đổi tùy theo tình trạng mạng."
-  ,
-  "swapFailedErrorDescriptionWithSupportLink": 
-     "Đã xảy ra lỗi giao dịch và chúng tôi sẵn sàng trợ giúp bạn. Nếu vấn đề này tiếp diễn, bạn có thể liên hệ với bộ phận hỗ trợ khách hàng tại $1 để được hỗ trợ thêm."
-    
-  ,
-  "swapFailedErrorTitle": 
-     "Hoán đổi không thành công"
-  ,
-  "swapFetchingQuotesErrorDescription": 
-     "Rất tiếc... đã xảy ra sự cố. Hãy thử lại. Nếu lỗi vẫn tiếp diễn, hãy liên hệ với bộ phận hỗ trợ khách hàng."
-  ,
-  "swapFetchingQuotesErrorTitle": 
-     "Lỗi tìm nạp báo giá"
-  ,
-  "swapFetchingTokens": 
-     "Đang tìm nạp token..."
-  ,
-  "swapFromTo": 
-     "Giao dịch hoán đổi $1 sang $2"
-    
-  ,
-  "swapGasFeesSplit": 
-     "Phí gas trên màn hình trước được chia đôi giữa hai giao dịch này."
-  ,
-  "swapHighSlippageWarning": 
-     "Số tiền trượt giá rất cao."
-  ,
-  "swapLowSlippageError": 
-     "Giao dịch có thể không thành công, mức trượt giá tối đa quá thấp."
-  ,
-  "swapMaxSlippage": 
-     "Mức trượt giá tối đa"
-  ,
-  "swapWalletFee": 
-     "Phí của Wallet"
-  ,
-  "swapWalletFeeDescription": 
-     "Chúng tôi luôn tìm giá tốt nhất từ các nguồn thanh khoản hàng đầu. Phí $1% được tự động tính vào báo giá này."
-    
-  ,
-  "swapNewQuoteIn": 
-     "Báo giá mới sẽ có sau $1"
-    
-  ,
-  "swapOnceTransactionHasProcess": 
-     "$1 của bạn sẽ được thêm vào tài khoản sau khi xử lý xong giao dịch."
-    
-  ,
-  "swapPriceDifference": 
-     "Bạn sắp hoán đổi $1 $2 (~$3) lấy $4 $5 (~$6)."
-    
-  ,
-  "swapPriceDifferenceTitle": 
-     "Chênh lệch giá ~$1%"
-    
-  ,
-  "swapPriceImpactTooltip": 
-     "Tác động về giá là mức chênh lệch giữa giá thị trường hiện tại và số tiền nhận được trong quá trình thực hiện giao dịch. Tác động giá là một hàm trong quy mô giao dịch của bạn so với quy mô của nhóm thanh khoản."
-  ,
-  "swapPriceUnavailableDescription": 
-     "Không thể xác định tác động giá do thiếu dữ liệu giá thị trường. Vui lòng xác nhận rằng bạn cảm thấy thoải mái với số lượng token bạn sắp nhận được trước khi hoán đổi."
-  ,
-  "swapPriceUnavailableTitle": 
-     "Hãy kiểm tra tỷ giá trước khi tiếp tục"
-  ,
-  "swapProcessing": 
-     "Đang xử lý"
-  ,
-  "swapQuoteDetails": 
-     "Chi tiết báo giá"
-  ,
-  "swapQuoteDetailsSlippageInfo": 
-     "Khi giá giữa thời điểm đặt lệnh và thời điểm xác nhận lệnh thay đổi, hiện tượng này được gọi là \"trượt giá\". Giao dịch hoán đổi của bạn sẽ tự động hủy nếu mức trượt giá vượt quá \"mức trượt giá cho phép\" đã đặt."
-  ,
-  "swapQuoteNofN": 
-     "Báo giá $1/$2"
-    
-  ,
-  "swapQuoteSource": 
-     "Nguồn báo giá"
-  ,
-  "swapQuotesExpiredErrorDescription": 
-     "Vui lòng yêu cầu báo giá mới để biết các mức tỷ lệ mới nhất."
-  ,
-  "swapQuotesExpiredErrorTitle": 
-     "Hết thời gian chờ báo giá"
-  ,
-  "swapQuotesNotAvailableErrorDescription": 
-     "Hãy thử điều chỉnh số tiền hoặc tùy chọn cài đặt mức trượt giá và thử lại."
-  ,
-  "swapQuotesNotAvailableErrorTitle": 
-     "Không có báo giá"
-  ,
-  "swapRate": 
-     "Tỷ lệ"
-  ,
-  "swapReceiving": 
-     "Đang nhận"
-  ,
-  "swapReceivingInfoTooltip": 
-     "Đây là giá trị ước tính. Số tiền chính xác phụ thuộc vào mức trượt giá."
-  ,
-  "swapRequestForQuotation": 
-     "Yêu cầu báo giá"
-  ,
-  "swapReviewSwap": 
-     "Xem xét giao dịch hoán đổi"
-  ,
-  "swapSearchForAToken": 
-     "Tìm kiếm token"
-  ,
-  "swapSelect": 
-     "Chọn"
-  ,
-  "swapSelectAQuote": 
-     "Chọn một báo giá"
-  ,
-  "swapSelectAToken": 
-     "Chọn một token"
-  ,
-  "swapSelectQuotePopoverDescription": 
-     "Dưới đây là tất cả các báo giá thu thập từ nhiều nguồn thanh khoản."
-  ,
-  "swapSlippageNegative": 
-     "Mức trượt giá phải lớn hơn hoặc bằng 0"
-  ,
-  "swapSource": 
-     "Nguồn thanh khoản"
-  ,
-  "swapSourceInfo": 
-     "Chúng tôi tìm kiếm nhiều nguồn thanh khoản (các sàn giao dịch, trình tổng hợp và nhà tạo lập thị trường) để tìm được mức tỷ lệ tốt nhất và phí mạng thấp nhất."
-  ,
-  "swapSwapFrom": 
-     "Hoán đổi từ"
-  ,
-  "swapSwapSwitch": 
-     "Chuyển từ và chuyển sang token khác"
-  ,
-  "swapSwapTo": 
-     "Hoán đổi sang"
-  ,
-  "swapToConfirmWithHwWallet": 
-     "để xác nhận ví cứng của bạn"
-  ,
-  "swapTokenAvailable": 
-     "Đã thêm $1 vào tài khoản của bạn."
-    
-  ,
-  "swapTokenBalanceUnavailable": 
-     "Chúng tôi không truy xuất được số dư $1 của bạn"
-    
-  ,
-  "swapTokenToToken": 
-     "Hoán đổi $1 sang $2"
-    
-  ,
-  "swapTokenVerificationAddedManually": 
-     "Token này đã được thêm theo cách thủ công."
-  ,
-  "swapTokenVerificationMessage": 
-     "Luôn xác nhận địa chỉ token trên $1."
-    
-  ,
-  "swapTokenVerificationOnlyOneSource": 
-     "Chỉ được xác minh trên 1 nguồn."
-  ,
-  "swapTokenVerificationSources": 
-     "Đã xác minh trên $1 nguồn."
-    
-  ,
-  "swapTransactionComplete": 
-     "Đã hoàn tất giao dịch"
-  ,
-  "swapTwoTransactions": 
-     "2 giao dịch"
-  ,
-  "swapUnknown": 
-     "Không xác định"
-  ,
-  "swapVerifyTokenExplanation": 
-     "Nhiều token có thể dùng cùng một tên và ký hiệu. Hãy kiểm tra $1 để xác minh xem đây có phải là token bạn đang tìm kiếm không."
-    
-  ,
-  "swapYourTokenBalance": 
-     "Có sẵn $1 $2 để hoán đổi"
-    
-  ,
-  "swapZeroSlippage": 
-     "Mức trượt giá 0%"
-  ,
-  "swapsAdvancedOptions": 
-     "Tùy chọn nâng cao"
-  ,
-  "swapsExcessiveSlippageWarning": 
-     "Mức trượt giá quá cao và sẽ dẫn đến tỷ giá không sinh lời. Vui lòng giảm giới hạn trượt giá xuống một giá trị thấp hơn 15%."
-  ,
-  "swapsMaxSlippage": 
-     "Giới hạn trượt giá"
-  ,
-  "swapsNotEnoughForTx": 
-     "Không đủ $1 để hoàn thành giao dịch này"
-    
-  ,
-  "swapsViewInActivity": 
-     "Xem hoạt động"
-  ,
-  "switchEthereumChainConfirmationDescription": 
-     "Thao tác này sẽ chuyển mạng được chọn trong Wallet sang một mạng đã thêm trước đó:"
-  ,
-  "switchEthereumChainConfirmationTitle": 
-     "Cho phép trang web này chuyển mạng?"
-  ,
-  "switchNetwork": 
-     "Chuyển mạng"
-  ,
-  "switchNetworks": 
-     "Chuyển mạng"
-  ,
-  "switchToThisAccount": 
-     "Chuyển sang tài khoản này"
-  ,
-  "switchingNetworksCancelsPendingConfirmations": 
-     "Khi bạn chuyển mạng, mọi xác nhận đang chờ xử lý sẽ bị hủy"
-  ,
-  "symbol": 
-     "Ký hiệu"
-  ,
-  "symbolBetweenZeroTwelve": 
-     "Ký hiệu không được dài quá 11 ký tự."
-  ,
-  "syncWithMobile": 
-     "Đồng bộ hóa với thiết bị di động"
-  ,
-  "syncWithMobileBeCareful": 
-     "Đảm bảo rằng không có ai nhìn vào màn hình của bạn khi quét mã này"
-  ,
-  "syncWithMobileComplete": 
-     "Đã đồng bộ hóa thành công dữ liệu của bạn. Tận hưởng ứng dụng Wallet trên thiết bị di động!"
-  ,
-  "syncWithMobileDesc": 
-     "Bạn có thể đồng bộ hóa tài khoản và thông tin của mình với thiết bị di động. Mở ứng dụng Wallet trên thiết bị di động, chuyển đến phần \"Cài đặt\" và nhấn vào \"Đồng bộ hóa với tiện ích trình duyệt\""
-  ,
-  "syncWithMobileDescNewUsers": 
-     "Nếu mới mở ứng dụng Wallet trên thiết bị di động lần đầu tiên, bạn chỉ cần làm theo các bước hướng dẫn trên điện thoại."
-  ,
-  "syncWithMobileScanThisCode": 
-     "Quét mã này bằng ứng dụng Wallet trên thiết bị di động"
-  ,
-  "syncWithMobileTitle": 
-     "Đồng bộ hóa với thiết bị di động"
-  ,
-  "syncWithThreeBox": 
-     "Đồng bộ hóa dữ liệu với 3Box (thử nghiệm)"
-  ,
-  "syncWithThreeBoxDescription": 
-     "Bật để sao lưu các tùy chọn cài đặt của bạn với 3Box. Tính năng này hiện đang trong giai đoạn thử nghiệm; bạn tự chịu rủi ro khi sử dụng."
-  ,
-  "syncWithThreeBoxDisabled": 
-     "Đã tắt 3Box do có lỗi xảy ra trong quá trình đồng bộ hóa ban đầu"
-  ,
-  "terms": 
-     "Điều khoản sử dụng"
-  ,
-  "termsOfService": 
-     "Điều khoản dịch vụ"
-  ,
-  "testFaucet": 
-     "Vòi thử nghiệm"
-  ,
-  "thisWillCreate": 
-     "Thao tác này sẽ tạo một ví mới và Cụm mật khẩu khôi phục bí mật"
-  ,
-  "tips": 
-     "Mẹo"
-  ,
-  "to": 
-     "Đến"
-  ,
-  "toAddress": 
-     "Đến: $1"
-    
-  ,
-  "token": 
-     "Token"
-  ,
-  "tokenAlreadyAdded": 
-     "Đã thêm token."
-  ,
-  "tokenContractAddress": 
-     "Địa chỉ hợp đồng token"
-  ,
-  "tokenDecimalFetchFailed": 
-     "Cần có vị trí thập phân của token."
-  ,
-  "tokenSymbol": 
-     "Ký hiệu token"
-  ,
-  "tooltipApproveButton": 
-     "Tôi đã hiểu"
-  ,
-  "total": 
-     "Tổng"
-  ,
-  "transaction": 
-     "giao dịch"
-  ,
-  "transactionCancelAttempted": 
-     "Đã cố gắng hủy giao dịch với mức phí gas $1 lúc $2"
-  ,
-  "transactionCancelSuccess": 
-     "Đã hủy thành công giao dịch lúc $2"
-  ,
-  "transactionConfirmed": 
-     "Đã xác nhận giao dịch lúc $2."
-  ,
-  "transactionCreated": 
-     "Đã tạo giao dịch với giá trị $1 lúc $2."
-  ,
-  "transactionDropped": 
-     "Đã ngừng giao dịch lúc $2."
-  ,
-  "transactionError": 
-     "Lỗi giao dịch. Đã xảy ra ngoại lệ trong mã hợp đồng."
-  ,
-  "transactionErrorNoContract": 
-     "Đang cố gắng gọi một hàm trên địa chỉ không có hợp đồng."
-  ,
-  "transactionErrored": 
-     "Giao dịch đã gặp lỗi."
-  ,
-  "transactionFee": 
-     "Phí giao dịch"
-  ,
-  "transactionResubmitted": 
-     "Đã gửi lại giao dịch với mức phí gas tăng lên $1 lúc $2"
-  ,
-  "transactionSubmitted": 
-     "Đã gửi giao dịch với mức phí gas $1 lúc $2."
-  ,
-  "transactionUpdated": 
-     "Đã cập nhật giao dịch lúc $2."
-  ,
-  "transfer": 
-     "Chuyển"
-  ,
-  "transferBetweenAccounts": 
-     "Chuyển giữa các tài khoản của tôi"
-  ,
-  "transferFrom": 
-     "Chuyển từ"
-  ,
-  "troubleConnectingToWallet": 
-     "Chúng tôi đã gặp phải sự cố khi kết nối với $1 của bạn, hãy thử xem lại $2 và thử lại."
-    
-  ,
-  "troubleTokenBalances": 
-     "Chúng tôi đã gặp phải vấn đề khi tải số dư token của bạn. Bạn có thể xem số dư "
-    
-  ,
-  "tryAgain": 
-     "Thử lại"
-  ,
-  "typePassword": 
-     "Nhập mật khẩu Wallet của bạn"
-  ,
-  "unapproved": 
-     "Chưa phê duyệt"
-  ,
-  "units": 
-     "đơn vị"
-  ,
-  "unknown": 
-     "Không xác định"
-  ,
-  "unknownCameraError": 
-     "Đã xảy ra lỗi khi cố gắng truy cập máy ảnh của bạn. Vui lòng thử lại..."
-  ,
-  "unknownCameraErrorTitle": 
-     "Rất tiếc! Đã xảy ra sự cố...."
-  ,
-  "unknownNetwork": 
-     "Mạng riêng không xác định"
-  ,
-  "unknownQrCode": 
-     "Lỗi: Chúng tôi không thể xác định mã QR đó"
-  ,
-  "unlimited": 
-     "Không giới hạn"
-  ,
-  "unlock": 
-     "Mở khóa"
-  ,
-  "unlockMessage": 
-     "Web phi tập trung đang chờ đón bạn"
-  ,
-  "unrecognizedChain": 
-     "Không nhận ra mạng tùy chỉnh này. Bạn nên $1 trước khi tiếp tục"
-    
-  ,
-  "unrecognizedChainLinkText": 
-     "xác minh thông tin về mạng"
-    
-  ,
-  "updatedWithDate": 
-     "Đã cập nhật vào $1"
-  ,
-  "urlErrorMsg": 
-     "URL phải có tiền tố HTTP/HTTPS phù hợp."
-  ,
-  "urlExistsErrorMsg": 
-     "Mạng $1 hiện đang sử dụng URL này."
-  ,
-  "usePhishingDetection": 
-     "Sử dụng tính năng Phát hiện lừa đảo"
-  ,
-  "usePhishingDetectionDescription": 
-     "Hiển thị cảnh báo đối với các miền lừa đảo nhắm đến người dùng Ethereum"
-  ,
-  "usedByClients": 
-     "Được nhiều ví khác nhau sử dụng"
-  ,
-  "userName": 
-     "Tên người dùng"
-  ,
-  "verifyThisTokenDecimalOn": 
-     "Không tìm thấy vị trí thập phân của token trên $1"
-    
-  ,
-  "verifyThisTokenOn": 
-     "Xác minh token này trên $1"
-    
-  ,
-  "verifyThisUnconfirmedTokenOn": 
-     "Hãy xác minh token này trên $1 và đảm bảo đây là token bạn muốn giao dịch."
-    
-  ,
-  "viewAccount": 
-     "Xem tài khoản"
-  ,
-  "viewAllDetails": 
-     "Xem toàn bộ chi tiết"
-  ,
-  "viewContact": 
-     "Xem người liên hệ"
-  ,
-  "viewMore": 
-     "Xem thêm"
-  ,
-  "visitWebSite": 
-     "Truy cập trang web của chúng tôi"
-  ,
-  "walletConnectionGuide": 
-     "hướng dẫn của chúng tôi về cách kết nối ví cứng"
-  ,
-  "walletSeedRestore": 
-     "Cụm mật khẩu khôi phục bí mật của ví"
-  ,
-  "web3ShimUsageNotification": 
-     "Chúng tôi nhận thấy rằng trang web hiện tại đã cố dùng API window.web3 đã bị xóa. Nếu trang web có vẻ như đã bị lỗi, vui lòng nhấp vào $1 để biết thêm thông tin."
-    
-  ,
-  "welcome": 
-     "Chào mừng bạn đến với Wallet"
-  ,
-  "welcomeBack": 
-     "Chào mừng bạn trở lại!"
-  ,
-  "whatsNew": 
-     "Xem tính năng mới"
-    
-  ,
-  "whatsThis": 
-     "Đây là gì?"
-  ,
-  "writePhrase": 
-     "Ghi cụm mật khẩu này ra giấy và lưu giữ ở một nơi an toàn. Nếu bạn cần độ bảo mật cao hơn nữa, hãy ghi ra nhiều tờ giấy và lưu giữ ở 2 đến 3 nơi khác nhau."
-  ,
-  "xOfY": 
-     "$1/$2"
-    
-  ,
-  "xOfYPending": 
-     "$1/$2 đang chờ xử lý"
-    
-  ,
-  "yesLetsTry": 
-     "Có, hãy thử"
-  ,
-  "youNeedToAllowCameraAccess": 
-     "Bạn cần cho phép truy cập vào camera để sử dụng tính năng này."
-  ,
-  "youSign": 
-     "Bạn đang ký"
-  ,
-  "yourPrivateSeedPhrase": 
-     "Cụm mật khẩu bí mật, riêng tư của bạn"
-  ,
-  "zeroGasPriceOnSpeedUpError": 
-     "Giá gas bằng 0 khi tăng tốc"
-}
+  "introduction": "Đây là ví tiền mã hoá!",
+  "about": "Giới thiệu",
+  "aboutSettingsDescription": "Phiên bản, trung tâm trợ giúp và thông tin liên hệ",
+  "acceleratingATransaction": "* Việc đẩy nhanh giao dịch bằng cách sử dụng giá gas cao hơn sẽ tăng khả năng được mạng xử lý nhanh hơn, nhưng không phải lúc nào điều này cũng được đảm bảo.",
+  "acceptTermsOfUse": "Tôi đã đọc và đồng ý với $1",
 
+  "accessAndSpendNotice": "$1 có thể truy cập và chi tiêu đến số tiền tối đa",
+
+  "accessingYourCamera": "Đang truy cập camera...",
+  "account": "Tài khoản",
+  "accountDetails": "Chi tiết tài khoản",
+  "accountName": "Tên tài khoản",
+  "accountOptions": "Tùy chọn tài khoản",
+  "accountSelectionRequired": "Bạn cần chọn một tài khoản!",
+  "active": "Đang hoạt động",
+  "activity": "Hoạt động",
+  "activityLog": "nhật ký hoạt động",
+  "addAcquiredTokens": "Thêm token mà bạn đã mua bằng Wallet",
+  "addAlias": "Thêm biệt danh",
+  "addContact": "Thêm người liên hệ",
+  "addCustomTokenByContractAddress": "Bạn không tìm thấy token? Bạn có thể dán địa chỉ của bất kỳ token nào để thêm token đó theo cách thủ công. Bạn có thể tìm thấy địa chỉ hợp đồng token trên $1.",
+
+  "addEthereumChainConfirmationDescription": "Thao tác này sẽ cho phép sử dụng mạng này trong Wallet.",
+  "addEthereumChainConfirmationRisks": "Wallet không xác minh mạng tùy chỉnh.",
+  "addEthereumChainConfirmationRisksLearnMore": "Tìm hiểu về $1.",
+
+  "addEthereumChainConfirmationRisksLearnMoreLink": "lừa đảo và các nguy cơ về an ninh mạng",
+
+  "addEthereumChainConfirmationTitle": "Cho phép trang này thêm một mạng?",
+  "addFriendsAndAddresses": "Thêm bạn bè và địa chỉ bạn tin cậy",
+  "addNetwork": "Thêm mạng",
+  "addSuggestedTokens": "Thêm token được đề xuất",
+  "addToAddressBook": "Thêm vào sổ địa chỉ",
+  "addToAddressBookModalPlaceholder": "ví dụ: John D.",
+  "addToken": "Thêm token",
+  "advanced": "Nâng cao",
+  "advancedOptions": "Tùy chọn nâng cao",
+  "advancedSettingsDescription": "Truy cập các tính năng dành cho nhà phát triển, tải Nhật ký trạng thái xuống, Đặt lại tài khoản, thiết lập mạng thử nghiệm và RPC tùy chỉnh",
+  "affirmAgree": "Tôi đồng ý",
+  "aggregatorFeeCost": "Phí mạng cho trình tổng hợp",
+  "alertDisableTooltip": "Bạn có thể thay đổi trong phần \"Cài đặt > Cảnh báo\"",
+  "alertSettingsUnconnectedAccount": "Đang duyệt trang web khi chọn một tài khoản không được kết nối",
+  "alertSettingsUnconnectedAccountDescription": "Cảnh báo này hiển thị trong cửa sổ bật lên khi bạn đang duyệt một trang web đã được kết nối trên web3, nhưng tài khoản đang chọn không được kết nối.",
+  "alertSettingsWeb3ShimUsage": "Khi một trang web cố dùng API window.web3 đã bị xóa",
+  "alertSettingsWeb3ShimUsageDescription": "Cảnh báo này hiển thị trong cửa sổ bật lên khi bạn đang duyệt một trang web cố sử dụng API window.web3 đã bị xóa nên có thể bị lỗi.",
+  "alerts": "Cảnh báo",
+  "alertsSettingsDescription": "Bật hoặc tắt từng cảnh báo",
+  "allowExternalExtensionTo": "Cho phép tiện ích bên ngoài này:",
+  "allowThisSiteTo": "Cho phép trang web này:",
+  "allowWithdrawAndSpend": "Cho phép $1 rút và chi tiêu tối đa số tiền sau đây:",
+
+  "amount": "Số tiền",
+  "appDescription": "Ví Ethereum trên trình duyệt của bạn",
+
+  "appName": "Wallet",
+
+  "appNameBeta": "Wallet Beta",
+
+  "appNameFlask": "Wallet Flask",
+
+  "approvalAndAggregatorTxFeeCost": "Phí mạng cho trình tổng hợp và việc phê duyệt",
+  "approvalTxGasCost": "Chi phí gas cho giao dịch phê duyệt",
+  "approve": "Phê duyệt giới hạn chi tiêu",
+  "approveButtonText": "Phê duyệt",
+  "approveSpendLimit": "Phê duyệt giới hạn chi tiêu $1",
+
+  "approved": "Đã phê duyệt",
+  "asset": "Tài sản",
+  "assetOptions": "Tùy chọn tài sản",
+  "assets": "Tài sản",
+  "attemptToCancel": "Cố gắng hủy?",
+  "attemptToCancelDescription": "Việc gửi lần thử này không đảm bảo rằng giao dịch gốc của bạn sẽ được hủy. Nếu lần hủy này thành công, bạn sẽ chịu phí giao dịch nêu ở trên.",
+  "attemptingConnect": "Đang cố gắng kết nối với chuỗi khối.",
+  "attributions": "Ghi nhận đóng góp",
+  "authorizedPermissions": "Bạn đã cấp các quyền sau đây",
+  "autoLockTimeLimit": "Hẹn giờ tự động khóa (phút)",
+  "autoLockTimeLimitDescription": "Đặt khoảng thời gian không hoạt động tính bằng phút trước khi Wallet khóa.",
+  "average": "Trung bình",
+  "back": "Quay lại",
+  "backToAll": "Quay lại toàn bộ danh sách",
+  "backupApprovalInfo": "Đây là mã bí mật bắt buộc phải dùng để khôi phục ví trong trường hợp bạn bị mất thiết bị, quên mật khẩu, phải cài đặt lại Wallet hoặc muốn truy cập ví của mình trên một thiết bị khác.",
+  "backupApprovalNotice": "Sao lưu Mã khôi phục bí mật để đảm bảo an toàn cho ví và tiền của bạn.",
+  "backupNow": "Sao lưu ngay",
+  "balance": "Số dư",
+  "balanceOutdated": "Số dư có thể đã cũ",
+  "basic": "Cơ bản",
+  "blockExplorerUrl": "URL trình khám phá khối",
+  "blockExplorerUrlDefinition": "URL được dùng làm trình khám phá khối cho mạng này.",
+  "blockExplorerView": "Xem tài khoản tại $1",
+
+  "blockiesIdenticon": "Dùng biểu tượng nhận dạng kiểu Blockies",
+  "browserNotSupported": "Trình duyệt của bạn không được hỗ trợ...",
+  "buildContactList": "Xây dựng danh sách liên hệ của bạn",
+  "buy": "Mua",
+  "buyWithWyre": "Mua ETH qua Wyre",
+  "buyWithWyreDescription": "Wyre cho phép bạn dùng thẻ ghi nợ để nộp ETH trực tiếp vào tài khoản Wallet của mình.",
+  "bytes": "Byte",
+  "canToggleInSettings": "Bạn có thể bật lại thông báo này trong phần Cài đặt -> Cảnh báo.",
+  "cancel": "Hủy",
+  "cancellationGasFee": "Phí gas hủy",
+  "cancelled": "Đã hủy",
+  "chainId": "Mã chuỗi",
+  "chainIdDefinition": "Mã chuỗi được dùng để ký các giao dịch cho mạng này.",
+  "chainIdExistsErrorMsg": "Mạng $1 hiện đang sử dụng mã chuỗi này.",
+  "chromeRequiredForHardwareWallets": "Bạn cần sử dụng Wallet trên Google Chrome để kết nối với Ví cứng của bạn.",
+  "clickToRevealSeed": "Nhấp vào đây để hiện các từ bí mật",
+  "close": "Đóng",
+  "confirm": "Xác nhận",
+  "confirmPassword": "Xác nhận mật khẩu",
+  "confirmSecretBackupPhrase": "Xác nhận Cụm mật khẩu sao lưu bí mật",
+  "confirmed": "Đã xác nhận",
+  "confusableUnicode": "“$1” tương tự với “$2”.",
+  "confusableZeroWidthUnicode": "Tìm thấy ký tự có độ rộng bằng 0.",
+  "confusingEnsDomain": "Chúng tôi đã phát hiện thấy một ký tự có thể gây nhầm lẫn trong tên ENS. Hãy kiểm tra tên ENS để tránh khả năng bị lừa đảo.",
+  "congratulations": "Chúc mừng bạn",
+  "connect": "Kết nối",
+  "connectAccountOrCreate": "Kết nối tài khoản hoặc tạo tài khoản mới",
+  "connectHardwareWallet": "Kết nối với ví cứng",
+  "connectManually": "Kết nối thủ công với trang web hiện tại",
+  "connectTo": "Kết nối với $1",
+
+  "connectToAll": "Kết nối với tất cả các $1 của bạn",
+
+  "connectToAllAccounts": "tài khoản",
+
+  "connectToMultiple": "Kết nối với $1",
+
+  "connectToMultipleNumberOfAccounts": "$1 tài khoản",
+
+  "connectWithWallet": "Kết nối với Wallet",
+  "connectedAccountsDescriptionPlural": "Bạn có $1 tài khoản kết nối với trang web này.",
+
+  "connectedAccountsDescriptionSingular": "Bạn có 1 tài khoản kết nối với trang web này.",
+  "connectedAccountsEmptyDescription": "Wallet chưa kết nối với trang web này. Để kết nối với một trang web trên web3, hãy tìm nút kết nối trên trang web của họ.",
+  "connectedSites": "Trang web đã kết nối",
+  "connectedSitesDescription": "$1 đã kết nối với các trang web này. Các trang web này có thể xem địa chỉ tài khoản của bạn.",
+
+  "connectedSitesEmptyDescription": "$1 chưa kết nối với bất kỳ trang web nào.",
+
+  "connecting": "Đang kết nối...",
+  "connectingTo": "Đang kết nối với $1",
+  "connectingToGoerli": "Đang kết nối với mạng thử nghiệm Goerli",
+  "connectingToKovan": "Đang kết nối với mạng thử nghiệm Kovan",
+  "connectingToMainnet": "Đang kết nối với mạng chính thức của Ethereum",
+  "connectingToRinkeby": "Đang kết nối với mạng thử nghiệm Rinkeby",
+  "connectingToRopsten": "Đang kết nối với mạng thử nghiệm Ropsten",
+  "contactUs": "Liên hệ với chúng tôi",
+  "contacts": "Danh bạ",
+  "contactsSettingsDescription": "Thêm, chỉnh sửa, xóa và quản lý danh bạ của bạn",
+  "continue": "Tiếp tục",
+  "continueToWyre": "Tiếp tục chuyển đến Wyre",
+  "contract": "Hợp đồng",
+  "contractAddressError": "Bạn đang gửi token đến địa chỉ hợp đồng của token. Điều này có thể khiến bạn bị mất những token này.",
+  "contractDeployment": "Triển khai hợp đồng",
+  "contractInteraction": "Tương tác với hợp đồng",
+  "copiedExclamation": "Đã sao chép!",
+  "copyAddress": "Sao chép địa chỉ vào khay nhớ tạm",
+  "copyPrivateKey": "Đây là khóa riêng tư của bạn (hãy nhấp vào để sao chép)",
+  "copyToClipboard": "Sao chép vào khay nhớ tạm",
+  "copyTransactionId": "Sao chép mã giao dịch",
+  "create": "Tạo",
+  "createAWallet": "Tạo ví",
+  "createAccount": "Tạo tài khoản",
+  "createPassword": "Tạo mật khẩu",
+  "currencyConversion": "Quy đổi tiền",
+  "currencySymbol": "Ký hiệu tiền tệ",
+  "currencySymbolDefinition": "Mã chứng khoán hiển thị cho tiền tệ của mạng này.",
+  "currentAccountNotConnected": "Tài khoản hiện tại của bạn chưa được kết nối",
+  "currentExtension": "Trang tiện ích hiện tại",
+  "currentLanguage": "Ngôn ngữ hiện tại",
+  "customGas": "Tùy chỉnh gas",
+  "customGasSubTitle": "Việc tăng phí có thể giúp giảm thời gian xử lý, nhưng điều này không được đảm bảo.",
+  "customSpendLimit": "Giới hạn chi tiêu tùy chỉnh",
+  "customToken": "Token tùy chỉnh",
+  "dataBackupFoundInfo": "Một số dữ liệu tài khoản của bạn đã được sao lưu trong lần cài đặt Wallet trước đó. Dữ liệu này có thể bao gồm các tùy chọn cài đặt, danh bạ và token. Bạn có muốn khôi phục dữ liệu này bây giờ không?",
+  "decimal": "Vị trí thập phân của token",
+  "decimalsMustZerotoTen": "Số vị trí thập phân ít nhất phải bằng 0 và không được quá 36.",
+  "decrypt": "Giải mã",
+  "decryptCopy": "Sao chép thông báo đã mã hóa",
+  "decryptInlineError": "Không thể giải mã thông báo này do lỗi: $1",
+
+  "decryptMessageNotice": "$1 muốn đọc thông báo này để hoàn tất hành động của bạn",
+
+  "decryptWallet": "Thông báo của Decrypt",
+  "decryptRequest": "Yêu cầu của Decrypt",
+  "delete": "Xóa",
+  "deleteAccount": "Xóa tài khoản",
+  "deleteNetwork": "Xóa mạng?",
+  "deleteNetworkDescription": "Bạn có chắc chắn muốn xóa mạng này không?",
+  "depositEther": "Nộp Ether",
+  "details": "Chi tiết",
+  "directDepositEther": "Nộp trực tiếp Ether",
+  "directDepositEtherExplainer": "Nếu bạn đã có một lượng Ether, cách nhanh nhất để chuyển Ether vào ví mới của bạn là nộp trực tiếp.",
+  "disconnect": "Ngắt kết nối",
+  "disconnectAllAccounts": "Ngắt kết nối tất cả các tài khoản",
+  "disconnectAllAccountsConfirmationDescription": "Bạn có chắc chắn muốn ngắt kết nối không? Bạn có thể bị mất chức năng của trang web.",
+  "disconnectPrompt": "Ngắt kết nối $1",
+  "disconnectThisAccount": "Ngắt kết nối tài khoản này",
+  "dismiss": "Đóng",
+  "dismissReminderDescriptionField": "Bật tùy chọn này để tắt thông báo nhắc sao lưu cụm mật khẩu khôi phục. Bạn nên sao lưu Cụm mật khẩu khôi phục bí mật của mình để tránh mất tiền",
+  "dismissReminderField": "Tắt lời nhắc sao lưu cụm mật khẩu khôi phục",
+  "domain": "Miền",
+  "done": "Hoàn tất",
+  "dontShowThisAgain": "Không hiển thị lại",
+  "downloadGoogleChrome": "Tải Google Chrome xuống",
+  "downloadSecretBackup": "Tải Cụm mật khẩu sao lưu bí mật này xuống và lưu giữ trên một ổ đĩa cứng hoặc môi trường lưu trữ bên ngoài được mã hóa.",
+  "downloadStateLogs": "Tải nhật ký trạng thái xuống",
+  "dropped": "Đã ngừng",
+  "edit": "Chỉnh sửa",
+  "editContact": "Chỉnh sửa người liên hệ",
+  "editNonceField": "Chỉnh sửa số chỉ dùng một lần",
+  "editNonceMessage": "Đây là tính năng nâng cao, hãy dùng một cách thận trọng.",
+  "editPermission": "Chỉnh sửa quyền",
+  "encryptionPublicKeyNotice": "$1 muốn biết khóa mã hóa công khai của bạn. Bằng việc đồng ý, trang web này sẽ có thể gửi thông báo được mã hóa cho bạn.",
+
+  "encryptionPublicKeyRequest": "Yêu cầu khóa mã hóa công khai",
+  "endOfFlowMessage1": "Bạn đã vượt qua bài kiểm tra. Hãy lưu giữ Cụm mật khẩu khôi phục bí mật của bạn an toàn, đó là trách nhiệm của bạn!",
+  "endOfFlowMessage10": "Tất cả đã hoàn tất",
+  "endOfFlowMessage2": "Mẹo lưu trữ an toàn",
+  "endOfFlowMessage3": "Lưu bản sao lưu ở nhiều nơi.",
+  "endOfFlowMessage4": "Tuyệt đối không chia sẻ cụm mật khẩu với bất kỳ ai.",
+  "endOfFlowMessage5": "Hãy cẩn thận với hoạt động lừa đảo! Wallet sẽ không bao giờ tự ý hỏi Cụm mật khẩu khôi phục bí mật của bạn.",
+  "endOfFlowMessage6": "Nếu bạn cần sao lưu lại Cụm mật khẩu khôi phục bí mật, bạn có thể tìm thấy chức năng này trong phần Cài đặt -> Bảo mật.",
+  "endOfFlowMessage7": "Nếu bạn có thắc mắc hoặc thấy điều gì đó đáng ngờ, hãy liên hệ với bộ phận hỗ trợ của chúng tôi $1.",
+
+  "endOfFlowMessage8": "Wallet không thể khôi phục Cụm mật khẩu khôi phục bí mật của bạn.",
+  "endOfFlowMessage9": "Tìm hiểu thêm.",
+  "endpointReturnedDifferentChainId": "Điểm cuối đã trả về một mã chuỗi khác: $1",
+
+  "ensNotFoundOnCurrentNetwork": "Không tìm thấy tên ENS trên mạng hiện tại. Đang chuyển sang mạng chính thức của Ethereum.",
+  "ensRegistrationError": "Lỗi khi đăng ký tên ENS",
+  "enterAnAlias": "Nhập một biệt danh",
+  "enterMaxSpendLimit": "Nhập giới hạn chi tiêu tối đa",
+  "enterPassword": "Nhập mật khẩu",
+  "enterPasswordContinue": "Nhập mật khẩu để tiếp tục",
+  "errorCode": "Mã: $1",
+
+  "errorDetails": "Chi tiết về lỗi",
+
+  "errorMessage": "Thông báo: $1",
+
+  "errorName": "Mã: $1",
+
+  "errorPageMessage": "Hãy thử lại bằng cách tải lại trang hoặc liên hệ với bộ phận hỗ trợ $1.",
+
+  "errorPagePopupMessage": "Hãy thử lại bằng cách đóng và mở lại cửa sổ bật lên hoặc liên hệ với bộ phận hỗ trợ $1.",
+
+  "errorPageTitle": "Wallet đã gặp lỗi",
+
+  "errorStack": "Cụm:",
+
+  "estimatedProcessingTimes": "Thời gian xử lý ước tính",
+  "ethGasPriceFetchWarning": "Giá gas dự phòng được cung cấp vì dịch vụ ước tính giá gas chính hiện không hoạt động.",
+  "eth_accounts": "Xem địa chỉ của các tài khoản được cho phép của bạn (bắt buộc)",
+
+  "ethereumPublicAddress": "Địa chỉ công khai trên Ethereum",
+  "etherscan": "Etherscan",
+  "etherscanView": "Xem tài khoản trên Etherscan",
+  "expandView": "Mở rộng cửa sổ xem",
+  "exportPrivateKey": "Xuất khóa riêng tư",
+  "externalExtension": "Tiện ích bên ngoài",
+  "extraApprovalGas": "+$1 gas phê duyệt",
+
+  "failed": "Không thành công",
+  "failedToFetchChainId": "Không thể tìm nạp mã chuỗi. URL RPC của bạn có chính xác không?",
+  "failureMessage": "Đã xảy ra sự cố và chúng tôi không thể hoàn tất hành động",
+  "fast": "Nhanh",
+  "fastest": "Nhanh nhất",
+  "feeAssociatedRequest": "Yêu cầu này có kèm theo một khoản phí.",
+  "fiat": "Pháp định",
+
+  "fileImportFail": "Tính năng nhập tệp không hoạt động? Nhấp vào đây!",
+
+  "forbiddenIpfsGateway": "Cổng kết nối IPFS không được phép: Vui lòng chỉ định một cổng kết nối CID",
+  "forgetDevice": "Quên thiết bị này",
+  "from": "Từ",
+  "fromAddress": "Từ: $1",
+
+  "functionApprove": "Chức năng: Phê duyệt",
+  "functionType": "Loại chức năng",
+  "gasLimit": "Giới hạn gas",
+  "gasLimitInfoTooltipContent": "Giới hạn gas là số lượng đơn vị gas tối đa mà bạn sẵn sàng chi tiêu.",
+  "gasLimitTooLow": "Giới hạn gas ít nhất phải là 21000",
+  "gasLimitTooLowWithDynamicFee": "Giới hạn gas ít nhất phải là $1",
+
+  "gasPrice": "Giá gas (GWEI)",
+  "gasPriceExcessive": "Bạn đã đặt phí gas cao một cách không cần thiết. Hãy cân nhắc giảm mức phí này.",
+  "gasPriceExcessiveInput": "Giá gas quá cao",
+  "gasPriceExtremelyLow": "Giá gas cực kỳ thấp",
+  "gasPriceFetchFailed": "Không ước tính được giá gas do lỗi mạng.",
+  "gasPriceInfoTooltipContent": "Giá gas xác định khoản Ether mà bạn sẵn sàng thanh toán cho mỗi đơn vị gas.",
+  "gasUsed": "Đã dùng gas",
+  "gdprMessage": "Đây là dữ liệu tổng hợp, do đó ở trạng thái ẩn danh để phục vụ cho mục đích của Quy định chung về bảo vệ dữ liệu (Liên minh Châu Âu) 2016/679. Để biết thêm thông tin liên quan đến các phương thức bảo vệ quyền riêng tư của chúng tôi, vui lòng xem $1 của chúng tôi.",
+
+  "gdprMessagePrivacyPolicy": "Chính sách quyền riêng tư tại đây",
+
+  "general": "Chung",
+  "generalSettingsDescription": "Quy đổi tiền, đơn vị tiền chính, ngôn ngữ, biểu tượng nhận dạng kiểu blockies",
+  "getEther": "Nhận Ether",
+  "getEtherFromFaucet": "Nhận Ether từ một vòi dành cho $1",
+
+  "getStarted": "Bắt đầu",
+  "goerli": "Mạng thử nghiệm Goerli",
+  "happyToSeeYou": "Chúng tôi rất vui khi được gặp bạn.",
+  "hardware": "Phần cứng",
+  "hardwareWalletConnected": "Đã kết nối với ví cứng",
+  "hardwareWalletLegacyDescription": "(cũ)",
+
+  "hardwareWalletSupportLinkConversion": "nhấp vào đây",
+  "hardwareWallets": "Kết nối với một ví cứng",
+  "hardwareWalletsMsg": "Chọn một ví cứng mà bạn muốn sử dụng với Wallet.",
+  "here": "tại đây",
+
+  "hexData": "Dữ liệu thập lục phân",
+  "hide": "Ẩn",
+  "hideTokenPrompt": "Ẩn token?",
+  "hideTokenSymbol": "Ẩn $1",
+
+  "hideZeroBalanceTokens": "Ẩn các token không có số dư",
+  "history": "Lịch sử",
+  "import": "Nhập",
+
+  "importAccount": "Nhập tài khoản",
+  "importAccountLinkText": "nhập bằng Cụm mật khẩu khôi phục bí mật",
+  "importAccountMsg": " Tài khoản đã nhập sẽ không được liên kết với Cụm mật khẩu khôi phục bí mật cho tài khoản Wallet đã tạo ban đầu của bạn. Tìm hiểu thêm về các tài khoản đã nhập ",
+  "importAccountSeedPhrase": "Nhập một tài khoản bằng Cụm mật khẩu khôi phục bí mật",
+  "importAccountText": "hoặc $1",
+
+  "importTokenQuestion": "Bạn muốn nhập token?",
+  "importTokenWarning": "Bất kỳ ai cũng tạo được token bằng bất kỳ tên nào, kể cả phiên bản giả của token hiện có. Bạn tự chịu rủi ro khi thêm và giao dịch!",
+  "importWallet": "Nhập ví",
+  "importYourExisting": "Nhập ví hiện tại của bạn bằng Cụm mật khẩu khôi phục bí mật",
+  "imported": "Đã nhập",
+
+  "infuraBlockedNotification": "Wallet không thể kết nối với máy chủ chuỗi khối. Hãy xem xét các lý do tiềm ẩn $1.",
+
+  "initialTransactionConfirmed": "Mạng đã xác nhận giao dịch ban đầu của bạn. Nhấp vào OK để quay lại.",
+  "insufficientBalance": "Không đủ số dư.",
+  "insufficientFunds": "Không đủ tiền.",
+  "insufficientTokens": "Không đủ token.",
+  "invalidAddress": "Địa chỉ không hợp lệ",
+  "invalidAddressRecipient": "Địa chỉ người nhận không hợp lệ",
+  "invalidAddressRecipientNotEthNetwork": "Không phải mạng ETH, hãy đặt ở chữ viết thường",
+  "invalidBlockExplorerURL": "URL trình khám phá khối không hợp lệ",
+  "invalidChainIdTooBig": "Mã chuỗi không hợp lệ. Mã chuỗi quá to.",
+  "invalidCustomNetworkAlertContent1": "Phải nhập lại mã chuỗi cho mạng tùy chỉnh “$1”.",
+
+  "invalidCustomNetworkAlertContent2": "Để bảo vệ bạn khỏi các nhà cung cấp mạng độc hại hoặc bị lỗi, mã chuỗi giờ đây là yêu cầu bắt buộc đối với tất cả các mạng tùy chỉnh.",
+  "invalidCustomNetworkAlertContent3": "Chuyển đến phần Cài đặt > Mạng, rồi nhập mã chuỗi. Bạn có thể tìm được mã chuỗi của hầu hết các mạng phổ biến trên $1.",
+
+  "invalidCustomNetworkAlertTitle": "Mạng tùy chỉnh không hợp lệ",
+  "invalidHexNumber": "Số thập lục phân không hợp lệ.",
+  "invalidHexNumberLeadingZeros": "Số thập lục phân không hợp lệ. Xóa mọi chữ số 0 ở đầu.",
+  "invalidIpfsGateway": "Cổng kết nối IPFS không hợp lệ: Giá trị phải là URL hợp lệ",
+  "invalidNumber": "Số không hợp lệ. Hãy nhập một số thập phân hoặc số thập lục phân bắt đầu bằng “0x”.",
+  "invalidNumberLeadingZeros": "Số không hợp lệ. Xóa mọi chữ số 0 ở đầu.",
+  "invalidRPC": "URL RPC không hợp lệ",
+  "invalidSeedPhrase": "Cụm mật khẩu khôi phục bí mật không hợp lệ",
+  "ipfsGateway": "Cổng kết nối IPFS",
+  "ipfsGatewayDescription": "Nhập URL của cổng kết nối IPFS CID để dùng cho quá trình phân giải nội dung ENS.",
+  "jsonFile": "Tệp JSON",
+
+  "knownAddressRecipient": "Địa chỉ hợp đồng đã biết.",
+  "knownTokenWarning": "Hành động này sẽ chỉnh sửa các token đã niêm yết trong ví của bạn, kẻ xấu có thể lợi dụng việc này để lừa đảo bạn. Chỉ phê duyệt nếu bạn chắc chắn rằng bạn muốn thay đổi giá trị mà những token này đại diện cho.",
+  "kovan": "Mạng thử nghiệm Kovan",
+  "lastConnected": "Đã kết nối lần gần đây nhất",
+  "learnMore": "Tìm hiểu thêm",
+  "ledgerAccountRestriction": "Bạn cần sử dụng tài khoản gần đây nhất thì mới có thể thêm một tài khoản mới.",
+  "ledgerLiveApp": "Ứng dụng Ledger Live",
+  "ledgerLocked": "Không thể kết nối với thiết bị Ledger. Vui lòng đảm bảo bạn đã mở khóa thiết bị và mở ứng dụng Ethereum.",
+  "ledgerTimeout": "Ledger Live mất quá nhiều thời gian để phản hồi hoặc đã hết thời gian chờ kết nối. Hãy đảm bảo bạn đã mở ứng dụng Ledger Live và đã mở khóa thiết bị.",
+  "letsGoSetUp": "Có, hãy thiết lập!",
+  "likeToImportTokens": "Bạn có muốn thêm những token này không?",
+  "links": "Đường liên kết",
+  "loadMore": "Nạp thêm",
+  "loading": "Đang tải...",
+  "loadingTokens": "Đang nạp token...",
+  "localhost": "Máy chủ cục bộ 8545",
+  "lock": "Khóa",
+  "lockTimeTooGreat": "Thời gian khóa quá lớn",
+  "mainnet": "Mạng chính thức của Ethereum",
+  "makeAnotherSwap": "Tạo một giao dịch hoán đổi mới",
+  "max": "Tối đa",
+  "memo": "thư báo",
+  "memorizePhrase": "Lưu cụm mật khẩu này.",
+  "WalletConnectStatusParagraphOne": "Giờ đây bạn có thể kiểm soát chi tiết hơn đối với các mối liên kết với tài khoản của mình trong Wallet.",
+  "WalletConnectStatusParagraphThree": "Nhấp vào đó để quản lý các tài khoản bạn đã kết nối.",
+  "WalletConnectStatusParagraphTwo": "Nút trạng thái kết nối sẽ hiển thị nếu trang web mà bạn đang truy cập được kết nối với tài khoản bạn đang chọn.",
+  "WalletDescription": "Kết nối bạn với Ethereum và Web phi tập trung.",
+  "WalletSwapsOfflineDescription": "Tính năng Hoán đổi trên Wallet đang được bảo trì. Vui lòng kiểm tra lại sau.",
+  "WalletVersion": "Phiên bản Wallet",
+  "metametricsCommitmentsAllowOptOut": "Luôn cho phép bạn chọn không tham gia thông qua phần Cài đặt",
+  "metametricsCommitmentsBoldNever": "Không bao giờ",
+
+  "metametricsCommitmentsIntro": "Wallet sẽ..",
+  "metametricsCommitmentsNeverCollectIP": "$1 thu thập địa chỉ IP đầy đủ của bạn",
+
+  "metametricsCommitmentsNeverCollectKeysEtc": "$1 thu thập mã khóa, địa chỉ, giao dịch, số dư, mã băm hoặc bất kỳ thông tin cá nhân nào",
+
+  "metametricsCommitmentsNeverSellDataForProfit": "$1 bán dữ liệu để thu lợi. Tuyệt đối không bao giờ!",
+
+  "metametricsCommitmentsSendAnonymizedEvents": "Gửi các lượt nhấp và xem trang đã được ẩn danh",
+  "metametricsHelpImproveWallet": "Giúp chúng tôi cải thiện Wallet",
+  "metametricsOptInDescription": "Wallet muốn thu thập dữ liệu sử dụng để hiểu rõ hơn về cách người dùng tương tác với tiện ích. Chúng tôi sẽ dùng dữ liệu này để liên tục cải thiện độ hữu ích và trải nghiệm người dùng trên sản phẩm của mình và hệ sinh thái Ethereum.",
+  "mismatchedChain": "Thông tin về mạng cho mã chuỗi này không khớp với hồ sơ của chúng tôi. Bạn nên $1 trước khi tiếp tục.",
+
+  "mismatchedChainLinkText": "xác minh thông tin về mạng",
+
+  "mustSelectOne": "Phải chọn ít nhất 1 token.",
+  "myAccounts": "Tài khoản của tôi",
+  "name": "Tên",
+  "needEtherInWallet": "Để tương tác với các ứng dụng phi tập trung bằng Wallet, bạn sẽ cần phải có Ether trong ví của mình.",
+  "needHelp": "Bạn cần trợ giúp? Liên hệ $1",
+
+  "needHelpLinkText": "Hỗ trợ về Wallet",
+  "needImportFile": "Bạn phải chọn tệp để nhập.",
+
+  "negativeETH": "Không thể gửi khoản ETH âm.",
+  "networkDetails": "Thông tin về mạng",
+  "networkName": "Tên mạng",
+  "networkNameBSC": "BSC",
+  "networkNameDefinition": "Tên liên kết với mạng này.",
+  "networkNameEthereum": "Ethereum",
+  "networkNameTestnet": "Mạng thử nghiệm",
+  "networkSettingsChainIdDescription": "Mã chuỗi được dùng để ký các giao dịch. Giá trị này phải khớp với mã chuỗi do mạng trả về. Bạn có thể nhập một số thập phân hoặc số thập lục phân bắt đầu bằng “0x” nhưng chúng tôi sẽ hiển thị số ở dạng thập phân.",
+  "networkSettingsDescription": "Thêm và chỉnh sửa mạng RPC tùy chỉnh",
+  "networkURL": "URL mạng",
+  "networkURLDefinition": "URL dùng để truy cập vào mạng này.",
+  "networks": "Mạng",
+  "nevermind": "Bỏ qua",
+  "newAccount": "Tài khoản mới",
+  "newAccountDetectedDialogMessage": "Đã tìm thấy địa chỉ mới! Nhấp vào đây để thêm địa chỉ này vào sổ địa chỉ của bạn.",
+  "newAccountNumberName": "Tài khoản $1",
+
+  "newContact": "Người liên hệ mới",
+  "newContract": "Hợp đồng mới",
+  "newPassword": "Mật khẩu mới (tối thiểu 8 ký tự)",
+  "newToWallet": "Bạn mới sử dụng Wallet?",
+  "newTotal": "Tổng mới",
+  "newTransactionFee": "Phí giao dịch mới",
+  "next": "Tiếp theo",
+  "nextNonceWarning": "Số chỉ dùng một lần lớn hơn số chỉ dùng một lần gợi ý là $1",
+
+  "noAccountsFound": "Không tìm thấy tài khoản nào cho cụm từ tìm kiếm đã đưa ra",
+  "noAddressForName": "Chưa có địa chỉ nào được đặt cho tên này.",
+  "noAlreadyHaveSeed": "Không, tôi đã có Cụm mật khẩu bí mật",
+  "noConversionRateAvailable": "Không có sẵn tỷ lệ quy đổi nào",
+  "noThanks": "Không, cảm ơn",
+  "noTransactions": "Bạn không có giao dịch nào",
+  "noWebcamFound": "Không tìm thấy webcam trên máy tính của bạn. Vui lòng thử lại.",
+  "noWebcamFoundTitle": "Không tìm thấy webcam",
+  "nonce": "Số chỉ dùng một lần",
+  "nonceField": "Tùy chỉnh số chỉ dùng một lần của giao dịch",
+  "nonceFieldDescription": "Bật tùy chọn này để thay đổi số dùng một lần (số giao dịch) trên màn hình xác nhận. Đây là tính năng nâng cao, hãy dùng một cách thận trọng.",
+  "nonceFieldHeading": "Số dùng một lần tùy chỉnh",
+  "notCurrentAccount": "Tài khoản này có chính xác không? Tài khoản này khác với tài khoản bạn đang chọn trong ví của mình",
+  "notEnoughGas": "Không đủ gas",
+  "notifications1Description": "Giờ đây, người dùng Wallet trên điện thoại di động có thể hoán đổi token trong ví di động của họ. Quét mã QR để tải ứng dụng di động và bắt đầu hoán đổi.",
+
+  "notifications1Title": "Tính năng hoán đổi trên điện thoại di động đã sẵn sàng!",
+
+  "notifications3ActionText": "Đọc thêm",
+
+  "notifications3Description": "Luôn cập nhật các phương pháp bảo mật hay nhất của Wallet và nhận các mẹo mới nhất về bảo mật từ nhóm hỗ trợ chính thức của Wallet.",
+
+  "notifications3Title": "Luôn bảo mật",
+
+  "notifications4ActionText": "Bắt đầu hoán đổi",
+
+  "notifications4Description": "Nhận giá hoán đổi token tốt nhất ngay trong ví của bạn. Giờ đây, Wallet sẽ kết nối bạn với nhiều trình tổng hợp sàn giao dịch phi tập trung và nhà tạo lập thị trường chuyên nghiệp trên Binance Smart Chain.",
+
+  "notifications4Title": "Hoán đổi trên Binance Smart Chain",
+
+  "notifications5Description": "Từ giờ, \"Cụm mật khẩu gốc\" sẽ được gọi là \"Cụm mật khẩu khôi phục bí mật.\"",
+
+  "notifications6DescriptionOne": "Kể từ phiên bản Chrome 91, API từng cho phép hỗ trợ Ledger (U2F) của chúng tôi không còn hỗ trợ ví cứng nữa. Wallet đã triển khai một tính năng hỗ trợ Ledger Live mới cho phép bạn tiếp tục kết nối với thiết bị Ledger của mình thông qua ứng dụng Ledger Live trên máy tính.",
+
+  "notifications6DescriptionThree": "Khi tương tác với tài khoản Ledger của bạn trong Wallet, một tab mới sẽ mở ra và bạn sẽ được yêu cầu mở ứng dụng Ledger Live.  Khi ứng dụng này mở ra, bạn sẽ được yêu cầu cho phép kết nối WebSocket với tài khoản Wallet của mình.  Đơn giản vậy thôi!",
+
+  "notifications6DescriptionTwo": "Bạn có thể kích hoạt tính năng hỗ trợ Ledger Live bằng cách nhấp vào phần Cài đặt > Nâng cao > Sử dụng Ledger Live.",
+
+  "notifications6Title": "Thông tin cập nhật về việc hỗ trợ Ledger cho người dùng Chrome",
+
+  "ofTextNofM": "trên",
+  "off": "Tắt",
+  "offlineForMaintenance": "Ngoại tuyến để bảo trì",
+  "ok": "Ok",
+  "on": "Bật",
+  "onboardingReturnNotice": "\"$1\" sẽ đóng tab này và quay về $2",
+
+  "onlyAddTrustedNetworks": "Một nhà cung cấp mạng độc hại có thể nói dối về trạng thái của chuỗi khối và ghi lại hoạt động của bạn trên mạng. Chỉ thêm các mạng tùy chỉnh mà bạn tin tưởng.",
+  "onlyConnectTrust": "Chỉ kết nối với các trang web mà bạn tin tưởng.",
+  "origin": "Nguồn gốc",
+  "parameters": "Tham số",
+  "participateInMetaMetrics": "Tham gia MetaMetrics",
+  "participateInMetaMetricsDescription": "Tham gia MetaMetrics để giúp chúng tôi cải thiện Wallet",
+  "password": "Mật khẩu",
+  "passwordNotLongEnough": "Mật khẩu không đủ dài",
+  "passwordsDontMatch": "Mật khẩu không khớp",
+  "pastePrivateKey": "Dán chuỗi khóa riêng tư của bạn vào đây:",
+
+  "pending": "Đang chờ xử lý",
+  "permissions": "Quyền",
+  "personalAddressDetected": "Đã tìm thấy địa chỉ cá nhân. Nhập địa chỉ hợp đồng token.",
+  "plusXMore": "+ $1 khác",
+
+  "prev": "Trước",
+  "primaryCurrencySetting": "Đơn vị tiền chính",
+  "primaryCurrencySettingDescription": "Chọn Gốc để ưu tiên hiển thị giá trị bằng đơn vị tiền gốc của chuỗi (ví dụ: ETH). Chọn Pháp định để ưu tiên hiển thị giá trị bằng đơn vị tiền pháp định mà bạn chọn.",
+  "privacyMsg": "Chính sách quyền riêng tư",
+  "privateKey": "Khóa riêng tư",
+
+  "privateKeyWarning": "Cảnh báo: Tuyệt đối không để lộ mã khóa này. Bất kỳ ai có mã khóa riêng tư của bạn cũng có thể đánh cắp tài sản được giữ trong tài khoản của bạn.",
+  "privateNetwork": "Mạng riêng",
+  "proposedApprovalLimit": "Giới hạn phê duyệt đề xuất",
+  "provide": "Cung cấp",
+  "publicAddress": "Địa chỉ công khai",
+  "queue": "Hàng đợi",
+  "queued": "Đã đưa vào hàng đợi",
+  "readdToken": "Bạn có thể thêm lại token này trong tương lai bằng cách chuyển đến mục “Thêm token” trong trình đơn tùy chọn tài khoản.",
+  "receive": "Nhận",
+  "recents": "Gần đây",
+  "recipientAddressPlaceholder": "Tìm kiếm, địa chỉ công khai (0x) hoặc ENS",
+  "recoveryPhraseReminderBackupStart": "Bắt đầu tại đây",
+  "recoveryPhraseReminderConfirm": "Đã hiểu",
+  "recoveryPhraseReminderHasBackedUp": "Luôn lưu giữ Cụm mật khẩu khôi phục bí mật ở nơi an toàn và bí mật",
+  "recoveryPhraseReminderHasNotBackedUp": "Bạn cần sao lưu lại Cụm mật khẩu khôi phục bí mật?",
+  "recoveryPhraseReminderItemOne": "Tuyệt đối không cho ai biết Cụm mật khẩu khôi phục bí mật",
+  "recoveryPhraseReminderItemTwo": "Nhóm Wallet sẽ không bao giờ hỏi Cụm mật khẩu khôi phục bí mật của bạn",
+  "recoveryPhraseReminderSubText": "Cụm mật khẩu khôi phục bí mật sẽ kiểm soát mọi thứ trong tài khoản của bạn.",
+  "recoveryPhraseReminderTitle": "Bảo vệ tiền của bạn",
+  "reject": "Từ chối",
+  "rejectAll": "Từ chối tất cả",
+  "rejectTxsDescription": "Bạn chuẩn bị từ chối hàng loạt $1 giao dịch.",
+  "rejectTxsN": "Từ chối $1 giao dịch",
+  "rejected": "Đã từ chối",
+  "remindMeLater": "Nhắc tôi sau",
+  "remove": "Xóa",
+  "removeAccount": "Xóa tài khoản",
+  "removeAccountDescription": "Tài khoản này sẽ được xóa khỏi ví của bạn. Hãy đảm bảo rằng bạn có Cụm mật khẩu khôi phục bí mật ban đầu hoặc khóa riêng tư cho tài khoản được nhập trước khi tiếp tục. Bạn có thể nhập hoặc tạo lại tài khoản từ trình đơn tài khoản thả xuống. ",
+  "requestsAwaitingAcknowledgement": "yêu cầu đang chờ xác nhận",
+  "required": "Bắt buộc",
+  "reset": "Đặt lại",
+  "resetAccount": "Đặt lại tài khoản",
+  "resetAccountDescription": "Nếu đặt lại tài khoản của bạn, toàn bộ lịch sử giao dịch sẽ bị xóa. Việc này sẽ không làm thay đổi số dư trong tài khoản của bạn hoặc yêu cầu bạn phải nhập lại Cụm mật khẩu khôi phục bí mật.",
+  "restore": "Khôi phục",
+  "restoreAccountWithSeed": "Khôi phục tài khoản của bạn bằng cụm mật khẩu khôi phục bí mật",
+  "restoreWalletPreferences": "Đã tìm thấy bản sao lưu dữ liệu của bạn từ $1. Bạn có muốn khôi phục các tùy chọn ưu tiên trong ví của mình không?",
+
+  "retryTransaction": "Thử lại giao dịch",
+  "reusedTokenNameWarning": "Một token trong đây sử dụng lại ký hiệu của một token khác mà bạn thấy, điều này có thể gây nhầm lẫn hoặc mang tính lừa dối.",
+  "revealSeedWords": "Hiện Cụm mật khẩu khôi phục bí mật",
+  "revealSeedWordsDescription": "Nếu thay đổi trình duyệt hoặc chuyển máy tính, bạn sẽ cần Cụm mật khẩu khôi phục bí mật này để truy cập tài khoản của mình. Hãy lưu Cụm mật khẩu khôi phục bí mật này ở nơi an toàn và bí mật.",
+  "revealSeedWordsWarning": "Kẻ xấu có thể dùng các từ này để đánh cắp tất cả các tài khoản của bạn.",
+  "revealSeedWordsWarningTitle": "KHÔNG chia sẻ cụm mật khẩu này với bất kỳ ai!",
+  "rinkeby": "Mạng thử nghiệm Rinkeby",
+  "ropsten": "Mạng thử nghiệm Ropsten",
+  "rpcUrl": "URL RPC mới",
+  "save": "Lưu",
+  "saveAsCsvFile": "Lưu dưới dạng tệp CSV",
+  "scanInstructions": "Đặt mã QR vào trước máy ảnh",
+  "scanQrCode": "Quét mã QR",
+  "scrollDown": "Cuộn xuống",
+  "search": "Tìm kiếm",
+  "searchAccounts": "Tìm kiếm tài khoản",
+  "searchResults": "Kết quả tìm kiếm",
+  "searchTokens": "Tìm kiếm token",
+  "secretBackupPhraseDescription": "Cụm mật khẩu sao lưu bí mật giúp việc sao lưu và khôi phục tài khoản trở nên dễ dàng.",
+  "secretBackupPhraseWarning": "CẢNH BÁO: Tuyệt đối không để lộ cụm mật khẩu sao lưu của bạn. Bất kỳ ai có cụm mật khẩu này cũng có thể lấy Ether của bạn vĩnh viễn.",
+  "secretPhrase": "Nhập cụm mật khẩu bí mật của bạn vào đây để khôi phục két của bạn.",
+  "securityAndPrivacy": "Bảo mật và quyền riêng tư",
+  "securitySettingsDescription": "Các cài đặt quyền riêng tư và Cụm mật khẩu khôi phục bí mật của ví",
+  "seedPhraseIntroSidebarBulletFour": "Viết ra và cất ở nhiều nơi bí mật.",
+  "seedPhraseIntroSidebarBulletOne": "Lưu trong một trình quản lý mật khẩu",
+  "seedPhraseIntroSidebarBulletThree": "Lưu giữ trong hộp ký gửi an toàn.",
+  "seedPhraseIntroSidebarBulletTwo": "Lưu giữ trong két an toàn.",
+  "seedPhraseIntroSidebarCopyOne": "Cụm mật khẩu khôi phục bí mật là “chìa khóa chính” để truy cập ví và số tiền của bạn.",
+  "seedPhraseIntroSidebarCopyThree": "Nếu ai đó hỏi bạn cụm mật khẩu khôi phục bí mật, thì họ đang cố gắng lừa đảo bạn.",
+  "seedPhraseIntroSidebarCopyTwo": "Đừng bao giờ cho ai biết cụm mật khẩu khôi phục bí mật, kể cả Wallet!",
+  "seedPhraseIntroSidebarTitleOne": "Cụm mật khẩu khôi phục là gì?",
+  "seedPhraseIntroSidebarTitleThree": "Tôi có nên cho ai biết cụm mật khẩu khôi phục bí mật của mình không?",
+  "seedPhraseIntroSidebarTitleTwo": "Tôi lưu cụm mật khẩu khôi phục của mình bằng cách nào?",
+  "seedPhraseIntroTitle": "Bảo mật cho ví của bạn",
+  "seedPhraseIntroTitleCopy": "Trước khi bắt đầu, hãy xem video ngắn này để tìm hiểu thêm về cụm mật khẩu khôi phục bí mật của bạn và cách bảo vệ ví của bạn.",
+  "seedPhrasePlaceholder": "Phân tách mỗi từ bằng một dấu cách",
+  "seedPhrasePlaceholderPaste": "Dán Cụm mật khẩu khôi phục bí mật từ khay nhớ tạm",
+  "seedPhraseReq": "Cụm mật khẩu khôi phục bí mật gồm 12, 15, 18, 21 hoặc 24 từ",
+  "selectAHigherGasFee": "Chọn phí gas cao hơn để tăng tốc quá trình xử lý giao dịch của bạn.*",
+  "selectAccounts": "Chọn (các) tài khoản",
+  "selectAll": "Chọn tất cả",
+  "selectAnAccount": "Chọn một tài khoản",
+  "selectAnAccountAlreadyConnected": "Tài khoản này đã được kết nối với Wallet",
+  "selectEachPhrase": "Vui lòng chọn từng cụm mật khẩu theo thứ tự để đảm bảo sự chính xác.",
+  "selectHdPath": "Chọn đường dẫn phân cấp xác định",
+  "selectPathHelp": "Nếu bạn không thấy các tài khoản Ledger hiện có của bạn dưới đây, hãy thử chuyển đường dẫn thành \"Legacy (MEW / MyCrypto)\"",
+  "selectType": "Chọn loại",
+  "selectingAllWillAllow": "Việc chọn tất cả sẽ cho phép trang này xem tất cả các tài khoản hiện tại của bạn. Đảm bảo rằng bạn tin tưởng trang web này.",
+  "send": "Gửi",
+  "sendAmount": "Gửi khoản tiền",
+  "sendSpecifiedTokens": "Gửi $1",
+
+  "sendTokens": "Gửi token",
+  "separateEachWord": "Phân tách mỗi từ bằng một dấu cách",
+  "settings": "Cài đặt",
+  "showAdvancedGasInline": "Quyền kiểm soát gas nâng cao",
+  "showAdvancedGasInlineDescription": "Chọn tùy chọn này để hiển thị các quyền kiểm soát giá và giới hạn ngay trên màn hình gửi và xác nhận.",
+  "showFiatConversionInTestnets": "Hiển thị tỷ lệ quy đổi trên các mạng thử nghiệm",
+  "showFiatConversionInTestnetsDescription": "Chọn tùy chọn này để hiển thị tỷ lệ quy đổi pháp định trên Mạng thử nghiệm",
+  "showHexData": "Hiển thị dữ liệu thập lục phân",
+  "showHexDataDescription": "Chọn tùy chọn này để hiển thị trường dữ liệu thập lục phân trên màn hình gửi",
+  "showIncomingTransactions": "Hiển thị các giao dịch đến",
+  "showIncomingTransactionsDescription": "Chọn tùy chọn này nếu bạn muốn dùng Etherscan để hiển thị các giao dịch đến trong danh sách giao dịch",
+  "showPermissions": "Hiển thị quyền",
+  "showPrivateKeys": "Hiện khóa riêng tư",
+  "showSeedPhrase": "Hiển thị Cụm mật khẩu khôi phục bí mật",
+  "sigRequest": "Yêu cầu chữ ký",
+  "sign": "Ký",
+  "signNotice": "Việc ký thông báo này có thể gây ra \nảnh hưởng nguy hiểm ngoài ý muốn. Chỉ ký những thông báo từ \ncác trang web mà bạn hoàn toàn tin tưởng bằng toàn bộ tài khoản của mình.\n Chúng tôi sẽ loại bỏ phương thức nguy hiểm này trong phiên bản sau này. ",
+  "signatureRequest": "Yêu cầu chữ ký",
+  "signatureRequest1": "Thông báo",
+  "signed": "Đã ký",
+  "slow": "Chậm",
+  "somethingWentWrong": "Rất tiếc! Đã xảy ra sự cố.",
+  "speedUp": "Tăng tốc",
+  "speedUpCancellation": "Tăng tốc lệnh hủy này",
+  "speedUpTransaction": "Tăng tốc giao dịch này",
+  "spendLimitAmount": "Khoản tiền giới hạn chi tiêu",
+  "spendLimitInsufficient": "Giới hạn chi tiêu không đủ",
+  "spendLimitInvalid": "Giới hạn chi tiêu không hợp lệ; giá trị này phải là số dương.",
+  "spendLimitPermission": "Quyền đối với giới hạn chi tiêu",
+  "spendLimitRequestedBy": "Bên yêu cầu giới hạn chi tiêu: $1",
+
+  "spendLimitTooLarge": "Giới hạn chi tiêu quá lớn",
+  "stateLogError": "Lỗi khi truy xuất nhật ký trạng thái.",
+  "stateLogFileName": "Nhật ký trạng thái của Wallet",
+  "stateLogs": "Nhật ký trạng thái",
+  "stateLogsDescription": "Nhật ký trạng thái có chứa các địa chỉ tài khoản công khai của bạn và các giao dịch đã gửi.",
+  "statusConnected": "Đã kết nối",
+  "statusNotConnected": "Chưa kết nối",
+  "step1LedgerWallet": "Tải ứng dụng Ledger xuống",
+  "step1LedgerWalletMsg": "Tải xuống, thiết lập và nhập mật khẩu của bạn để mở khóa $1.",
+
+  "step1TrezorWallet": "Kết nối ví Trezor",
+  "step1TrezorWalletMsg": "Kết nối ví của bạn trực tiếp với máy tính. Để biết thêm thông tin về cách sử dụng thiết bị ví cứng của bạn, $1",
+
+  "step2LedgerWallet": "Kết nối ví Ledger",
+  "step2LedgerWalletMsg": "Kết nối ví của bạn trực tiếp với máy tính.  Mở khóa Ledger của bạn và mở ứng dụng Ethereum. Để biết thêm thông tin về cách sử dụng thiết bị ví cứng của bạn, $1.",
+
+  "storePhrase": "Lưu cụm mật khẩu này trong trình quản lý mật khẩu chẳng hạn như 1Password.",
+  "submit": "Gửi",
+  "submitted": "Đã gửi",
+  "support": "Hỗ trợ",
+  "supportCenter": "Truy cập Trung tâm hỗ trợ của chúng tôi",
+  "swap": "Hoán đổi",
+  "swapAdvancedSlippageInfo": "Khi giá giữa thời điểm đặt lệnh và thời điểm xác nhận lệnh thay đổi, hiện tượng này được gọi là “trượt giá”. Giao dịch hoán đổi của bạn sẽ tự động hủy nếu mức trượt giá vượt quá “mức trượt giá tối đa” đã cài đặt.",
+  "swapAggregator": "Trình tổng hợp",
+  "swapAllowSwappingOf": "Cho phép hoán đổi $1",
+
+  "swapAmountReceived": "Số tiền được đảm bảo",
+  "swapAmountReceivedInfo": "Đây là số tiền tối thiểu mà bạn sẽ nhận được. Bạn sẽ nhận được nhiều hơn tùy thuộc vào mức trượt giá.",
+  "swapApproval": "Phê duyệt $1 cho các giao dịch hoán đổi",
+
+  "swapApproveNeedMoreTokens": "Bạn cần $1 $2 nữa để hoàn tất giao dịch hoán đổi này",
+
+  "swapBuildQuotePlaceHolderText": "Không có token nào khớp với $1",
+
+  "swapConfirmWithHwWallet": "Xác nhận ví cứng của bạn",
+  "swapContractDataDisabledErrorDescription": "Trong ứng dụng Ethereum trên Ledger của bạn, hãy chuyển đến phần \"Cài đặt\" và cho phép dữ liệu hợp đồng. Sau đó, thử hoán đổi lại.",
+  "swapContractDataDisabledErrorTitle": "Chưa bật dữ liệu hợp đồng trên Ledger của bạn",
+  "swapCustom": "tùy chỉnh",
+  "swapDecentralizedExchange": "Sàn giao dịch phi tập trung",
+  "swapEditLimit": "Chỉnh sửa giới hạn",
+  "swapEnableDescription": "Thao tác này là bắt buộc và cấp cho Wallet quyền hoán đổi $1 của bạn.",
+
+  "swapEstimatedNetworkFees": "Phí mạng ước tính",
+  "swapEstimatedNetworkFeesInfo": "Đây là giá trị ước tính của phí mạng sẽ dùng để hoàn thành giao dịch hoán đổi của bạn. Số tiền thực tế có thể thay đổi tùy theo tình trạng mạng.",
+  "swapFailedErrorDescriptionWithSupportLink": "Đã xảy ra lỗi giao dịch và chúng tôi sẵn sàng trợ giúp bạn. Nếu vấn đề này tiếp diễn, bạn có thể liên hệ với bộ phận hỗ trợ khách hàng tại $1 để được hỗ trợ thêm.",
+
+  "swapFailedErrorTitle": "Hoán đổi không thành công",
+  "swapFetchingQuotesErrorDescription": "Rất tiếc... đã xảy ra sự cố. Hãy thử lại. Nếu lỗi vẫn tiếp diễn, hãy liên hệ với bộ phận hỗ trợ khách hàng.",
+  "swapFetchingQuotesErrorTitle": "Lỗi tìm nạp báo giá",
+  "swapFetchingTokens": "Đang tìm nạp token...",
+  "swapFromTo": "Giao dịch hoán đổi $1 sang $2",
+
+  "swapGasFeesSplit": "Phí gas trên màn hình trước được chia đôi giữa hai giao dịch này.",
+  "swapHighSlippageWarning": "Số tiền trượt giá rất cao.",
+  "swapLowSlippageError": "Giao dịch có thể không thành công, mức trượt giá tối đa quá thấp.",
+  "swapMaxSlippage": "Mức trượt giá tối đa",
+  "swapWalletFee": "Phí của Wallet",
+  "swapWalletFeeDescription": "Chúng tôi luôn tìm giá tốt nhất từ các nguồn thanh khoản hàng đầu. Phí $1% được tự động tính vào báo giá này.",
+
+  "swapNewQuoteIn": "Báo giá mới sẽ có sau $1",
+
+  "swapOnceTransactionHasProcess": "$1 của bạn sẽ được thêm vào tài khoản sau khi xử lý xong giao dịch.",
+
+  "swapPriceDifference": "Bạn sắp hoán đổi $1 $2 (~$3) lấy $4 $5 (~$6).",
+
+  "swapPriceDifferenceTitle": "Chênh lệch giá ~$1%",
+
+  "swapPriceImpactTooltip": "Tác động về giá là mức chênh lệch giữa giá thị trường hiện tại và số tiền nhận được trong quá trình thực hiện giao dịch. Tác động giá là một hàm trong quy mô giao dịch của bạn so với quy mô của nhóm thanh khoản.",
+  "swapPriceUnavailableDescription": "Không thể xác định tác động giá do thiếu dữ liệu giá thị trường. Vui lòng xác nhận rằng bạn cảm thấy thoải mái với số lượng token bạn sắp nhận được trước khi hoán đổi.",
+  "swapPriceUnavailableTitle": "Hãy kiểm tra tỷ giá trước khi tiếp tục",
+  "swapProcessing": "Đang xử lý",
+  "swapQuoteDetails": "Chi tiết báo giá",
+  "swapQuoteDetailsSlippageInfo": "Khi giá giữa thời điểm đặt lệnh và thời điểm xác nhận lệnh thay đổi, hiện tượng này được gọi là \"trượt giá\". Giao dịch hoán đổi của bạn sẽ tự động hủy nếu mức trượt giá vượt quá \"mức trượt giá cho phép\" đã đặt.",
+  "swapQuoteNofN": "Báo giá $1/$2",
+
+  "swapQuoteSource": "Nguồn báo giá",
+  "swapQuotesExpiredErrorDescription": "Vui lòng yêu cầu báo giá mới để biết các mức tỷ lệ mới nhất.",
+  "swapQuotesExpiredErrorTitle": "Hết thời gian chờ báo giá",
+  "swapQuotesNotAvailableErrorDescription": "Hãy thử điều chỉnh số tiền hoặc tùy chọn cài đặt mức trượt giá và thử lại.",
+  "swapQuotesNotAvailableErrorTitle": "Không có báo giá",
+  "swapRate": "Tỷ lệ",
+  "swapReceiving": "Đang nhận",
+  "swapReceivingInfoTooltip": "Đây là giá trị ước tính. Số tiền chính xác phụ thuộc vào mức trượt giá.",
+  "swapRequestForQuotation": "Yêu cầu báo giá",
+  "swapReviewSwap": "Xem xét giao dịch hoán đổi",
+  "swapSearchForAToken": "Tìm kiếm token",
+  "swapSelect": "Chọn",
+  "swapSelectAQuote": "Chọn một báo giá",
+  "swapSelectAToken": "Chọn một token",
+  "swapSelectQuotePopoverDescription": "Dưới đây là tất cả các báo giá thu thập từ nhiều nguồn thanh khoản.",
+  "swapSlippageNegative": "Mức trượt giá phải lớn hơn hoặc bằng 0",
+  "swapSource": "Nguồn thanh khoản",
+  "swapSourceInfo": "Chúng tôi tìm kiếm nhiều nguồn thanh khoản (các sàn giao dịch, trình tổng hợp và nhà tạo lập thị trường) để tìm được mức tỷ lệ tốt nhất và phí mạng thấp nhất.",
+  "swapSwapFrom": "Hoán đổi từ",
+  "swapSwapSwitch": "Chuyển từ và chuyển sang token khác",
+  "swapSwapTo": "Hoán đổi sang",
+  "swapToConfirmWithHwWallet": "để xác nhận ví cứng của bạn",
+  "swapTokenAvailable": "Đã thêm $1 vào tài khoản của bạn.",
+
+  "swapTokenBalanceUnavailable": "Chúng tôi không truy xuất được số dư $1 của bạn",
+
+  "swapTokenToToken": "Hoán đổi $1 sang $2",
+
+  "swapTokenVerificationAddedManually": "Token này đã được thêm theo cách thủ công.",
+  "swapTokenVerificationMessage": "Luôn xác nhận địa chỉ token trên $1.",
+
+  "swapTokenVerificationOnlyOneSource": "Chỉ được xác minh trên 1 nguồn.",
+  "swapTokenVerificationSources": "Đã xác minh trên $1 nguồn.",
+
+  "swapTransactionComplete": "Đã hoàn tất giao dịch",
+  "swapTwoTransactions": "2 giao dịch",
+  "swapUnknown": "Không xác định",
+  "swapVerifyTokenExplanation": "Nhiều token có thể dùng cùng một tên và ký hiệu. Hãy kiểm tra $1 để xác minh xem đây có phải là token bạn đang tìm kiếm không.",
+
+  "swapYourTokenBalance": "Có sẵn $1 $2 để hoán đổi",
+
+  "swapZeroSlippage": "Mức trượt giá 0%",
+  "swapsAdvancedOptions": "Tùy chọn nâng cao",
+  "swapsExcessiveSlippageWarning": "Mức trượt giá quá cao và sẽ dẫn đến tỷ giá không sinh lời. Vui lòng giảm giới hạn trượt giá xuống một giá trị thấp hơn 15%.",
+  "swapsMaxSlippage": "Giới hạn trượt giá",
+  "swapsNotEnoughForTx": "Không đủ $1 để hoàn thành giao dịch này",
+
+  "swapsViewInActivity": "Xem hoạt động",
+  "switchEthereumChainConfirmationDescription": "Thao tác này sẽ chuyển mạng được chọn trong Wallet sang một mạng đã thêm trước đó:",
+  "switchEthereumChainConfirmationTitle": "Cho phép trang web này chuyển mạng?",
+  "switchNetwork": "Chuyển mạng",
+  "switchNetworks": "Chuyển mạng",
+  "switchToThisAccount": "Chuyển sang tài khoản này",
+  "switchingNetworksCancelsPendingConfirmations": "Khi bạn chuyển mạng, mọi xác nhận đang chờ xử lý sẽ bị hủy",
+  "symbol": "Ký hiệu",
+  "symbolBetweenZeroTwelve": "Ký hiệu không được dài quá 11 ký tự.",
+  "syncWithMobile": "Đồng bộ hóa với thiết bị di động",
+  "syncWithMobileBeCareful": "Đảm bảo rằng không có ai nhìn vào màn hình của bạn khi quét mã này",
+  "syncWithMobileComplete": "Đã đồng bộ hóa thành công dữ liệu của bạn. Tận hưởng ứng dụng Wallet trên thiết bị di động!",
+  "syncWithMobileDesc": "Bạn có thể đồng bộ hóa tài khoản và thông tin của mình với thiết bị di động. Mở ứng dụng Wallet trên thiết bị di động, chuyển đến phần \"Cài đặt\" và nhấn vào \"Đồng bộ hóa với tiện ích trình duyệt\"",
+  "syncWithMobileDescNewUsers": "Nếu mới mở ứng dụng Wallet trên thiết bị di động lần đầu tiên, bạn chỉ cần làm theo các bước hướng dẫn trên điện thoại.",
+  "syncWithMobileScanThisCode": "Quét mã này bằng ứng dụng Wallet trên thiết bị di động",
+  "syncWithMobileTitle": "Đồng bộ hóa với thiết bị di động",
+  "syncWithThreeBox": "Đồng bộ hóa dữ liệu với 3Box (thử nghiệm)",
+  "syncWithThreeBoxDescription": "Bật để sao lưu các tùy chọn cài đặt của bạn với 3Box. Tính năng này hiện đang trong giai đoạn thử nghiệm; bạn tự chịu rủi ro khi sử dụng.",
+  "syncWithThreeBoxDisabled": "Đã tắt 3Box do có lỗi xảy ra trong quá trình đồng bộ hóa ban đầu",
+  "terms": "Điều khoản sử dụng",
+  "termsOfService": "Điều khoản dịch vụ",
+  "testFaucet": "Vòi thử nghiệm",
+  "thisWillCreate": "Thao tác này sẽ tạo một ví mới và Cụm mật khẩu khôi phục bí mật",
+  "tips": "Mẹo",
+  "to": "Đến",
+  "toAddress": "Đến: $1",
+
+  "token": "Token",
+  "tokenAlreadyAdded": "Đã thêm token.",
+  "tokenContractAddress": "Địa chỉ hợp đồng token",
+  "tokenDecimalFetchFailed": "Cần có vị trí thập phân của token.",
+  "tokenSymbol": "Ký hiệu token",
+  "tooltipApproveButton": "Tôi đã hiểu",
+  "total": "Tổng",
+  "transaction": "giao dịch",
+  "transactionCancelAttempted": "Đã cố gắng hủy giao dịch với mức phí gas $1 lúc $2",
+  "transactionCancelSuccess": "Đã hủy thành công giao dịch lúc $2",
+  "transactionConfirmed": "Đã xác nhận giao dịch lúc $2.",
+  "transactionCreated": "Đã tạo giao dịch với giá trị $1 lúc $2.",
+  "transactionDropped": "Đã ngừng giao dịch lúc $2.",
+  "transactionError": "Lỗi giao dịch. Đã xảy ra ngoại lệ trong mã hợp đồng.",
+  "transactionErrorNoContract": "Đang cố gắng gọi một hàm trên địa chỉ không có hợp đồng.",
+  "transactionErrored": "Giao dịch đã gặp lỗi.",
+  "transactionFee": "Phí giao dịch",
+  "transactionResubmitted": "Đã gửi lại giao dịch với mức phí gas tăng lên $1 lúc $2",
+  "transactionSubmitted": "Đã gửi giao dịch với mức phí gas $1 lúc $2.",
+  "transactionUpdated": "Đã cập nhật giao dịch lúc $2.",
+  "transfer": "Chuyển",
+  "transferBetweenAccounts": "Chuyển giữa các tài khoản của tôi",
+  "transferFrom": "Chuyển từ",
+  "troubleConnectingToWallet": "Chúng tôi đã gặp phải sự cố khi kết nối với $1 của bạn, hãy thử xem lại $2 và thử lại.",
+
+  "troubleTokenBalances": "Chúng tôi đã gặp phải vấn đề khi tải số dư token của bạn. Bạn có thể xem số dư ",
+
+  "tryAgain": "Thử lại",
+  "typePassword": "Nhập mật khẩu Wallet của bạn",
+  "unapproved": "Chưa phê duyệt",
+  "units": "đơn vị",
+  "unknown": "Không xác định",
+  "unknownCameraError": "Đã xảy ra lỗi khi cố gắng truy cập máy ảnh của bạn. Vui lòng thử lại...",
+  "unknownCameraErrorTitle": "Rất tiếc! Đã xảy ra sự cố....",
+  "unknownNetwork": "Mạng riêng không xác định",
+  "unknownQrCode": "Lỗi: Chúng tôi không thể xác định mã QR đó",
+  "unlimited": "Không giới hạn",
+  "unlock": "Mở khóa",
+  "unlockMessage": "Web phi tập trung đang chờ đón bạn",
+  "unrecognizedChain": "Không nhận ra mạng tùy chỉnh này. Bạn nên $1 trước khi tiếp tục",
+
+  "unrecognizedChainLinkText": "xác minh thông tin về mạng",
+
+  "updatedWithDate": "Đã cập nhật vào $1",
+  "urlErrorMsg": "URL phải có tiền tố HTTP/HTTPS phù hợp.",
+  "urlExistsErrorMsg": "Mạng $1 hiện đang sử dụng URL này.",
+  "usePhishingDetection": "Sử dụng tính năng Phát hiện lừa đảo",
+  "usePhishingDetectionDescription": "Hiển thị cảnh báo đối với các miền lừa đảo nhắm đến người dùng Ethereum",
+  "usedByClients": "Được nhiều ví khác nhau sử dụng",
+  "userName": "Tên người dùng",
+  "verifyThisTokenDecimalOn": "Không tìm thấy vị trí thập phân của token trên $1",
+
+  "verifyThisTokenOn": "Xác minh token này trên $1",
+
+  "verifyThisUnconfirmedTokenOn": "Hãy xác minh token này trên $1 và đảm bảo đây là token bạn muốn giao dịch.",
+
+  "viewAccount": "Xem tài khoản",
+  "viewAllDetails": "Xem toàn bộ chi tiết",
+  "viewContact": "Xem người liên hệ",
+  "viewMore": "Xem thêm",
+  "visitWebSite": "Truy cập trang web của chúng tôi",
+  "walletConnectionGuide": "hướng dẫn của chúng tôi về cách kết nối ví cứng",
+  "walletSeedRestore": "Cụm mật khẩu khôi phục bí mật của ví",
+  "web3ShimUsageNotification": "Chúng tôi nhận thấy rằng trang web hiện tại đã cố dùng API window.web3 đã bị xóa. Nếu trang web có vẻ như đã bị lỗi, vui lòng nhấp vào $1 để biết thêm thông tin.",
+
+  "welcome": "Chào mừng bạn đến với Wallet",
+  "welcomeBack": "Chào mừng bạn trở lại!",
+  "whatsNew": "Xem tính năng mới",
+
+  "whatsThis": "Đây là gì?",
+  "writePhrase": "Ghi cụm mật khẩu này ra giấy và lưu giữ ở một nơi an toàn. Nếu bạn cần độ bảo mật cao hơn nữa, hãy ghi ra nhiều tờ giấy và lưu giữ ở 2 đến 3 nơi khác nhau.",
+  "xOfY": "$1/$2",
+
+  "xOfYPending": "$1/$2 đang chờ xử lý",
+
+  "yesLetsTry": "Có, hãy thử",
+  "youNeedToAllowCameraAccess": "Bạn cần cho phép truy cập vào camera để sử dụng tính năng này.",
+  "youSign": "Bạn đang ký",
+  "yourPrivateSeedPhrase": "Cụm mật khẩu bí mật, riêng tư của bạn",
+  "zeroGasPriceOnSpeedUpError": "Giá gas bằng 0 khi tăng tốc"
+}

@@ -1,11 +1,39 @@
 /**
  * @file The entry point for the web extension singleton process.
  */
-
+// import stream-browserify
 
 import log from 'loglevel';
 import extension from 'extensionizer';
-
+import Migrator from './lib/migrator';
+import migrations from './migrations';
+import ExtensionPlatform from './platforms/extension';
+import rawFirstTimeState from './first-time-state';
+import ReadOnlyNetworkStore from './lib/network-store';
+import LocalStore from './lib/local-store';
+import { storeAsStream, storeTransformStream } from '@metamask/obs-store';
+import createStreamSink from './lib/createStreamSink';
+import PortStream from 'extension-port-stream';
+import endOfStream from 'end-of-stream';
+import 
+  NotificationManager, {
+  NOTIFICATION_MANAGER_EVENTS
+} from './lib/notification-manager';
+import WalletController, {
+  WALLET_CONTROLLER_EVENTS,
+} from './wallet-controller';
+import { SECOND } from '../shared/constants/time';
+import {
+  ENVIRONMENT_TYPE_FULLSCREEN,
+  ENVIRONMENT_TYPE_POPUP,
+  ENVIRONMENT_TYPE_NOTIFICATION
+} from '../shared/constants/app';
+import {
+  REJECT_NOTFICIATION_CLOSE,
+  REJECT_NOTFICIATION_CLOSE_SIG
+} from '../shared/constants/metametrics';
+import pump from 'pump';
+import debounce from 'debounce-stream';
 
 const { sentry } = global;
 const firstTimeState = { ...rawFirstTimeState };
@@ -15,18 +43,18 @@ log.setDefaultLevel(process.env.WALLET_DEBUG ? 'debug' : 'info');
 const platform = new ExtensionPlatform();
 
 // include notification Manager - still developing
-// const notificationManager = new NotificationManager();
-// global.Wallet_NOTIFIER = notificationManager;
+const notificationManager = new NotificationManager();
+global.WALLET_NOTIFIER = notificationManager;
 
 // state persistence
 const inTest = process.env.IN_TEST;
 // include store - on developing
-// const localStore = inTest ? new ReadOnlyNetworkStore() : new LocalStore();
+const localStore = inTest ? new ReadOnlyNetworkStore() : new LocalStore();
 let versionedData;
 // uncomment if -localStore is developed
-// if (inTest || process.env.WALLET_DEBUG) {
-//     global.WalletGetState = localStore.get.bind(localStore);
-// }
+if (inTest || process.env.WALLET_DEBUG) {
+  global.WalletGetState = localStore.get.bind(localStore);
+}
 
 let popupIsOpen = false;
 let notificationIsOpen = false;
@@ -35,7 +63,10 @@ const openWalletTabsIDs = {};
 const requestAccountTabIds = {};
 
 // initialization flow
-initialize().catch(log.error);
+// initialize().catch(log.error);
+export default function background_start() {
+  initialize().catch(log.error);
+}
 
 /**
  * @typedef {import('../../shared/constants/transaction').TransactionMeta} TransactionMeta
@@ -85,30 +116,68 @@ initialize().catch(log.error);
  * @property {boolean} forgottenPassword - Returns true if the user has initiated the password recovery screen, is recovering from seed phrase.
  */
 
-
 /**
  * @typedef VersionedData
  * @property {WalletState} data - The data emitted from Wallet controller, or used to initialize it.
  * @property {Number} version - The latest migration version that has been run.
  */
 
-
 /**
  * Initializes the Wallet controller, and sets up all platform configuration.
  * @returns {Promise} Setup complete.
  */
- async function initialize() {
-
- }
+async function initialize() {
+  const initState = await loadStateFromPersistence();
+  await setupController(initState);
+  console.log('Wallet initialization complete');
+}
 
 /**
  * Loads any stored data, prioritizing the latest storage strategy.
  * Migrates that data schema in case it was last loaded on an older version.
  * @returns {Promise<WalletState>} Last data emitted from previous instance of Wallet.
  */
- async function loadStateFromPersistence() {
+async function loadStateFromPersistence() {
+  // migrations
+  const migrator = new Migrator({ migrations });
+  migrator.on('error', console.warn);
 
- }
+  // read from disk
+  // first from prefered , async API:
+  versionedData = 
+    (await localStore.get()) || migrator.generateInitialState(firstTimeState);
+
+  // check if someshow state is empty
+  // this should never happen but new error reporting suggests that it has
+  // for a small number of users
+  if (versionedData && !versionedData.data) {
+    versionedData = migrator.generateInitialState(firstTimeState);
+    sentry.captureMessage('Wallet - Empty vault found - unable to recover');
+  }
+
+  // report migration errors to sentry - just log error only, do it later
+  migrator.on('error', (err) => {
+    log.error(err);
+  });
+
+  // migrate data
+  versionedData = await migrator.migrateData(versionedData);
+  if (!versionedData) {
+    throw new Error('Wallet - migrator return undefined');
+  }
+  // write to disk
+  if (localStore.isSupported) {
+    localStore.set(versionedData);
+  } else {
+    // throw in setTimeout so as to not block boot
+    setTimeout(() => {
+      throw new Error('Wallet - LocalStore not supported');
+    });
+  }
+
+  // return just the data
+  return versionedData.data;
+}
 
 /**
  * Initializes the Wallet Controller with any initial state and default language.
@@ -120,15 +189,215 @@ initialize().catch(log.error);
  * @param {string} initLangCode - The region code for the language preferred by the current user.
  * @returns {Promise} After setup is complete.
  */
- function setupController(initState, initLangCode) {
+function setupController(initState) {
+  //
+  // Wallet Controller
+  //
 
- }
+  const controller = new WalletController({
+    //infuraProjectId: process.env.INFURA_PROJECT_ID,
+    // User confirmation callbacks:
+    //showUserConfirmation: triggerUi,
+    // openPopup,
+    // initial state
+    initState,
+    // platform specific api
+    platform,
+    extension,
+    
+    getRequestAccountTabIds: () => {
+      return requestAccountTabIds;
+    },
+    getOpenMetamaskTabsIds: () => {
+      return openWalletTabsIDs;
+    },
+    
+  });
+
+  // setup state persistence
+  pump(
+    storeAsStream(controller.store),
+    debounce(1000),
+    storeTransformStream(versionifyData),
+    createStreamSink(persitData),
+    (error) => {
+      log.error('Wallet - Persistence pipeline failed', error);
+    },
+  );
+
+  function versionifyData(state) {
+    versionedData.data = state;
+    return versionedData;
+  }
+  
+  let dataPersistenceFailing = false;
+
+  async function persitData(state) {
+    if(!state) {
+      throw new Error('Wallet - updated state is missing');
+    }
+    if(!state.data) {
+      throw new Error('Wallet - updated state does not have data');
+    }
+    if(localStore.isSupported) {
+      try {
+        await localStore.set(state);
+        if (dataPersistenceFailing) {
+          dataPersistenceFailing = false;
+        }
+      } catch (err) {
+        if (!dataPersistenceFailing) {
+          dataPersistenceFailing = true;
+        }
+        log.error('error setting state in local store:', err);
+      }
+    }
+  }
+
+  //
+  // Connect to other contexts
+  //
+  extension.runtime.onConnect.addListener(connectRemote);
+  extension.runtime.onConnectExternal.addListener(connectExternal);
+
+  const walletInternalProcessHash = {
+    [ENVIRONMENT_TYPE_POPUP]: true,
+    [ENVIRONMENT_TYPE_NOTIFICATION]: true,
+    [ENVIRONMENT_TYPE_FULLSCREEN]: true,
+  };
+
+  const walletBlockedPorts = ['trezor-connect'];
+
+  const isClientOpenStatus = () => {
+    return (
+      popupIsOpen ||
+      Boolean(Object.keys(openWalletTabsIDs).length) ||
+      notificationIsOpen
+    );
+  };
+
+  const onCloseEnvironmentInstances = (isClientOpen, environmentType) => {
+    // if all instances of metamask are closed we call a method on the controller to stop gasFeeController polling
+    if (isClientOpen === false) {
+      controller.onClientClosed();
+      // otherwise we want to only remove the polling tokens for the environment type that has closed
+    } else {
+      // in the case of fullscreen environment a user might have multiple tabs open so we don't want to disconnect all of
+      // its corresponding polling tokens unless all tabs are closed.
+      if (
+        environmentType === ENVIRONMENT_TYPE_FULLSCREEN &&
+        Boolean(Object.keys(openWalletTabsIDs).length)
+      ) {
+        return;
+      }
+      controller.onEnvironmentTypeClosed(environmentType);
+    }
+  };
+
+
+  function connectRemote(remotePort) {
+    log.info('connectRemote');
+    const processName = remotePort.name;
+    const isWalletInternalProcess = walletInternalProcessHash[processName];
+    if(walletBlockedPorts.includes(remotePort.name)) {
+      return;
+    }
+    if (isWalletInternalProcess) {
+      const portStream = new PortStream(remotePort);
+      // communication with popup
+      controller.isClientOpen = true;
+      controller.setupTrustedCommunication(portStream, remotePort.sender);
+
+      if (processName === ENVIRONMENT_TYPE_POPUP) {
+        popupIsOpen = true;
+        endOfStream(portStream, () => {
+          popupIsOpen = false;
+          const isClientOpen = isClientOpenStatus();
+          controller.isClientOpen = isClientOpen;
+          onCloseEnvironmentInstances(isClientOpen, ENVIRONMENT_TYPE_POPUP);
+        });
+      }
+
+      if (processName === ENVIRONMENT_TYPE_NOTIFICATION) {
+        notificationIsOpen = true;
+
+        endOfStream(portStream, () => {
+          notificationIsOpen = false;
+          const isClientOpen = isClientOpenStatus();
+          controller.isClientOpen  = isClientOpen;
+          onCloseEnvironmentInstances(
+            isClientOpen,
+            ENVIRONMENT_TYPE_NOTIFICATION,
+          );
+        });
+      }
+
+      if (processName === ENVIRONMENT_TYPE_FULLSCREEN) {
+        const tabId = remotePort.sender.tab.id;
+        openWalletTabsIDs[tabId] = true;
+
+        endOfStream(portStream, () => {
+          delete openWalletTabsIDs[tabId];
+          const isClientOpen = isClientOpenStatus();
+          controller.isClientOpen = isClientOpen;
+          onCloseEnvironmentInstances(
+            isClientOpen,
+            ENVIRONMENT_TYPE_FULLSCREEN,
+          );
+        });
+      }
+    } else {
+      if (remotePort.sender && remotePort.sender.tab && remotePort.sender.url) {
+        const tabId = remotePort.sender.tab.id;
+        const url = new URL(remotePort.sender.url);
+        const { origin } = url;
+
+        remotePort.onMessage.addListener((msg) => {
+          if (msg.data && msg.data.method === 'eth_requestAccounts') {
+            requestAccountTabIds[origin] = tabId;
+          }
+        });
+      }
+      connectExternal(remotePort);
+    }
+  }
+
+  function connectExternal(remotePort) {
+    log.info(`connectExternal: '${remotePort.name}'`);
+    const portStream = new PortStream(remotePort);
+    controller.setupUntrustedCommunication(portStream, remotePort.sender);    
+  }
+
+}
+
+
 
 /**
  * Opens the browser popup for user confirmation
  */
- async function triggerUi() {
- 
+async function triggerUi() {
+  const tabs = await platform.getActiveTabs();
+  const currentActiveWalletTab = Boolean(
+    tabs.find((tab) => openWalletTabsIDs[tab.id]),
+  );
+  // Vivaldi is not closing port connection on popup close, so popupIsOpen doest not work correctly
+  // To be reviewed in the future if this behavior is fixed - also the way determine isValid variable might change at some point
+  const isVivaldi = 
+    tabs.length > 0 &&
+    tabs[0].extData &&
+    tabs[0].extData.indexOf('vivaldi_tab') > -1;
+  if (
+    !uiIsTriggering &&
+    (isVivaldi || !popupIsOpen) &&
+    !currentActiveWalletTab
+  ) {
+    uiIsTriggering = true;
+    try {
+      await notificationManager.showPopup();
+    } finally {
+      uiIsTriggering = false;
+    }
+  }
 }
 
 /**
@@ -136,15 +405,23 @@ initialize().catch(log.error);
  * then it waits until user interact with the UI
  */
 async function openPopup() {
-
+  await triggerUi();
+  await new Promise((resolve) => {
+    const interval = setInterval(() => {
+      if (!notificationIsOpen) {
+        clearInterval(interval);
+        resolve();
+      }
+    }, SECOND);
+  });
 }
 
 // On first install, open a new tab with Wallet
 extension.runtime.onInstalled.addListener(({ reason }) => {
-    if (
-      reason === 'install' &&
-      !(process.env.WALLET_DEBUG || process.env.IN_TEST)
-    ) {
-      platform.openExtensionInBrowser();
-    }
-  });
+  if (
+    reason === 'install' &&
+    !(process.env.WALLET_DEBUG || process.env.IN_TEST)
+  ) {
+    platform.openExtensionInBrowser();
+  }
+});
