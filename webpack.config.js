@@ -11,7 +11,6 @@ const ASSET_PATH = process.env.ASSET_PATH || '/';
 var alias = {
   'react-dom': '@hot-loader/react-dom',
   'stream': require.resolve('stream-browserify'),
-  'json-rpc-middleware-stream/engineStream': require.resolve('stream-browserify'),
 };
 
 // load the secrets
@@ -45,8 +44,6 @@ var options = {
     devtools: path.join(__dirname, 'src', 'pages', 'Devtools', 'index.js'),
     panel: path.join(__dirname, 'src', 'pages', 'Panel', 'index.jsx'),
     home: path.join(__dirname, 'src', 'pages', 'Home', 'index.jsx' ),
-    ui: path.join(__dirname, 'src', 'scripts', 'ui.js'),
-    bg: path.join(__dirname, 'src', 'scripts', 'background.js'),
   },
   chromeExtensionBoilerplate: {
     notHotReload: ['contentScript', 'devtools'],
@@ -212,7 +209,7 @@ var options = {
     new HtmlWebpackPlugin({
       template: path.join(__dirname, 'src', 'pages', 'Popup', 'index.html'),
       filename: 'popup.html',
-      chunks: ['popup', 'ui'],
+      chunks: ['popup'],
       cache: false,
     }),
     new HtmlWebpackPlugin({
@@ -236,7 +233,7 @@ var options = {
     new HtmlWebpackPlugin({
       template: path.join(__dirname, 'src', 'pages', 'Background', 'index.html'),
       filename: 'background.html',
-      chunks: ['background','bg'],
+      chunks: ['background'],
       cache: false,
     }),
   ],

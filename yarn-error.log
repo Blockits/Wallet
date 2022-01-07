@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add json-rpc-middleware-stream
+  /usr/local/bin/node /usr/local/bin/yarn add @blockits/ob-store
 
 PATH: 
   /Users/tuannguyenanh/.jenv/shims:/Users/tuannguyenanh/.jenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/opt/X11/bin:/Users/tuannguyenanh/.jenv/shims:/Users/tuannguyenanh/.jenv/bin
@@ -14,8 +14,17 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
-      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+  Error: https://registry.yarnpkg.com/@blockits%2fob-store: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
 
 npm manifest: 
   {
@@ -47,6 +56,8 @@ npm manifest:
     },
     "dependencies": {
       "@babel/runtime": "^7.16.7",
+      "@blockits/controllers": "^23.0.0",
+      "@blockits/eth-rpc-errors": "^4.0.3",
       "@download/blockies": "^1.0.3",
       "@ensdomains/content-hash": "^2.5.6",
       "@eth-optimism/contracts": "0.0.0-2021919175625",
@@ -2185,6 +2196,51 @@ Lockfile:
     version "0.2.3"
     resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
     integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
+  
+  "@blockits/controllers@^23.0.0":
+    version "23.0.0"
+    resolved "https://registry.yarnpkg.com/@blockits/controllers/-/controllers-23.0.0.tgz#fe61b8f75c2ceceb8b99a68224ec46a836a4e8ad"
+    integrity sha512-sk+yGJ2KrKGz8OXDeJmXB0OkbLD8wuh8M5Mw8uYOo2vJ2WDqw0tVMKueYIn8quvFP39bAIqc7gATiVp+DEXn5w==
+    dependencies:
+      "@ethereumjs/common" "^2.3.1"
+      "@ethereumjs/tx" "^3.2.1"
+      "@metamask/contract-metadata" "^1.31.0"
+      "@types/uuid" "^8.3.0"
+      abort-controller "^3.0.0"
+      async-mutex "^0.2.6"
+      babel-runtime "^6.26.0"
+      eth-ens-namehash "^2.0.8"
+      eth-json-rpc-infura "^5.1.0"
+      eth-keyring-controller "^6.2.1"
+      eth-method-registry "1.1.0"
+      eth-phishing-detect "^1.1.14"
+      eth-query "^2.1.2"
+      eth-rpc-errors "^4.0.0"
+      eth-sig-util "^3.0.0"
+      ethereumjs-util "^7.0.10"
+      ethereumjs-wallet "^1.0.1"
+      ethers "^5.4.1"
+      ethjs-unit "^0.1.6"
+      human-standard-collectible-abi "^1.0.2"
+      human-standard-multi-collectible-abi "^1.0.4"
+      human-standard-token-abi "^2.0.0"
+      immer "^9.0.6"
+      isomorphic-fetch "^3.0.0"
+      jsonschema "^1.2.4"
+      multiformats "^9.5.2"
+      nanoid "^3.1.12"
+      punycode "^2.1.1"
+      single-call-balance-checker-abi "^1.0.0"
+      uuid "^8.3.2"
+      web3 "^0.20.7"
+      web3-provider-engine "^16.0.3"
+  
+  "@blockits/eth-rpc-errors@^4.0.3":
+    version "4.0.3"
+    resolved "https://registry.yarnpkg.com/@blockits/eth-rpc-errors/-/eth-rpc-errors-4.0.3.tgz#fc14db894e255dc090f04705777d77387378a0fb"
+    integrity sha512-zAqYa4wd6ADNDI7K4qLW1zdBwoHIocJ97NZvEyLKserLbqnz/F78s0G2ng/C0pA7oAvoArFLMo+Uu37GRGzH3Q==
+    dependencies:
+      fast-safe-stringify "^2.0.6"
   
   "@commitlint/cli@^16.0.0", "@commitlint/cli@^16.0.1":
     version "16.0.1"
@@ -11549,6 +11605,11 @@ Lockfile:
     version "1.0.2"
     resolved "https://registry.yarnpkg.com/human-standard-collectible-abi/-/human-standard-collectible-abi-1.0.2.tgz#077bae9ed1b0b0b82bc46932104b4b499c941aa0"
     integrity sha512-nD3ITUuSAIBgkaCm9J2BGwlHL8iEzFjJfTleDAC5Wi8RBJEXXhxV0JeJjd95o+rTwf98uTE5MW+VoBKOIYQh0g==
+  
+  human-standard-multi-collectible-abi@^1.0.4:
+    version "1.0.4"
+    resolved "https://registry.yarnpkg.com/human-standard-multi-collectible-abi/-/human-standard-multi-collectible-abi-1.0.4.tgz#981625bc1a6bea5fef90567f9e12c11581fac497"
+    integrity sha512-ylR9JDXClDJAxWD/QJxsjXJJdLTUmhipTquMAgrfybXL3qX3x3P/vmKg92A7qFu7SqVOf2hyv5dA8vX0j+0Thg==
   
   human-standard-token-abi@^2.0.0:
     version "2.0.0"
