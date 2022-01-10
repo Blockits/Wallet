@@ -41,6 +41,7 @@ const Popup = (state) => {
             message={<FormattedMessage {...popupMsg.welcome} />}
             icon={icon}
           />
+          
         </div>
       </div>
     </LanguageProvider>

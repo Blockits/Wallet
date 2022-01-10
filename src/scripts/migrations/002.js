@@ -1,29 +1,22 @@
-// next version number
-/*
-
-description of migration and what it does
-
-*/
-
 import { cloneDeep } from 'lodash';
 
-const version = 0;
+const version = 2;
 
 export default {
   version,
 
-  async migrate(originalVersionedData) {
+  migrate(originalVersionedData) {
     const versionedData = cloneDeep(originalVersionedData);
     versionedData.meta.version = version;
-    const state = versionedData.data;
-    const newState = transformState(state);
-    versionedData.data = newState;
-    return versionedData;
+    try {
+      if (versionedData.data.config.provider.type === 'etherscan') {
+        versionedData.data.config.provider.type = 'rpc';
+        versionedData.data.config.provider.rpcTarget =
+          'https://rpc.metamask.io/';
+      }
+    } catch (_) {
+      // empty
+    }
+    return Promise.resolve(versionedData);
   },
 };
-
-function transformState(state) {
-  const newState = state;
-  // transform state here
-  return newState;
-}

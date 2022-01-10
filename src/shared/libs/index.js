@@ -5,3 +5,5 @@ export * from './local-store';
 export * from './network-store';
 export * from './createStreamSink';
 export * from './getObjStructure';
+export * from './utils';
+export * from './metaRPCClientFactory';

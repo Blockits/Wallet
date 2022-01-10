@@ -3,6 +3,10 @@ import { render } from 'react-dom';
 
 import './index.css';
 
-render(winddow.document.querySelector('#app-container'));
+render(
+  <p>
+    Hello , Wallet !
+  </p>, 
+  window.document.querySelector('#app-container'));
 
 if (module.hot) module.hot.accept();

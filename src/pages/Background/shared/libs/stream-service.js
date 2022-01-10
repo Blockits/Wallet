@@ -108,7 +108,7 @@ export class StreamService extends EventEmitter {
    */
   setupConnection(outStream) {
     // get API List
-    const api = this.getAPi();
+    const api = this.getApi();
 
     // report new active controller connection
     this.activeConnections += 1;

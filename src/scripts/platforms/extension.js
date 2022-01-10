@@ -2,7 +2,7 @@
  * @file handler actionable option cross flatform to web browser
  */
 import extension from 'extensionizer';
-import { checkForError } from '../lib/utils';
+import { getEnvironmentType, checkForError } from '../lib/utils';
 import { ENVIRONMENT_TYPE_BACKGROUND } from '../../shared/constants/app';
 import { TRANSACTION_STATUSES } from '../../shared/constants/transactions';
 
@@ -179,7 +179,7 @@ export default class ExtensionPlatform {
     queryString = null,
     keepWindowOpen = false
   ) {
-    let extensionUrl = extension.runtime.getUrl('popup.html');
+    let extensionUrl = extension.runtime.getURL('home.html');
 
     if (route) {
       extensionUrl += `#${route}`;
@@ -190,7 +190,7 @@ export default class ExtensionPlatform {
     }
 
     this.openTab({ url: extensionUrl });
-    if (getEnvironment() !== ENVIRONMENT_TYPE_BACKGROUND && !keepWindowOpen) {
+    if (getEnvironmentType() !== ENVIRONMENT_TYPE_BACKGROUND && !keepWindowOpen) {
       window.close();
     }
   }
